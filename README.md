@@ -52,6 +52,12 @@ python -m http.server 9612 --directory .
 
 Daarna `http://localhost:9612/`.
 
+## Wijzigingen in CSS of JavaScript
+
+GitHub Pages cachet `assets/`. Verhoog daarom het versienummer in de
+`?v=` achter `style.css` en `scorm12-api.js` in `index.html` en `player.html`
+zodra je die bestanden aanpast, anders blijven bezoekers de oude versie zien.
+
 ## Zelftest
 
 `player.html?c=__zelftest__` draait 30 controles op de API: de levenscyclus,
