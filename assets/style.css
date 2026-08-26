@@ -234,6 +234,12 @@ body.player { height: 100vh; overflow: hidden; display: flex; flex-direction: co
   color: var(--text-muted);
 }
 
+/* Zonder deze regel wint "display: grid" hierboven van het hidden-attribuut,
+   en pakt de verborgen foutmelding alsnog de helft van het scherm. */
+.player-error[hidden] {
+  display: none;
+}
+
 @media (max-width: 640px) {
   .course-card { grid-template-columns: 1fr; }
   .actions { flex-direction: row; }
