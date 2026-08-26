@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zelftest SCORM 1.2</title>
+  <style>
+    body { font-family: "Segoe UI", system-ui, sans-serif; margin: 0; padding: 1.5rem; background: #fff; color: #1a1a1a; font-size: 14px; }
+    h1 { font-size: 1.1rem; margin: 0 0 0.25rem; }
+    .sum { margin: 0 0 1rem; font-weight: 700; }
+    .ok { color: #0f7b4f; }
+    .fail { color: #c70049; }
+    table { border-collapse: collapse; width: 100%; }
+    td { padding: 0.3rem 0.5rem; border-bottom: 1px solid #eee; vertical-align: top; font-size: 13px; }
+    td:first-child { width: 2.2rem; font-weight: 700; }
+    td:last-child { color: #666; font-family: ui-monospace, Consolas, monospace; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Zelftest SCORM 1.2-API</h1>
+  <p class="sum" id="sum">bezig&hellip;</p>
+  <table id="tabel"></table>
+
+  <script>
+  (function () {
+    'use strict';
+
+    /* Zoek de API precies zoals SCORM-inhoud dat doet: omhoog via parent,
+       daarna via opener. Vindt hij niets, dan zit de speler fout. */
+    function zoekAPI(win) {
+      var pogingen = 0;
+      while (win && !win.API && win.parent && win.parent !== win && pogingen < 500) {
+        pogingen++;
+        win = win.parent;
+      }
+      return win ? win.API : null;
+    }
+
+    var API = zoekAPI(window) || (window.opener ? zoekAPI(window.opener) : null);
+
+    var resultaten = [];
+    function check(naam, geslaagd, detail) {
+      resultaten.push({ naam: naam, ok: !!geslaagd, detail: detail === undefined ? '' : String(detail) });
+    }
+
+    if (!API) {
+      check('API gevonden via parent-keten', false, 'window.API nergens gevonden');
+      klaar();
+      return;
+    }
+    check('API gevonden via parent-keten', true);
+
+    var alleFuncties = ['LMSInitialize','LMSFinish','LMSGetValue','LMSSetValue','LMSCommit','LMSGetLastError','LMSGetErrorString','LMSGetDiagnostic'];
+    check('Alle acht functies aanwezig',
+      alleFuncties.every(function (f) { return typeof API[f] === 'function'; }),
+      alleFuncties.filter(function (f) { return typeof API[f] !== 'function'; }).join(',') || 'compleet');
+
+    /* ---- levenscyclus ---- */
+    check('LMSInitialize geeft "true"', API.LMSInitialize('') === 'true');
+    check('Tweede LMSInitialize wordt geweigerd',
+      API.LMSInitialize('') === 'false' && API.LMSGetLastError() === '101',
+      'fout ' + API.LMSGetLastError());
+    check('LMSInitialize met argument geeft fout 201',
+      (function () { var r = API.LMSInitialize('rommel'); return r === 'false' && API.LMSGetLastError() === '201'; })());
+
+    /* ---- lezen ---- */
+    var naam = API.LMSGetValue('cmi.core.student_name');
+    check('student_name is leesbaar', typeof naam === 'string' && naam.length > 0, naam);
+
+    var entry = API.LMSGetValue('cmi.core.entry');
+    check('entry is ab-initio of resume', entry === 'ab-initio' || entry === 'resume', entry);
+
+    var kinderen = API.LMSGetValue('cmi.core._children');
+    check('cmi.core._children bevat lesson_status', kinderen.indexOf('lesson_status') !== -1, kinderen);
+    check('cmi.core.score._children klopt', API.LMSGetValue('cmi.core.score._children') === 'raw,min,max');
+
+    check('Onbekend element geeft fout 401',
+      (function () { var v = API.LMSGetValue('cmi.onzin.bestaat.niet'); return v === '' && API.LMSGetLastError() === '401'; })());
+
+    check('Write-only element lezen geeft fout 404',
+      (function () { var v = API.LMSGetValue('cmi.core.exit'); return v === '' && API.LMSGetLastError() === '404'; })());
+
+    /* ---- schrijven ---- */
+    check('Read-only element schrijven geeft fout 403',
+      (function () { var r = API.LMSSetValue('cmi.core.student_id', 'x'); return r === 'false' && API.LMSGetLastError() === '403'; })());
+
+    check('_count schrijven geeft fout 402',
+      (function () { var r = API.LMSSetValue('cmi.interactions._count', '5'); return r === 'false' && API.LMSGetLastError() === '402'; })());
+
+    check('Ongeldige lesson_status geeft fout 405',
+      (function () { var r = API.LMSSetValue('cmi.core.lesson_status', 'bijna-af'); return r === 'false' && API.LMSGetLastError() === '405'; })());
+
+    check('lesson_status incomplete wordt geaccepteerd',
+      API.LMSSetValue('cmi.core.lesson_status', 'incomplete') === 'true');
+
+    API.LMSSetValue('cmi.core.lesson_location', 'les-3');
+    check('lesson_location terugleesbaar', API.LMSGetValue('cmi.core.lesson_location') === 'les-3');
+
+    API.LMSSetValue('cmi.core.score.raw', '82');
+    check('score.raw terugleesbaar', API.LMSGetValue('cmi.core.score.raw') === '82');
+
+    /* Rise gaat routineus over de 4096 tekens van de SCORM 1.2-spec heen. */
+    var groot = new Array(9001).join('x');
+    check('suspend_data van 9000 tekens wordt geaccepteerd',
+      API.LMSSetValue('cmi.suspend_data', groot) === 'true');
+    check('suspend_data komt onverkort terug',
+      API.LMSGetValue('cmi.suspend_data').length === groot.length,
+      API.LMSGetValue('cmi.suspend_data').length + ' tekens');
+
+    /* ---- arrays ---- */
+    API.LMSSetValue('cmi.interactions.0.id', 'vraag-1');
+    API.LMSSetValue('cmi.interactions.0.result', 'correct');
+    check('interactions._count telt mee', API.LMSGetValue('cmi.interactions._count') === '1',
+      API.LMSGetValue('cmi.interactions._count'));
+
+    API.LMSSetValue('cmi.objectives.2.id', 'doel-3');
+    check('objectives._count volgt de hoogste index', API.LMSGetValue('cmi.objectives._count') === '3',
+      API.LMSGetValue('cmi.objectives._count'));
+    check('objectives-element terugleesbaar', API.LMSGetValue('cmi.objectives.2.id') === 'doel-3');
+
+    /* ---- opslaan en afsluiten ---- */
+    check('LMSCommit geeft "true"', API.LMSCommit('') === 'true');
+
+    var sleutel = 'scorm12:' + (API.getCourseId ? API.getCourseId() : '');
+    var bewaard = null;
+    try { bewaard = JSON.parse(localStorage.getItem(sleutel) || 'null'); } catch (e) { bewaard = null; }
+    check('Commit schrijft naar localStorage',
+      !!bewaard && bewaard['cmi.core.lesson_location'] === 'les-3',
+      sleutel);
+
+    API.LMSSetValue('cmi.core.session_time', '00:10:00.00');
+    API.LMSSetValue('cmi.core.exit', 'suspend');
+    check('LMSFinish geeft "true"', API.LMSFinish('') === 'true');
+
+    check('Na Finish geeft GetValue fout 301',
+      (function () { var v = API.LMSGetValue('cmi.core.lesson_status'); return v === '' && API.LMSGetLastError() === '301'; })());
+
+    try { bewaard = JSON.parse(localStorage.getItem(sleutel) || 'null'); } catch (e) { bewaard = null; }
+    check('total_time is opgeteld na Finish',
+      !!bewaard && /^\d{4}:\d{2}:\d{2}/.test(bewaard['cmi.core.total_time'] || '') && bewaard['cmi.core.total_time'] !== '0000:00:00.00',
+      bewaard ? bewaard['cmi.core.total_time'] : '-');
+    check('exit=suspend zet entry op resume voor de volgende keer',
+      !!bewaard && bewaard['cmi.core.entry'] === 'resume',
+      bewaard ? bewaard['cmi.core.entry'] : '-');
+    check('session_time is niet bewaard (write-only)',
+      !!bewaard && bewaard['cmi.core.session_time'] === undefined);
+
+    check('LMSGetErrorString kent code 403',
+      API.LMSGetErrorString('403').toLowerCase().indexOf('read only') !== -1,
+      API.LMSGetErrorString('403'));
+
+    klaar();
+
+    function klaar() {
+      var gezakt = resultaten.filter(function (r) { return !r.ok; });
+      window.ZELFTEST = {
+        totaal: resultaten.length,
+        geslaagd: resultaten.length - gezakt.length,
+        gezakt: gezakt.length,
+        mislukt: gezakt.map(function (r) { return r.naam + ' (' + r.detail + ')'; }),
+        resultaten: resultaten
+      };
+      var sum = document.getElementById('sum');
+      sum.className = 'sum ' + (gezakt.length ? 'fail' : 'ok');
+      sum.textContent = gezakt.length
+        ? gezakt.length + ' van ' + resultaten.length + ' controles mislukt'
+        : 'Alle ' + resultaten.length + ' controles geslaagd';
+
+      var tabel = document.getElementById('tabel');
+      resultaten.forEach(function (r) {
+        var tr = document.createElement('tr');
+        var td1 = document.createElement('td');
+        td1.className = r.ok ? 'ok' : 'fail';
+        td1.textContent = r.ok ? '✓' : '✗';
+        var td2 = document.createElement('td');
+        td2.textContent = r.naam;
+        var td3 = document.createElement('td');
+        td3.textContent = r.detail;
+        tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3);
+        tabel.appendChild(tr);
+      });
+    }
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<manifest identifier="opxZGr7lhAua-nB1EZTkPVZdJhI5wZT2pVumlMfy" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location> 
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Business Ethics</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Business Ethics</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/df2ffe94.js" />
+<file href="scormcontent/lib/rise/bc217a8a.css" />
+<file href="scormcontent/lib/rise/278016f8.js" />
+<file href="scormcontent/lib/rise/9201c1e5.css" />
+<file href="scormcontent/lib/rise/41c9e60b.js" />
+<file href="scormcontent/lib/rise/9aede266.ttf" />
+<file href="scormcontent/lib/rise/bff47411.woff" />
+<file href="scormcontent/lib/rise/1e02aeaf.js" />
+<file href="scormcontent/lib/rise/88b767b4.js" />
+<file href="scormcontent/lib/rise/0daed00a.js" />
+<file href="scormcontent/lib/rise/749e22d3.js" />
+<file href="scormcontent/lib/rise/3125981b.js" />
+<file href="scormcontent/lib/rise/d37ad483.js" />
+<file href="scormcontent/lib/rise/b59dd2da.js" />
+<file href="scormcontent/lib/rise/48427b49.js" />
+<file href="scormcontent/lib/rise/15468afc.js" />
+<file href="scormcontent/lib/rise/64c13194.js" />
+<file href="scormcontent/lib/rise/4a460832.js" />
+<file href="scormcontent/lib/rise/54254e8f.js" />
+<file href="scormcontent/lib/rise/51ea32da.js" />
+<file href="scormcontent/lib/rise/f594da6f.js" />
+<file href="scormcontent/lib/rise/aae6ab0b.js" />
+<file href="scormcontent/lib/rise/8716f7be.js" />
+<file href="scormcontent/lib/rise/fa38f8bb.js" />
+<file href="scormcontent/lib/rise/f561fb59.js" />
+<file href="scormcontent/lib/rise/89cd9974.js" />
+<file href="scormcontent/lib/learn_dist/entry.js" />
+<file href="scormcontent/lib/learn_dist/88722058.js" />
+<file href="scormcontent/lib/learn_dist/06627c9f.css" />
+<file href="scormcontent/lib/learn_dist/6d89bfaf.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/1f655cc7.js" />
+<file href="scormcontent/lib/mondrian/360a8061.js" />
+<file href="scormcontent/lib/mondrian/f77646b5.js" />
+<file href="scormcontent/lib/mondrian/09e37aee.js" />
+<file href="scormcontent/lib/mondrian/196251cf.js" />
+<file href="scormcontent/lib/sandbox/sandbox.html" />
+<file href="scormcontent/lib/sandbox/c77685df.js" />
+<file href="scormcontent/lib/sandbox/4adfab46.css" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato2-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/small.png" />
+<file href="scormcontent/assets/49_abstract.jpg" />
+<file href="scormcontent/assets/Gemini_Generated_Image_2cy.jpg" />
+<file href="scormcontent/assets/Gemini_Generated_Image_m3y.jpg" />
+<file href="scormcontent/assets/Gemini_Generated_Image_hyu.jpg" />
+<file href="scormcontent/assets/ChatGPT%20Image%2027%20jan.jpg" />
+<file href="scormcontent/assets/ChatGPT%20Image%2023%20feb.jpg" />
+<file href="scormcontent/assets/paraglide.jpg" />
+<file href="scormcontent/assets/common-ethical-challenges-.jpg" />
+
+    </resource>
+  </resources>
+</manifest>

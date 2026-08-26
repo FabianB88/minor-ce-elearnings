@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "__zelftest__",
+    "title": "Zelftest SCORM-API",
+    "description": "Technische controle van de speler. Niet bedoeld voor studenten.",
+    "entry": "test/zelftest.html",
+    "hidden": true
+  },
+  {
+    "slug": "business-ethics",
+    "title": "Business Ethics",
+    "description": "Morele economie, morele ontkoppeling, macht en kapitaal, technologie en greenwashing. Vijf modules.",
+    "entry": "courses/business-ethics/scormdriver/indexAPI.html",
+    "duration": "ca. 2 uur"
+  }
+]

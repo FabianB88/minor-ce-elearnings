@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-learning | Minor Circulaire Economie</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <!--
+    Belangrijk: dit script moet geladen zijn en window.API gezet hebben
+    voordat het iframe begint te laden. De SCORM-inhoud zoekt de API namelijk
+    meteen bij het opstarten, omhoog via window.parent.
+  -->
+  <script src="assets/scorm12-api.js"></script>
+</head>
+<body class="player">
+
+  <header class="player-bar">
+    <a class="back" href="index.html">&#8592; Overzicht</a>
+    <span class="title" id="titel">E-learning</span>
+    <span class="state" id="staat"></span>
+    <button type="button" id="opnieuw">Opnieuw beginnen</button>
+  </header>
+
+  <div class="player-error" id="fout" hidden></div>
+
+  <script>
+  (function () {
+    'use strict';
+
+    var params = new URLSearchParams(location.search);
+    var slug = params.get('c') || '';
+
+    var titelEl = document.getElementById('titel');
+    var staatEl = document.getElementById('staat');
+    var foutEl = document.getElementById('fout');
+    var opnieuwKnop = document.getElementById('opnieuw');
+
+    function toonFout(bericht) {
+      foutEl.hidden = false;
+      foutEl.innerHTML = bericht;
+    }
+
+    var STATUSTEKST = {
+      'not attempted': 'nog niet gestart',
+      'incomplete': 'bezig',
+      'completed': 'afgerond',
+      'passed': 'afgerond',
+      'failed': 'niet gehaald',
+      'browsed': 'doorgebladerd'
+    };
+
+    function toonStaat(cmi) {
+      var s = cmi['cmi.core.lesson_status'] || 'not attempted';
+      var tekst = STATUSTEKST[s] || s;
+      var score = cmi['cmi.core.score.raw'];
+      if (score !== '' && score !== undefined) tekst += ' · score ' + score;
+      staatEl.textContent = tekst;
+    }
+
+    function start(cursus) {
+      document.title = cursus.title + ' | Minor Circulaire Economie';
+      titelEl.textContent = cursus.title;
+
+      var api = SCORM12.install({ courseId: slug });
+      api.onChange = toonStaat;
+      toonStaat(api.getState());
+
+      /* De inhoud roept LMSFinish aan bij het sluiten van de tab. Sommige
+         browsers gunnen daar geen tijd voor, dus we forceren nog een commit. */
+      window.addEventListener('pagehide', function () {
+        if (api.isRunning()) api.LMSCommit('');
+      });
+
+      opnieuwKnop.addEventListener('click', function () {
+        if (!window.confirm('Weet je het zeker? Je voortgang in deze e-learning wordt gewist en je begint opnieuw.')) return;
+        SCORM12.reset(slug);
+        location.reload();
+      });
+
+      var frame = document.createElement('iframe');
+      frame.className = 'player-frame';
+      frame.title = cursus.title;
+      /* allow-same-origin is nodig: de inhoud moet window.parent.API kunnen lezen. */
+      frame.setAttribute('allow', 'fullscreen; autoplay; encrypted-media');
+      frame.src = cursus.entry;
+      document.body.appendChild(frame);
+    }
+
+    if (!slug) {
+      toonFout('<p>Geen e-learning opgegeven.<br><a href="index.html">Terug naar het overzicht</a></p>');
+      return;
+    }
+
+    fetch('courses.json', { cache: 'no-cache' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('courses.json niet gevonden (' + r.status + ')');
+        return r.json();
+      })
+      .then(function (lijst) {
+        var cursus = lijst.filter(function (c) { return c.slug === slug; })[0];
+        if (!cursus) throw new Error('Onbekende e-learning: ' + slug);
+        start(cursus);
+      })
+      .catch(function (e) {
+        toonFout('<p>' + e.message + '<br><a href="index.html">Terug naar het overzicht</a></p>');
+      });
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# Deze site is lesmateriaal voor studenten van de minor Circulaire Economie.
+# Niet indexeren.
+User-agent: *
+Disallow: /

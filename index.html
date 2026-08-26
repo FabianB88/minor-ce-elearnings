@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-learnings | Minor Circulaire Economie</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/scorm12-api.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="page-title">E-learnings</h1>
+    <p class="subtitle">Minor Circulaire Economie &middot; HAN University of Applied Sciences</p>
+
+    <div class="callout">
+      <p style="margin:0"><strong>Je voortgang blijft in deze browser.</strong> Er is geen inlog en er wordt niets
+      centraal opgeslagen. Werk je op een andere laptop of wis je je browsergegevens, dan begin je opnieuw. Docenten
+      zien niet wie wat heeft afgerond.</p>
+    </div>
+
+    <div id="lijst" class="course-list"></div>
+  </div>
+
+  <script>
+  (function () {
+    'use strict';
+
+    var lijstEl = document.getElementById('lijst');
+
+    var STATUS = {
+      'not attempted': ['Niet gestart', 'status-none'],
+      'incomplete':    ['Bezig',        'status-busy'],
+      'browsed':       ['Bezig',        'status-busy'],
+      'completed':     ['Afgerond',     'status-done'],
+      'passed':        ['Afgerond',     'status-done'],
+      'failed':        ['Niet gehaald', 'status-busy']
+    };
+
+    function tijdKort(t) {
+      var sec = SCORM12.timeToSeconds(t);
+      if (sec < 60) return null;
+      var min = Math.round(sec / 60);
+      if (min < 60) return min + ' min besteed';
+      return Math.floor(min / 60) + ' u ' + (min % 60) + ' min besteed';
+    }
+
+    function kaart(cursus) {
+      var p = SCORM12.progress(cursus.slug);
+      var status = STATUS[p.status] || STATUS['not attempted'];
+      var gestart = p.status !== 'not attempted';
+      var afgerond = p.status === 'completed' || p.status === 'passed';
+
+      var el = document.createElement('div');
+      el.className = 'course-card';
+
+      var links = document.createElement('div');
+      var h2 = document.createElement('h2');
+      h2.textContent = cursus.title;
+      links.appendChild(h2);
+
+      if (cursus.description) {
+        var p1 = document.createElement('p');
+        p1.textContent = cursus.description;
+        links.appendChild(p1);
+      }
+
+      var meta = document.createElement('div');
+      meta.className = 'course-meta';
+      var badge = document.createElement('span');
+      badge.className = 'status ' + status[1];
+      badge.textContent = status[0];
+      meta.appendChild(badge);
+
+      var tijd = tijdKort(p.totalTime);
+      if (tijd) {
+        var t = document.createElement('span');
+        t.textContent = tijd;
+        meta.appendChild(t);
+      }
+      if (cursus.duration && !tijd) {
+        var d = document.createElement('span');
+        d.textContent = cursus.duration;
+        meta.appendChild(d);
+      }
+      links.appendChild(meta);
+      el.appendChild(links);
+
+      var acties = document.createElement('div');
+      acties.className = 'actions';
+
+      var open = document.createElement('a');
+      open.className = 'btn btn-primary';
+      open.href = 'player.html?c=' + encodeURIComponent(cursus.slug);
+      open.textContent = afgerond ? 'Opnieuw bekijken' : (gestart ? 'Hervatten' : 'Starten');
+      acties.appendChild(open);
+
+      if (gestart) {
+        var reset = document.createElement('button');
+        reset.type = 'button';
+        reset.className = 'btn btn-quiet';
+        reset.textContent = 'Voortgang wissen';
+        reset.addEventListener('click', function () {
+          if (!window.confirm('Voortgang van "' + cursus.title + '" wissen?')) return;
+          SCORM12.reset(cursus.slug);
+          teken();
+        });
+        acties.appendChild(reset);
+      }
+
+      el.appendChild(acties);
+      return el;
+    }
+
+    var cursussen = [];
+
+    function teken() {
+      lijstEl.innerHTML = '';
+      if (!cursussen.length) {
+        lijstEl.innerHTML = '<div class="empty">Er staat nog geen e-learning klaar.<br>' +
+          'Pak een SCORM-pakket uit in <code>courses/&lt;slug&gt;/</code> en voeg het toe aan <code>courses.json</code>.</div>';
+        return;
+      }
+      cursussen.forEach(function (c) { lijstEl.appendChild(kaart(c)); });
+    }
+
+    fetch('courses.json', { cache: 'no-cache' })
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (lijst) {
+        cursussen = (lijst || []).filter(function (c) { return !c.hidden; });
+        teken();
+      })
+      .catch(function () { teken(); });
+  })();
+  </script>
+</body>
+</html>
