@@ -1,0 +1,3 @@
+# Cursuspakketten zijn exports: Git mag er niets aan veranderen.
+# Rise controleert bestandsintegriteit, en omgezette regeleindes breken dat.
+courses/** -text
