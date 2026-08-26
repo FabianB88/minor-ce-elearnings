@@ -12,5 +12,12 @@
     "description": "Morele economie, morele ontkoppeling, macht en kapitaal, technologie en greenwashing. Vijf modules.",
     "entry": "courses/business-ethics/scormdriver/indexAPI.html",
     "duration": "ca. 2 uur"
+  },
+  {
+    "slug": "duurzaamheid-fundamenten",
+    "title": "Duurzaamheid, circulariteit en systeemdenken",
+    "description": "Fundamenten voor de circulaire economie: R-ladder, kringlopen, circulaire businessmodellen en meervoudige waardecreatie.",
+    "entry": "courses/duurzaamheid-fundamenten/scormdriver/indexAPI.html",
+    "duration": "ca. 2 uur"
   }
 ]
