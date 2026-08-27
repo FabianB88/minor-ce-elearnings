@@ -1,25 +1,33 @@
-/* Stijl in lijn met de studentenhandleiding van de minor. */
+/* Green Office-palet, gelijk aan cursus.css en de handleidingen. */
 
 :root {
-  --han-magenta: #E50055;
-  --han-magenta-dark: #c70049;
-  --han-magenta-light: #fdf2f5;
-  --han-black: #0d0d0d;
-  --han-white: #ffffff;
+  /* Green Office-palet, overgenomen uit lib/theme.dart van de Flutter-app. */
+  --accent: #5C7A5A;            /* saliegroen */
+  --accent-donker: #4A6349;
+  --accent-licht: #EDF3EC;
+  --accent-medium: #D0E3CF;
+  --inkt: #1C1713;              /* warm bijna-zwart */
+  --wit: #ffffff;
 
-  --bg: #f5f5f7;
+  --bg: #F7F4F0;                /* warm off-white */
   --surface: #ffffff;
-  --border: #e0e0e0;
-  --text: #1a1a1a;
-  --text-muted: #555555;
-  --text-light: #888888;
+  --vlak: #F2EEE9;
+  --zijbalk: #EFEBE5;
+  --border: #E4DDD6;
+  --border-zacht: #EDE8E3;
+  --text: #1C1713;
+  --text-muted: #7A6E66;
+  --text-light: #B0A49A;   /* alleen decoratief: haalt geen AA voor tekst */
 
-  --groen: #0f7b4f;
-  --groen-licht: #e8f5ef;
+  --warm: #7D6034;              /* zand, voor labels */
+  --warm-licht: #F6F0E8;
 
-  --radius: 8px;
-  --radius-sm: 4px;
-  --shadow: 0 1px 2px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.04);
+  --sidebar-width: 260px;
+  --header-height: 60px;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+  --shadow-lg: 0 4px 18px rgba(0,0,0,0.10);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -29,12 +37,12 @@ html, body {
   padding: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: "Avenir Next", "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-family: Inter, -apple-system, "Segoe UI", Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
 }
 
-a { color: var(--han-magenta); }
+a { color: var(--accent); }
 
 /* ---------- overzichtspagina ---------- */
 
@@ -60,7 +68,7 @@ a { color: var(--han-magenta); }
 .callout {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--han-magenta);
+  border-left: 3px solid var(--accent);
   border-radius: var(--radius);
   padding: 1rem 1.25rem;
   margin: 0 0 1.75rem;
@@ -99,7 +107,7 @@ a { color: var(--han-magenta); }
 .course-meta {
   margin-top: 0.5rem;
   font-size: 0.76rem;
-  color: var(--text-light);
+  color: var(--text-muted);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -117,8 +125,8 @@ a { color: var(--han-magenta); }
 }
 
 .status-none { background: var(--bg); color: var(--text-muted); border: 1px solid var(--border); }
-.status-busy { background: var(--han-magenta-light); color: var(--han-magenta-dark); }
-.status-done { background: var(--groen-licht); color: var(--groen); }
+.status-busy { background: var(--accent-licht); color: var(--accent-donker); }
+.status-done { background: var(--accent-licht); color: var(--accent-donker); }
 
 .actions { display: flex; flex-direction: column; gap: 0.4rem; align-items: stretch; }
 
@@ -141,15 +149,15 @@ a { color: var(--han-magenta); }
   transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
 }
 
-.btn-primary { background: var(--han-magenta); color: var(--han-white); }
-.btn-primary:hover { background: var(--han-magenta-dark); }
+.btn-primary { background: var(--accent); color: var(--wit); }
+.btn-primary:hover { background: var(--accent-donker); }
 
 .btn-quiet {
   background: transparent;
   color: var(--text-muted);
   border-color: var(--border);
 }
-.btn-quiet:hover { border-color: var(--han-magenta); color: var(--han-magenta); }
+.btn-quiet:hover { border-color: var(--accent); color: var(--accent); }
 
 .empty {
   background: var(--surface);
@@ -179,12 +187,12 @@ body.player { height: 100vh; overflow: hidden; display: flex; flex-direction: co
   gap: 1rem;
   padding: 0 1rem;
   height: 52px;
-  background: var(--han-black);
-  color: var(--han-white);
+  background: var(--accent);
+  color: var(--wit);
 }
 
 .player-bar .back {
-  color: var(--han-white);
+  color: var(--wit);
   text-decoration: none;
   font-size: 0.8rem;
   font-weight: 600;
@@ -215,15 +223,15 @@ body.player { height: 100vh; overflow: hidden; display: flex; flex-direction: co
   text-transform: uppercase;
   letter-spacing: 0.03em;
   background: transparent;
-  color: var(--han-white);
+  color: var(--wit);
   border: 1px solid rgba(255,255,255,0.3);
   border-radius: var(--radius-sm);
   padding: 0.35rem 0.7rem;
   cursor: pointer;
 }
-.player-bar button:hover { border-color: var(--han-white); }
+.player-bar button:hover { border-color: var(--wit); }
 
-.player-frame { flex: 1 1 auto; border: 0; width: 100%; display: block; background: var(--han-white); }
+.player-frame { flex: 1 1 auto; border: 0; width: 100%; display: block; background: var(--wit); }
 
 .player-error {
   flex: 1 1 auto;

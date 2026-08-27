@@ -76,7 +76,7 @@
   function toonStart() {
     location.hash = '';
     document.body.innerHTML = '';
-    document.title = cursus.title + ' | Minor Circulaire Economie';
+    document.title = cursus.title + ' | Circulaire Economie';
 
     var totaalSeg = 0, gedaanSeg = 0;
     cursus.lessons.forEach(function (les) {
@@ -91,7 +91,7 @@
     var hero = el('header', 'hero');
     var binnen = el('div', 'hero-inner');
 
-    binnen.appendChild(el('p', 'kicker', 'Minor Circulaire Economie'));
+    binnen.appendChild(el('p', 'kicker', 'Circulaire Economie'));
     binnen.appendChild(el('h1', null, cursus.title));
     if (cursus.subtitle) binnen.appendChild(el('p', 'sub', cursus.subtitle));
 
