@@ -27,6 +27,37 @@ Eén meevaller: `cmi.suspend_data` is in SCORM 1.2 officieel beperkt tot 4096
 tekens en Articulate Rise gaat daar routineus overheen, wat in echte LMS'en
 regelmatig misgaat. `localStorage` kent die grens niet.
 
+## Twee soorten cursussen
+
+**Eigen modules** (`cursus.html?m=<slug>`) draaien op onze eigen speler. De inhoud
+staat als schone JSON in `modules/<slug>/course.json`, het beeldmateriaal in
+`modules/<slug>/media/`. Geen Articulate, geen SCORM, geen iframe: gewoon HTML die
+we zelf kunnen aanpassen.
+
+**SCORM-pakketten** (`player.html?c=<slug>`) draaien in de SCORM-speler, met het
+Articulate-pakket ongewijzigd in een iframe. Handig zolang een cursus nog niet is
+omgezet.
+
+In `courses.json` bepaalt het veld `href` welke van de twee een cursus gebruikt.
+
+## Een Rise-cursus omzetten naar een eigen module
+
+```bash
+python tools/build-module.py courses/<slug>/scormcontent/index.html <slug> tools/<slug>.patches.json
+```
+
+De Rise-export bewaart de hele cursus als base64-JSON in `scormcontent/index.html`.
+Het script leest die, vertaalt de blokken en kopieert het beeldmateriaal naar
+`modules/<slug>/media/`.
+
+Kon je in Rise wijzigingen niet meer publiceren? Zet ze dan in een patchbestand
+(zie `tools/business-ethics.patches.json`): daarin overschrijf je titels en
+vervang of verwijder je losse blokken, zonder de export opnieuw te hoeven maken.
+
+Ondersteunde bloktypen: tekst, opsomming, afbeelding, YouTube-video, tabbladen,
+meerkeuze, meervoudige keuze en koppelvragen. De doorgaan-blokken van Rise worden
+de knoppen waarmee de student stap voor stap door de module klikt.
+
 ## Een cursus toevoegen
 
 ```bash

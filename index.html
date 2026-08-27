@@ -5,8 +5,8 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-learnings | Minor Circulaire Economie</title>
-  <link rel="stylesheet" href="assets/style.css?v=2">
-  <script src="assets/scorm12-api.js?v=2"></script>
+  <link rel="stylesheet" href="assets/style.css?v=3">
+  <script src="assets/scorm12-api.js?v=3"></script>
 </head>
 <body>
   <div class="wrap">
@@ -45,8 +45,28 @@
       return Math.floor(min / 60) + ' u ' + (min % 60) + ' min besteed';
     }
 
+    /* De eigen speler bewaart voortgang anders dan de SCORM-speler. */
+    function eigenVoortgang(slug) {
+      try {
+        var s = JSON.parse(localStorage.getItem('elearning:' + slug) || 'null');
+        if (!s || !s.modules) return { status: 'not attempted', totalTime: '0000:00:00.00', score: '' };
+        var mods = Object.keys(s.modules);
+        if (!mods.length) return { status: 'not attempted', totalTime: '0000:00:00.00', score: '' };
+        var af = mods.filter(function (m) { return s.modules[m].af; }).length;
+        var bezig = mods.some(function (m) { return s.modules[m].segment > 0; });
+        return {
+          status: af && af === mods.length ? 'completed' : (bezig ? 'incomplete' : 'not attempted'),
+          totalTime: '0000:00:00.00',
+          score: '',
+          modulesAf: af
+        };
+      } catch (e) {
+        return { status: 'not attempted', totalTime: '0000:00:00.00', score: '' };
+      }
+    }
+
     function kaart(cursus) {
-      var p = SCORM12.progress(cursus.slug);
+      var p = cursus.engine === 'eigen' ? eigenVoortgang(cursus.slug) : SCORM12.progress(cursus.slug);
       var status = STATUS[p.status] || STATUS['not attempted'];
       var gestart = p.status !== 'not attempted';
       var afgerond = p.status === 'completed' || p.status === 'passed';
@@ -91,7 +111,7 @@
 
       var open = document.createElement('a');
       open.className = 'btn btn-primary';
-      open.href = 'player.html?c=' + encodeURIComponent(cursus.slug);
+      open.href = cursus.href || ('player.html?c=' + encodeURIComponent(cursus.slug));
       open.textContent = afgerond ? 'Opnieuw bekijken' : (gestart ? 'Hervatten' : 'Starten');
       acties.appendChild(open);
 
@@ -102,7 +122,11 @@
         reset.textContent = 'Voortgang wissen';
         reset.addEventListener('click', function () {
           if (!window.confirm('Voortgang van "' + cursus.title + '" wissen?')) return;
-          SCORM12.reset(cursus.slug);
+          if (cursus.engine === 'eigen') {
+            try { localStorage.removeItem('elearning:' + cursus.slug); } catch (e) { /* niets */ }
+          } else {
+            SCORM12.reset(cursus.slug);
+          }
           teken();
         });
         acties.appendChild(reset);

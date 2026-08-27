@@ -1,0 +1,51 @@
+{
+  "_toelichting": "Wijzigingen die Fabian in Rise maakte maar niet meer kon publiceren. Overgenomen uit de preview van de cursus (id opxZGr7lhAua-nB1EZTkPVZdJhI5wZT2). De SCORM-export van 16 maart is de basis; alleen module 1 en de titels weken af.",
+
+  "title": "Business Ethics",
+  "subtitle": "Morele economie, macht en verantwoordelijkheid",
+  "author": "Fabian Berndsen",
+  "intro": "Vijf modules over de morele kant van economie en organisaties. Je werkt ze in je eigen tempo door; elke module sluit af met een paar kennisvragen.",
+
+  "lessons": {
+    "0": {
+      "title": "Economie & Systemen (kort) - Afronden vóór 14 september (uiterlijk)",
+      "replace": [
+        {
+          "range": [0, 2],
+          "with": [
+            {
+              "family": "text",
+              "variant": "heading paragraph",
+              "items": [
+                {
+                  "heading": "<p><strong>Morele of Ethische Economie</strong></p>",
+                  "paragraph": "<p>Wanneer je voor het eerst het woord “economie” hoort, denk je waarschijnlijk aan geld, markten, bedrijven, banken, inflatie of misschien aan de overheid die belasting heft. Maar economie is veel meer dan dat. Economie is in essentie een manier om de wereld te organiseren: een systeem dat bepaalt hoe we met elkaar omgaan, hoe we middelen verdelen, wie toegang krijgt tot wat, en wat we als samenleving belangrijk genoeg vinden om te beschermen. Het is niet alleen een technisch systeem van cijfers en grafieken; het is een systeem gebouwd op waarden.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "range": [6, 7],
+          "with": [
+            {
+              "family": "text",
+              "variant": "heading paragraph",
+              "items": [
+                {
+                  "heading": "<p><strong>Kernconcepten</strong></p>",
+                  "paragraph": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "remove": [32, 31, 30]
+    },
+    "1": { "title": "Psychologie & Systemen - Afronden vóór 14 september (uiterlijk)" },
+    "2": { "title": "Organisaties & Macht - Afronden vóór 5 oktober (uiterlijk)" },
+    "3": { "title": "Technologie, Macht & Morele Interventie - Afronden vóór 5 oktober (uiterlijk)" },
+    "4": { "title": "Greenwashing (kort) - Afronden vóór 12 oktober (uiterlijk)" }
+  }
+}

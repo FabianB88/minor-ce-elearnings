@@ -9,9 +9,10 @@
   {
     "slug": "business-ethics",
     "title": "Business Ethics",
-    "description": "Morele economie, morele ontkoppeling, macht en kapitaal, technologie en greenwashing. Vijf modules.",
-    "entry": "courses/business-ethics/scormdriver/indexAPI.html",
-    "duration": "ca. 2 uur"
+    "description": "Morele economie, morele ontkoppeling, macht en kapitaal, technologie en greenwashing. Vijf modules met kennisvragen.",
+    "duration": "ca. 2 uur",
+    "href": "cursus.html?m=business-ethics",
+    "engine": "eigen"
   },
   {
     "slug": "duurzaamheid-fundamenten",
