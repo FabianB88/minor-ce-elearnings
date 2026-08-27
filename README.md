@@ -121,6 +121,23 @@ GitHub Pages cachet `assets/`. Verhoog daarom het versienummer in de
 `?v=` achter `style.css` en `scorm12-api.js` in `index.html` en `player.html`
 zodra je die bestanden aanpast, anders blijven bezoekers de oude versie zien.
 
+## De inhoud als leesbaar Word-bestand
+
+Voor collega's die de cursus niet in de browser willen doorlopen:
+
+```bash
+python tools/naar-word.py business-ethics
+node tools/maak-word.js "C:/pad/naar/uitvoer.docx"
+```
+
+Het eerste script ontleedt de HTML naar een documentmodel, het tweede maakt er
+het .docx van. Alles gaat mee: teksten, afbeeldingen, de schema's als tabel, de
+video's als klikbare link, en elke vraag met het juiste antwoord aangevinkt en
+de toelichting eronder.
+
+Draait `node` met de melding dat `docx` niet gevonden wordt, zet dan `NODE_PATH`
+naar de map waar die module staat.
+
 ## Zelftest
 
 `player.html?c=__zelftest__` draait 30 controles op de API: de levenscyclus,
