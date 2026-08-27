@@ -543,7 +543,13 @@
       lezer.appendChild(seg);
 
       var laatste = index === segmenten.length - 1;
-      if (!laatste) {
+      /* Alleen het voorste segment krijgt een doorgaan-knop. Bij hervatten
+         tekenen we alle al onthulde segmenten opnieuw; kregen die ook een knop,
+         dan stonden er dode knoppen midden in de tekst die naar al zichtbare
+         inhoud wezen. */
+      var isVoorste = index >= ms.segment;
+
+      if (!laatste && isVoorste) {
         var voet = el('div', 'doorgaan');
         var knop = el('button', null, 'Doorgaan');
         knop.type = 'button';
@@ -569,7 +575,7 @@
           var nieuw = tekenSegment(index + 1);
           nieuw.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
-      } else {
+      } else if (laatste) {
         var slot = el('div', 'afronding');
         slot.appendChild(el('div', 'vinkje', '✓'));
         slot.appendChild(el('h2', null, 'Module doorlopen'));
