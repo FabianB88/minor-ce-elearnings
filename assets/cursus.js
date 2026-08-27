@@ -250,6 +250,27 @@
         return t;
       }
 
+      case 'svg': {
+        /* Een schema in plaats van nog een alinea. De SVG gebruikt currentColor
+           en de kleurtokens, zodat hij meebeweegt met het thema. */
+        var fig = el('figure', 'schema');
+        var doos = el('div', 'schema-vlak');
+        doos.innerHTML = blok.svg;
+        var s = doos.querySelector('svg');
+        if (s) {
+          s.setAttribute('role', 'img');
+          if (blok.alt) {
+            var t = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+            t.textContent = blok.alt;
+            s.insertBefore(t, s.firstChild);
+            s.setAttribute('aria-label', blok.alt);
+          }
+        }
+        fig.appendChild(doos);
+        if (blok.caption) fig.appendChild(el('figcaption', null, blok.caption));
+        return fig;
+      }
+
       case 'quiz':
         return tekenQuiz(blok, moduleId, segIndex, blokIndex, opWijziging);
 

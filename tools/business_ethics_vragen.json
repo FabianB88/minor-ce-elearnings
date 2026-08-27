@@ -1,0 +1,1148 @@
+{
+  "_toelichting": "Terugkoppelingen en herschreven antwoordopties voor Business Ethics. De afleiders zijn uitgeschreven tot ongeveer dezelfde lengte als het juiste antwoord; in de oorspronkelijke set was het juiste antwoord bij 15 van de 19 meerkeuzevragen het langste, waardoor je kon scoren zonder de stof te lezen.",
+  "bestaand": {
+    "1": {
+      "feedback": "De vier begrippen wijzen op hetzelfde: er zit altijd een waardeoordeel onder. Wie krijgt wat, hoeveel er beschikbaar is, wat we samen beheren en wie de rekening betaalt — dat zijn keuzes, geen rekensommen.",
+      "options": [
+        {
+          "text": "Dat economische problemen vooral ontstaan uit individuele fouten in gedrag of planning, en dat betere voorlichting en scherper toezicht die fouten grotendeels kunnen wegnemen.",
+          "correct": false
+        },
+        {
+          "text": "Dat economische systemen in de kern rekenkundige optimalisatieproblemen zijn, waarin schaarste zo efficiënt mogelijk wordt verdeeld zonder dat daar normatieve keuzes bij komen kijken.",
+          "correct": false
+        },
+        {
+          "text": "Dat economische systemen altijd draaien om waardengeladen keuzes over wie toegang krijgt tot middelen, wie kosten draagt en hoe grenzen worden beheerd.",
+          "correct": true
+        },
+        {
+          "text": "Dat markten vanzelf naar een evenwicht bewegen zodra individuen hun eigenbelang volgen, waardoor verdelingsvraagstukken zichzelf op termijn oplossen.",
+          "correct": false
+        }
+      ]
+    },
+    "2": {
+      "feedback": "Het sleutelwoord is cumulatief. Wie bezit heeft kan investeren, wie investeert vergaart meer bezit, en wie veel bezit heeft kan de spelregels beïnvloeden. Ongelijkheid hoeft dus niemands bedoeling te zijn — ze volgt uit het ontwerp.",
+      "options": [
+        {
+          "text": "Bezit heeft een cumulatief en zelfversterkend karakter, waardoor wie eenmaal bezit heeft steeds meer economische en politieke invloed verwerft.",
+          "correct": true
+        },
+        {
+          "text": "Bezit speelt in moderne economieën vooral een symbolische rol; inkomen uit arbeid bepaalt tegenwoordig veel sterker iemands positie dan het vermogen dat iemand al heeft.",
+          "correct": false
+        },
+        {
+          "text": "Bezit beïnvloedt vooral de persoonlijke motivatie om te ondernemen en te investeren, maar heeft weinig effect op de structuur van economieën als geheel.",
+          "correct": false
+        },
+        {
+          "text": "Bezit vergroot juist de gelijkheid, omdat iedereen in principe dezelfde mogelijkheid heeft om kapitaal op te bouwen en de markt openstaat voor wie bereid is te sparen.",
+          "correct": false
+        }
+      ]
+    },
+    "3": {
+      "feedback": "De kern is opschaling. Kuddegedrag van één belegger is ruis; kuddegedrag van een hele markt is een zeepbel. Systemen versterken individuele reflexen in plaats van ze te corrigeren.",
+      "options": [
+        {
+          "text": "Omdat individuele denkfouten in markten meestal tegen elkaar wegvallen, waardoor het collectieve resultaat alsnog rationeel uitpakt.",
+          "correct": false
+        },
+        {
+          "text": "Omdat deze mechanismen collectief kunnen doorwerken in organisaties en markten, waardoor irrationele of schadelijke uitkomsten systemisch worden versterkt.",
+          "correct": true
+        },
+        {
+          "text": "Omdat deze mechanismen vooral optreden bij mensen met weinig economische kennis, terwijl professionele besluitvormers er door hun opleiding grotendeels immuun voor zijn.",
+          "correct": false
+        },
+        {
+          "text": "Omdat deze mechanismen vooral doorwerken in kleine, alledaagse beslissingen, terwijl grootschalige economische processen door formele procedures worden afgeschermd.",
+          "correct": false
+        }
+      ]
+    },
+    "4": {
+      "feedback": "Let op het verschil tussen commons en externaliteiten. Bij commons gaat het om iets wat we samen beheren en dat achteruitgaat zonder afspraken; bij externaliteiten om kosten die terechtkomen bij iemand anders dan de veroorzaker."
+    },
+    "5": {
+      "feedback": "De twee onjuiste uitspraken gaan allebei uit van een rationele, autonome mens. De module laat juist zien dat context — tijdsdruk, groepsnormen, de manier waarop een keuze wordt aangeboden — vaak zwaarder weegt dan overtuiging."
+    },
+    "6": {
+      "feedback": "Intuïtie is niet het probleem; het ontbreken van een correctiemoment is dat. In een systeem dat vaart en volume beloont, is er zelden een plek ingebouwd waar iemand hardop kan vragen of het nog klopt."
+    },
+    "7": {
+      "feedback": "Bij pluralistische onwetendheid twijfelt bijna iedereen in stilte, maar spreekt niemand zich uit — waardoor iedereen denkt de enige te zijn. De groep houdt zo een norm in stand die vrijwel niemand echt aanhangt.",
+      "options": [
+        {
+          "text": "Mensen laten hun eigen oordeel volledig varen zodra zij merken dat de groep er anders over denkt.",
+          "correct": false
+        },
+        {
+          "text": "De innerlijke behoefte om erbij te horen weegt zwaarder dan individuele twijfel.",
+          "correct": true
+        },
+        {
+          "text": "Groepen wegen informatie systematisch beter af dan individuen, waardoor een eenmaal genomen besluit zelden nog wordt herzien.",
+          "correct": false
+        },
+        {
+          "text": "Collectieve illusies ontstaan vooral doordat de juiste informatie ontbreekt; zodra die beschikbaar komt verdwijnen ze vanzelf.",
+          "correct": false
+        }
+      ]
+    },
+    "8": {
+      "feedback": "Let op de volgorde. Het gaat niet alleen om beïnvloede voorkeuren, maar om een omgeving waarin de ene optie gemakkelijk is gemaakt en de andere lastig. Je kiest nog steeds — maar binnen een kader dat iemand anders heeft neergezet.",
+      "options": [
+        {
+          "text": "Mensen kiezen wel degelijk vrij, maar zijn slecht geïnformeerd. Reclame vult dat informatiegebrek op, waardoor gedrag alsnog voortkomt uit voorkeuren die er al lagen; betere voorlichting zou het patroon doorbreken.",
+          "correct": false
+        },
+        {
+          "text": "Gedrag wordt vooral gestuurd door individuele zwakte en gemakzucht. Systemen versterken dat hooguit een beetje, maar uiteindelijk blijft de vraag van consumenten de motor die bepaalt wat er wordt aangeboden.",
+          "correct": false
+        },
+        {
+          "text": "Infrastructuren en platformen maken bepaald gedrag tot de vanzelfsprekende optie, terwijl bedrijven mede vormgeven welke behoeften normaal gaan voelen. Keuzevrijheid wordt zo keuze binnen een voorgevormd kader.",
+          "correct": true
+        },
+        {
+          "text": "De oorzaak ligt vooral bij technologie: zodra er nieuwe producten verschijnen verandert gedrag vanzelf mee. Morele vragen zijn daarom een kwestie van regulering achteraf, niet van ontwerp vooraf.",
+          "correct": false
+        }
+      ]
+    },
+    "9": {
+      "feedback": "De vraag is niet óf je kunt kiezen, maar wie het menu heeft samengesteld. Zolang je alleen de opties ziet die iemand voor je heeft klaargezet, is de keuze echt en de vrijheid beperkt."
+    },
+    "10": {
+      "feedback": "Dit is de spil van de module. Niet ‘de mens is machteloos’ en niet ‘iedereen kiest zelf’, maar: je handelt binnen kaders, en juist daar zit ruimte om een patroon zichtbaar te maken of te verschuiven.",
+      "options": [
+        {
+          "text": "Agency is grotendeels een illusie: systemen bepalen gedrag zo sterk dat individuele handelingsruimte verwaarloosbaar is en verandering alleen van bovenaf kan komen.",
+          "correct": false
+        },
+        {
+          "text": "Agency betekent volledige vrijheid; hoe sterk structuren ook zijn, individuen kunnen daar altijd buiten treden zolang zij daar bewust voor kiezen.",
+          "correct": false
+        },
+        {
+          "text": "Agency bestaat binnen structurele grenzen: mensen handelen niet buiten systemen, maar kunnen binnen die kaders kleine verschuivingen veroorzaken die patronen zichtbaar maken of veranderen.",
+          "correct": true
+        },
+        {
+          "text": "Agency is vooral een individuele aangelegenheid en speelt nauwelijks een rol bij collectieve verandering; daarvoor zijn instituties en regelgeving de enige werkzame route.",
+          "correct": false
+        }
+      ]
+    },
+    "11": {
+      "feedback": "De omslag zit in de laatste stap. Een groot bedrijf is niet het probleem; een bedrijf dat groot genoeg is om de spelregels mee te schrijven wel — via lobby, standaarden en data die anderen niet hebben.",
+      "options": [
+        {
+          "text": "Grotere ondernemingen dragen dezelfde verantwoordelijkheid als kleine, maar worden door hun omvang minder goed gecontroleerd door toezichthouders en media.",
+          "correct": false
+        },
+        {
+          "text": "Schaalvoordelen zorgen ervoor dat concurrentie vanzelf verdwijnt, omdat kleinere partijen de lagere kostprijs op den duur nooit kunnen bijhouden.",
+          "correct": false
+        },
+        {
+          "text": "Netwerkeffecten, data-accumulatie en schaalvoordelen versterken marktdominantie waardoor ondernemingen ook institutionele spelregels beïnvloeden.",
+          "correct": true
+        },
+        {
+          "text": "Consumenten geven systematisch de voorkeur aan één grote aanbieder boven een versnipperd aanbod, waardoor marktconcentratie uiteindelijk een gevolg is van vraag.",
+          "correct": false
+        }
+      ]
+    },
+    "12": {
+      "feedback": "Niemand verbiedt de langetermijninvestering. Het punt is dat de meetlat elk kwartaal opnieuw wordt gelegd, en wat daarop niet zichtbaar wordt, verliest het van wat dat wel doet.",
+      "options": [
+        {
+          "text": "Omdat overheden sinds de jaren tachtig kortere rapportagetermijnen zijn gaan voorschrijven, waardoor ondernemingen wettelijk verplicht zijn hun resultaten vaker en sneller zichtbaar te maken.",
+          "correct": false
+        },
+        {
+          "text": "Omdat ondernemingen steeds sterker worden beoordeeld op beurswaarde en financiële indicatoren, waardoor kortetermijnresultaten zwaarder wegen dan investeringen die pas later iets opleveren.",
+          "correct": true
+        },
+        {
+          "text": "Omdat technologische innovatiecycli zo kort zijn geworden dat meerjarige strategische planning voor de meeste sectoren nauwelijks nog betekenis heeft als sturingsinstrument.",
+          "correct": false
+        },
+        {
+          "text": "Omdat aandeelhouders duurzaamheid en maatschappelijke stabiliteit expliciet hebben afgewezen als strategisch doel, en de bestuurlijke agenda daarmee hebben teruggebracht tot rendement.",
+          "correct": false
+        }
+      ]
+    },
+    "13": {
+      "feedback": "De kern is de specifieke investering. Werknemers die zich hebben gespecialiseerd, toeleveranciers die hun productie hebben omgebouwd, een regio die er infrastructuur omheen legde: die inzet is niet zomaar elders in te zetten. Precies dat roept de vraag naar zeggenschap op.",
+      "options": [
+        {
+          "text": "Omdat alle betrokken partijen bij een ingrijpende strategische beslissing automatisch recht krijgen op gelijke zeggenschap in de besluitvorming.",
+          "correct": false
+        },
+        {
+          "text": "Omdat niet alleen kapitaal, maar meerdere partijen specifieke investeringen en risico’s dragen, waardoor de verdeling van zeggenschap moet worden gerechtvaardigd.",
+          "correct": true
+        },
+        {
+          "text": "Omdat contractuele afspraken hun geldigheid verliezen zodra meerdere partijen aantoonbaar hebben bijgedragen aan de waarde die de onderneming heeft opgebouwd.",
+          "correct": false
+        },
+        {
+          "text": "Omdat aandeelhouders bij een herstructurering met maatschappelijke gevolgen hun aanspraak op rendement tijdelijk moeten laten varen ten gunste van werknemers.",
+          "correct": false
+        }
+      ]
+    },
+    "14": {
+      "feedback": "Marktdiscipline werkt indirect: er belt niemand naar de directie. Maar omdat kapitaal weg kán, gedraagt de directie zich alsof dat elk moment kan gebeuren.",
+      "options": [
+        {
+          "text": "De mogelijkheid dat kapitaal zich snel verplaatst vergroot de druk op ondernemingen om financiële prestaties voortdurend zichtbaar te maken.",
+          "correct": true
+        },
+        {
+          "text": "Financiële markten bepalen rechtstreeks de dagelijkse operationele beslissingen van ondernemingen, tot aan inkoop en personeelsplanning toe.",
+          "correct": false
+        },
+        {
+          "text": "Investeringen die niet snel in rendement of risicobeheersing kunnen worden vertaald, krijgen in veel gevallen minder prioriteit.",
+          "correct": true
+        },
+        {
+          "text": "Financiële marktdiscipline zorgt ervoor dat maatschappelijk waardevolle investeringen uiteindelijk toch worden gerealiseerd.",
+          "correct": false
+        }
+      ]
+    },
+    "15": {
+      "feedback": "Let op wat de drie andere opties gemeen hebben: ze wijzen allemaal een direct, aanwijsbaar kanaal aan — juridische structuren, efficiëntieprikkels, invloed van beleggers. Het mechanisme uit de module is indirecter en daardoor hardnekkiger: het zit in waaróp je wordt beoordeeld.",
+      "options": [
+        {
+          "text": "Omdat ondernemingen juridisch en bestuurlijk steeds sterker worden ingericht rond aandeelhoudersrechten, waardoor strategische beslissingen formeel moeten worden gelegitimeerd binnen aandeelhoudersvergaderingen en eigendomsstructuren.",
+          "correct": false
+        },
+        {
+          "text": "Omdat ondernemingen steeds sterker worden afgerekend op financiële indicatoren als rendement en beurswaarde, waardoor kortetermijnprestaties zwaarder wegen dan opbrengsten die pas later zichtbaar worden.",
+          "correct": true
+        },
+        {
+          "text": "Doordat financiële markten ondernemingen stimuleren om efficiënt te opereren en continu te innoveren, waardoor kapitaal terechtkomt bij activiteiten met de hoogste groeipotentie en technologische schaalbaarheid.",
+          "correct": false
+        },
+        {
+          "text": "Omdat institutionele beleggers via hun omvangrijke participaties directe invloed uitoefenen op strategische keuzes, waardoor ondernemingen hun processen en investeringsbeslissingen aanpassen aan investeerdersvoorkeuren.",
+          "correct": false
+        }
+      ]
+    },
+    "16": {
+      "feedback": "Beslissingspremissen is het lastigste begrip. Het gaat niet om de beslissing zelf, maar om wat al vaststond voordat er iemand ging beslissen: welke indicator telt, welke termijn geldt, wat als risico wordt gezien."
+    },
+    "17": {
+      "feedback": "Winners punt is dat een ontwerp gevolgen kan hebben die niemand bedoeld heeft. Zijn bekendste voorbeeld zijn viaducten die te laag zijn voor bussen: geen bordje, geen verbod, maar wel een selectie van wie er langs kan."
+    },
+    "18": {
+      "feedback": "ANT kijkt niet naar techniek en mens apart, maar naar het netwerk dat ze samen vormen. Het meetsysteem ‘doet’ iets: het maakt bepaald gedrag zichtbaar en daarmee bespreekbaar, en verschuift zo wie waarop wordt aangesproken."
+    },
+    "19": {
+      "feedback": "De drie kenmerken samen maken infrastructuur bijzonder: ze maakt activiteiten mogelijk, ze werkt op schaal, en ze legt standaarden vast waar anderen zich naar moeten voegen. In dat laatste zit de macht."
+    },
+    "20": {
+      "feedback": "Het verschil zit in het doel van de data. Een logistiek bedrijf voorspelt om beter te plannen. Bij surveillancekapitalisme is de voorspelling zelf het product, en wordt gedrag beïnvloed om die voorspelling te laten uitkomen."
+    },
+    "21": {
+      "feedback": "Het ethische probleem zit niet in de omvang maar in de dubbelrol: wie de infrastructuur beheert waarop anderen moeten verkopen, bepaalt de voorwaarden voor zijn eigen concurrenten.",
+      "options": [
+        {
+          "text": "Infrastructuurmacht bepaalt wie toegang krijgt tot markten, hoe kosten worden verdeeld en welke standaarden gelden — wat vragen oproept over publieke belangen en gelijke economische kansen.",
+          "correct": true
+        },
+        {
+          "text": "Grote logistieke netwerken leggen een zwaar beslag op ruimte en energie, waardoor de milieukosten van snelle levering niet in de prijs zijn verwerkt en op de samenleving worden afgewenteld.",
+          "correct": false
+        },
+        {
+          "text": "Platforms van deze omvang zijn te groot geworden voor nationale regelgeving, waardoor alleen internationale verdragen het probleem van marktmacht nog effectief kunnen aanpakken.",
+          "correct": false
+        },
+        {
+          "text": "Consumenten verliezen keuzevrijheid doordat logistieke concentratie op termijn leidt tot hogere prijzen en een smaller assortiment dan bij versnipperde concurrentie.",
+          "correct": false
+        }
+      ]
+    },
+    "22": {
+      "feedback": "Path dependency is het sleutelwoord. Een bedrijfsmodel is niet in één jaar om te bouwen, terwijl de verwachting van buiten wel in één jaar kan omslaan. In dat gat ontstaat de verleiding om de communicatie vooruit te laten lopen op de verandering.",
+      "options": [
+        {
+          "text": "Greenwashing ontstaat doordat marketingafdelingen te veel ruimte krijgen en onvoldoende worden gecontroleerd door de rest van de organisatie, waardoor claims losraken van de feitelijke prestaties.",
+          "correct": false
+        },
+        {
+          "text": "Greenwashing is een bewuste strategie waarmee bedrijven ESG-investeerders misleiden via gestandaardiseerde rapportages die de werkelijke milieu-impact stelselmatig gunstiger voorstellen.",
+          "correct": false
+        },
+        {
+          "text": "Greenwashing verdwijnt zodra consumenten beter worden geïnformeerd over milieuclaims, omdat de vraag uiteindelijk bepaalt welk aanbod overleeft en welke claims standhouden.",
+          "correct": false
+        },
+        {
+          "text": "Greenwashing ontstaat wanneer maatschappelijke verwachtingen over duurzaamheid sneller veranderen dan bedrijfsmodellen — versterkt door path dependency en institutionele druk.",
+          "correct": true
+        }
+      ]
+    },
+    "23": {
+      "feedback": "Vage claims zijn de meest voorkomende vorm, juist omdat ze moeilijk te weerleggen zijn: er staat niets wat aantoonbaar onjuist is, maar ook niets wat je kunt controleren."
+    }
+  },
+  "nieuw": [
+    {
+      "key": "m5-decoupling",
+      "module": 5,
+      "na_segment": 2,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Suchman (1995) beschrijft hoe organisaties streven naar legitimiteit. Wat gebeurt er volgens de module wanneer maatschappelijke verwachtingen sneller veranderen dan het bedrijfsmodel kan volgen?</p>",
+      "options": [
+        {
+          "text": "De organisatie past haar bedrijfsmodel versneld aan, omdat het verlies aan legitimiteit op termijn duurder uitpakt dan de kosten van die verandering.",
+          "correct": false
+        },
+        {
+          "text": "Er ontstaat decoupling: de formele communicatie raakt losgekoppeld van de feitelijke praktijk, waardoor de reputatie meebeweegt zonder dat de activiteiten dat doen.",
+          "correct": true
+        },
+        {
+          "text": "De organisatie wacht af tot toezichthouders met bindende regels komen, omdat vrijwillige stappen zonder wettelijk kader vooral concurrentienadeel opleveren.",
+          "correct": false
+        },
+        {
+          "text": "De maatschappelijke verwachting zwakt vanzelf af zodra blijkt dat de sector er op korte termijn niet aan kan voldoen, waardoor de druk weer afneemt.",
+          "correct": false
+        }
+      ],
+      "feedback": "Decoupling is geen leugen maar een ontkoppeling: de buitenkant beweegt mee met de norm terwijl de binnenkant draait zoals hij draaide. Dat maakt greenwashing ook lastig aan te wijzen — er is vaak geen moment waarop iemand besluit te misleiden."
+    },
+    {
+      "key": "m5-typen-koppel",
+      "module": 5,
+      "na_segment": 4,
+      "t": "match",
+      "question": "<p>Koppel elke vorm van greenwashing aan het voorbeeld dat erbij hoort.</p>",
+      "pairs": [
+        {
+          "left": "Selectieve communicatie",
+          "right": "Eén duurzaam initiatief wordt breed uitgemeten, terwijl activiteiten met een veel grotere negatieve impact buiten beeld blijven."
+        },
+        {
+          "left": "Vage of niet-verifieerbare claims",
+          "right": "Woorden als ‘groen’ of ‘natuurlijk’ zonder definitie of meetbaar criterium waarop je het bedrijf kunt aanspreken."
+        },
+        {
+          "left": "Irrelevante communicatie",
+          "right": "Een claim die feitelijk klopt maar niets betekent, zoals ‘CFK-vrij’ voor een stof die al jaren wettelijk verboden is."
+        },
+        {
+          "left": "Symbolische duurzaamheid",
+          "right": "Een klein initiatief met nauwelijks effect op de totale impact, dat in de communicatie zwaar wordt aangezet."
+        }
+      ],
+      "feedback": "Het verschil tussen selectief en symbolisch is subtiel: bij selectieve communicatie bestaat de rest van het verhaal wél, maar wordt het weggelaten. Bij symbolische duurzaamheid is het initiatief zelf te klein om ertoe te doen."
+    },
+    {
+      "key": "m5-hm-casus",
+      "module": 5,
+      "na_segment": 5,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Waarom noemt de module de Conscious Collection een voorbeeld van greenwashing?</p>",
+      "options": [
+        {
+          "text": "De gebruikte materialen bleken bij controle niet gerecycled, waardoor de claim feitelijk onjuist was en het merk zijn belofte niet waarmaakte.",
+          "correct": false
+        },
+        {
+          "text": "De communicatie richtte zich op een klein duurzaam initiatief, terwijl het onderliggende model van snelle cycli, lage prijzen en grote volumes onveranderd bleef.",
+          "correct": true
+        },
+        {
+          "text": "De collectie was fors duurder dan het reguliere aanbod, waardoor duurzame kleding in de praktijk alleen bereikbaar bleef voor een kleine groep kopers.",
+          "correct": false
+        },
+        {
+          "text": "Het merk had voor deze lijn geen onafhankelijke certificering aangevraagd, waardoor de duurzaamheidsclaims niet door een externe partij waren getoetst.",
+          "correct": false
+        }
+      ],
+      "feedback": "Het probleem zit niet in de collectie zelf; die kan prima in orde zijn. Het zit in de verhouding: een klein deel van het aanbod krijgt het volle communicatiegewicht, terwijl het model dat de impact veroorzaakt intact blijft."
+    },
+    {
+      "key": "m5-csrd",
+      "module": 5,
+      "na_segment": 6,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>De CSRD verplicht grote bedrijven tot gestandaardiseerde rapportage over milieu-impact, sociale prestaties en governance. Welk probleem pakt die regelgeving vooral aan?</p>",
+      "options": [
+        {
+          "text": "De informatie-asymmetrie tussen bedrijven en hun omgeving: door gestandaardiseerd te rapporteren wordt vergelijken mogelijk en wordt zelf kiezen wat je laat zien lastiger.",
+          "correct": true
+        },
+        {
+          "text": "De hoogte van de milieubelasting die bedrijven afdragen: door impact meetbaar te maken kan er een tarief aan worden gekoppeld dat vervuiling duurder maakt.",
+          "correct": false
+        },
+        {
+          "text": "Het gebrek aan technische kennis binnen bedrijven: door verplichte rapportage worden organisaties gedwongen expertise over hun eigen keten op te bouwen.",
+          "correct": false
+        },
+        {
+          "text": "De versnippering van keurmerken: door één Europese standaard verdwijnen de bestaande private labels en ontstaat er een herkenbaar systeem voor consumenten.",
+          "correct": false
+        }
+      ],
+      "feedback": "Regelgeving lost greenwashing niet op, maar verkleint de ruimte waarin het kan bestaan. Zolang niemand kan vergelijken, loont het om selectief te zijn met wat je laat zien."
+    },
+    {
+      "key": "m5-ethisch-meervoudig",
+      "module": 5,
+      "na_segment": 7,
+      "t": "quiz",
+      "multi": true,
+      "question": "<p>Greenwashing als systeemfenomeen brengt volgens de module verschillende ethische problemen met zich mee. Welke horen daarbij?</p>",
+      "options": [
+        {
+          "text": "Consumenten en investeerders nemen beslissingen op basis van een onvolledig beeld van de werkelijke impact.",
+          "correct": true
+        },
+        {
+          "text": "Bedrijven die wél structureel investeren in verduurzaming raken op achterstand ten opzichte van concurrenten die hetzelfde imago goedkoper verwerven.",
+          "correct": true
+        },
+        {
+          "text": "Het vertrouwen in keurmerken en duurzaamheidsclaims brokkelt af, waardoor ook eerlijke initiatieven aan geloofwaardigheid verliezen.",
+          "correct": true
+        },
+        {
+          "text": "Duurzaamheidsclaims in reclame zijn binnen de Europese Unie inmiddels in alle gevallen wettelijk verboden.",
+          "correct": false
+        },
+        {
+          "text": "Bedrijven die greenwashen verliezen automatisch hun toegang tot kapitaal, omdat ESG-beoordelaars dit betrouwbaar detecteren.",
+          "correct": false
+        }
+      ],
+      "feedback": "De derde is de interessantste: greenwashing beschadigt niet alleen de eigen geloofwaardigheid, maar het hele instrumentarium waar eerlijke bedrijven ook op leunen. Wie een keurmerk niet meer vertrouwt, gelooft ook het goede bedrijf niet."
+    },
+    {
+      "key": "m4-kijkopdracht",
+      "module": 4,
+      "na_segment": 2,
+      "t": "text",
+      "heading": "Kijkopdracht",
+      "body": "<p>Hierna volgt een korte video over de vraag of technologie neutraal is. Let tijdens het kijken op één ding: <strong>welk voorbeeld gebruikt de video om te laten zien dat er een keuze in een ontwerp verstopt zit?</strong> Vergelijk dat met de twee manieren die Winner hierboven beschrijft.</p>"
+    },
+    {
+      "key": "m4-morele-architectuur",
+      "module": 4,
+      "na_segment": 1,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>De module noemt technologie een <em>morele architectuur</em>. Wat wordt daarmee bedoeld?</p>",
+      "options": [
+        {
+          "text": "Dat ontwerpers een beroepscode horen te volgen waarin ethische uitgangspunten zijn vastgelegd voordat zij aan een nieuw systeem beginnen.",
+          "correct": false
+        },
+        {
+          "text": "Dat een ontwerp bepaalt welke handelingen vanzelfsprekend worden en welke moeilijk, en zo stilzwijgend verdeelt wie waartoe toegang heeft.",
+          "correct": true
+        },
+        {
+          "text": "Dat technologie pas een morele lading krijgt op het moment dat een gebruiker haar bewust voor een goed of kwaad doel inzet.",
+          "correct": false
+        },
+        {
+          "text": "Dat elke technologie uiteindelijk terug te voeren is op de morele overtuigingen van het bedrijf dat haar ontwikkelt en op de markt brengt.",
+          "correct": false
+        }
+      ],
+      "feedback": "Architectuur is de goede vergelijking: een gebouw verbiedt niets, maar een trap zonder lift bepaalt wél wie boven komt. Zo werkt een ontwerp ook — geen regel, geen verbod, wel gevolgen."
+    },
+    {
+      "key": "m4-automatische-deur",
+      "module": 4,
+      "na_segment": 4,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>De automatische deur maakt een gebouw toegankelijker en schept tegelijk een afhankelijkheid van stroom, sensoren en onderhoud. Wat laat dit voorbeeld volgens de module vooral zien?</p>",
+      "options": [
+        {
+          "text": "Dat toegankelijkheidsmaatregelen altijd een keerzijde hebben en daarom zorgvuldig moeten worden afgewogen tegen de kosten van beheer en onderhoud.",
+          "correct": false
+        },
+        {
+          "text": "Dat ook een eenvoudig ontwerp bepaalt wie er onder welke omstandigheden binnenkomt, en dus stilzwijgend toegang én afhankelijkheid verdeelt.",
+          "correct": true
+        },
+        {
+          "text": "Dat technologie pas problematisch wordt zodra zij op grote schaal wordt toegepast binnen complexe en moeilijk te overziene systemen.",
+          "correct": false
+        },
+        {
+          "text": "Dat de verantwoordelijkheid voor storingen bij de beheerder van het gebouw ligt, en niet bij degene die het systeem heeft ontworpen.",
+          "correct": false
+        }
+      ],
+      "feedback": "Let op wie kwetsbaar wordt bij uitval: precies de groep voor wie de deur bedoeld was. Het ontwerp verdeelt niet alleen toegang, maar ook afhankelijkheid."
+    },
+    {
+      "key": "m4-onzichtbare-infra",
+      "module": 4,
+      "na_segment": 6,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Infrastructuur valt volgens de module pas op wanneer zij níet werkt. Waarom maakt juist die onzichtbaarheid haar machtig?</p>",
+      "options": [
+        {
+          "text": "Omdat onzichtbaarheid betekent dat er goed onderhoud wordt gepleegd, waardoor gebruikers geen enkele reden hebben om aan het systeem te twijfelen.",
+          "correct": false
+        },
+        {
+          "text": "Omdat wat vanzelfsprekend is geworden niet meer ter discussie staat, terwijl het wel bepaalt wie kan meedoen en onder welke voorwaarden.",
+          "correct": true
+        },
+        {
+          "text": "Omdat beheerders van infrastructuur bewust de publiciteit mijden om strengere regulering en politieke bemoeienis voor te blijven.",
+          "correct": false
+        },
+        {
+          "text": "Omdat infrastructuur pas invloed uitoefent op het moment dat zij uitvalt en de opgebouwde afhankelijkheid ineens zichtbaar wordt.",
+          "correct": false
+        }
+      ],
+      "feedback": "Toegang tot een infrastructuur is in veel sectoren een voorwaarde om überhaupt mee te kunnen doen. Juist omdat niemand er nog naar kijkt, wordt over die voorwaarde zelden onderhandeld."
+    },
+    {
+      "key": "m4-poortwachter",
+      "module": 4,
+      "na_segment": 9,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Platforms fungeren volgens de module als <em>poortwachters van economische activiteiten</em>. Wat houdt dat in?</p>",
+      "options": [
+        {
+          "text": "Dat platforms wettelijk verplicht zijn te controleren of aanbieders aan de eisen voldoen voordat zij toegang krijgen tot de markt.",
+          "correct": false
+        },
+        {
+          "text": "Dat wie de infrastructuur beheert, bepaalt welke partijen zichtbaar worden, welke data beschikbaar zijn en wie een markt kan bereiken.",
+          "correct": true
+        },
+        {
+          "text": "Dat platforms optreden als tussenpersoon en daarvoor een commissie rekenen die in feite de toegangsprijs tot de markt vormt.",
+          "correct": false
+        },
+        {
+          "text": "Dat de macht van platforms voortkomt uit hun omvang, waardoor kleinere aanbieders nooit dezelfde schaalvoordelen kunnen behalen.",
+          "correct": false
+        }
+      ],
+      "feedback": "Een poortwachter hoeft niemand te weigeren om macht te hebben. Het volstaat dat hij bepaalt in welke volgorde je verschijnt."
+    },
+    {
+      "key": "m4-data-grondstof",
+      "module": 4,
+      "na_segment": 11,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Data wordt vaak vergeleken met een grondstof. De module zegt er meteen bij dat die vergelijking tekortschiet. Waarom?</p>",
+      "options": [
+        {
+          "text": "Omdat data in tegenstelling tot grondstoffen onbeperkt beschikbaar zijn en daardoor nauwelijks economische waarde vertegenwoordigen.",
+          "correct": false
+        },
+        {
+          "text": "Omdat data naast een hulpbron ook macht, controle en kennis organiseren: wie erover beschikt bepaalt mede wat zichtbaar wordt en wat niet.",
+          "correct": true
+        },
+        {
+          "text": "Omdat data pas waarde krijgen na bewerking, waardoor de kosten van analyse in de praktijk zwaarder wegen dan de opbrengst van de gegevens.",
+          "correct": false
+        },
+        {
+          "text": "Omdat data juridisch geen eigendom kunnen zijn, waardoor bedrijven er nooit een exclusieve aanspraak op kunnen maken tegenover concurrenten.",
+          "correct": false
+        }
+      ],
+      "feedback": "Een grondstof raakt op als je hem gebruikt; data niet. En bij een grondstof is de vraag wie hem bezit — bij data ook wie bepaalt wat er zichtbaar mee wordt gemaakt."
+    },
+    {
+      "key": "m4-ai-sorteren",
+      "module": 4,
+      "na_segment": 13,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>AI-sorteersystemen verhogen de efficiëntie van recycling aanzienlijk. Waarom is deze techniek volgens de module tóch niet waardevrij?</p>",
+      "options": [
+        {
+          "text": "Omdat de installaties meer energie verbruiken dan handmatige sortering, waardoor de winst in materiaalterugwinning deels weer verdampt.",
+          "correct": false
+        },
+        {
+          "text": "Omdat de ontwerpkeuzes bepalen welke materialen als economisch waardevol gelden, en daarmee ook wat er wél en niet wordt teruggewonnen.",
+          "correct": true
+        },
+        {
+          "text": "Omdat machine learning bij wisselende afvalstromen minder nauwkeurig blijkt dan de inspectie door ervaren medewerkers ter plaatse.",
+          "correct": false
+        },
+        {
+          "text": "Omdat recycling in de afvalhiërarchie hoe dan ook lager staat dan hergebruik en reparatie, ongeacht hoe efficiënt het proces verloopt.",
+          "correct": false
+        }
+      ],
+      "feedback": "Wat het systeem herkent als waardevol, bepaalt wat er in de kringloop terugkomt. Materialen waarvoor geen data of geen markt bestaat blijven onzichtbaar — ook al liggen ze op dezelfde band."
+    },
+    {
+      "key": "m4-determinisme",
+      "module": 4,
+      "na_segment": 14,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Waarom wijst de technologie-ethiek het idee af dat technologie een autonome kracht is die ons handelen bepaalt?</p>",
+      "options": [
+        {
+          "text": "Omdat technologie in de praktijk veel minder invloed op gedrag blijkt te hebben dan sociale normen en economische omstandigheden.",
+          "correct": false
+        },
+        {
+          "text": "Omdat technologie altijd ontstaat binnen sociale, economische en politieke keuzes — en juist daarom ook aangepast of hervormd kan worden.",
+          "correct": true
+        },
+        {
+          "text": "Omdat regelgeving technologische ontwikkelingen uiteindelijk altijd inhaalt, waardoor de invloed van elk systeem tijdelijk van aard is.",
+          "correct": false
+        },
+        {
+          "text": "Omdat gebruikers zelf beslissen hoe zij een systeem inzetten, waardoor de verantwoordelijkheid volledig bij het gebruik komt te liggen.",
+          "correct": false
+        }
+      ],
+      "feedback": "Dit is het scharnierpunt van de module. Winner (1980) laat zien dat artefacten politieke keuzes bevatten — en precies daarom is interventie mogelijk. Wat gemaakt is, kan anders gemaakt worden."
+    },
+    {
+      "key": "m4-interventieniveaus",
+      "module": 4,
+      "na_segment": 15,
+      "t": "match",
+      "question": "<p>Koppel elke maatregel aan het interventieniveau waar hij thuishoort.</p>",
+      "pairs": [
+        {
+          "left": "Ontwerpinterventie",
+          "right": "Transparantie inbouwen in een AI-systeem, zodat gebruikers kunnen begrijpen hoe een beslissing tot stand komt."
+        },
+        {
+          "left": "Organisatorische interventie",
+          "right": "Een ethische commissie die technologische projecten vooraf toetst en algoritmes laat auditen."
+        },
+        {
+          "left": "Institutionele interventie",
+          "right": "De Europese AI Act, die zwaardere eisen stelt aan toepassingen met een hoog risico."
+        }
+      ],
+      "feedback": "De drie niveaus vullen elkaar aan en vervangen elkaar niet. Value Sensitive Design helpt niet als de organisatie er niets mee doet, en governance zonder wettelijk kader blijft vrijblijvend."
+    },
+    {
+      "key": "m4-dsa-afsluiting",
+      "module": 4,
+      "na_segment": 16,
+      "t": "quiz",
+      "multi": true,
+      "question": "<p>De Digital Services Act verplicht grote platforms tot risicoanalyses en transparantie over hun aanbevelingsalgoritmes. Wat laat deze interventie zien? (meerdere antwoorden juist)</p>",
+      "options": [
+        {
+          "text": "Dat technologische systemen te reguleren zijn, juist omdat zij het resultaat zijn van menselijke keuzes en institutionele kaders.",
+          "correct": true
+        },
+        {
+          "text": "Dat verantwoordelijkheid verschuift naar het niveau waar de ontwerpkeuzes worden gemaakt, in plaats van naar de individuele gebruiker.",
+          "correct": true
+        },
+        {
+          "text": "Dat het probleem van desinformatie met deze maatregelen in de kern is opgelost en verder toezicht overbodig wordt.",
+          "correct": false
+        },
+        {
+          "text": "Dat technologie zich uiteindelijk als autonome kracht ontwikkelt, waarbij beleid alleen achteraf nog schade kan beperken.",
+          "correct": false
+        }
+      ],
+      "feedback": "De twee onjuiste opties halen precies terug wat de module verwierp: het idee dat techniek een eigen koers vaart, en de aanname dat één maatregel een systeemprobleem oplost. Interventie verkleint de ruimte waarin iets misgaat; ze sluit haar niet af."
+    },
+    {
+      "key": "m1-gascrisis",
+      "module": 1,
+      "na_segment": 2,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Tijdens de gascrisis van 2022 moesten beleidsmakers bepalen wie voorrang kreeg: industrie, huishoudens of ziekenhuizen. Waarom noemt de module dat geen economische maar een morele vraag?</p>",
+      "options": [
+        {
+          "text": "Omdat de beschikbare hoeveelheid gas nauwkeurig bekend was, waardoor er geen ruimte meer overbleef voor afwegingen over prijs en marktverdeling.",
+          "correct": false
+        },
+        {
+          "text": "Omdat de rekensom over vraag en aanbod betrekkelijk eenvoudig was; de moeilijkheid zat in de vraag wie er niet zonder mocht komen te zitten.",
+          "correct": true
+        },
+        {
+          "text": "Omdat de crisis voortkwam uit geopolitieke spanningen en niet uit marktwerking, waardoor economische modellen hier niet van toepassing waren.",
+          "correct": false
+        },
+        {
+          "text": "Omdat overheden in een crisissituatie wettelijk verplicht zijn huishoudens voorrang te geven boven industriële afnemers en kritieke infrastructuur.",
+          "correct": false
+        }
+      ],
+      "feedback": "Friedman zegt: maak winst binnen de regels van het spel. De module draait dat om — dat spel is zelf uit morele keuzes opgebouwd. Wie de regels schrijft, heeft de morele vraag al beantwoord."
+    },
+    {
+      "key": "m1-grondstoffen",
+      "module": 1,
+      "na_segment": 5,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Kobalt uit Congo, Chinese controle over zeldzame aardmetalen en e-waste in Ghana en India staan in de module naast elkaar. Welk patroon delen die drie?</p>",
+      "options": [
+        {
+          "text": "In alle drie de gevallen ontbreekt lokale regelgeving, waardoor bedrijven zich niet aan internationale milieunormen hoeven te houden.",
+          "correct": false
+        },
+        {
+          "text": "De baten en de lasten van dezelfde keten komen bij verschillende landen terecht, en die verdeling volgt de bestaande machtsverhoudingen.",
+          "correct": true
+        },
+        {
+          "text": "Ze laten zien dat schaarste aan grondstoffen onvermijdelijk leidt tot geopolitieke conflicten tussen producerende en afnemende landen.",
+          "correct": false
+        },
+        {
+          "text": "Ze tonen aan dat de energietransitie op korte termijn meer schade veroorzaakt dan de fossiele economie die zij moet vervangen.",
+          "correct": false
+        }
+      ],
+      "feedback": "Let op de richting: de waarde stroomt de ene kant op, de schade de andere. Dat is geen technisch gevolg van waar grondstoffen nu eenmaal liggen, maar van wie de voorwaarden bepaalt."
+    },
+    {
+      "key": "m1-appelmachine",
+      "module": 1,
+      "na_segment": 6,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>De machine die appels plukt stopt niet uit zichzelf voor een vogelnest; een mens wel. Wat illustreert die vergelijking?</p>",
+      "options": [
+        {
+          "text": "Dat automatisering onvermijdelijk tot schade leidt zolang er geen mens meekijkt bij elke handeling die het systeem verricht.",
+          "correct": false
+        },
+        {
+          "text": "Dat organisaties optimaliseren waarvoor ze zijn ontworpen, en dat wat buiten dat doel valt niet vanzelf wordt meegewogen.",
+          "correct": true
+        },
+        {
+          "text": "Dat mensen binnen bedrijven hun persoonlijke morele oordeel opgeven zodra zij een functie met verantwoordelijkheid aanvaarden.",
+          "correct": false
+        },
+        {
+          "text": "Dat efficiëntie en moraal elkaar uitsluiten, waardoor een onderneming uiteindelijk altijd tussen die twee moet kiezen.",
+          "correct": false
+        }
+      ],
+      "feedback": "Goodpaster (1991) noemt dit een morele paradox: we houden bedrijven verantwoordelijk, terwijl we ze hebben gebouwd zonder plek waar die verantwoordelijkheid kan landen."
+    },
+    {
+      "key": "m1-neoliberalisme",
+      "module": 1,
+      "na_segment": 9,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Wat veranderde er volgens de module met de opkomst van het neoliberale kapitalisme vanaf de jaren tachtig?</p>",
+      "options": [
+        {
+          "text": "De staat trok zich terug uit de economie, waarna bedrijven zelf strengere ethische gedragscodes gingen opstellen om het ontstane gat te vullen.",
+          "correct": false
+        },
+        {
+          "text": "Toezicht werd afgebouwd en publieke voorzieningen werden gecommercialiseerd, waardoor juist de stabiele kaders wankelden waar Friedman van uitging.",
+          "correct": true
+        },
+        {
+          "text": "De concurrentie nam toe waardoor monopolievorming werd teruggedrongen en consumenten meer keuze kregen dan in de periode daarvoor.",
+          "correct": false
+        },
+        {
+          "text": "Financiële markten werden na een reeks crises strenger gereguleerd, waardoor kortetermijnrendement geleidelijk aan belang inboette.",
+          "correct": false
+        }
+      ],
+      "feedback": "Friedman zei: winst maken binnen de regels. Maar het neoliberalisme veranderde precies die regels. Zijn verweer bleef overeind terwijl de bodem eronder verschoof."
+    },
+    {
+      "key": "m1-supermarkt",
+      "module": 1,
+      "na_segment": 10,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>De supermarktvergelijking uit de module: je koopt wat je wilt, maar iemand anders bepaalt wat op ooghoogte ligt. Wat is daar het punt van?</p>",
+      "options": [
+        {
+          "text": "Dat consumenten onvoldoende kennis hebben van producten en daarom in de praktijk afhankelijk zijn van het advies van de winkel.",
+          "correct": false
+        },
+        {
+          "text": "Dat de keuze echt is maar het keuzemenu niet neutraal, waardoor voorkeur deels een gevolg wordt van het aanbod in plaats van de oorzaak ervan.",
+          "correct": true
+        },
+        {
+          "text": "Dat supermarkten hun schappen inrichten op basis van wat het beste verkoopt, waardoor het aanbod de vraag juist getrouw weerspiegelt.",
+          "correct": false
+        },
+        {
+          "text": "Dat digitale platforms hetzelfde doen als supermarkten, maar met minder effect omdat consumenten online eenvoudiger kunnen vergelijken.",
+          "correct": false
+        }
+      ],
+      "feedback": "Zuboff gaat nog een stap verder dan de supermarkt: een algoritme richt het schap per persoon in en leert bovendien van wat je pakt. Het menu verandert met je mee."
+    },
+    {
+      "key": "m2-heuristieken",
+      "module": 2,
+      "na_segment": 3,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Waarom vertrouwen mensen in drukke, complexe organisaties zo sterk op routines en vuistregels?</p>",
+      "options": [
+        {
+          "text": "Omdat medewerkers in complexe organisaties zelden voldoende zijn opgeleid om zelfstandig analytische afwegingen te maken.",
+          "correct": false
+        },
+        {
+          "text": "Omdat rationeel nadenken kostbaar is en intuïtief handelen efficiënt; onder druk is de vuistregel vaak de enige begaanbare weg.",
+          "correct": true
+        },
+        {
+          "text": "Omdat organisaties routines vastleggen in procedures, waardoor het formeel niet is toegestaan om ervan af te wijken.",
+          "correct": false
+        },
+        {
+          "text": "Omdat mensen van nature liever geen verantwoordelijkheid dragen voor beslissingen waarvan de uitkomst onzeker is.",
+          "correct": false
+        }
+      ],
+      "feedback": "De volgorde is verrassend: we handelen eerst en zoeken de redenering er daarna bij. Dat maakt vuistregels niet dom — ze zijn efficiënt. Het probleem ontstaat pas als er geen moment meer is om ze te toetsen."
+    },
+    {
+      "key": "m2-ontkoppeling-koppel",
+      "module": 2,
+      "na_segment": 8,
+      "t": "match",
+      "question": "<p>Bandura beschrijft verschillende manieren waarop mensen zich moreel ontkoppelen. Koppel elk mechanisme aan het voorbeeld.</p>",
+      "pairs": [
+        {
+          "left": "Herdefiniëren van gedrag",
+          "right": "Een manager noemt een harde ingreep ‘strategisch noodzakelijk’, waardoor de morele lading uit de beslissing verdwijnt."
+        },
+        {
+          "left": "Minimaliseren van gevolgen",
+          "right": "De schade wordt kleiner voorgesteld dan zij is, waardoor er geen aanleiding lijkt om in te grijpen."
+        },
+        {
+          "left": "Verschuiven van verantwoordelijkheid",
+          "right": "In een groot systeem voelt niemand zich eigenaar van het gevolg; iedereen deed immers maar een klein stukje."
+        },
+        {
+          "left": "Normalisatie van afwijkend gedrag",
+          "right": "Een praktijk bestaat al zo lang dat niemand hem nog als problematisch ervaart."
+        }
+      ],
+      "feedback": "Bandura’s punt is dat dit geen kwade wil is maar zelfbescherming. Niet het gedrag verandert, maar het verhaal erover — en dat gebeurt meestal zonder dat iemand het doorheeft."
+    },
+    {
+      "key": "m2-systeemlogica",
+      "module": 2,
+      "na_segment": 11,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>De module schrijft: ‘Dat is geen complot, het is systeemlogica.’ Wat wordt daarmee bedoeld?</p>",
+      "options": [
+        {
+          "text": "Dat de sturing van gedrag wel bestaat, maar zo versnipperd is over partijen dat niemand er verantwoordelijk voor kan worden gehouden.",
+          "correct": false
+        },
+        {
+          "text": "Dat bedrijven hun modellen optimaliseren op groei, aandacht of winst, en dat gestuurd gedrag daar een bijproduct van is in plaats van een doel.",
+          "correct": true
+        },
+        {
+          "text": "Dat mensen zelf verantwoordelijk blijven voor hun keuzes, omdat er geen aanwijsbare partij is die hen ergens toe dwingt.",
+          "correct": false
+        },
+        {
+          "text": "Dat de gevolgen onbedoeld zijn en daarmee moreel neutraal, zolang bedrijven zich netjes aan de geldende wetgeving houden.",
+          "correct": false
+        }
+      ],
+      "feedback": "Er hoeft niemand iets kwaads te willen. Een systeem dat op aandacht optimaliseert produceert vanzelf gedrag dat aandacht oplevert — of dat nu goed voor je is of niet."
+    },
+    {
+      "key": "m2-morele-moed",
+      "module": 2,
+      "na_segment": 18,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Waarom is morele moed binnen organisaties volgens de module zo zeldzaam?</p>",
+      "options": [
+        {
+          "text": "Omdat de meeste mensen binnen organisaties de waarden missen die nodig zijn om zich tegen de gang van zaken uit te spreken.",
+          "correct": false
+        },
+        {
+          "text": "Omdat moed ruis introduceert in systemen die juist zijn gebouwd op efficiëntie, voorspelbaarheid en continuïteit.",
+          "correct": true
+        },
+        {
+          "text": "Omdat organisaties klokkenluiders formeel ontmoedigen via contractuele bepalingen en geheimhoudingsclausules.",
+          "correct": false
+        },
+        {
+          "text": "Omdat morele moed vrijwel altijd een grote, zichtbare daad vergt die de meeste mensen begrijpelijkerwijs niet aandurven.",
+          "correct": false
+        }
+      ],
+      "feedback": "Let op de omkering in de tekst: moed is meestal niet dramatisch. Het is een vraag stellen die niemand stelde, of een beslissing vertragen. Klein gedrag, hoge sociale kosten."
+    },
+    {
+      "key": "m2-macht-perspectief",
+      "module": 2,
+      "na_segment": 19,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Waarom is macht volgens de module moeilijk te herkennen voor wie haar bezit?</p>",
+      "options": [
+        {
+          "text": "Omdat machthebbers doorgaans op grotere afstand van de uitvoering staan, waardoor informatie hen vertraagd en gefilterd bereikt.",
+          "correct": false
+        },
+        {
+          "text": "Voor wie macht heeft voelt het systeem natuurlijk en logisch; voor wie haar mist voelt het als iets dat hem overkomt.",
+          "correct": true
+        },
+        {
+          "text": "Omdat macht in moderne organisaties formeel is verdeeld over commissies en overlegorganen, waardoor niemand zich de drager ervan voelt.",
+          "correct": false
+        },
+        {
+          "text": "Omdat mensen met macht hun positie toeschrijven aan eigen inspanning en daardoor de rol van toeval stelselmatig onderschatten.",
+          "correct": false
+        }
+      ],
+      "feedback": "De asymmetrie zit in wat normaal voélt. Wie ruimte heeft merkt de muren niet. Daarom is het oordeel van wie weinig macht heeft vaak scherper — niet omdat die persoon beter kijkt, maar omdat de muur voelbaar is."
+    },
+    {
+      "key": "m2-synthese",
+      "module": 2,
+      "na_segment": 22,
+      "t": "quiz",
+      "multi": true,
+      "question": "<p>Deze module ging over de mens binnen het systeem. Welke conclusies passen bij wat je hebt gelezen? (meerdere antwoorden juist)</p>",
+      "options": [
+        {
+          "text": "Gedrag komt vaker voort uit context en routine dan uit een bewuste morele afweging.",
+          "correct": true
+        },
+        {
+          "text": "Systemen versterken individuele reflexen in plaats van ze te corrigeren.",
+          "correct": true
+        },
+        {
+          "text": "Handelingsruimte bestaat wél, maar binnen structurele grenzen — niet erbuiten.",
+          "correct": true
+        },
+        {
+          "text": "Wie de juiste waarden heeft, handelt daar binnen een organisatie ook naar.",
+          "correct": false
+        },
+        {
+          "text": "Structurele verandering begint bij het overtuigen van individuen van hun morele plicht.",
+          "correct": false
+        }
+      ],
+      "feedback": "De twee onjuiste opties leunen allebei op dezelfde aanname: dat overtuiging vanzelf tot handelen leidt. De module laat juist zien dat daar een systeem tussen zit."
+    },
+    {
+      "key": "m3-filtermechanisme",
+      "module": 3,
+      "na_segment": 9,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Wat is het ‘filtermechanisme’ dat volgens de module in organisaties ontstaat?</p>",
+      "options": [
+        {
+          "text": "Informatie van de werkvloer wordt in elke laag van de hiërarchie samengevat, waardoor belangrijke details onderweg verloren gaan.",
+          "correct": false
+        },
+        {
+          "text": "Morele overwegingen moeten passen binnen bestaande doelen en indicatoren; wat daar niet in past bereikt de besluitvorming niet.",
+          "correct": true
+        },
+        {
+          "text": "Organisaties selecteren bij werving op mensen die passen bij de heersende cultuur, waardoor afwijkende opvattingen zeldzaam worden.",
+          "correct": false
+        },
+        {
+          "text": "Compliance-afdelingen toetsen voorstellen vooraf aan wet- en regelgeving, waardoor morele vragen juridische vragen worden.",
+          "correct": false
+        }
+      ],
+      "feedback": "Let op wat er níet gebeurt: niemand wíjst het morele argument af. Het komt alleen niet door de zeef van wat als relevant, urgent of meetbaar geldt."
+    },
+    {
+      "key": "m3-kapitaal-selectie",
+      "module": 3,
+      "na_segment": 12,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Kapitaal stroomt naar waar het hoogste rendement wordt verwacht. Waarom is dat volgens de module meer dan alleen een efficiënte verdeling van middelen?</p>",
+      "options": [
+        {
+          "text": "Omdat rendementsverwachtingen achteraf vaak onjuist blijken, waardoor kapitaal stelselmatig in de verkeerde sectoren terechtkomt.",
+          "correct": false
+        },
+        {
+          "text": "Omdat het ook bepaalt wát er groeit: sectoren met lagere of moeilijk meetbare opbrengsten krijgen minder kapitaal en blijven achter.",
+          "correct": true
+        },
+        {
+          "text": "Omdat investeerders bij hun keuze nauwelijks rekening houden met risico, waardoor kapitaal zich ophoopt in speculatieve markten.",
+          "correct": false
+        },
+        {
+          "text": "Omdat overheden via subsidies voortdurend bijsturen, waardoor de markt uiteindelijk toch niet zelf bepaalt waar geld heen gaat.",
+          "correct": false
+        }
+      ],
+      "feedback": "Kapitaal is een selectiemechanisme, geen neutrale stroom. Zorg, natuurherstel en onderhoud leveren echte waarde, maar die is lastig in rendement uit te drukken — en trekt dus minder geld aan."
+    },
+    {
+      "key": "m3-hedgefondsen",
+      "module": 3,
+      "na_segment": 14,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Wat maakt hedgefondsen volgens de module illustratief voor de werking van kapitaalmobiliteit?</p>",
+      "options": [
+        {
+          "text": "Doordat zij snel kunnen in- en uitstappen weten bestuurders dat tegenvallende cijfers meteen effect hebben, wat de druk op de korte termijn opvoert.",
+          "correct": true
+        },
+        {
+          "text": "Doordat zij grotere posities innemen dan andere beleggers en zo formeel zeggenschap verwerven in de aandeelhoudersvergadering.",
+          "correct": false
+        },
+        {
+          "text": "Doordat zij uitsluitend investeren in ondernemingen die al onder druk staan, waardoor zij bestaande problemen eerder zichtbaar maken.",
+          "correct": false
+        },
+        {
+          "text": "Doordat zij hun rendement vooral halen uit koersdalingen, waardoor hun belang recht tegenover dat van de onderneming zelf staat.",
+          "correct": false
+        }
+      ],
+      "feedback": "Niemand hoeft te dreigen. Het vermógen om weg te gaan is al genoeg: bestuurders sturen op de mogelijkheid van vertrek, niet op het vertrek zelf."
+    },
+    {
+      "key": "m3-ecologische-waarde",
+      "module": 3,
+      "na_segment": 15,
+      "t": "quiz",
+      "multi": false,
+      "question": "<p>Waarom krijgen ecologische en sociale waarde volgens de module structureel minder gewicht in ondernemingsbeslissingen?</p>",
+      "options": [
+        {
+          "text": "Omdat bestuurders die waarden persoonlijk minder belangrijk vinden dan financiële resultaten en daar in hun afwegingen naar handelen.",
+          "correct": false
+        },
+        {
+          "text": "Omdat wat niet aantoonbaar bijdraagt aan aandeelhouderswaarde automatisch minder gewicht krijgt in de afweging.",
+          "correct": true
+        },
+        {
+          "text": "Omdat er geen wetenschappelijk erkende methoden bestaan om ecologische en sociale effecten betrouwbaar te meten.",
+          "correct": false
+        },
+        {
+          "text": "Omdat wetgeving ondernemingen verbiedt om met het kapitaal van aandeelhouders andere doelen dan rendement na te streven.",
+          "correct": false
+        }
+      ],
+      "feedback": "Het is geen kwestie van niet willen, maar van niet meetellen. Wat niet op de meetlat staat, verliest het automatisch van wat er wel op staat."
+    },
+    {
+      "key": "schema-infrastructuur",
+      "module": 4,
+      "na_segment": 8,
+      "t": "svg",
+      "svg": "<svg viewBox=\"0 0 700 250\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g font-family=\"inherit\">\n    <rect x=\"0\" y=\"18\" width=\"216\" height=\"132\" rx=\"12\" fill=\"var(--go-vlak)\"/>\n    <circle cx=\"34\" cy=\"52\" r=\"15\" fill=\"var(--go-kaart)\"/>\n    <text x=\"34\" y=\"57\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"600\" fill=\"var(--go-tekst-2)\">1</text>\n    <text x=\"62\" y=\"57\" font-size=\"15\" font-weight=\"600\" fill=\"var(--go-tekst)\">Maakt mogelijk</text>\n    <text x=\"20\" y=\"88\" font-size=\"13\" fill=\"var(--go-tekst-2)\">Zonder haar kan de activiteit</text>\n    <text x=\"20\" y=\"108\" font-size=\"13\" fill=\"var(--go-tekst-2)\">niet plaatsvinden. Goederen,</text>\n    <text x=\"20\" y=\"128\" font-size=\"13\" fill=\"var(--go-tekst-2)\">energie, geld, informatie.</text>\n\n    <rect x=\"242\" y=\"18\" width=\"216\" height=\"132\" rx=\"12\" fill=\"var(--go-vlak)\"/>\n    <circle cx=\"276\" cy=\"52\" r=\"15\" fill=\"var(--go-kaart)\"/>\n    <text x=\"276\" y=\"57\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"600\" fill=\"var(--go-tekst-2)\">2</text>\n    <text x=\"304\" y=\"57\" font-size=\"15\" font-weight=\"600\" fill=\"var(--go-tekst)\">Werkt op schaal</text>\n    <text x=\"262\" y=\"88\" font-size=\"13\" fill=\"var(--go-tekst-2)\">Ze bedient iedereen tegelijk</text>\n    <text x=\"262\" y=\"108\" font-size=\"13\" fill=\"var(--go-tekst-2)\">en valt daardoor pas op</text>\n    <text x=\"262\" y=\"128\" font-size=\"13\" fill=\"var(--go-tekst-2)\">wanneer ze het begeeft.</text>\n\n    <rect x=\"484\" y=\"18\" width=\"216\" height=\"132\" rx=\"12\" fill=\"var(--go-groen)\"/>\n    <circle cx=\"518\" cy=\"52\" r=\"15\" fill=\"rgba(255,255,255,0.22)\"/>\n    <text x=\"518\" y=\"57\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"600\" fill=\"#fff\">3</text>\n    <text x=\"546\" y=\"57\" font-size=\"15\" font-weight=\"600\" fill=\"#fff\">Legt vast</text>\n    <text x=\"504\" y=\"88\" font-size=\"13\" fill=\"rgba(255,255,255,0.9)\">Standaarden en afhankelijk-</text>\n    <text x=\"504\" y=\"108\" font-size=\"13\" fill=\"rgba(255,255,255,0.9)\">heden waar anderen zich</text>\n    <text x=\"504\" y=\"128\" font-size=\"13\" fill=\"rgba(255,255,255,0.9)\">naar moeten voegen.</text>\n\n    <path d=\"M 592 168 L 592 190\" stroke=\"var(--go-groen)\" stroke-width=\"2\" fill=\"none\"/>\n    <path d=\"M 586 184 L 592 191 L 598 184\" stroke=\"var(--go-groen)\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/>\n    <rect x=\"316\" y=\"196\" width=\"384\" height=\"44\" rx=\"10\" fill=\"var(--go-groen-licht)\"/>\n    <text x=\"508\" y=\"217\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"var(--go-groen-donker)\">Hier zit de macht: wie de standaard bepaalt,</text>\n    <text x=\"508\" y=\"234\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"var(--go-groen-donker)\">bepaalt de voorwaarden voor alle anderen.</text>\n  </g>\n</svg>",
+      "alt": "Drie kenmerken van infrastructuur: zij maakt activiteiten mogelijk, werkt op schaal, en legt standaarden en afhankelijkheden vast. Dat laatste is waar de macht zit.",
+      "caption": "De drie kenmerken samen. Het eerste maakt infrastructuur nuttig, het tweede maakt haar onzichtbaar, en het derde maakt haar machtig."
+    },
+    {
+      "key": "schema-greenwashing",
+      "module": 5,
+      "na_segment": 4,
+      "t": "svg",
+      "svg": "<svg viewBox=\"0 0 700 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g font-family=\"inherit\">\n    <rect x=\"0\" y=\"10\" width=\"338\" height=\"128\" rx=\"12\" fill=\"var(--go-kaart)\" stroke=\"var(--go-rand)\"/>\n    <text x=\"22\" y=\"42\" font-size=\"15\" font-weight=\"600\" fill=\"var(--go-groen-donker)\">Selectief</text>\n    <text x=\"22\" y=\"70\" font-size=\"13\" fill=\"var(--go-tekst-2)\">Eén goed initiatief breed uitmeten,</text>\n    <text x=\"22\" y=\"90\" font-size=\"13\" fill=\"var(--go-tekst-2)\">de rest buiten beeld laten.</text>\n    <text x=\"22\" y=\"118\" font-size=\"12.5\" font-style=\"italic\" fill=\"var(--go-warm-tekst)\">De rest van het verhaal bestaat wél.</text>\n\n    <rect x=\"362\" y=\"10\" width=\"338\" height=\"128\" rx=\"12\" fill=\"var(--go-kaart)\" stroke=\"var(--go-rand)\"/>\n    <text x=\"384\" y=\"42\" font-size=\"15\" font-weight=\"600\" fill=\"var(--go-groen-donker)\">Vaag</text>\n    <text x=\"384\" y=\"70\" font-size=\"13\" fill=\"var(--go-tekst-2)\">‘Groen’, ‘natuurlijk’, ‘eco-friendly’</text>\n    <text x=\"384\" y=\"90\" font-size=\"13\" fill=\"var(--go-tekst-2)\">zonder definitie of maatstaf.</text>\n    <text x=\"384\" y=\"118\" font-size=\"12.5\" font-style=\"italic\" fill=\"var(--go-warm-tekst)\">Niets onwaars, niets controleerbaars.</text>\n\n    <rect x=\"0\" y=\"152\" width=\"338\" height=\"128\" rx=\"12\" fill=\"var(--go-kaart)\" stroke=\"var(--go-rand)\"/>\n    <text x=\"22\" y=\"184\" font-size=\"15\" font-weight=\"600\" fill=\"var(--go-groen-donker)\">Irrelevant</text>\n    <text x=\"22\" y=\"212\" font-size=\"13\" fill=\"var(--go-tekst-2)\">‘CFK-vrij’ voor een stof die</text>\n    <text x=\"22\" y=\"232\" font-size=\"13\" fill=\"var(--go-tekst-2)\">al jaren verboden is.</text>\n    <text x=\"22\" y=\"260\" font-size=\"12.5\" font-style=\"italic\" fill=\"var(--go-warm-tekst)\">Waar, maar zonder betekenis.</text>\n\n    <rect x=\"362\" y=\"152\" width=\"338\" height=\"128\" rx=\"12\" fill=\"var(--go-kaart)\" stroke=\"var(--go-rand)\"/>\n    <text x=\"384\" y=\"184\" font-size=\"15\" font-weight=\"600\" fill=\"var(--go-groen-donker)\">Symbolisch</text>\n    <text x=\"384\" y=\"212\" font-size=\"13\" fill=\"var(--go-tekst-2)\">Een klein gebaar met weinig effect,</text>\n    <text x=\"384\" y=\"232\" font-size=\"13\" fill=\"var(--go-tekst-2)\">zwaar aangezet in de communicatie.</text>\n    <text x=\"384\" y=\"260\" font-size=\"12.5\" font-style=\"italic\" fill=\"var(--go-warm-tekst)\">Te klein om ertoe te doen.</text>\n  </g>\n</svg>",
+      "alt": "Vier vormen van greenwashing volgens Delmas en Burbano: selectief, vaag, irrelevant en symbolisch, elk met een voorbeeld.",
+      "caption": "Vier vormen naast elkaar. Let op de onderste regel van elk vak: dat is telkens waar de misleiding precies in zit."
+    },
+    {
+      "key": "schema-spectrum",
+      "module": 3,
+      "na_segment": 10,
+      "t": "svg",
+      "svg": "<svg viewBox=\"0 0 700 210\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g font-family=\"inherit\">\n    <defs>\n      <linearGradient id=\"spec\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\">\n        <stop offset=\"0%\" stop-color=\"var(--go-warm-licht)\"/>\n        <stop offset=\"100%\" stop-color=\"var(--go-groen-medium)\"/>\n      </linearGradient>\n    </defs>\n\n    <text x=\"0\" y=\"26\" font-size=\"15\" font-weight=\"600\" fill=\"var(--go-warm-tekst)\">Aandeelhoudersmodel</text>\n    <text x=\"700\" y=\"26\" text-anchor=\"end\" font-size=\"15\" font-weight=\"600\" fill=\"var(--go-groen-donker)\">Stakeholdersmodel</text>\n\n    <rect x=\"0\" y=\"44\" width=\"700\" height=\"14\" rx=\"7\" fill=\"url(#spec)\"/>\n    <circle cx=\"70\" cy=\"51\" r=\"9\" fill=\"var(--go-kaart)\" stroke=\"var(--go-warm-tekst)\" stroke-width=\"2\"/>\n    <circle cx=\"350\" cy=\"51\" r=\"9\" fill=\"var(--go-kaart)\" stroke=\"var(--go-tekst-2)\" stroke-width=\"2\"/>\n    <circle cx=\"630\" cy=\"51\" r=\"9\" fill=\"var(--go-kaart)\" stroke=\"var(--go-groen)\" stroke-width=\"2\"/>\n\n    <text x=\"0\" y=\"92\" font-size=\"13\" font-weight=\"600\" fill=\"var(--go-tekst)\">Zeggenschap volgt kapitaal</text>\n    <text x=\"0\" y=\"114\" font-size=\"13\" fill=\"var(--go-tekst-2)\">Wie het geld inbrengt,</text>\n    <text x=\"0\" y=\"134\" font-size=\"13\" fill=\"var(--go-tekst-2)\">beslist. Andere belangen</text>\n    <text x=\"0\" y=\"154\" font-size=\"13\" fill=\"var(--go-tekst-2)\">tellen mee voor zover ze</text>\n    <text x=\"0\" y=\"174\" font-size=\"13\" fill=\"var(--go-tekst-2)\">het rendement dienen.</text>\n\n    <text x=\"264\" y=\"92\" font-size=\"13\" font-weight=\"600\" fill=\"var(--go-tekst)\">In de praktijk ertussenin</text>\n    <text x=\"264\" y=\"114\" font-size=\"13\" fill=\"var(--go-tekst-2)\">De meeste ondernemingen</text>\n    <text x=\"264\" y=\"134\" font-size=\"13\" fill=\"var(--go-tekst-2)\">zitten hier: formeel het</text>\n    <text x=\"264\" y=\"154\" font-size=\"13\" fill=\"var(--go-tekst-2)\">ene model, feitelijk met</text>\n    <text x=\"264\" y=\"174\" font-size=\"13\" fill=\"var(--go-tekst-2)\">meerdere afhankelijkheden.</text>\n\n    <text x=\"700\" y=\"92\" text-anchor=\"end\" font-size=\"13\" font-weight=\"600\" fill=\"var(--go-tekst)\">Zeggenschap volgt inzet</text>\n    <text x=\"700\" y=\"114\" text-anchor=\"end\" font-size=\"13\" fill=\"var(--go-tekst-2)\">Werknemers, leveranciers</text>\n    <text x=\"700\" y=\"134\" text-anchor=\"end\" font-size=\"13\" fill=\"var(--go-tekst-2)\">en gemeenschappen doen</text>\n    <text x=\"700\" y=\"154\" text-anchor=\"end\" font-size=\"13\" fill=\"var(--go-tekst-2)\">specifieke investeringen</text>\n    <text x=\"700\" y=\"174\" text-anchor=\"end\" font-size=\"13\" fill=\"var(--go-tekst-2)\">en dragen dus ook risico.</text>\n  </g>\n</svg>",
+      "alt": "Een spectrum van aandeelhoudersmodel naar stakeholdersmodel, met daartussen de praktijk waarin de meeste ondernemingen zich bevinden.",
+      "caption": "Geen tweedeling maar een spectrum. De vraag is niet welk model een onderneming heeft, maar waar op deze lijn zij haar zeggenschap rechtvaardigt."
+    }
+  ],
+  "splits": [
+    {
+      "module": 4,
+      "kop": "Technologie, infrastructuur en politieke macht"
+    },
+    {
+      "module": 4,
+      "kop": "Infrastructuren als morele structuren"
+    },
+    {
+      "module": 5,
+      "kop": "Verantwoordelijkheid voor maatschappelijke en ecologische gevolgen"
+    },
+    {
+      "module": 4,
+      "waar": "voor",
+      "kop": "Infrastructuren als structuren van economische organisatie & macht"
+    }
+  ]
+}

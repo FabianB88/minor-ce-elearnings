@@ -58,6 +58,38 @@ Ondersteunde bloktypen: tekst, opsomming, afbeelding, YouTube-video, tabbladen,
 meerkeuze, meervoudige keuze en koppelvragen. De doorgaan-blokken van Rise worden
 de knoppen waarmee de student stap voor stap door de module klikt.
 
+## De bouwvolgorde van een module
+
+`modules/<slug>/course.json` wordt gegenereerd. Wijzig dat bestand niet met de
+hand; draai in plaats daarvan deze drie stappen achter elkaar:
+
+```bash
+python tools/build-module.py courses/<slug>/scormcontent/index.html <slug> tools/<slug>.patches.json
+python tools/opschonen.py <slug>
+python tools/vragen.py <slug>
+```
+
+1. **build-module** haalt de cursus uit de Rise-export en vertaalt de blokken.
+2. **opschonen** herstelt opmaakschade uit de Word-naar-Rise-conversie: verdwenen
+   alineagrenzen, aan elkaar geplakte zinnen, opsommingen die hun structuur
+   kwijt zijn, harde kleuren uit Word, en koppen die op drie niveaus door elkaar
+   stonden. Ook zet het bijschriften bij het beeldmateriaal.
+3. **vragen** zet terugkoppelingen bij de vragen, herschrijft antwoordopties,
+   splitst te lange leesstappen en voegt nieuwe vragen en schema's toe. De
+   inhoud daarvan staat in `tools/<slug>_vragen.json`.
+
+Alle drie zijn idempotent: nog een keer draaien verandert niets. Wil je iets aan
+de inhoud veranderen, pas dan het patch- of vragenbestand aan en draai opnieuw.
+
+## Bloktypen in een module
+
+`text`, `list`, `image`, `video`, `tabs`, `quiz` (meerkeuze en meervoudig),
+`match` (koppelvraag), `svg` (schema) en `continue` (de doorgaan-knop die de
+inhoud in leesstappen verdeelt).
+
+Een `svg`-blok bevat een inline schema dat de kleurtokens van het thema gebruikt,
+plus een `alt` voor schermlezers en een `caption` eronder.
+
 ## Een cursus toevoegen
 
 ```bash

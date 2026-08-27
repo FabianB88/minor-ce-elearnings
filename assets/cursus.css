@@ -565,3 +565,30 @@ figure.beeld figcaption {
   .koppel { grid-template-columns: 1fr; gap: 0.35rem; }
   .vraag { padding: 1.25rem; }
 }
+
+/* schema's */
+
+figure.schema { margin: 2.25rem 0; }
+
+.schema-vlak {
+  background: var(--go-kaart);
+  border: 1px solid var(--go-rand);
+  border-radius: var(--r-kaart);
+  padding: 1.5rem 1.25rem;
+  overflow-x: auto;
+}
+
+.schema-vlak svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-family: inherit;
+}
+
+figure.schema figcaption {
+  margin-top: 0.7rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--go-tekst-2);
+}
