@@ -15,6 +15,7 @@ Het resultaat staat in modules/<slug>/ en is verder onafhankelijk van Articulate
 from __future__ import print_function
 
 import base64
+import html as htmlmod
 import io
 import json
 import os
@@ -52,9 +53,14 @@ def schoon(html):
     return s.strip()
 
 
-def plat(html):
-    """Alleen de tekst, voor titels."""
-    return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', html or '')).strip()
+def plat(rauw):
+    """Alleen de tekst, voor titels en antwoorden.
+
+    Tags eruit en entiteiten decoderen, anders komt er letterlijk &nbsp; in
+    beeld te staan op plekken waar we textContent gebruiken.
+    """
+    zonder_tags = re.sub(r'<[^>]+>', ' ', rauw or '')
+    return re.sub(r'\s+', ' ', htmlmod.unescape(zonder_tags)).strip()
 
 
 # ---------------------------------------------------------------- blokken
