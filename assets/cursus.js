@@ -196,9 +196,11 @@
       case 'image': {
         var fig = el('figure', 'beeld');
         var img = document.createElement('img');
-        /* loading en decoding moeten vóór src staan, anders slaat Chrome het
-           laden over en blijft de afbeelding leeg. */
-        img.loading = 'lazy';
+        /* Bewust geen loading="lazy": een segment komt pas in beeld op het
+           moment dat de student doorklikt, dus de afbeelding is dan ook meteen
+           nodig. Lazy laden zou hier alleen een extra afhankelijkheid van de
+           zichtbaarheid van het tabblad opleveren. De afmetingen staan erbij,
+           zodat de tekst niet verspringt terwijl hij laadt. */
         img.decoding = 'async';
         img.alt = blok.caption || '';
         if (blok.w) { img.width = blok.w; img.height = blok.h; }
