@@ -55,7 +55,9 @@ Kon je in Rise wijzigingen niet meer publiceren? Zet ze dan in een patchbestand
 vervang of verwijder je losse blokken, zonder de export opnieuw te hoeven maken.
 Voor kleine fouten is er `text`: een lijst van `[zoek, vervang]`-paren die op
 alle tekst in de module worden toegepast (zie
-`tools/duurzaamheid-systeemdenken.patches.json`). Het veld `assets` wijst naar
+`tools/duurzaamheid-systeemdenken.patches.json`). In `captions` zet je per
+bestandsnaam een bijschrift bij afbeeldingen die er in Rise geen hadden; het
+script meldt welke nog ontbreken. Het veld `assets` wijst naar
 een andere map met beeldmateriaal, als de slug van de module afwijkt van die
 van het pakket.
 

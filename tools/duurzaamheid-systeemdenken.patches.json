@@ -10,6 +10,27 @@
     [
       "href=\"https://www.circulairondernemen.nl.Voor\">https://www.circulairondernemen.nl.<br></a>Voor",
       "href=\"https://www.circulairondernemen.nl\">https://www.circulairondernemen.nl</a>.<br>Voor"
+    ],
+    ["Check Your Understanding: Kennistoets", "Kennistoets"],
+    ["Check Your Understanding", "Test je kennis"],
+    [
+      "Match the given concepts with their correct descriptions based on their systemic and sustainability-related characteristics.",
+      "Koppel elk begrip aan de juiste omschrijving, op basis van de systeem- en duurzaamheidskenmerken."
+    ],
+    [
+      "This matching activity helps you understand and connect complex systemic concepts with their practical descriptions, enhancing your comprehension of sustainability principles.",
+      "Met deze koppelvraag verbind je complexe systeembegrippen met wat ze in de praktijk betekenen. Zo krijg je meer grip op de principes van duurzaamheid."
+    ],
+    [
+      "Voor een scherper beeld, clickability en uitleg ga naar:",
+      "Een scherpere, interactieve versie met uitleg staat op"
     ]
-  ]
+  ],
+  "captions": {
+    "Voorkeursvolgorde_voor_het_sluiten_van_kringlopen_volgens_de_R_ladder.jpg": "De R-ladder: tien strategieën van R0 Refuse tot R9 Recover. Hoe hoger op de ladder, hoe meer waarde behouden blijft. Bron: RLI 2015, bewerking PBL.",
+    "Infographic-circular-business-models.-Product-as-a-service,-sharing-platforms-en-levensduurverlenging.-niet-teveel-tekst-e.jpg": "Drie circulaire businessmodellen: product-as-a-service, deelplatforms en levensduurverlenging.",
+    "X-_images_brandspot_new_2022_08_18_iirc-model-vierkant_2022_431350.jpg": "Het waardecreatiemodel van het International Integrated Reporting Framework (IIRC, 2021): zes kapitalen gaan het bedrijfsmodel in en komen er als positieve of negatieve uitkomst weer uit.",
+    "Meervoudige Waardecreatie in de Praktijk.jpg": "Meervoudige waardecreatie in de praktijk: financieel, intellectueel en natuurlijk kapitaal als input, menselijk en sociaal kapitaal in het proces, en geproduceerd, sociaal en financieel kapitaal als output.",
+    "ChatGPT Image 17 nov 2025, 14_15_18.jpg": "Causal loop diagram van plasticafval, met een recyclingloop, een beleidsloop en een afvalloop."
+  }
 }

@@ -181,7 +181,7 @@
         },
         {
           "t": "text",
-          "heading": "Check Your Understanding",
+          "heading": "Test je kennis",
           "body": "<p>Test je kennis en reflecteer op wat je tot nu toe hebt geleerd. Deze vragen helpen je om de belangrijkste concepten uit deze les te herhalen en toe te passen. Neem de tijd om goed na te denken over je antwoorden!</p>"
         },
         {
@@ -560,7 +560,7 @@
         },
         {
           "t": "text",
-          "heading": "Check Your Understanding",
+          "heading": "Test je kennis",
           "body": "<p>Test je kennis en denk kritisch na over wat je hebt geleerd. De volgende vragen helpen je om de belangrijkste concepten uit deze les te herhalen en toe te passen op actuele situaties.</p>"
         },
         {
@@ -801,7 +801,8 @@
           "t": "image",
           "src": "media/Voorkeursvolgorde_voor_het_sluiten_van_kringlopen_volgens_de_R_ladder.jpg",
           "w": 471,
-          "h": 389
+          "h": 389,
+          "caption": "De R-ladder: tien strategieën van R0 Refuse tot R9 Recover. Hoe hoger op de ladder, hoe meer waarde behouden blijft. Bron: RLI 2015, bewerking PBL."
         },
         {
           "t": "continue"
@@ -832,7 +833,8 @@
           "t": "image",
           "src": "media/Infographic-circular-business-models.-Product-as-a-service,-sharing-platforms-en-levensduurverlenging.-niet-teveel-tekst-e.jpg",
           "w": 1280,
-          "h": 720
+          "h": 720,
+          "caption": "Drie circulaire businessmodellen: product-as-a-service, deelplatforms en levensduurverlenging."
         },
         {
           "t": "continue"
@@ -880,7 +882,7 @@
         },
         {
           "t": "text",
-          "heading": "Check Your Understanding",
+          "heading": "Test je kennis",
           "body": "<p>Test je kennis en reflecteer op wat je hebt geleerd. De volgende opdrachten helpen je om de kernconcepten uit deze les te herhalen en toe te passen op praktijkvoorbeelden.</p>"
         },
         {
@@ -1095,7 +1097,7 @@
           "src": "media/emissions.jpg",
           "w": 512,
           "h": 288,
-          "caption": "Voor een scherper beeld, clickability en uitleg ga naar: http://earthcharts.org/emissions-sources/"
+          "caption": "Een scherpere, interactieve versie met uitleg staat op http://earthcharts.org/emissions-sources/"
         },
         {
           "t": "continue"
@@ -1202,7 +1204,7 @@
         },
         {
           "t": "text",
-          "heading": "Check Your Understanding",
+          "heading": "Test je kennis",
           "body": "<p>Test je kennis en reflecteer op wat je hebt geleerd. De volgende vragen helpen je om de kernconcepten uit deze les te herhalen en toe te passen op actuele uitdagingen.</p>"
         },
         {
@@ -1369,7 +1371,8 @@
           "t": "image",
           "src": "media/X-_images_brandspot_new_2022_08_18_iirc-model-vierkant_2022_431350.jpg",
           "w": 520,
-          "h": 520
+          "h": 520,
+          "caption": "Het waardecreatiemodel van het International Integrated Reporting Framework (IIRC, 2021): zes kapitalen gaan het bedrijfsmodel in en komen er als positieve of negatieve uitkomst weer uit."
         },
         {
           "t": "continue"
@@ -1382,7 +1385,8 @@
           "t": "image",
           "src": "media/Meervoudige Waardecreatie in de Praktijk.jpg",
           "w": 1536,
-          "h": 1024
+          "h": 1024,
+          "caption": "Meervoudige waardecreatie in de praktijk: financieel, intellectueel en natuurlijk kapitaal als input, menselijk en sociaal kapitaal in het proces, en geproduceerd, sociaal en financieel kapitaal als output."
         },
         {
           "t": "match",
@@ -1521,22 +1525,22 @@
             {
               "date": "2010",
               "title": "Lancering IIRC Framework",
-              "body": "De eerste internationale standaard voor geïntegreerde rapportage wordt geïntroduceerd. Bedrijven gaan breder rapporteren dan alleen financiën."
+              "body": "<p>De eerste internationale standaard voor geïntegreerde rapportage wordt geïntroduceerd. Bedrijven gaan breder rapporteren dan alleen financiën.</p>"
             },
             {
               "date": "2015",
               "title": "SDG’s en bredere impactrapportage",
-              "body": "De Sustainable Development Goals stimuleren bedrijven om te sturen op maatschappelijke doelen en bredere impact."
+              "body": "<p>De Sustainable Development Goals stimuleren bedrijven om te sturen op maatschappelijke doelen en bredere impact.</p>"
             },
             {
               "date": "2022",
               "title": "CSRD en dubbele materialiteit",
-              "body": "Nieuwe Europese regelgeving verplicht bedrijven tot een dubbele materialiteitsanalyse in hun rapportages."
+              "body": "<p>Nieuwe Europese regelgeving verplicht bedrijven tot een dubbele materialiteitsanalyse in hun rapportages.</p>"
             },
             {
               "date": "Toekomst",
               "title": "Van rapporteren naar sturen",
-              "body": "De verwachting is dat bedrijven steeds meer integraal gaan sturen op meervoudige waarde, niet alleen rapporteren."
+              "body": "<p>De verwachting is dat bedrijven steeds meer integraal gaan sturen op meervoudige waarde, niet alleen rapporteren.</p>"
             }
           ]
         },
@@ -1554,7 +1558,7 @@
         },
         {
           "t": "text",
-          "heading": "Check Your Understanding",
+          "heading": "Test je kennis",
           "body": "<p>Test je kennis en reflecteer op wat je hebt geleerd. De volgende vragen helpen je om de kernconcepten uit deze les te herhalen en toe te passen op praktijkvoorbeelden.</p>"
         },
         {
@@ -1849,7 +1853,7 @@
         },
         {
           "t": "text",
-          "heading": "Check Your Understanding",
+          "heading": "Test je kennis",
           "body": "<p>Test je kennis en reflecteer op wat je hebt geleerd. De volgende opdrachten helpen je om de kernconcepten uit deze les te herhalen en toe te passen op praktijkvoorbeelden.</p>"
         },
         {
@@ -2253,7 +2257,8 @@
           "t": "image",
           "src": "media/ChatGPT Image 17 nov 2025, 14_15_18.jpg",
           "w": 1536,
-          "h": 1024
+          "h": 1024,
+          "caption": "Causal loop diagram van plasticafval, met een recyclingloop, een beleidsloop en een afvalloop."
         },
         {
           "t": "text",
@@ -2375,22 +2380,22 @@
             {
               "date": "Introductie van plastic",
               "title": "Opkomst van plastic",
-              "body": "Plastic werd populair als goedkoop, veelzijdig materiaal en vond snel zijn weg in talloze producten."
+              "body": "<p>Plastic werd populair als goedkoop, veelzijdig materiaal en vond snel zijn weg in talloze producten.</p>"
             },
             {
               "date": "Toename van afval en recyclingpogingen",
               "title": "Eerste recyclinginitiatieven",
-              "body": "Met de groei van plasticafval ontstonden de eerste pogingen tot recycling en het opzetten van inzamelsystemen."
+              "body": "<p>Met de groei van plasticafval ontstonden de eerste pogingen tot recycling en het opzetten van inzamelsystemen.</p>"
             },
             {
               "date": "Marktlock-in en uitdagingen",
               "title": "Concurrentie gerecycled plastic",
-              "body": "Gerecycled plastic bleek vaak duurder en van mindere kwaliteit dan nieuw plastic, waardoor de markt vastliep in een lock-in."
+              "body": "<p>Gerecycled plastic bleek vaak duurder en van mindere kwaliteit dan nieuw plastic, waardoor de markt vastliep in een lock-in.</p>"
             },
             {
               "date": "Beleidsinterventies en innovatie",
               "title": "Zoektocht naar oplossingen",
-              "body": "Overheden en bedrijven experimenteren met belastingen, subsidies en innovatie om de lock-in te doorbreken."
+              "body": "<p>Overheden en bedrijven experimenteren met belastingen, subsidies en innovatie om de lock-in te doorbreken.</p>"
             }
           ]
         },
@@ -2403,7 +2408,7 @@
         },
         {
           "t": "text",
-          "heading": "Check Your Understanding",
+          "heading": "Test je kennis",
           "body": "<p>Test je kennis en reflecteer op wat je hebt geleerd. De volgende opdrachten helpen je om de kernconcepten uit deze les te herhalen en toe te passen op praktijkvoorbeelden.</p>"
         },
         {
@@ -2888,7 +2893,7 @@
         },
         {
           "t": "text",
-          "heading": "Check Your Understanding",
+          "heading": "Test je kennis",
           "body": "<p>Test je kennis en reflecteer op wat je hebt geleerd. De volgende opdrachten helpen je om de kernconcepten uit deze les te herhalen en toe te passen op praktijkvoorbeelden.</p>"
         },
         {
@@ -3067,7 +3072,7 @@
         },
         {
           "t": "text",
-          "heading": "Check Your Understanding: Kennistoets",
+          "heading": "Kennistoets",
           "body": "<p>Test je geïntegreerde kennis met deze afsluitende kennistoets. De vragen zijn bedoeld om je inzicht in de kernconcepten te toetsen en je voor te bereiden op het toepassen van deze kennis in de praktijk. Succes!</p>"
         },
         {
@@ -3100,7 +3105,7 @@
         },
         {
           "t": "match",
-          "question": "Match the given concepts with their correct descriptions based on their systemic and sustainability-related characteristics.",
+          "question": "Koppel elk begrip aan de juiste omschrijving, op basis van de systeem- en duurzaamheidskenmerken.",
           "pairs": [
             {
               "left": "Wicked Problems",
@@ -3135,7 +3140,7 @@
               "right": "Methodisch afwegen van meerdere oplossingsrichtingen waarin elke keuze voor- en nadelen heeft, afhankelijk van waarden en systeemdynamiek."
             }
           ],
-          "feedback": "This matching activity helps you understand and connect complex systemic concepts with their practical descriptions, enhancing your comprehension of sustainability principles."
+          "feedback": "Met deze koppelvraag verbind je complexe systeembegrippen met wat ze in de praktijk betekenen. Zo krijg je meer grip op de principes van duurzaamheid."
         },
         {
           "t": "continue"

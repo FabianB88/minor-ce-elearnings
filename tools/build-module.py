@@ -212,7 +212,7 @@ def vertaal(blok, media_uit):
             punten.append({
                 'date': plat(i.get('date')),
                 'title': plat(i.get('title')),
-                'body': schoon(i.get('description'))
+                'body': als_alinea(schoon(i.get('description')))
             })
         return {'t': 'timeline', 'items': punten} if punten else None
 
@@ -391,6 +391,18 @@ def main():
     for zoek, door in patches.get('text') or []:
         if zoek not in toegepast:
             print('  LET OP: tekstcorrectie niet toegepast: %s' % zoek[:60])
+
+    # Bijschriften bij beeldmateriaal dat er in Rise geen had. Het bijschrift is
+    # ook de alt-tekst, dus zonder is een afbeelding voor een schermlezer niets.
+    beelden = patches.get('captions') or {}
+    for les in lessen:
+        for b in les['blocks']:
+            if b['t'] == 'image' and not b.get('caption'):
+                naam = os.path.basename(b['src'])
+                if naam in beelden:
+                    b['caption'] = beelden[naam]
+                else:
+                    print('  LET OP: afbeelding zonder bijschrift: %s' % naam)
 
     # beeldmateriaal meenemen
     assetmap = patches.get('assets') or os.path.join(

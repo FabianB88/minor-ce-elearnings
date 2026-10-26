@@ -328,6 +328,7 @@ body.cursus {
 figure.beeld { margin: 2rem 0; }
 figure.beeld img {
   width: 100%; height: auto; display: block;
+  margin: 0 auto;
   border-radius: var(--r-kaart);
   background: var(--go-vlak);
 }
@@ -336,7 +337,9 @@ figure.beeld figcaption {
   font-size: 0.8rem;
   color: var(--go-tekst-2);
   text-align: center;
+  line-height: 1.55;
 }
+figure.beeld figcaption a { color: var(--go-groen-donker); }
 
 .video {
   margin: 2rem 0;

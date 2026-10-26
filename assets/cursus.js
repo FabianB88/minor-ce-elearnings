@@ -51,6 +51,26 @@
     return e;
   }
 
+  /* Platte tekst in een element zetten, met webadressen als klikbare link. */
+  function metLinks(doel, tekst) {
+    String(tekst).split(/(https?:\/\/[^\s]+)/).forEach(function (stuk, i) {
+      if (i % 2 === 0) {
+        if (stuk) doel.appendChild(document.createTextNode(stuk));
+        return;
+      }
+      /* Een leesteken aan het eind hoort bij de zin, niet bij het adres. */
+      var staart = (stuk.match(/[.,;:)]+$/) || [''])[0];
+      var adres = stuk.slice(0, stuk.length - staart.length);
+      var a = el('a', null, adres.replace(/^https?:\/\//, '').replace(/\/$/, ''));
+      a.href = adres;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      doel.appendChild(a);
+      if (staart) doel.appendChild(document.createTextNode(staart));
+    });
+    return doel;
+  }
+
   /* Blokken opdelen in segmenten: elk stuk tot aan een doorgaan-knop. */
   function segmenteer(blokken) {
     var segmenten = [];
@@ -203,10 +223,16 @@
            zodat de tekst niet verspringt terwijl hij laadt. */
         img.decoding = 'async';
         img.alt = blok.caption || '';
-        if (blok.w) { img.width = blok.w; img.height = blok.h; }
+        if (blok.w) {
+          img.width = blok.w;
+          img.height = blok.h;
+          /* Niet groter dan het origineel: een klein plaatje opgerekt tot de
+             kolombreedte wordt wazig. */
+          img.style.maxWidth = blok.w + 'px';
+        }
         img.src = blok.src;
         fig.appendChild(img);
-        if (blok.caption) fig.appendChild(el('figcaption', null, blok.caption));
+        if (blok.caption) fig.appendChild(metLinks(el('figcaption'), blok.caption));
         return fig;
       }
 
@@ -221,7 +247,9 @@
           ext.appendChild(el('span', 'speel', '▶'));
           var tekstje = el('span');
           tekstje.appendChild(el('strong', null, blok.title || 'Video'));
-          tekstje.appendChild(el('span', 'bron', 'Bekijk de video op ' + new URL(blok.url).hostname.replace(/^www\./, '') + ' ↗'));
+          var site = 'de site van de maker';
+          try { site = new URL(blok.url).hostname.replace(/^www\./, ''); } catch (e) { /* ongeldige url */ }
+          tekstje.appendChild(el('span', 'bron', 'Bekijk de video op ' + site + ' ↗'));
           ext.appendChild(tekstje);
           houder.appendChild(ext);
           return houder;
