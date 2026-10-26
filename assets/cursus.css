@@ -29,6 +29,11 @@
 
   --r-kaart: 14px;
   --r-knop: 10px;
+
+  /* Eén binnenmaat voor alle kaarten en één inspringing voor lijsten, citaten
+     en de tijdlijn, zodat tekst in verschillende blokken op dezelfde lijn begint. */
+  --binnen: 1.5rem;
+  --inspring: 1.4rem;
 }
 
 body.cursus {
@@ -304,7 +309,9 @@ body.cursus {
   color: var(--go-tekst);
 }
 .blok p { margin: 0 0 1.1rem; }
-.blok ul, .blok ol { margin: 0 0 1.1rem; padding-left: 1.4rem; }
+/* Vangnet voor tekst die zonder <p> binnenkomt. */
+.blok > div { font-size: 1.02rem; line-height: 1.75; }
+.blok ul, .blok ol { margin: 0 0 1.1rem; padding-left: var(--inspring); }
 .blok li { margin-bottom: 0.45rem; }
 .blok li p { margin: 0; }
 .blok li::marker { color: var(--go-groen); }
@@ -350,34 +357,45 @@ figure.beeld figcaption {
   border-radius: var(--r-kaart);
   overflow: hidden;
 }
+/* De knoppen lopen door op een volgende regel in plaats van onzichtbaar opzij
+   te scrollen: anders zag je bij lange namen maar één tabblad. De tekst van de
+   eerste knop lijnt uit met de inhoud eronder. */
 .tab-knoppen {
   display: flex;
-  gap: 0.2rem;
-  padding: 0.4rem 0.4rem 0;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  padding: 0.5rem calc(var(--binnen) - 0.75rem - 1px);
   background: var(--go-vlak);
   border-bottom: 1px solid var(--go-rand);
-  overflow-x: auto;
-  overflow-y: hidden;
-  scrollbar-width: none;
 }
-.tab-knoppen::-webkit-scrollbar { display: none; }
 
 .tab-knoppen button {
-  background: none; border: none;
-  border-radius: 8px 8px 0 0;
-  padding: 0.6rem 0.9rem;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
   font-family: inherit; font-size: 0.86rem; font-weight: 500;
-  color: var(--go-tekst-2); cursor: pointer; white-space: nowrap;
+  line-height: 1.35;
+  text-align: left;
+  color: var(--go-tekst-2); cursor: pointer;
 }
 .tab-knoppen button:hover { color: var(--go-tekst); }
+.tab-knoppen button:focus-visible { outline: 2px solid var(--go-groen); outline-offset: 1px; }
 .tab-knoppen button[aria-selected="true"] {
   background: var(--go-kaart);
+  border-color: var(--go-rand);
   color: var(--go-groen);
   font-weight: 600;
 }
-.tab-inhoud { padding: 1.4rem; }
-.tab-inhoud p { font-size: 1rem; line-height: 1.72; }
-.tab-inhoud p:last-child { margin-bottom: 0; }
+.tab-inhoud { padding: var(--binnen); }
+.tab-inhoud ul, .tab-inhoud ol,
+.accordeon-inhoud ul, .accordeon-inhoud ol { margin: 0 0 0.9rem; padding-left: var(--inspring); }
+.tab-inhoud li, .accordeon-inhoud li { font-size: 1rem; line-height: 1.72; margin-bottom: 0.4rem; }
+.tab-inhoud li p, .accordeon-inhoud li p { margin: 0; }
+.tab-inhoud li::marker, .accordeon-inhoud li::marker { color: var(--go-groen); }
+.tab-inhoud > :last-child, .accordeon-inhoud > :last-child { margin-bottom: 0; }
+.tab-inhoud p { font-size: 1rem; line-height: 1.72; margin: 0 0 0.9rem; }
+.tab-inhoud > :first-child, .accordeon-inhoud > :first-child { margin-top: 0; }
 
 /* kennisvragen */
 
@@ -387,7 +405,7 @@ figure.beeld figcaption {
   border: 1px solid var(--go-rand);
   border-radius: var(--r-kaart);
   box-shadow: var(--go-schaduw);
-  padding: 1.6rem;
+  padding: var(--binnen);
 }
 
 .vraag .label {
@@ -396,11 +414,14 @@ figure.beeld figcaption {
   margin-bottom: 0.7rem;
 }
 
-.vraag .stelling p {
+/* De vraagtekst komt soms als losse tekst en soms in alinea's binnen. */
+.vraag .stelling {
   margin: 0 0 1.2rem;
   font-size: 1.02rem; line-height: 1.6; font-weight: 600;
   color: var(--go-tekst);
 }
+.vraag .stelling p { margin: 0 0 0.6rem; }
+.vraag .stelling p:last-child { margin-bottom: 0; }
 
 .opties { display: grid; gap: 0.5rem; }
 
@@ -467,7 +488,7 @@ figure.beeld figcaption {
 
 .uitslag {
   margin-top: 1.1rem;
-  padding: 0.9rem 1.05rem;
+  padding: 0.9rem 1rem;
   border-radius: var(--r-knop);
   font-size: 0.92rem;
   line-height: 1.55;
@@ -475,33 +496,116 @@ figure.beeld figcaption {
 .uitslag.goed { background: var(--go-groen-licht); color: var(--go-groen-donker); }
 .uitslag.fout { background: var(--go-rood-licht); color: var(--go-rood); }
 
-/* koppelvraag */
+/* koppelvraag en sorteeropdracht */
 
-.koppels { display: grid; gap: 0.6rem; }
-.koppel {
+.omschrijvingen {
+  list-style: none;
+  margin: 0 0 1.4rem;
+  padding: 0;
   display: grid;
-  grid-template-columns: minmax(7rem, 34%) 1fr;
-  gap: 0.7rem;
-  align-items: center;
+  gap: 0.45rem;
 }
-.koppel .links {
-  font-weight: 600; font-size: 0.92rem;
-  background: var(--go-vlak);
+.omschrijvingen li {
+  display: grid;
+  grid-template-columns: 1.75rem 1fr;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.7rem 1rem;
+  border: 1px solid transparent;
   border-radius: var(--r-knop);
-  padding: 0.75rem 0.85rem;
+  background: var(--go-vlak);
+  font-size: 0.92rem;
+  line-height: 1.55;
 }
-.koppel select {
-  font-family: inherit; font-size: 0.92rem;
-  padding: 0.7rem 0.75rem;
+.letter {
+  width: 1.75rem; height: 1.75rem;
+  border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--go-kaart);
+  border: 1px solid var(--go-rand);
+  color: var(--go-groen-donker);
+  font-size: 0.78rem; font-weight: 600;
+  line-height: 1;
+}
+.omschrijvingen li > span:last-child { padding-top: 0.12rem; }
+
+.keuzerijen { display: grid; gap: 0.6rem; }
+.keuzerij {
+  padding: 0.85rem 1rem;
   border: 1px solid var(--go-rand);
   border-radius: var(--r-knop);
   background: var(--go-kaart);
-  color: var(--go-tekst);
-  width: 100%;
+  transition: border-color 0.12s ease, background 0.12s ease;
 }
-.koppel select:focus { outline: none; border-color: var(--go-groen); border-width: 1.5px; }
-.koppel.goed select { border-color: var(--go-groen); background: var(--go-groen-licht); }
-.koppel.fout select { border-color: var(--go-rood); background: var(--go-rood-licht); }
+.keuzerij-tekst {
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin-bottom: 0.65rem;
+}
+.keuzeknoppen { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.keuzeknop {
+  font-family: inherit;
+  font-size: 0.84rem; font-weight: 500;
+  line-height: 1.35;
+  text-align: left;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--go-rand);
+  border-radius: 8px;
+  background: var(--go-kaart);
+  color: var(--go-tekst);
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+.met-letters .keuzeknop {
+  width: 2.4rem; height: 2.4rem;
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+}
+.keuzeknop:hover:not(:disabled) { border-color: var(--go-groen); background: var(--go-groen-licht); }
+.keuzeknop:focus-visible { outline: 2px solid var(--go-groen); outline-offset: 2px; }
+.keuzeknop[aria-pressed="true"] { border-color: var(--go-groen); background: var(--go-groen); color: #fff; }
+.keuzeknop:disabled { cursor: default; }
+.keuzeknop:disabled:not([aria-pressed="true"]) { opacity: 0.45; }
+
+.keuzerij-gekozen:empty { display: none; }
+.keuzerij-gekozen {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--go-tekst-3);
+}
+.keuzerij-correctie {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--go-rood-licht);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--go-groen-donker);
+}
+
+/* Met letters past het begrip naast de knoppen; de knoppen vormen zo een
+   rechte kolom. Daaronder de gekozen omschrijving en een eventuele correctie. */
+.met-letters .keuzerij {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 1rem;
+  align-items: center;
+}
+.met-letters .keuzerij-tekst { margin-bottom: 0; }
+.met-letters .keuzerij-gekozen,
+.met-letters .keuzerij-correctie { grid-column: 1 / -1; }
+
+@media (max-width: 640px) {
+  .met-letters .keuzerij { grid-template-columns: 1fr; }
+  .met-letters .keuzerij-tekst { margin-bottom: 0.65rem; }
+}
+
+.keuzerij.goed { border-color: var(--go-groen); background: var(--go-groen-licht); }
+.keuzerij.fout { border-color: var(--go-rood); background: var(--go-rood-licht); }
+.keuzerij.fout .keuzeknop[aria-pressed="true"] { border-color: var(--go-rood); background: var(--go-rood); }
+.keuzerij.fout .keuzerij-correctie { border-top-color: rgba(192, 57, 43, 0.25); }
 
 /* doorgaan-knop */
 
@@ -556,14 +660,13 @@ figure.beeld figcaption {
 .afronding .knoppen { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
 
 @media (max-width: 640px) {
+  .cursus { --binnen: 1.15rem; }
   .hero { padding: 3rem 0; }
   .hero-inner, .modules, .lezer, .leesbalk-inner { padding-left: 1.25rem; padding-right: 1.25rem; }
   .modules { padding-bottom: 4rem; }
   .lezer { padding-top: 2rem; padding-bottom: 4rem; }
   .module-kaart { grid-template-columns: auto 1fr; }
   .module-kaart .pijl { display: none; }
-  .koppel { grid-template-columns: 1fr; gap: 0.35rem; }
-  .vraag { padding: 1.25rem; }
 }
 
 /* schema's */
@@ -574,7 +677,7 @@ figure.schema { margin: 2.25rem 0; }
   background: var(--go-kaart);
   border: 1px solid var(--go-rand);
   border-radius: var(--r-kaart);
-  padding: 1.5rem 1.25rem;
+  padding: var(--binnen);
   overflow-x: auto;
 }
 
@@ -609,7 +712,7 @@ figure.schema figcaption {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 1rem 1.4rem;
+  padding: 1rem var(--binnen);
   font-weight: 600;
   font-size: 0.98rem;
   cursor: pointer;
@@ -623,7 +726,7 @@ figure.schema figcaption {
 }
 .accordeon details[open] summary::after { content: '−'; }
 .accordeon summary:hover { color: var(--go-groen); }
-.accordeon-inhoud { padding: 0 1.4rem 1.2rem; }
+.accordeon-inhoud { padding: 0 var(--binnen) 1.2rem; }
 .accordeon-inhoud p { font-size: 1rem; line-height: 1.72; margin: 0 0 0.9rem; }
 .accordeon-inhoud p:last-child { margin-bottom: 0; }
 
@@ -666,7 +769,7 @@ figure.schema figcaption {
 
 blockquote.statement {
   margin: 2.5rem 0;
-  padding: 0.4rem 0 0.4rem 1.4rem;
+  padding: 0.4rem 0 0.4rem calc(var(--inspring) - 3px);
   border-left: 3px solid var(--go-groen);
   font-size: 1.25rem;
   line-height: 1.5;
@@ -698,7 +801,7 @@ blockquote.statement p { margin: 0; }
 .tijdlijn {
   list-style: none;
   margin: 2rem 0;
-  padding: 0 0 0 1.6rem;
+  padding: 0 0 0 calc(var(--inspring) - 2px);
   border-left: 2px solid var(--go-groen-medium);
 }
 .tijdlijn li { position: relative; margin: 0 0 1.6rem; }
@@ -706,7 +809,7 @@ blockquote.statement p { margin: 0; }
 .tijdlijn li::before {
   content: '';
   position: absolute;
-  left: calc(-1.6rem - 7px);
+  left: calc(-1 * var(--inspring) - 7px);
   top: 0.3rem;
   width: 12px; height: 12px;
   border-radius: 50%;
@@ -729,7 +832,7 @@ blockquote.statement p { margin: 0; }
   border: 1px solid var(--go-rand);
   border-radius: var(--r-kaart);
   box-shadow: var(--go-schaduw);
-  padding: 1.6rem;
+  padding: var(--binnen);
 }
 .stappenplan .label {
   font-size: 0.7rem; font-weight: 600; letter-spacing: 0.09em;
@@ -758,7 +861,7 @@ blockquote.statement p { margin: 0; }
 .stappen p { margin: 0.1rem 0 0; font-size: 0.93rem; line-height: 1.6; color: var(--go-tekst-3); }
 .stappen-slot {
   margin-top: 0.4rem;
-  padding: 1rem 1.1rem;
+  padding: 1rem;
   border-radius: var(--r-knop);
   background: var(--go-vlak);
 }
@@ -775,18 +878,7 @@ blockquote.statement p { margin: 0; }
   color: var(--go-tekst-3);
 }
 
-/* sorteeropdracht: hergebruikt de koppelrijen */
-
-.koppel .hoort-bij {
-  grid-column: 2;
-  margin-top: -0.3rem;
-  font-size: 0.8rem;
-  color: var(--go-groen-donker);
-}
-
 @media (max-width: 640px) {
-  .koppel .hoort-bij { grid-column: 1; margin-top: 0; }
-  .stappenplan { padding: 1.25rem; }
 }
 
 /* video op een externe site */
@@ -794,7 +886,7 @@ blockquote.statement p { margin: 0; }
 .video-extern {
   display: flex; align-items: center; gap: 1rem;
   margin: 2rem 0;
-  padding: 1.1rem 1.25rem;
+  padding: 1.1rem var(--binnen);
   background: var(--go-kaart);
   border: 1px solid var(--go-rand);
   border-radius: var(--r-kaart);
@@ -816,3 +908,7 @@ blockquote.statement p { margin: 0; }
 }
 .video-extern strong { display: block; font-size: 0.95rem; font-weight: 600; line-height: 1.4; }
 .video-extern .bron { display: block; margin-top: 0.2rem; font-size: 0.8rem; color: var(--go-groen-donker); }
+
+@media (max-width: 640px) {
+  .kaartje { min-height: 6.5rem; }
+}

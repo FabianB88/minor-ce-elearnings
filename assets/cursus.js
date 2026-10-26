@@ -533,40 +533,56 @@
     return kaart;
   }
 
-  /* -------------------------------------------- koppelvraag */
+  /* -------------------------------------------- keuzerijen */
 
-  function tekenKoppel(blok, moduleId, segIndex, blokIndex, opWijziging) {
+  /* Gedeelde opbouw voor de koppelvraag en de sorteeropdracht: per rij een
+     onderdeel met daaronder knoppen om uit te kiezen. Geen uitklaplijst, want
+     lange omschrijvingen vielen daarin buiten beeld.
+
+     cfg.rijen:    [{ tekst, sleutel, juist }] in weergavevolgorde. sleutel is de
+                   plek in het bewaarde antwoord, juist de waarde die goed is.
+     cfg.opties:   [{ knop, waarde, tekst }]. knop is wat op de knop staat.
+     cfg.uniek:    een optie hoort bij hoogstens één rij.
+     cfg.toonKeuze: de volledige tekst van de gekozen optie onder de knoppen.
+     cfg.correctie(rij): tekst onder een fout beantwoorde rij. */
+  function tekenKeuzeVraag(cfg, moduleId, segIndex, blokIndex, opWijziging) {
     var id = vraagId(moduleId, segIndex, blokIndex);
     var ms = moduleStaat(moduleId);
     var bewaard = ms.antwoorden[id];
 
     var kaart = el('div', 'vraag');
-    kaart.appendChild(el('div', 'label', 'Koppelvraag'));
-    kaart.appendChild(html('div', 'stelling', blok.question));
+    kaart.appendChild(el('div', 'label', cfg.label));
+    kaart.appendChild(cfg.stelling);
+    if (cfg.voorRijen) kaart.appendChild(cfg.voorRijen);
 
-    /* Vaste, maar per vraag verschillende volgorde van de omschrijvingen. */
-    var rechts = blok.pairs.map(function (p, i) { return { tekst: p.right, bij: i }; });
-    var zaad = 0;
-    for (var c = 0; c < id.length; c++) zaad = (zaad * 31 + id.charCodeAt(c)) % 100000;
-    rechts.sort(function (a, b) {
-      return ((a.bij * 7919 + zaad) % 1000) - ((b.bij * 7919 + zaad) % 1000);
-    });
+    var keuze = cfg.rijen.map(function () { return ''; });
+    var nagekeken = false;
 
-    var houder = el('div', 'koppels');
-    var kiezers = [];
+    var houder = el('div', 'keuzerijen' + (cfg.letters ? ' met-letters' : ''));
+    var rijen = cfg.rijen.map(function (r) {
+      var rij = el('div', 'keuzerij');
+      var kop = el('div', 'keuzerij-tekst', r.tekst);
+      kop.id = id.replace(/:/g, '-') + '-' + r.sleutel;
+      rij.appendChild(kop);
 
-    blok.pairs.forEach(function (paar, i) {
-      var rij = el('div', 'koppel');
-      rij.appendChild(el('div', 'links', paar.left));
-      var sel = document.createElement('select');
-      sel.appendChild(new Option('Kies een omschrijving…', ''));
-      rechts.forEach(function (r) { sel.appendChild(new Option(r.tekst, String(r.bij))); });
-      sel.addEventListener('change', function () {
-        nakijkKnop.disabled = kiezers.some(function (s) { return !s.value; });
+      var groep = el('div', 'keuzeknoppen');
+      groep.setAttribute('role', 'group');
+      groep.setAttribute('aria-labelledby', kop.id);
+      var knoppen = cfg.opties.map(function (o) {
+        var k = el('button', 'keuzeknop', o.knop);
+        k.type = 'button';
+        k.setAttribute('aria-pressed', 'false');
+        if (o.tekst && o.tekst !== o.knop) k.setAttribute('aria-label', o.knop + ': ' + o.tekst);
+        k.addEventListener('click', function () { kies(r.sleutel, o.waarde); });
+        groep.appendChild(k);
+        return k;
       });
-      rij.appendChild(sel);
-      kiezers.push(sel);
+      rij.appendChild(groep);
+
+      var gekozen = el('div', 'keuzerij-gekozen');
+      rij.appendChild(gekozen);
       houder.appendChild(rij);
+      return { r: r, rij: rij, knoppen: knoppen, gekozen: gekozen };
     });
     kaart.appendChild(houder);
 
@@ -584,22 +600,52 @@
     var uitslagVak = el('div');
     kaart.appendChild(uitslagVak);
 
-    function toonUitslag(keuze) {
-      var goedAantal = 0;
-      kiezers.forEach(function (sel, i) {
-        sel.value = keuze[i];
-        sel.disabled = true;
-        var rij = sel.parentElement;
-        if (String(keuze[i]) === String(i)) { rij.classList.add('goed'); goedAantal++; }
-        else rij.classList.add('fout');
+    function optieBij(waarde) {
+      return cfg.opties.find(function (o) { return o.waarde === String(waarde); });
+    }
+
+    function werkBij() {
+      rijen.forEach(function (x) {
+        var w = keuze[x.r.sleutel];
+        x.knoppen.forEach(function (k, j) {
+          k.setAttribute('aria-pressed', cfg.opties[j].waarde === w ? 'true' : 'false');
+        });
+        var o = w !== '' ? optieBij(w) : null;
+        x.gekozen.textContent = (cfg.toonKeuze && o) ? o.tekst : '';
+        x.rij.classList.toggle('gekozen', !!o);
       });
-      var alles = goedAantal === blok.pairs.length;
+      nakijkKnop.disabled = keuze.some(function (w) { return w === ''; });
+    }
+
+    function kies(sleutel, waarde) {
+      if (nagekeken) return;
+      if (cfg.uniek) {
+        keuze.forEach(function (w, n) { if (w === waarde && n !== sleutel) keuze[n] = ''; });
+      }
+      keuze[sleutel] = keuze[sleutel] === waarde ? '' : waarde;
+      werkBij();
+    }
+
+    function toonUitslag(antwoord) {
+      nagekeken = true;
+      keuze = antwoord.map(String);
+      werkBij();
+      var goedAantal = 0;
+      rijen.forEach(function (x) {
+        x.knoppen.forEach(function (k) { k.disabled = true; });
+        if (keuze[x.r.sleutel] === String(x.r.juist)) {
+          x.rij.classList.add('goed');
+          goedAantal++;
+        } else {
+          x.rij.classList.add('fout');
+          x.rij.appendChild(el('div', 'keuzerij-correctie', cfg.correctie(x.r)));
+        }
+      });
+      var alles = goedAantal === rijen.length;
       uitslagVak.innerHTML = '';
       var u = el('div', 'uitslag ' + (alles ? 'goed' : 'fout'));
-      var uitleg = (!alles && blok.feedbackWrong) ? blok.feedbackWrong : blok.feedback;
-      u.textContent = (alles
-        ? 'Allemaal goed gekoppeld.'
-        : goedAantal + ' van de ' + blok.pairs.length + ' goed. De juiste koppelingen staan groen.')
+      var uitleg = (!alles && cfg.feedbackWrong) ? cfg.feedbackWrong : cfg.feedback;
+      u.textContent = (alles ? cfg.allesGoed : goedAantal + ' van de ' + rijen.length + ' goed. ' + cfg.deelsGoed)
         + (uitleg ? ' ' + uitleg : '');
       uitslagVak.appendChild(u);
       nakijkKnop.style.display = 'none';
@@ -608,9 +654,9 @@
     }
 
     nakijkKnop.addEventListener('click', function () {
-      var keuze = kiezers.map(function (s) { return s.value; });
-      var goed = toonUitslag(keuze);
-      ms.antwoorden[id] = { keuze: keuze, goed: goed };
+      var antwoord = keuze.slice();
+      var goed = toonUitslag(antwoord);
+      ms.antwoorden[id] = { keuze: antwoord, goed: goed };
       bewaar();
       opWijziging();
     });
@@ -618,14 +664,17 @@
     opnieuwKnop.addEventListener('click', function () {
       delete ms.antwoorden[id];
       bewaar();
-      kiezers.forEach(function (s) {
-        s.disabled = false;
-        s.value = '';
-        s.parentElement.classList.remove('goed', 'fout');
+      nagekeken = false;
+      keuze = keuze.map(function () { return ''; });
+      rijen.forEach(function (x) {
+        x.knoppen.forEach(function (k) { k.disabled = false; });
+        x.rij.classList.remove('goed', 'fout');
+        var weg = x.rij.querySelector('.keuzerij-correctie');
+        if (weg) weg.remove();
       });
+      werkBij();
       uitslagVak.innerHTML = '';
       nakijkKnop.style.display = '';
-      nakijkKnop.disabled = true;
       opnieuwKnop.style.display = 'none';
       opWijziging();
     });
@@ -636,112 +685,67 @@
     return kaart;
   }
 
+  /* -------------------------------------------- koppelvraag */
+
+  /* De omschrijvingen staan voluit als genummerde kaartjes boven de vraag; per
+     begrip kies je de letter. Het bewaarde antwoord is per begrip de index van
+     het paar waar de gekozen omschrijving bij hoort. */
+  function tekenKoppel(blok, moduleId, segIndex, blokIndex, opWijziging) {
+    var id = vraagId(moduleId, segIndex, blokIndex);
+    var letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+    var opties = husselVolgorde(id, blok.pairs.length).map(function (bij, n) {
+      return { knop: letters[n], waarde: String(bij), tekst: blok.pairs[bij].right };
+    });
+
+    var lijst = el('ol', 'omschrijvingen');
+    opties.forEach(function (o) {
+      var li = el('li');
+      li.appendChild(el('span', 'letter', o.knop));
+      li.appendChild(el('span', null, o.tekst));
+      lijst.appendChild(li);
+    });
+
+    return tekenKeuzeVraag({
+      label: 'Koppelvraag',
+      stelling: html('div', 'stelling', blok.question),
+      voorRijen: lijst,
+      letters: true,
+      uniek: true,
+      toonKeuze: true,
+      rijen: blok.pairs.map(function (p, i) { return { tekst: p.left, sleutel: i, juist: i }; }),
+      opties: opties,
+      correctie: function (r) {
+        var o = opties.find(function (x) { return x.waarde === String(r.juist); });
+        return 'Juist is ' + o.knop + ': ' + o.tekst;
+      },
+      allesGoed: 'Allemaal goed gekoppeld.',
+      deelsGoed: 'Bij de rode staat de juiste omschrijving.',
+      feedback: blok.feedback,
+      feedbackWrong: blok.feedbackWrong
+    }, moduleId, segIndex, blokIndex, opWijziging);
+  }
+
   /* -------------------------------------------- sorteeropdracht */
 
   function tekenSorteer(blok, moduleId, segIndex, blokIndex, opWijziging) {
     var id = vraagId(moduleId, segIndex, blokIndex);
-    var ms = moduleStaat(moduleId);
-    var bewaard = ms.antwoorden[id];
-
-    var kaart = el('div', 'vraag');
-    kaart.appendChild(el('div', 'label', 'Sorteeropdracht'));
     var stelling = el('div', 'stelling');
     stelling.appendChild(el('p', null, blok.question || 'Bij welke categorie hoort elk onderdeel?'));
-    kaart.appendChild(stelling);
 
     /* In de bron staan de kaartjes per categorie gegroepeerd; dat verraadt het
-       antwoord, dus husselen we ze. */
-    var volgorde = husselVolgorde(id, blok.items.length);
-
-    var houder = el('div', 'koppels');
-    var kiezers = [];
-    volgorde.forEach(function (n) {
-      var item = blok.items[n];
-      var rij = el('div', 'koppel');
-      rij.appendChild(el('div', 'links', item.text));
-      var sel = document.createElement('select');
-      sel.appendChild(new Option('Kies een categorie…', ''));
-      blok.piles.forEach(function (p, j) { sel.appendChild(new Option(p, String(j))); });
-      sel.addEventListener('change', function () {
-        nakijkKnop.disabled = kiezers.some(function (k) { return !k.sel.value; });
-      });
-      rij.appendChild(sel);
-      kiezers.push({ sel: sel, item: item, rij: rij });
-      houder.appendChild(rij);
-    });
-    kaart.appendChild(houder);
-
-    var acties = el('div', 'vraag-acties');
-    var nakijkKnop = el('button', 'knop-klein', 'Nakijken');
-    nakijkKnop.type = 'button';
-    nakijkKnop.disabled = true;
-    var opnieuwKnop = el('button', 'knop-klein stil', 'Opnieuw proberen');
-    opnieuwKnop.type = 'button';
-    opnieuwKnop.style.display = 'none';
-    acties.appendChild(nakijkKnop);
-    acties.appendChild(opnieuwKnop);
-    kaart.appendChild(acties);
-
-    var uitslagVak = el('div');
-    kaart.appendChild(uitslagVak);
-
-    /* keuze is per kaartje in bronvolgorde, zodat een bewaard antwoord niet
-       afhangt van de hussel. */
-    function toonUitslag(keuze) {
-      var goedAantal = 0;
-      kiezers.forEach(function (k) {
-        var n = blok.items.indexOf(k.item);
-        k.sel.value = keuze[n];
-        k.sel.disabled = true;
-        if (String(keuze[n]) === String(k.item.pile)) { k.rij.classList.add('goed'); goedAantal++; }
-        else {
-          k.rij.classList.add('fout');
-          k.rij.appendChild(el('div', 'hoort-bij', 'Hoort bij: ' + blok.piles[k.item.pile]));
-        }
-      });
-      var alles = goedAantal === blok.items.length;
-      uitslagVak.innerHTML = '';
-      var u = el('div', 'uitslag ' + (alles ? 'goed' : 'fout'));
-      u.textContent = alles
-        ? 'Alles in de juiste categorie.'
-        : goedAantal + ' van de ' + blok.items.length + ' goed. Bij de rode staat waar ze wel horen.';
-      uitslagVak.appendChild(u);
-      nakijkKnop.style.display = 'none';
-      opnieuwKnop.style.display = alles ? 'none' : '';
-      return alles;
-    }
-
-    nakijkKnop.addEventListener('click', function () {
-      var keuze = blok.items.map(function (item) {
-        return kiezers.find(function (k) { return k.item === item; }).sel.value;
-      });
-      var goed = toonUitslag(keuze);
-      ms.antwoorden[id] = { keuze: keuze, goed: goed };
-      bewaar();
-      opWijziging();
-    });
-
-    opnieuwKnop.addEventListener('click', function () {
-      delete ms.antwoorden[id];
-      bewaar();
-      kiezers.forEach(function (k) {
-        k.sel.disabled = false;
-        k.sel.value = '';
-        k.rij.classList.remove('goed', 'fout');
-        var weg = k.rij.querySelector('.hoort-bij');
-        if (weg) weg.remove();
-      });
-      uitslagVak.innerHTML = '';
-      nakijkKnop.style.display = '';
-      nakijkKnop.disabled = true;
-      opnieuwKnop.style.display = 'none';
-      opWijziging();
-    });
-
-    if (bewaard) toonUitslag(bewaard.keuze);
-
-    kaart.dataset.vraag = id;
-    return kaart;
+       antwoord, dus husselen we ze. Het bewaarde antwoord volgt de bronvolgorde. */
+    return tekenKeuzeVraag({
+      label: 'Sorteeropdracht',
+      stelling: stelling,
+      rijen: husselVolgorde(id, blok.items.length).map(function (n) {
+        return { tekst: blok.items[n].text, sleutel: n, juist: blok.items[n].pile };
+      }),
+      opties: blok.piles.map(function (p, j) { return { knop: p, waarde: String(j), tekst: p }; }),
+      correctie: function (r) { return 'Hoort bij: ' + blok.piles[r.juist]; },
+      allesGoed: 'Alles in de juiste categorie.',
+      deelsGoed: 'Bij de rode staat waar ze wel horen.'
+    }, moduleId, segIndex, blokIndex, opWijziging);
   }
 
   /* ------------------------------------------------------------ modulepagina */

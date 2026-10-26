@@ -60,6 +60,14 @@ def schoon(html):
     return s.strip()
 
 
+def als_alinea(html):
+    """Rise levert lopende tekst soms zonder <p>. Dan valt hij buiten de opmaak
+    voor leestekst, dus zetten we er een alinea omheen."""
+    if html and not re.match(r'\s*<(?:p|ul|ol|h\d|div|table|blockquote|figure)\b', html):
+        return '<p>%s</p>' % html
+    return html
+
+
 def plat(rauw):
     """Alleen de tekst, voor titels en antwoorden.
 
@@ -113,7 +121,7 @@ def vertaal(blok, media_uit):
         kop = schoon(eerste.get('heading'))
         if kop:
             uit['heading'] = plat(kop)
-        lijf = schoon(eerste.get('paragraph'))
+        lijf = als_alinea(schoon(eerste.get('paragraph')))
         if lijf:
             uit['body'] = lijf
         return uit if (uit.get('heading') or uit.get('body')) else None
@@ -169,7 +177,7 @@ def vertaal(blok, media_uit):
         for i in items:
             tabs.append({
                 'title': plat(i.get('title')) or 'Tab',
-                'body': schoon(i.get('description'))
+                'body': als_alinea(schoon(i.get('description')))
             })
         return {'t': var, 'items': tabs} if tabs else None
 
