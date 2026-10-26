@@ -1,0 +1,15 @@
+{
+  "_toelichting": "Omzetting van de Rise-cursus die nu nog als SCORM-pakket in courses/duurzaamheid-fundamenten staat. Het pakket blijft staan tot deze module is nagekeken; daarom een eigen slug en leest het script het beeldmateriaal uit die map.",
+  "title": "Duurzaamheid, circulariteit en systeemdenken",
+  "subtitle": "Fundamenten voor de circulaire economie",
+  "author": "Fabian Berndsen en Seyma Bulut",
+  "intro": "Negen modules over hoe ecologische, economische en sociale systemen met elkaar samenhangen. Je leert de wetenschappelijke basis en de actuele dilemma's kennen, en past ze toe op casussen uit het Nederlandse bedrijfsleven, beleid en infrastructuur. Je werkt ze in je eigen tempo door; elke module bevat kennisvragen.",
+  "assets": "courses/duurzaamheid-fundamenten/scormcontent/assets",
+  "lessons": {},
+  "text": [
+    [
+      "href=\"https://www.circulairondernemen.nl.Voor\">https://www.circulairondernemen.nl.<br></a>Voor",
+      "href=\"https://www.circulairondernemen.nl\">https://www.circulairondernemen.nl</a>.<br>Voor"
+    ]
+  ]
+}

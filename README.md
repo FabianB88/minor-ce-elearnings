@@ -53,10 +53,19 @@ Het script leest die, vertaalt de blokken en kopieert het beeldmateriaal naar
 Kon je in Rise wijzigingen niet meer publiceren? Zet ze dan in een patchbestand
 (zie `tools/business-ethics.patches.json`): daarin overschrijf je titels en
 vervang of verwijder je losse blokken, zonder de export opnieuw te hoeven maken.
+Voor kleine fouten is er `text`: een lijst van `[zoek, vervang]`-paren die op
+alle tekst in de module worden toegepast (zie
+`tools/duurzaamheid-systeemdenken.patches.json`). Het veld `assets` wijst naar
+een andere map met beeldmateriaal, als de slug van de module afwijkt van die
+van het pakket.
 
-Ondersteunde bloktypen: tekst, opsomming, afbeelding, YouTube-video, tabbladen,
-meerkeuze, meervoudige keuze en koppelvragen. De doorgaan-blokken van Rise worden
-de knoppen waarmee de student stap voor stap door de module klikt.
+Ondersteunde bloktypen: tekst, opsomming, afbeelding, video (YouTube en Vimeo
+ingebed, andere sites als knop), tabbladen, uitklapblokken, begrippenkaartjes,
+statements, linkknoppen, tijdlijnen, stappenplannen, meerkeuze, meervoudige
+keuze, koppelvragen en sorteeropdrachten. Invulvragen slaat het script over:
+Rise kijkt ze letterlijk na, en een open vraag zonder nakijken werkt niet. De
+doorgaan-blokken van Rise worden de knoppen waarmee de student stap voor stap
+door de module klikt.
 
 ## De bouwvolgorde van een module
 
@@ -83,9 +92,16 @@ de inhoud veranderen, pas dan het patch- of vragenbestand aan en draai opnieuw.
 
 ## Bloktypen in een module
 
-`text`, `list`, `image`, `video`, `tabs`, `quiz` (meerkeuze en meervoudig),
-`match` (koppelvraag), `svg` (schema) en `continue` (de doorgaan-knop die de
-inhoud in leesstappen verdeelt).
+`text`, `list`, `image`, `video`, `tabs`, `accordion` (uitklapblok), `cards`
+(begrippenkaartjes), `quote` (statement), `links` (linkknoppen), `timeline`,
+`steps` (stappenplan), `quiz` (meerkeuze en meervoudig, eventueel met uitleg per
+antwoord), `match` (koppelvraag), `sort` (sorteeropdracht), `svg` (schema) en
+`continue` (de doorgaan-knop die de inhoud in leesstappen verdeelt). `quiz`,
+`match` en `sort` moeten beantwoord zijn voordat de doorgaan-knop opengaat.
+
+`duurzaamheid-systeemdenken` is de omgezette versie van het SCORM-pakket
+`duurzaamheid-fundamenten`. Die module heeft alleen build-module nodig: hij komt
+niet uit Word, dus opschonen en vragen zijn niet van toepassing.
 
 Een `svg`-blok bevat een inline schema dat de kleurtokens van het thema gebruikt,
 plus een `alt` voor schermlezers en een `caption` eronder.

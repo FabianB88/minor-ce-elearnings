@@ -18,5 +18,12 @@
     "title": "Duurzaamheid, circulariteit en systeemdenken",
     "description": "Fundamenten voor de circulaire economie: R-ladder, kringlopen, circulaire businessmodellen en meervoudige waardecreatie.",
     "entry": "courses/duurzaamheid-fundamenten/scormdriver/indexAPI.html"
+  },
+  {
+    "slug": "duurzaamheid-systeemdenken",
+    "title": "Duurzaamheid, circulariteit en systeemdenken (nieuwe versie)",
+    "description": "Dezelfde cursus, omgezet naar de eigen speler. Staat naast het SCORM-pakket tot hij is nagekeken.",
+    "href": "cursus.html?m=duurzaamheid-systeemdenken",
+    "engine": "eigen"
   }
 ]

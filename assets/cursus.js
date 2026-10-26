@@ -212,11 +212,29 @@
 
       case 'video': {
         var houder = el('div');
+        if (blok.url) {
+          /* Video op een site die niet in een iframe wil, zoals NOS of NASA. */
+          var ext = el('a', 'video-extern');
+          ext.href = blok.url;
+          ext.target = '_blank';
+          ext.rel = 'noopener';
+          ext.appendChild(el('span', 'speel', '▶'));
+          var tekstje = el('span');
+          tekstje.appendChild(el('strong', null, blok.title || 'Video'));
+          tekstje.appendChild(el('span', 'bron', 'Bekijk de video op ' + new URL(blok.url).hostname.replace(/^www\./, '') + ' ↗'));
+          ext.appendChild(tekstje);
+          houder.appendChild(ext);
+          return houder;
+        }
         var kader = el('div', 'video');
         var fr = document.createElement('iframe');
-        var params = 'rel=0&modestbranding=1';
-        if (blok.start) params += '&start=' + blok.start;
-        fr.src = 'https://www.youtube-nocookie.com/embed/' + blok.youtube + '?' + params;
+        if (blok.vimeo) {
+          fr.src = 'https://player.vimeo.com/video/' + blok.vimeo + '?dnt=1';
+        } else {
+          var params = 'rel=0&modestbranding=1';
+          if (blok.start) params += '&start=' + blok.start;
+          fr.src = 'https://www.youtube-nocookie.com/embed/' + blok.youtube + '?' + params;
+        }
         fr.title = blok.title || 'Video';
         fr.loading = 'lazy';
         fr.allow = 'accelerometer; clipboard-write; encrypted-media; picture-in-picture; fullscreen';
@@ -271,13 +289,128 @@
         return fig;
       }
 
+      case 'accordion': {
+        var acc = el('div', 'accordeon');
+        blok.items.forEach(function (item) {
+          var d = document.createElement('details');
+          d.appendChild(el('summary', null, item.title));
+          d.appendChild(html('div', 'accordeon-inhoud', item.body));
+          acc.appendChild(d);
+        });
+        return acc;
+      }
+
+      case 'cards': {
+        /* Begrippenkaartjes: voorkant het begrip, achterkant de uitleg. Beide
+           kanten liggen in dezelfde rastercel, zodat het kaartje even hoog blijft
+           als het omdraait. */
+        var houder2 = el('div', 'kaartjes-blok');
+        houder2.appendChild(el('div', 'kaartjes-hint', 'Klik op een kaartje om het om te draaien.'));
+        var rooster = el('div', 'kaartjes');
+        blok.items.forEach(function (k) {
+          var kaartje = el('div', 'kaartje');
+          kaartje.setAttribute('role', 'button');
+          kaartje.tabIndex = 0;
+          kaartje.setAttribute('aria-pressed', 'false');
+          kaartje.appendChild(html('div', 'voorkant', k.front));
+          kaartje.appendChild(html('div', 'achterkant', k.back));
+          var draai = function () {
+            kaartje.setAttribute('aria-pressed', kaartje.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+          };
+          kaartje.addEventListener('click', draai);
+          kaartje.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); draai(); }
+          });
+          rooster.appendChild(kaartje);
+        });
+        houder2.appendChild(rooster);
+        return houder2;
+      }
+
+      case 'quote':
+        return html('blockquote', 'statement', blok.body);
+
+      case 'links': {
+        var lw = el('div', 'linkjes');
+        blok.items.forEach(function (l) {
+          if (l.body) lw.appendChild(html('div', 'blok', l.body));
+          var a = el('a', 'linkknop', l.label);
+          a.href = l.href;
+          a.target = '_blank';
+          a.rel = 'noopener';
+          a.appendChild(el('span', 'pijltje', '↗'));
+          lw.appendChild(a);
+        });
+        return lw;
+      }
+
+      case 'timeline': {
+        var tl = el('ol', 'tijdlijn');
+        blok.items.forEach(function (p) {
+          var li = el('li');
+          if (p.date) li.appendChild(el('div', 'tijdlijn-label', p.date));
+          if (p.title) li.appendChild(el('h3', null, p.title));
+          if (p.body) li.appendChild(html('div', null, p.body));
+          tl.appendChild(li);
+        });
+        return tl;
+      }
+
+      case 'steps': {
+        var st = el('div', 'stappenplan');
+        st.appendChild(el('div', 'label', 'Stappenplan'));
+        if (blok.intro) {
+          st.appendChild(el('h3', null, blok.intro.title));
+          st.appendChild(el('p', null, blok.intro.body));
+        }
+        var ol = el('ol', 'stappen');
+        blok.steps.forEach(function (s) {
+          var li = el('li');
+          li.appendChild(el('strong', null, s.title));
+          if (s.body) li.appendChild(el('p', null, s.body));
+          ol.appendChild(li);
+        });
+        st.appendChild(ol);
+        if (blok.summary) {
+          var sam = el('div', 'stappen-slot');
+          sam.appendChild(el('strong', null, blok.summary.title));
+          sam.appendChild(el('p', null, blok.summary.body));
+          st.appendChild(sam);
+        }
+        return st;
+      }
+
       case 'quiz':
         return tekenQuiz(blok, moduleId, segIndex, blokIndex, opWijziging);
 
       case 'match':
         return tekenKoppel(blok, moduleId, segIndex, blokIndex, opWijziging);
+
+      case 'sort':
+        return tekenSorteer(blok, moduleId, segIndex, blokIndex, opWijziging);
     }
     return null;
+  }
+
+  /* Blokken die beantwoord moeten zijn voordat de doorgaan-knop opengaat. */
+  var VRAAGTYPEN = ['quiz', 'match', 'sort'];
+
+  /* Vaste, maar per vraag verschillende volgorde: Fisher-Yates met een
+     generator die op het vraag-id is geseed. */
+  function husselVolgorde(id, aantal) {
+    var zaad = 1;
+    for (var c = 0; c < id.length; c++) zaad = (zaad * 31 + id.charCodeAt(c)) % 2147483647;
+    function volgende() {
+      zaad = (zaad * 16807) % 2147483647;
+      return zaad / 2147483647;
+    }
+    var volgorde = [];
+    for (var i = 0; i < aantal; i++) volgorde.push(i);
+    for (var j = aantal - 1; j > 0; j--) {
+      var k = Math.floor(volgende() * (j + 1));
+      var tmp = volgorde[j]; volgorde[j] = volgorde[k]; volgorde[k] = tmp;
+    }
+    return volgorde;
   }
 
   /* -------------------------------------------- meerkeuze en meervoudig */
@@ -347,10 +480,20 @@
 
       uitslagVak.innerHTML = '';
       var u = el('div', 'uitslag ' + (goed ? 'goed' : 'fout'));
+      var uitleg = (!goed && blok.feedbackWrong) ? blok.feedbackWrong : blok.feedback;
       u.textContent = goed
-        ? 'Klopt.' + (blok.feedback ? ' ' + blok.feedback : '')
-        : 'Niet helemaal. De juiste antwoorden staan hierboven groen.' + (blok.feedback ? ' ' + blok.feedback : '');
+        ? 'Klopt.' + (uitleg ? ' ' + uitleg : '')
+        : 'Niet helemaal. De juiste antwoorden staan hierboven groen.' + (uitleg ? ' ' + uitleg : '');
       uitslagVak.appendChild(u);
+
+      /* Uitleg per antwoord, als de vraag die heeft: bij wat je koos, en bij
+         het juiste antwoord als je dat niet koos. */
+      knoppen.forEach(function (b, i) {
+        var o = blok.options[i];
+        if (!o.feedback) return;
+        if (keuze.indexOf(i) < 0 && !(o.correct && !goed)) return;
+        b.children[1].appendChild(el('span', 'optie-uitleg', o.feedback));
+      });
 
       nakijkKnop.style.display = 'none';
       opnieuwKnop.style.display = goed ? 'none' : '';
@@ -374,6 +517,8 @@
         b.disabled = false;
         b.classList.remove('goed', 'fout');
         b.setAttribute('aria-pressed', 'false');
+        var weg = b.querySelector('.optie-uitleg');
+        if (weg) weg.remove();
       });
       uitslagVak.innerHTML = '';
       nakijkKnop.style.display = '';
@@ -451,9 +596,11 @@
       var alles = goedAantal === blok.pairs.length;
       uitslagVak.innerHTML = '';
       var u = el('div', 'uitslag ' + (alles ? 'goed' : 'fout'));
-      u.textContent = alles
+      var uitleg = (!alles && blok.feedbackWrong) ? blok.feedbackWrong : blok.feedback;
+      u.textContent = (alles
         ? 'Allemaal goed gekoppeld.'
-        : goedAantal + ' van de ' + blok.pairs.length + ' goed. De juiste koppelingen staan groen.';
+        : goedAantal + ' van de ' + blok.pairs.length + ' goed. De juiste koppelingen staan groen.')
+        + (uitleg ? ' ' + uitleg : '');
       uitslagVak.appendChild(u);
       nakijkKnop.style.display = 'none';
       opnieuwKnop.style.display = alles ? 'none' : '';
@@ -475,6 +622,114 @@
         s.disabled = false;
         s.value = '';
         s.parentElement.classList.remove('goed', 'fout');
+      });
+      uitslagVak.innerHTML = '';
+      nakijkKnop.style.display = '';
+      nakijkKnop.disabled = true;
+      opnieuwKnop.style.display = 'none';
+      opWijziging();
+    });
+
+    if (bewaard) toonUitslag(bewaard.keuze);
+
+    kaart.dataset.vraag = id;
+    return kaart;
+  }
+
+  /* -------------------------------------------- sorteeropdracht */
+
+  function tekenSorteer(blok, moduleId, segIndex, blokIndex, opWijziging) {
+    var id = vraagId(moduleId, segIndex, blokIndex);
+    var ms = moduleStaat(moduleId);
+    var bewaard = ms.antwoorden[id];
+
+    var kaart = el('div', 'vraag');
+    kaart.appendChild(el('div', 'label', 'Sorteeropdracht'));
+    var stelling = el('div', 'stelling');
+    stelling.appendChild(el('p', null, blok.question || 'Bij welke categorie hoort elk onderdeel?'));
+    kaart.appendChild(stelling);
+
+    /* In de bron staan de kaartjes per categorie gegroepeerd; dat verraadt het
+       antwoord, dus husselen we ze. */
+    var volgorde = husselVolgorde(id, blok.items.length);
+
+    var houder = el('div', 'koppels');
+    var kiezers = [];
+    volgorde.forEach(function (n) {
+      var item = blok.items[n];
+      var rij = el('div', 'koppel');
+      rij.appendChild(el('div', 'links', item.text));
+      var sel = document.createElement('select');
+      sel.appendChild(new Option('Kies een categorie…', ''));
+      blok.piles.forEach(function (p, j) { sel.appendChild(new Option(p, String(j))); });
+      sel.addEventListener('change', function () {
+        nakijkKnop.disabled = kiezers.some(function (k) { return !k.sel.value; });
+      });
+      rij.appendChild(sel);
+      kiezers.push({ sel: sel, item: item, rij: rij });
+      houder.appendChild(rij);
+    });
+    kaart.appendChild(houder);
+
+    var acties = el('div', 'vraag-acties');
+    var nakijkKnop = el('button', 'knop-klein', 'Nakijken');
+    nakijkKnop.type = 'button';
+    nakijkKnop.disabled = true;
+    var opnieuwKnop = el('button', 'knop-klein stil', 'Opnieuw proberen');
+    opnieuwKnop.type = 'button';
+    opnieuwKnop.style.display = 'none';
+    acties.appendChild(nakijkKnop);
+    acties.appendChild(opnieuwKnop);
+    kaart.appendChild(acties);
+
+    var uitslagVak = el('div');
+    kaart.appendChild(uitslagVak);
+
+    /* keuze is per kaartje in bronvolgorde, zodat een bewaard antwoord niet
+       afhangt van de hussel. */
+    function toonUitslag(keuze) {
+      var goedAantal = 0;
+      kiezers.forEach(function (k) {
+        var n = blok.items.indexOf(k.item);
+        k.sel.value = keuze[n];
+        k.sel.disabled = true;
+        if (String(keuze[n]) === String(k.item.pile)) { k.rij.classList.add('goed'); goedAantal++; }
+        else {
+          k.rij.classList.add('fout');
+          k.rij.appendChild(el('div', 'hoort-bij', 'Hoort bij: ' + blok.piles[k.item.pile]));
+        }
+      });
+      var alles = goedAantal === blok.items.length;
+      uitslagVak.innerHTML = '';
+      var u = el('div', 'uitslag ' + (alles ? 'goed' : 'fout'));
+      u.textContent = alles
+        ? 'Alles in de juiste categorie.'
+        : goedAantal + ' van de ' + blok.items.length + ' goed. Bij de rode staat waar ze wel horen.';
+      uitslagVak.appendChild(u);
+      nakijkKnop.style.display = 'none';
+      opnieuwKnop.style.display = alles ? 'none' : '';
+      return alles;
+    }
+
+    nakijkKnop.addEventListener('click', function () {
+      var keuze = blok.items.map(function (item) {
+        return kiezers.find(function (k) { return k.item === item; }).sel.value;
+      });
+      var goed = toonUitslag(keuze);
+      ms.antwoorden[id] = { keuze: keuze, goed: goed };
+      bewaar();
+      opWijziging();
+    });
+
+    opnieuwKnop.addEventListener('click', function () {
+      delete ms.antwoorden[id];
+      bewaar();
+      kiezers.forEach(function (k) {
+        k.sel.disabled = false;
+        k.sel.value = '';
+        k.rij.classList.remove('goed', 'fout');
+        var weg = k.rij.querySelector('.hoort-bij');
+        if (weg) weg.remove();
       });
       uitslagVak.innerHTML = '';
       nakijkKnop.style.display = '';
@@ -546,7 +801,7 @@
       var blokken = segmenten[segIndex];
       var open = 0;
       blokken.forEach(function (b, i) {
-        if (b.t !== 'quiz' && b.t !== 'match') return;
+        if (VRAAGTYPEN.indexOf(b.t) < 0) return;
         if (!ms.antwoorden[vraagId(moduleId, segIndex, i)]) open++;
       });
       return open;
