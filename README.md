@@ -156,6 +156,40 @@ de toelichting eronder.
 Draait `node` met de melding dat `docx` niet gevonden wordt, zet dan `NODE_PATH`
 naar de map waar die module staat.
 
+## Verdieping: begrippen, verbanden en luistersamenvatting
+
+Staat er naast `course.json` een `verdieping.json`, dan gebruikt de speler
+`assets/verdieping.js`. Zonder dat bestand verandert er niets.
+
+- **Per module** komt er een laatste deel *Verdieping* met een
+  luistersamenvatting, de begrippen van die module en tot drie verbandvragen.
+  De browser leest de samenvatting voor, met de vaste melding dat alleen de
+  samenvatting volgen niet genoeg is voor het tentamen. De verbandvragen zijn
+  gewone kennisvragen: de module is pas af als ze beantwoord zijn.
+- **Weet je nog?** Vanaf de tweede module staan bovenaan drie korte vragen over
+  begrippen uit eerder afgeronde modules. Die tellen niet mee.
+- **Op de startpagina** staan een doorzoekbare begrippenlijst, een kaart van
+  verbanden die groeit met elke afgeronde module, en oefencasussen (als
+  `modules/casussen.json` er is). In een casus markeer je waar je begrippen
+  herkent en vergelijk je daarna met de verwachte begrippen en modelantwoorden.
+
+De vragen worden uit de verbanden gemaakt: een zin met één begrip open, zoals
+"Downcycling is een laagwaardige vorm van …". Een verband met
+`"vraag": false` wordt niet gevraagd. `verdieping.json` werk je met de hand bij;
+per begrip en verband staat de herkomst (`student`, `student, aangepast` of
+`aangevuld`). `tools/verdieping-controle.md` beschrijft wat er bij de controle
+tegen de lesstof is aangepast.
+
+Na een wijziging in een e-learning:
+
+```
+python tools/controleer-verdieping.py duurzaamheid-systeemdenken
+```
+
+Dat meldt modules die zijn veranderd sinds de verdieping is nagekeken, en
+begrippen die niet meer in de lestekst voorkomen. Na het nalopen leg je de
+nieuwe stand vast met `--bijwerken`.
+
 ## Zelftest
 
 `player.html?c=__zelftest__` draait 30 controles op de API: de levenscyclus,

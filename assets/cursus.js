@@ -15,6 +15,9 @@
   var cursus = null;
   var staat = null;
   var sleutel = '';
+  /* Begrippen, luistersamenvatting en verbandvragen uit verdieping.js, als
+     de module een verdieping.json heeft. */
+  var verdieping = null;
 
   /* ------------------------------------------------------------ opslag */
 
@@ -87,6 +90,14 @@
     return segmenten.filter(function (s) { return s.length; });
   }
 
+  /* De segmenten van een module, met het verdiepingsdeel als laatste. */
+  function segmentenVan(les) {
+    var segmenten = segmenteer(les.blocks);
+    var extra = verdieping ? verdieping.segment(les) : null;
+    if (extra) segmenten.push(extra);
+    return segmenten;
+  }
+
   function vraagId(moduleId, segIndex, blokIndex) {
     return moduleId + ':' + segIndex + ':' + blokIndex;
   }
@@ -100,7 +111,7 @@
 
     var totaalSeg = 0, gedaanSeg = 0;
     cursus.lessons.forEach(function (les) {
-      var segs = segmenteer(les.blocks).length;
+      var segs = segmentenVan(les).length;
       var ms = moduleStaat(les.id);
       totaalSeg += segs;
       gedaanSeg += Math.min(ms.af ? segs : ms.segment, segs);
@@ -154,9 +165,10 @@
       intro.style.cssText = 'margin:0 0 1.75rem;padding-top:3rem;color:var(--text-muted);font-size:0.9rem;line-height:1.65';
       lijst.appendChild(intro);
     }
+    if (verdieping) lijst.appendChild(verdieping.hulpmiddelen());
 
     cursus.lessons.forEach(function (les, i) {
-      var segs = segmenteer(les.blocks).length;
+      var segs = segmentenVan(les).length;
       var ms = moduleStaat(les.id);
       var gedaan = ms.af ? segs : Math.min(ms.segment, segs);
       var pct = segs ? Math.round((gedaan / segs) * 100) : 0;
@@ -417,7 +429,7 @@
       case 'sort':
         return tekenSorteer(blok, moduleId, segIndex, blokIndex, opWijziging);
     }
-    return null;
+    return verdieping ? verdieping.tekenBlok(blok, moduleId, segIndex, blokIndex, opWijziging) : null;
   }
 
   /* Blokken die beantwoord moeten zijn voordat de doorgaan-knop opengaat. */
@@ -449,7 +461,7 @@
     var bewaard = ms.antwoorden[id];
 
     var kaart = el('div', 'vraag');
-    kaart.appendChild(el('div', 'label', blok.multi ? 'Meerdere antwoorden' : 'Kennisvraag'));
+    kaart.appendChild(el('div', 'label', blok.label || (blok.multi ? 'Meerdere antwoorden' : 'Kennisvraag')));
     kaart.appendChild(html('div', 'stelling', blok.question));
 
     var gekozen = bewaard ? bewaard.keuze.slice() : [];
@@ -786,7 +798,7 @@
     document.title = les.title + ' | ' + cursus.title;
     document.body.innerHTML = '';
 
-    var segmenten = segmenteer(les.blocks);
+    var segmenten = segmentenVan(les);
     var ms = moduleStaat(moduleId);
     if (ms.af) ms.segment = segmenten.length - 1;
     if (ms.segment >= segmenten.length) ms.segment = segmenten.length - 1;
@@ -820,6 +832,8 @@
       kop.appendChild(dl);
     }
     lezer.appendChild(kop);
+    var herhaal = verdieping ? verdieping.herhaling(les) : null;
+    if (herhaal) lezer.appendChild(herhaal);
     document.body.appendChild(lezer);
 
     function werkBalkBij() {
@@ -937,6 +951,29 @@
     document.body.appendChild(d);
   }
 
+  /* verdieping.json is optioneel: zonder bestand blijft de speler zoals hij was. */
+  function laadVerdieping() {
+    if (!window.Verdieping) return null;
+    return fetch('modules/' + slug + '/verdieping.json', { cache: 'no-cache' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (!data) return;
+        verdieping = window.Verdieping.start(data, {
+          cursus: cursus,
+          slug: slug,
+          el: el,
+          html: html,
+          staat: function () { return staat; },
+          moduleStaat: moduleStaat,
+          bewaar: bewaar,
+          tekenBlok: tekenBlok,
+          openModule: openModule,
+          toonStart: toonStart
+        });
+      })
+      .catch(function () { verdieping = null; });
+  }
+
   var params = new URLSearchParams(location.search);
   var slug = params.get('m') || '';
   if (!slug) return fout('Geen module opgegeven.');
@@ -959,15 +996,20 @@
         });
       });
       staat = leesStaat();
-
-      var hash = (location.hash || '').replace('#', '');
-      if (hash && cursus.lessons.some(function (l) { return l.id === hash; })) openModule(hash);
-      else toonStart();
+      return laadVerdieping();
+    })
+    .then(function () {
+      function route(h) {
+        if (h && cursus.lessons.some(function (l) { return l.id === h; })) openModule(h);
+        else if (h && verdieping && verdieping.kan(h)) verdieping.toon(h);
+        else return false;
+        return true;
+      }
+      if (!route((location.hash || '').replace('#', ''))) toonStart();
 
       window.addEventListener('hashchange', function () {
         var h = (location.hash || '').replace('#', '');
-        if (h && cursus.lessons.some(function (l) { return l.id === h; })) openModule(h);
-        else if (!h) toonStart();
+        if (!route(h) && !h) toonStart();
       });
     })
     .catch(function (e) { fout(e.message); });

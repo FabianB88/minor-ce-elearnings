@@ -1,0 +1,1056 @@
+{
+ "toelichting": "Begrippen, verbanden en luistersamenvattingen bij deze e-learning. Gebaseerd op de begrippenkaart Begrippen-Verbanden van een student uit de minor (met toestemming), nagelopen tegen de lesstof: begrippen zijn waar nodig gecorrigeerd, naar de juiste module verplaatst of aangevuld. Zie herkomst per begrip en verband.",
+ "types": {
+  "D": {
+   "naam": "Onderdeel of soort van",
+   "kleur": "#5C7A5A"
+  },
+  "O": {
+   "naam": "Leidt tot of versterkt",
+   "kleur": "#B07A1E"
+  },
+  "T": {
+   "naam": "Tegenpool",
+   "kleur": "#B5523B"
+  },
+  "H": {
+   "naam": "Hulpmiddel of toepassing",
+   "kleur": "#3F6B82"
+  },
+  "S": {
+   "naam": "Hangt samen met",
+   "kleur": "#8A7F76"
+  }
+ },
+ "begrippen": [
+  {
+   "id": "morele-economie",
+   "les": "m1",
+   "naam": "Morele economie",
+   "def": "Economische systemen zijn nooit waardevrij: elke keuze over verdeling, toegang en bescherming is uiteindelijk een morele keuze.",
+   "vb": "Wie krijgt toegang tot schoon water, en tegen welke prijs?",
+   "herkomst": "student"
+  },
+  {
+   "id": "rechtvaardige-verdeling",
+   "les": "m1",
+   "naam": "Rechtvaardige verdeling",
+   "def": "Wie krijgt wat, wanneer en waarom? Dat wordt expliciet of impliciet bepaald door de inrichting van een systeem.",
+   "vb": "Hoe worden schaarse woningen verdeeld: op prijs, wachttijd of loting?",
+   "herkomst": "student"
+  },
+  {
+   "id": "begrenzing",
+   "les": "m1",
+   "naam": "Begrenzing",
+   "def": "Elk systeem (ecologisch, sociaal, fysiek) heeft grenzen die bepalen hoeveel er beschikbaar is en wie er toegang toe heeft.",
+   "vb": "Een grondwaterbron kan maar zoveel leveren.",
+   "herkomst": "student"
+  },
+  {
+   "id": "commons",
+   "les": "m1",
+   "naam": "Commons",
+   "def": "Gedeelde hulpbronnen, zoals schone lucht, water of digitale infrastructuur, die niemand bezit en die zonder afspraken achteruitgaan (tragedy of the commons).",
+   "vb": "Een gedeelde koelkast in een studentenhuis: iedereen pakt eruit, niemand ruimt op.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "externaliteiten",
+   "les": "m1",
+   "naam": "Externaliteiten",
+   "def": "Kosten of schade van een handeling die niet de veroorzaker draagt, maar andere mensen of de samenleving.",
+   "vb": "Een fabriek stoot uit; de buurt betaalt met haar gezondheid.",
+   "herkomst": "student"
+  },
+  {
+   "id": "systeemlogica",
+   "les": "m1",
+   "naam": "Systeemlogica",
+   "def": "Systemen (markten, bedrijven, algoritmes) volgen als een machine hun eigen ontwerpdoel en houden niet vanzelf rekening met morele waarden, tenzij die bewust zijn ingebouwd.",
+   "vb": "Een machine die appels plukt, stopt niet vanzelf voor een vogelnest; een mens wel.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "kuddegedrag",
+   "les": "m1",
+   "naam": "Kuddegedrag",
+   "def": "Uit onzekerheid het gedrag van de groep volgen, wat kan leiden tot tunnelvisie, instabiliteit of zeepbellen.",
+   "vb": "Iedereen koopt hetzelfde aandeel, omdat iedereen het koopt.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "verliesaversie",
+   "les": "m1",
+   "naam": "Verliesaversie",
+   "def": "De pijn van verlies weegt zwaarder dan het plezier van een even grote winst, wat tot voorzichtig of irrationeel risicogedrag leidt.",
+   "vb": "Je baalt meer van €100 verliezen dan je blij bent met €100 winnen.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "morele-ontkoppeling",
+   "les": "m1",
+   "naam": "Morele ontkoppeling",
+   "def": "Jezelf ervan overtuigen dat morele normen in deze situatie even niet voor jou gelden, zodat schadelijk gedrag te rechtvaardigen wordt (Bandura, 1999). Het is geen bewuste kwaadaardigheid, maar een bescherming tegen innerlijke spanning.",
+   "vb": "\"Iedereen doet het\", dus het is niet zo erg.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "neoliberalisme",
+   "les": "m1",
+   "naam": "Neoliberalisme",
+   "def": "De fase van het kapitalisme vanaf de jaren tachtig, met deregulering, privatisering en nadruk op financieel rendement (Harvey, 2005). Toezicht werd afgebouwd en markten werden geconcentreerder.",
+   "vb": "Publieke voorzieningen die commercieel worden uitgebaat.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "aanbod-stuurt-vraag",
+   "les": "m1",
+   "naam": "Aanbod stuurt vraag",
+   "def": "Niet alleen de vraag bepaalt het aanbod; bedrijven en platforms vormen ook welke behoeften mensen voelen en welke keuzes er zijn (Zuboff, 2019). De keuze is echt, maar het keuzemenu is niet neutraal.",
+   "vb": "De supermarkt bepaalt wat op ooghoogte ligt; algoritmes bepalen wat je online te zien krijgt.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "herdefinieren-van-gedrag",
+   "les": "m2",
+   "naam": "Herdefiniëren van gedrag",
+   "def": "Een schadelijke handeling een neutrale of positieve naam geven, waardoor de morele lading verdwijnt.",
+   "vb": "Ontslagen heten \"strategisch noodzakelijk\".",
+   "herkomst": "student"
+  },
+  {
+   "id": "minimaliseren-van-gevolgen",
+   "les": "m2",
+   "naam": "Minimaliseren van gevolgen",
+   "def": "De werkelijke schade kleiner voorstellen dan ze is.",
+   "vb": "\"Een beetje extra uitstoot maakt toch niets uit.\"",
+   "herkomst": "student"
+  },
+  {
+   "id": "verschuiven-van-verantwoordelijkheid",
+   "les": "m2",
+   "naam": "Verschuiven van verantwoordelijkheid",
+   "def": "In een groot systeem voelt niemand zich verantwoordelijk, omdat iedereen maar een klein deel van het geheel uitvoerde.",
+   "vb": "\"Ik deed alleen wat de afdeling vroeg.\"",
+   "herkomst": "student"
+  },
+  {
+   "id": "normalisatie-van-afwijkend-gedrag",
+   "les": "m2",
+   "naam": "Normalisatie van afwijkend gedrag",
+   "def": "Een praktijk bestaat al zo lang dat niemand haar nog als problematisch ervaart.",
+   "vb": "\"Zo doen we dat hier altijd al.\"",
+   "herkomst": "student"
+  },
+  {
+   "id": "agency",
+   "les": "m2",
+   "naam": "Agency",
+   "def": "Het vermogen om te handelen binnen een systeem. Agency is relationeel: je handelt binnen de ruimte die het systeem laat. Die ruimte is soms klein, maar nooit nul.",
+   "vb": "Een medewerker die binnen de regels toch een duurzamere leverancier kiest.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "pluralistische-onwetendheid",
+   "les": "m2",
+   "naam": "Pluralistische onwetendheid",
+   "def": "Iedereen denkt dat de anderen ergens achter staan, terwijl bijna niemand dat doet. Zo blijft gedrag bestaan dat niemand eigenlijk wil.",
+   "vb": "Niemand stelt een vraag tijdens een presentatie, omdat iedereen denkt dat de rest het wel snapt.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "morele-moed",
+   "les": "m2",
+   "naam": "Morele moed",
+   "def": "Ingaan tegen de logica van een systeem, vaak op een kleine manier. Moed is zeldzaam omdat het ruis veroorzaakt in systemen die gebouwd zijn op efficiëntie en voorspelbaarheid. Het ontstaat vooral door condities: veiligheid, openheid en voorbeeldgedrag van leiders.",
+   "vb": "De vraag stellen die niemand durft te stellen, of een besluit vertragen omdat het morele kader ontbreekt.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "financialisering",
+   "les": "m3",
+   "naam": "Financialisering",
+   "def": "Financiële markten en indicatoren worden steeds bepalender voor de strategische keuzes en de tijdshorizon van ondernemingen.",
+   "vb": "Beslissingen worden gestuurd door kwartaalcijfers in plaats van langetermijnimpact.",
+   "herkomst": "student"
+  },
+  {
+   "id": "kapitaal-als-selectiemechanisme",
+   "les": "m3",
+   "naam": "Kapitaal als selectiemechanisme",
+   "def": "De stroom van investeringen bepaalt welke activiteiten toegang krijgen tot groei, innovatie en schaal, en welke niet.",
+   "vb": "Een veelbelovend maar niet-rendabel project krijgt geen financiering.",
+   "herkomst": "student"
+  },
+  {
+   "id": "aandeelhoudersmodel",
+   "les": "m3",
+   "naam": "Aandeelhoudersmodel",
+   "def": "Een organisatiemodel waarin zeggenschap vooral wordt gelegitimeerd door wie kapitaal en financieel risico inbrengt. Friedman (1970): de verantwoordelijkheid van een bedrijf is winst maken binnen de wettelijke kaders.",
+   "vb": "De aandeelhoudersvergadering beslist over de koers van het bedrijf.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "stakeholdersmodel",
+   "les": "m3",
+   "naam": "Stakeholdersmodel",
+   "sub": "stakeholderbenadering",
+   "def": "De onderneming als samenwerkingsverband van onderling afhankelijke partijen, zoals werknemers, leveranciers, gemeenschap en investeerders, die elk eigen investeringen doen en risico dragen (Freeman, 1984).",
+   "vb": "Ook medewerkers en buurt krijgen inspraak, want zij investeren en lopen risico.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "beslissingspremissen",
+   "les": "m3",
+   "naam": "Beslissingspremissen",
+   "def": "Vooraf vastgestelde doelen, indicatoren en interpretatiekaders die bepalen welke keuzeopties überhaupt zichtbaar worden in een besluitvormingsproces.",
+   "vb": "Wie alleen op winst stuurt, ziet duurzame opties niet eens op tafel.",
+   "herkomst": "student"
+  },
+  {
+   "id": "marktconcentratie",
+   "les": "m3",
+   "naam": "Marktconcentratie",
+   "def": "Een klein aantal ondernemingen beheerst een groot deel van een markt, vaak versterkt door schaalvoordelen en netwerkeffecten.",
+   "vb": "Een handvol platforms bepaalt wat je online ziet en koopt.",
+   "herkomst": "student"
+  },
+  {
+   "id": "filtermechanisme",
+   "les": "m3",
+   "naam": "Filtermechanisme",
+   "def": "Morele overwegingen moeten in een organisatie passen binnen de bestaande doelen, indicatoren en verantwoordingsstructuren. Wat daar niet in past, bereikt de besluitvorming niet.",
+   "vb": "Als prestaties alleen financieel worden gemeten, wegen financiële argumenten vanzelf het zwaarst.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "aandeelhoudersactivisme",
+   "les": "m3",
+   "naam": "Aandeelhoudersactivisme",
+   "def": "Beleggers, zoals sommige hedgefondsen, nemen een groot belang om via stemrecht en publieke druk de strategie te beïnvloeden, bijvoorbeeld richting kostenbesparing of herstructurering. De mogelijkheid dat kapitaal snel vertrekt, werkt al disciplinerend.",
+   "vb": "Een fonds dat aandringt op het afstoten van een minder winstgevend onderdeel.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "normverschuiving-onder-concurrentiedruk",
+   "les": "m3",
+   "naam": "Normverschuiving onder concurrentiedruk",
+   "def": "Praktijken die eerst twijfelachtig voelen, worden geleidelijk ‘noodzakelijk voor het concurrentievermogen’ als concurrenten ze ook toepassen. Organisaties reproduceren zo zelf hun morele kaders.",
+   "vb": "Agressieve belastingconstructies die gaandeweg ‘normaal in de sector’ gaan heten.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "technologie-is-niet-neutraal",
+   "les": "m4",
+   "naam": "Technologie is niet neutraal",
+   "def": "Elke technologie draagt waarden, aannames en machtsverhoudingen in zich, via de keuzes die bij het ontwerp zijn gemaakt (Winner, 1980).",
+   "vb": "Een sollicitatiealgoritme dat op oude data is getraind, neemt oude vooroordelen over.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "ontwerpinterventie",
+   "les": "m4",
+   "naam": "Ontwerpinterventie",
+   "def": "Een ingreep op het niveau van het ontwerp zelf.",
+   "vb": "Transparantie inbouwen in een algoritme, zodat gebruikers een beslissing kunnen begrijpen.",
+   "herkomst": "student"
+  },
+  {
+   "id": "organisatorische-interventie",
+   "les": "m4",
+   "naam": "Organisatorische interventie",
+   "def": "Een ingreep op het niveau van de organisatie.",
+   "vb": "Een ethische commissie die technologieprojecten vooraf toetst.",
+   "herkomst": "student"
+  },
+  {
+   "id": "institutionele-interventie",
+   "les": "m4",
+   "naam": "Institutionele interventie",
+   "def": "Een ingreep op het niveau van wet- en regelgeving.",
+   "vb": "De Europese AI Act, die strengere eisen stelt aan hoogrisicotoepassingen.",
+   "herkomst": "student"
+  },
+  {
+   "id": "datamacht",
+   "les": "m4",
+   "naam": "Datamacht",
+   "def": "De machtspositie die ontstaat wanneer een partij grootschalig data verzamelt en controleert, en daarmee invloed krijgt op anderen.",
+   "vb": "Een platform dat weet wat je leuk vindt, kan je keuzes sturen.",
+   "herkomst": "student"
+  },
+  {
+   "id": "surveillancekapitalisme",
+   "les": "m4",
+   "naam": "Surveillancekapitalisme",
+   "def": "Een verdienmodel waarin gebruikersdata systematisch worden verzameld om gedrag te voorspellen én te beïnvloeden, als bron van economische waarde (Zuboff, 2019).",
+   "vb": "Een platform dat je feed zo inricht dat je langer blijft en meer koopt.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "infrastructuur",
+   "les": "m4",
+   "naam": "Infrastructuur",
+   "def": "Grootschalige systemen die andere activiteiten mogelijk maken, op grote schaal werken en standaarden en afhankelijkheden creëren. Ze vallen pas op als ze niet werken, maar bepalen wie kan meedoen en onder welke voorwaarden.",
+   "vb": "Het logistieke netwerk van Amazon: toegang tot een enorme markt, maar ook afhankelijkheid van de regels van het platform.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "algoritmische-bias",
+   "les": "m4",
+   "naam": "Algoritmische bias",
+   "def": "Algoritmen leren van data. Zitten daar historische ongelijkheden in, dan kunnen ze die herhalen of versterken. Daarom moet je ook naar de kwaliteit en representativiteit van de data kijken.",
+   "vb": "Gezichtsherkenning die vrouwen en mensen met een donkere huidskleur minder goed herkent (Buolamwini & Gebru, 2018).",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "value-sensitive-design",
+   "les": "m4",
+   "naam": "Value Sensitive Design",
+   "def": "Ethische waarden al tijdens het ontwerp van technologie meenemen, in plaats van achteraf (Friedman, Kahn & Borning, 2006).",
+   "vb": "Uitlegbaarheid en inclusief testen inbouwen in een AI-systeem.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "technologisch-determinisme",
+   "les": "m4",
+   "naam": "Technologisch determinisme",
+   "def": "Het idee dat technologie een autonome kracht is die ons handelen bepaalt. De les wijst dat af: technologie ontstaat uit menselijke, economische en politieke keuzes, en kan dus ook worden aangepast of gereguleerd.",
+   "vb": "“Daar kun je niets aan doen, zo werkt technologie nu eenmaal.”",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "greenwashing",
+   "les": "m5",
+   "naam": "Greenwashing",
+   "def": "Een duurzaam imago creëren zonder dat het bedrijfsmodel of de werkelijke impact echt verandert (Delmas & Burbano, 2011). Volgens de les vooral een systeemfenomeen: verwachtingen over duurzaamheid veranderen sneller dan bedrijfsmodellen.",
+   "vb": "Een groen label op de verpakking, terwijl het productieproces gelijk blijft.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "selectieve-communicatie",
+   "les": "m5",
+   "naam": "Selectieve communicatie",
+   "def": "Eén duurzaam initiatief breed uitlichten, terwijl activiteiten met een veel grotere negatieve impact buiten beeld blijven.",
+   "vb": "Reclame voor één zonnepaneeldak, en niets over de vervuilende fabriek.",
+   "herkomst": "student"
+  },
+  {
+   "id": "vage-of-niet-verifieerbare-claims",
+   "les": "m5",
+   "naam": "Vage of niet-verifieerbare claims",
+   "def": "Woorden als \"groen\" of \"natuurlijk\" gebruiken zonder definitie of meetbaar criterium.",
+   "vb": "\"100% natuurlijk\" op een pak, zonder te zeggen waar dat op slaat.",
+   "herkomst": "student"
+  },
+  {
+   "id": "irrelevante-communicatie",
+   "les": "m5",
+   "naam": "Irrelevante communicatie",
+   "def": "Een claim die feitelijk klopt, maar in de praktijk niets toevoegt.",
+   "vb": "\"CFK-vrij\" voor een stof die al jaren wettelijk verboden is.",
+   "herkomst": "student"
+  },
+  {
+   "id": "symbolische-duurzaamheid",
+   "les": "m5",
+   "naam": "Symbolische duurzaamheid",
+   "def": "Een klein initiatief met nauwelijks effect op de totale impact, dat in de communicatie disproportioneel wordt uitvergroot.",
+   "vb": "Een grote campagne voor een paar plastic rietjes minder.",
+   "herkomst": "student"
+  },
+  {
+   "id": "legitimiteit",
+   "les": "m5",
+   "naam": "Legitimiteit",
+   "def": "De erkenning dat de activiteiten van een organisatie maatschappelijk aanvaardbaar zijn. Organisaties stemmen hun gedrag en communicatie af op maatschappelijke verwachtingen om die erkenning te houden (Suchman, 1995).",
+   "vb": "Als duurzaamheid de norm wordt, voelt elk bedrijf druk om zich duurzaam te presenteren.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "decoupling",
+   "les": "m5",
+   "naam": "Decoupling",
+   "sub": "loskoppeling",
+   "def": "De formele communicatie raakt losgekoppeld van de feitelijke praktijk: de reputatie beweegt mee met de verwachtingen, de activiteiten niet.",
+   "vb": "Een duurzaamheidsverslag vol ambities, terwijl de productie hetzelfde blijft.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "informatie-asymmetrie",
+   "les": "m5",
+   "naam": "Informatie-asymmetrie",
+   "def": "Bedrijven weten veel meer over hun eigen impact dan consumenten en investeerders. Dat machtsverschil maakt het mogelijk om de reputatie te verbeteren zonder structurele verandering.",
+   "vb": "De klant kan niet controleren of ‘gerecycled materiaal’ echt een groot deel van de collectie is.",
+   "herkomst": "aangevuld"
+  }
+ ],
+ "verbanden": [
+  {
+   "a": "morele-economie",
+   "b": "rechtvaardige-verdeling",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Rechtvaardige verdeling: wie krijgt wat, wanneer en waarom. Economische systemen beantwoorden dat altijd, expliciet of impliciet.",
+   "vb": "Europese gascrisis 2022: wie krijgt voorrang?",
+   "herkomst": "student"
+  },
+  {
+   "a": "morele-economie",
+   "b": "begrenzing",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Alles heeft fysieke, sociale of ecologische grenzen. Dat roept morele vragen op over wie meer mag gebruiken.",
+   "herkomst": "student"
+  },
+  {
+   "a": "morele-economie",
+   "b": "commons",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Commons zijn gedeelde hulpbronnen; zonder afspraken gaan ze bijna altijd achteruit.",
+   "vb": "Water, lucht, oceanen, digitale infrastructuur en data.",
+   "herkomst": "student"
+  },
+  {
+   "a": "morele-economie",
+   "b": "externaliteiten",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Externaliteiten verschuiven kosten naar anderen en maken verdeling dus een morele keuze.",
+   "vb": "E-waste uit rijke landen in Ghana en India.",
+   "herkomst": "student"
+  },
+  {
+   "a": "morele-economie",
+   "b": "systeemlogica",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Systeemlogica: een systeem volgt zijn ontwerpdoel en houdt niet vanzelf rekening met morele waarden.",
+   "vb": "Een machine die appels plukt stopt niet voor een vogelnest.",
+   "herkomst": "student"
+  },
+  {
+   "a": "rechtvaardige-verdeling",
+   "b": "externaliteiten",
+   "type": "S",
+   "rel": "wordt bepaald door",
+   "uitleg": "Wie de lasten draagt en wie de baten krijgt is een verdelingsvraag.",
+   "vb": "E-waste: baten bij rijke landen, lasten bij landen met minder macht.",
+   "herkomst": "student"
+  },
+  {
+   "a": "externaliteiten",
+   "b": "aandeelhoudersmodel",
+   "type": "O",
+   "rel": "wordt in stand gehouden door",
+   "uitleg": "Zolang milieuschade niet meetelt, is vervuilen financieel rationeel; dat is geen kwestie van slechte intenties maar van prikkels.",
+   "vb": "CO₂ uitstoten is goedkoper dan duurzaam produceren.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemlogica",
+   "b": "aandeelhoudersmodel",
+   "type": "S",
+   "rel": "past bij",
+   "uitleg": "Systemen optimaliseren op één doel, bijvoorbeeld winst. Friedman: bedrijven moeten primair winst maximaliseren.",
+   "vb": "Goodpaster: dat leidt tot morele paradoxen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemlogica",
+   "b": "agency",
+   "type": "S",
+   "rel": "begrenst de ruimte voor",
+   "uitleg": "Agency is relationeel: mensen kunnen handelen binnen de ruimte die systemen toestaan.",
+   "vb": "Die ruimte is soms klein, maar nooit nul.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "a": "morele-ontkoppeling",
+   "b": "herdefinieren-van-gedrag",
+   "type": "D",
+   "rel": "werkt via",
+   "uitleg": "Bandura beschrijft morele ontkoppeling als vier mechanismen waarmee mensen zichzelf morele redelijkheid blijven toeschrijven.",
+   "vb": "Een manager noemt een harde ingreep \"strategisch noodzakelijk\".",
+   "herkomst": "student"
+  },
+  {
+   "a": "morele-ontkoppeling",
+   "b": "minimaliseren-van-gevolgen",
+   "type": "D",
+   "rel": "werkt via",
+   "uitleg": "Bandura beschrijft morele ontkoppeling als vier mechanismen waarmee mensen zichzelf morele redelijkheid blijven toeschrijven.",
+   "vb": "De schade wordt kleiner voorgesteld dan ze is.",
+   "herkomst": "student"
+  },
+  {
+   "a": "morele-ontkoppeling",
+   "b": "verschuiven-van-verantwoordelijkheid",
+   "type": "D",
+   "rel": "werkt via",
+   "uitleg": "Bandura beschrijft morele ontkoppeling als vier mechanismen waarmee mensen zichzelf morele redelijkheid blijven toeschrijven.",
+   "vb": "In een groot systeem voelt niemand zich eigenaar van het gevolg.",
+   "herkomst": "student"
+  },
+  {
+   "a": "morele-ontkoppeling",
+   "b": "normalisatie-van-afwijkend-gedrag",
+   "type": "D",
+   "rel": "werkt via",
+   "uitleg": "Bandura beschrijft morele ontkoppeling als vier mechanismen waarmee mensen zichzelf morele redelijkheid blijven toeschrijven.",
+   "vb": "Een praktijk bestaat al zo lang dat niemand hem nog problematisch vindt.",
+   "herkomst": "student"
+  },
+  {
+   "a": "kuddegedrag",
+   "b": "verliesaversie",
+   "type": "S",
+   "rel": "staat naast",
+   "uitleg": "Genoemd als voorbeelden van psychologische mechanismen die economische systemen vormen.",
+   "vb": "Kuddegedrag: marktinstabiliteit en bubbels. Verliesaversie: overreacties in financiële markten.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "kuddegedrag",
+   "b": "morele-ontkoppeling",
+   "type": "S",
+   "rel": "staat naast",
+   "uitleg": "Genoemd als voorbeelden van psychologische mechanismen die economische systemen vormen.",
+   "vb": "Kuddegedrag: marktinstabiliteit en bubbels. Verliesaversie: overreacties in financiële markten.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "verliesaversie",
+   "b": "morele-ontkoppeling",
+   "type": "S",
+   "rel": "staat naast",
+   "uitleg": "Genoemd als voorbeelden van psychologische mechanismen die economische systemen vormen.",
+   "vb": "Kuddegedrag: marktinstabiliteit en bubbels. Verliesaversie: overreacties in financiële markten.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "morele-ontkoppeling",
+   "b": "aandeelhoudersmodel",
+   "type": "S",
+   "rel": "legitimeert",
+   "uitleg": "Verwijzen naar aandeelhoudersdruk of marktverwachtingen legitimeert gedrag zonder dat betrokkenen zich onethisch voelen.",
+   "vb": "\"Het is nu eenmaal de markt.\" \"Het is legaal, dus het mag.\"",
+   "herkomst": "student"
+  },
+  {
+   "a": "normalisatie-van-afwijkend-gedrag",
+   "b": "agency",
+   "type": "T",
+   "rel": "kan worden doorbroken door",
+   "uitleg": "Normen veranderen als genoeg mensen frictie voelen en benoemen; veel kleine acties kunnen een patroon doorbreken.",
+   "vb": "Een medewerker die voorzichtig zegt dat een norm niet klopt.",
+   "herkomst": "student"
+  },
+  {
+   "a": "financialisering",
+   "b": "kapitaal-als-selectiemechanisme",
+   "type": "O",
+   "rel": "versterkt",
+   "uitleg": "Financialisering maakt kapitaal steeds bepalender: geld stroomt naar activiteiten met meetbare winst.",
+   "vb": "Fossiele energie bleef lang aantrekkelijk; zorg en natuurherstel krijgen minder kapitaal.",
+   "herkomst": "student"
+  },
+  {
+   "a": "financialisering",
+   "b": "aandeelhoudersmodel",
+   "type": "O",
+   "rel": "versterkt",
+   "uitleg": "Sinds de jaren tachtig is aandeelhouderswaarde versterkt door financialisering, met focus op kortetermijnrendement.",
+   "vb": "Aandeleninkoop (Lazonick, 2014).",
+   "herkomst": "student"
+  },
+  {
+   "a": "aandeelhoudersmodel",
+   "b": "stakeholdersmodel",
+   "type": "T",
+   "rel": "is het tegenovergestelde van",
+   "uitleg": "Aandeelhouders: wie het risico draagt, beslist. Stakeholders: wie bijdraagt aan het functioneren, telt mee. In de praktijk zitten bedrijven ertussenin.",
+   "vb": "Spectrum tussen beide modellen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "aandeelhoudersmodel",
+   "b": "beslissingspremissen",
+   "type": "O",
+   "rel": "geeft financiële maatstaven voorrang in",
+   "uitleg": "In een bedrijf ingericht rond aandeelhouderswaarde krijgen financiële maatstaven structureel voorrang bij beslissingen.",
+   "vb": "Beslissingspremissen (March & Simon, 1958).",
+   "herkomst": "student"
+  },
+  {
+   "a": "beslissingspremissen",
+   "b": "stakeholdersmodel",
+   "type": "S",
+   "rel": "is anders bij",
+   "uitleg": "Bij een samenwerkingsverband verschuift de vraag naar legitimiteit: hoe worden bijdragen en risico's erkend?",
+   "herkomst": "student"
+  },
+  {
+   "a": "greenwashing",
+   "b": "kapitaal-als-selectiemechanisme",
+   "type": "O",
+   "rel": "loont door toegang tot",
+   "uitleg": "Een duurzaam imago kan bijdragen aan toegang tot kapitaal en hogere marktwaardering.",
+   "vb": "ESG-criteria bij beleggers.",
+   "herkomst": "student"
+  },
+  {
+   "a": "technologie-is-niet-neutraal",
+   "b": "ontwerpinterventie",
+   "type": "O",
+   "rel": "vraagt om",
+   "uitleg": "Technologie bevat waarden in haar ontwerp; een ontwerpinterventie past precies dat ontwerp aan.",
+   "vb": "Transparantie bouwen in een AI-systeem.",
+   "herkomst": "student"
+  },
+  {
+   "a": "technologie-is-niet-neutraal",
+   "b": "organisatorische-interventie",
+   "type": "O",
+   "rel": "vraagt om",
+   "uitleg": "Technologie bepaalt gedrag; organisaties kunnen met governance en audits sturen op gebruik.",
+   "vb": "Een ethische commissie die technologieprojecten vooraf toetst.",
+   "herkomst": "student"
+  },
+  {
+   "a": "technologie-is-niet-neutraal",
+   "b": "institutionele-interventie",
+   "type": "O",
+   "rel": "vraagt om",
+   "uitleg": "Regelgeving bepaalt onder welke voorwaarden technologie mag worden gebruikt.",
+   "vb": "Europese AI Act.",
+   "herkomst": "student"
+  },
+  {
+   "a": "ontwerpinterventie",
+   "b": "organisatorische-interventie",
+   "type": "S",
+   "rel": "werkt samen met",
+   "uitleg": "Combineer interventieniveaus: alleen technische aanpassingen werken niet als organisatorische prikkels gelijk blijven.",
+   "herkomst": "student"
+  },
+  {
+   "a": "organisatorische-interventie",
+   "b": "institutionele-interventie",
+   "type": "S",
+   "rel": "werkt samen met",
+   "uitleg": "De drie interventieniveaus zijn ontwerp, organisatie en instituties.",
+   "herkomst": "student"
+  },
+  {
+   "a": "ontwerpinterventie",
+   "b": "institutionele-interventie",
+   "type": "S",
+   "rel": "werkt samen met",
+   "uitleg": "De drie interventieniveaus zijn ontwerp, organisatie en instituties.",
+   "herkomst": "student"
+  },
+  {
+   "a": "technologie-is-niet-neutraal",
+   "b": "datamacht",
+   "type": "S",
+   "rel": "geldt ook voor",
+   "uitleg": "Wie data verzamelt en algoritmen inzet, bepaalt mede wat zichtbaar wordt; algoritmen nemen bovendien de ongelijkheden in hun data over.",
+   "vb": "Gezichtsherkenning (Buolamwini & Gebru, 2018).",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "a": "marktconcentratie",
+   "b": "datamacht",
+   "type": "O",
+   "rel": "wordt versterkt door",
+   "uitleg": "Controle over data-infrastructuren verschuift economische macht en kan leiden tot concentratie.",
+   "vb": "Platformen als poortwachters; surveillancekapitalisme (Zuboff).",
+   "herkomst": "student"
+  },
+  {
+   "a": "agency",
+   "b": "technologie-is-niet-neutraal",
+   "type": "S",
+   "rel": "maakt ingrijpen mogelijk bij",
+   "uitleg": "Technologie is het resultaat van menselijke beslissingen en institutionele regels; menselijke agency maakt interventies mogelijk.",
+   "vb": "Responsible innovation.",
+   "herkomst": "student"
+  },
+  {
+   "a": "greenwashing",
+   "b": "selectieve-communicatie",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "Delmas & Burbano beschrijven greenwashing als kloof tussen communicatie en feitelijke prestaties; er zijn vier vormen.",
+   "vb": "Eén duurzaam initiatief breed uitmeten, de rest buiten beeld laten. Casus: H&M Conscious Collection, terwijl het fast-fashionmodel onveranderd blijft.",
+   "herkomst": "student"
+  },
+  {
+   "a": "greenwashing",
+   "b": "vage-of-niet-verifieerbare-claims",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "Delmas & Burbano beschrijven greenwashing als kloof tussen communicatie en feitelijke prestaties; er zijn vier vormen.",
+   "vb": "\"Eco-friendly\" of \"natuurlijk\" zonder definitie of maatstaf.",
+   "herkomst": "student"
+  },
+  {
+   "a": "greenwashing",
+   "b": "irrelevante-communicatie",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "Delmas & Burbano beschrijven greenwashing als kloof tussen communicatie en feitelijke prestaties; er zijn vier vormen.",
+   "vb": "\"CFK-vrij\" terwijl CFK's al jaren verboden zijn.",
+   "herkomst": "student"
+  },
+  {
+   "a": "greenwashing",
+   "b": "symbolische-duurzaamheid",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "Delmas & Burbano beschrijven greenwashing als kloof tussen communicatie en feitelijke prestaties; er zijn vier vormen.",
+   "vb": "Een klein initiatief met weinig effect sterk uitgelicht.",
+   "herkomst": "student"
+  },
+  {
+   "a": "greenwashing",
+   "b": "institutionele-interventie",
+   "type": "O",
+   "rel": "wordt bestreden door",
+   "uitleg": "Regelgeving vergroot transparantie en beperkt misleidende claims, hoewel niet alle vormen.",
+   "vb": "CSRD: gestandaardiseerde rapportage.",
+   "herkomst": "student"
+  },
+  {
+   "a": "neoliberalisme",
+   "b": "financialisering",
+   "type": "O",
+   "rel": "versterkte",
+   "uitleg": "Vanaf de jaren tachtig kregen financiële markten en rendementen steeds meer macht over bedrijven.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "neoliberalisme",
+   "b": "marktconcentratie",
+   "type": "O",
+   "rel": "faciliteerde",
+   "uitleg": "Met minder toezicht werden markten niet concurrerender maar geconcentreerder: superstar firms (Autor et al., 2020).",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "aanbod-stuurt-vraag",
+   "b": "marktconcentratie",
+   "type": "S",
+   "rel": "wordt sterker bij",
+   "uitleg": "Bezitten enkele bedrijven de infrastructuur, dan bepalen zij welke keuzes er überhaupt zijn.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "surveillancekapitalisme",
+   "b": "aanbod-stuurt-vraag",
+   "type": "O",
+   "rel": "versterkt",
+   "uitleg": "Platforms gebruiken data om gedrag te voorspellen en te sturen, en vormen zo mee welke behoeften normaal voelen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "pluralistische-onwetendheid",
+   "b": "normalisatie-van-afwijkend-gedrag",
+   "type": "O",
+   "rel": "houdt in stand",
+   "uitleg": "Als iedereen denkt dat de rest erachter staat, zegt niemand iets en wordt een schadelijke praktijk routine.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "morele-moed",
+   "b": "agency",
+   "type": "D",
+   "rel": "is een vorm van",
+   "uitleg": "Morele moed is handelen in de ruimte die het systeem laat, vaak met een kleine maar zichtbare stap.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "morele-moed",
+   "b": "normalisatie-van-afwijkend-gedrag",
+   "type": "T",
+   "rel": "doorbreekt",
+   "uitleg": "Iemand die niet meedoet aan de schadelijke norm laat zien dat die norm niet vanzelfsprekend is.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "filtermechanisme",
+   "b": "beslissingspremissen",
+   "type": "S",
+   "rel": "werkt via",
+   "uitleg": "Doelen en indicatoren bepalen vooraf welke opties zichtbaar worden; morele overwegingen die daar niet in passen, vallen weg.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "aandeelhoudersactivisme",
+   "b": "financialisering",
+   "type": "O",
+   "rel": "versterkt",
+   "uitleg": "Hedgefondsen zijn volgens de les geen uitzondering op het systeem maar een versterking ervan: ze verkorten de tijdshorizon.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "normverschuiving-onder-concurrentiedruk",
+   "b": "morele-ontkoppeling",
+   "type": "S",
+   "rel": "gaat gepaard met",
+   "uitleg": "Verwijzingen naar marktdruk of sectorstandaarden rechtvaardigen gedrag zonder dat betrokkenen zich onethisch voelen (Bandura).",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "surveillancekapitalisme",
+   "b": "datamacht",
+   "type": "D",
+   "rel": "is een verdienmodel gebaseerd op",
+   "uitleg": "Wie data verzamelt en controleert, kan gedrag voorspellen en sturen, en daar geld aan verdienen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "infrastructuur",
+   "b": "technologie-is-niet-neutraal",
+   "type": "D",
+   "rel": "is een voorbeeld van",
+   "uitleg": "Infrastructuren bepalen wie toegang krijgt, welke standaarden gelden en hoe kosten en voordelen worden verdeeld.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "infrastructuur",
+   "b": "marktconcentratie",
+   "type": "O",
+   "rel": "kan leiden tot",
+   "uitleg": "Wie de infrastructuur beheert, wordt poortwachter en krijgt macht over de partijen die ervan afhankelijk zijn.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "algoritmische-bias",
+   "b": "technologie-is-niet-neutraal",
+   "type": "D",
+   "rel": "is een voorbeeld van",
+   "uitleg": "Algoritmen nemen de ongelijkheden over uit de data waarop ze zijn getraind; ze zijn dus niet vanzelf objectief.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "algoritmische-bias",
+   "b": "organisatorische-interventie",
+   "type": "H",
+   "rel": "wordt opgespoord met een",
+   "uitleg": "Algoritme-audits onderzoeken systemen op bias, fouten en discriminatie.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "value-sensitive-design",
+   "b": "ontwerpinterventie",
+   "type": "D",
+   "rel": "is een vorm van",
+   "uitleg": "Waarden zoals transparantie en inclusie neem je mee in het ontwerp zelf.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "technologisch-determinisme",
+   "b": "agency",
+   "type": "T",
+   "rel": "ontkent",
+   "uitleg": "Determinisme zegt dat technologie ons handelen bepaalt; de les stelt dat mensen technologie kunnen aanpassen en reguleren.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "legitimiteit",
+   "b": "greenwashing",
+   "type": "O",
+   "rel": "zet bedrijven onder druk richting",
+   "uitleg": "Wie legitimiteit wil houden terwijl het bedrijfsmodel nog niet kan veranderen, gaat sneller groener communiceren dan het werkelijk is.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "decoupling",
+   "b": "greenwashing",
+   "type": "D",
+   "rel": "is de kern van",
+   "uitleg": "Bij greenwashing loopt de communicatie voor op de praktijk: de twee zijn losgekoppeld.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "informatie-asymmetrie",
+   "b": "greenwashing",
+   "type": "O",
+   "rel": "maakt mogelijk",
+   "uitleg": "Omdat buitenstaanders de werkelijke impact niet kunnen controleren, kan een bedrijf zijn reputatie verbeteren zonder echt te veranderen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "institutionele-interventie",
+   "b": "informatie-asymmetrie",
+   "type": "H",
+   "rel": "verkleint",
+   "uitleg": "Verplichte, gestandaardiseerde rapportage zoals de CSRD maakt bedrijven vergelijkbaar.",
+   "herkomst": "aangevuld"
+  }
+ ],
+ "extern": [
+  {
+   "begrip": "begrenzing",
+   "richting": "in",
+   "cursus": "duurzaamheid-systeemdenken",
+   "ander": "planetaire-grenzen",
+   "naam": "Planetaire grenzen",
+   "type": "S",
+   "rel": "sluit aan bij",
+   "uitleg": "Begrenzing zegt dat elk systeem grenzen heeft; planetaire grenzen zijn de wetenschappelijk bepaalde grenzen van de aarde."
+  },
+  {
+   "begrip": "aandeelhoudersmodel",
+   "richting": "in",
+   "cursus": "duurzaamheid-systeemdenken",
+   "ander": "zes-kapitalen",
+   "naam": "Zes kapitalen",
+   "type": "T",
+   "rel": "kijkt verder dan",
+   "uitleg": "Meervoudige waardecreatie gaat over waarde voor meer dan alleen aandeelhouders."
+  },
+  {
+   "begrip": "externaliteiten",
+   "richting": "in",
+   "cursus": "duurzaamheid-systeemdenken",
+   "ander": "inside-out",
+   "naam": "Inside-out",
+   "type": "S",
+   "rel": "laat de impact zien die samenhangt met",
+   "uitleg": "Inside-out vraagt naar je impact op mens en milieu; externaliteiten zijn de kosten van die impact die bij anderen terechtkomen."
+  },
+  {
+   "begrip": "stakeholdersmodel",
+   "richting": "uit",
+   "cursus": "duurzaamheid-systeemdenken",
+   "ander": "stakeholderbetrokkenheid",
+   "naam": "Stakeholderbetrokkenheid",
+   "type": "S",
+   "rel": "wordt in de praktijk gebracht met",
+   "uitleg": "Het stakeholdersmodel ziet de onderneming als samenwerkingsverband; stakeholderbetrokkenheid is de manier om die partijen actief mee te laten doen."
+  },
+  {
+   "begrip": "kapitaal-als-selectiemechanisme",
+   "richting": "in",
+   "cursus": "duurzaamheid-systeemdenken",
+   "ander": "lock-in-effect",
+   "naam": "Lock-in effect",
+   "type": "S",
+   "rel": "speelt mee bij",
+   "uitleg": "Eerdere investeringen in infrastructuur en regels maken verandering moeilijk en kostbaar."
+  },
+  {
+   "begrip": "datamacht",
+   "richting": "in",
+   "cursus": "duurzaamheid-systeemdenken",
+   "ander": "lock-in-effect",
+   "naam": "Lock-in effect",
+   "type": "S",
+   "rel": "ontstaat via",
+   "uitleg": "Infrastructuren kunnen lock-in effecten creëren: overstappen wordt technisch en financieel zeer complex."
+  },
+  {
+   "begrip": "greenwashing",
+   "richting": "in",
+   "cursus": "duurzaamheid-systeemdenken",
+   "ander": "padafhankelijkheid",
+   "naam": "Padafhankelijkheid",
+   "type": "O",
+   "rel": "verklaart",
+   "uitleg": "Verwachtingen veranderen snel, organisaties traag: investeringen in bestaande systemen maken snel omschakelen moeilijk."
+  },
+  {
+   "begrip": "institutionele-interventie",
+   "richting": "in",
+   "cursus": "duurzaamheid-systeemdenken",
+   "ander": "csrd",
+   "naam": "CSRD",
+   "type": "D",
+   "rel": "is een",
+   "uitleg": "Regelgeving die bedrijven verplicht transparanter te rapporteren is een ingreep op het niveau van wet en beleid."
+  },
+  {
+   "begrip": "informatie-asymmetrie",
+   "richting": "in",
+   "cursus": "duurzaamheid-systeemdenken",
+   "ander": "csrd",
+   "naam": "CSRD",
+   "type": "H",
+   "rel": "verkleint",
+   "uitleg": "Gestandaardiseerde rapportage maakt vergelijken mogelijk en zelf kiezen wat je laat zien lastiger."
+  },
+  {
+   "begrip": "infrastructuur",
+   "richting": "uit",
+   "cursus": "duurzaamheid-systeemdenken",
+   "ander": "lock-in-effect",
+   "naam": "Lock-in effect",
+   "type": "O",
+   "rel": "creëert",
+   "uitleg": "Zodra je volledig bent geïntegreerd in bijvoorbeeld een cloudomgeving, wordt overstappen technisch en financieel zeer complex."
+  }
+ ],
+ "samenvattingen": {
+  "m1": [
+   "Deze module laat zien dat economie nooit waardevrij is. Achter elke economische keuze zit een morele keuze: wie krijgt toegang, wie draagt de risico’s, wie wordt beschermd? Tijdens de gascrisis van 2022 was de rekensom niet het moeilijkst. De moeilijke vraag was wie er niet zonder mocht komen te zitten. Dat is een morele vraag.",
+   "Vier kernbegrippen helpen. Rechtvaardige verdeling gaat over wie wat krijgt, wanneer en waarom. Begrenzing betekent dat alles fysieke, sociale of ecologische grenzen heeft. Commons zijn gedeelde hulpbronnen zoals water, lucht en data, die zonder afspraken achteruitgaan, net als een gedeelde koelkast in een studentenhuis. En externaliteiten zijn kosten die de veroorzaker afwentelt op anderen, zoals e-waste dat in Ghana en India terechtkomt.",
+   "Systemen handelen anders dan mensen. Een bedrijf, een markt of een algoritme optimaliseert waarvoor het is gebouwd; een appelplukmachine stopt niet voor een vogelnest. Friedman stelde dat bedrijven winst moeten maken binnen de regels. Goodpaster laat zien dat dit tot morele paradoxen leidt.",
+   "Verder bespreekt de les bezit en kapitalisme. Volgens Piketty groeit het rendement op kapitaal sneller dan de economie, waardoor vermogen zichzelf versterkt. Vanaf de jaren tachtig kwam het neoliberalisme, met deregulering, privatisering en meer marktconcentratie. Ook stuurt het aanbod steeds vaker de vraag: de keuze is echt, maar het keuzemenu niet neutraal.",
+   "Tot slot drie psychologische mechanismen: kuddegedrag, verliesaversie en morele ontkoppeling. Samen verklaren ze waarom crises vaak niet voortkomen uit slechte bedoelingen, maar uit menselijke reflexen die systemen versterken."
+  ],
+  "m2": [
+   "Deze module laat zien dat systemen menselijk gedrag op schaal zijn. Mensen handelen niet puur rationeel. Onder tijdsdruk, hiërarchie en sociale verwachtingen vallen we terug op intuïtie, routines en vuistregels. De dominante vraag wordt dan niet: wat vind ik hiervan? Maar: wat is hier normaal, en wat gebeurt er als ik afwijk?",
+   "Een belangrijk mechanisme is morele ontkoppeling, beschreven door Bandura. Mensen blijven zichzelf zien als moreel redelijk, terwijl ze meewerken aan schadelijk gedrag. Dat gebeurt door het gedrag te herdefiniëren, de gevolgen te minimaliseren en de verantwoordelijkheid te verschuiven of te verdunnen. In groepen speelt daarnaast pluralistische onwetendheid: iedereen denkt dat de rest ergens achter staat. En door normalisatie van afwijkend gedrag wordt een schadelijke praktijk na verloop van tijd routine.",
+   "Individuele keuzes worden sterk bepaald door het systeem, zoals zwemmen in een rivier met een sterke stroming. Infrastructuren, platforms en reclame maken bepaald gedrag vanzelfsprekend. Macht werkt ook psychologisch: voor wie macht heeft voelt het systeem natuurlijk, voor wie die mist voelt het als iets dat je overkomt.",
+   "Toch is er ruimte. Morele moed is zeldzaam, omdat die ruis veroorzaakt in systemen die gebouwd zijn op efficiëntie, maar ontstaat vooral door de juiste condities, zoals veiligheid en openheid. Agency is het vermogen om te handelen binnen de ruimte die het systeem laat. Die ruimte is soms klein, maar nooit nul. Normen verschuiven via frictie, gesprek en alternatieven, met veel kleine stappen."
+  ],
+  "m3": [
+   "Deze module gaat over organisaties als morele machines: structuren die gedrag sturen volgens ingebouwde logica’s. Bedrijven ontstonden om productie efficiënt te organiseren, maar schaal kan omslaan in macht. Door schaalvoordelen, netwerkeffecten en data zijn veel markten sinds de jaren tachtig geconcentreerder geworden, met superstar firms die ook de spelregels zelf beïnvloeden.",
+   "Het aandeelhoudersmodel zegt: wie financieel risico draagt, beslist. Friedman stelde in 1970 dat de verantwoordelijkheid van een bedrijf winst maken is binnen de wet. Door financialisering zijn financiële markten en indicatoren steeds bepalender geworden, en verschuift de tijdshorizon naar de korte termijn. Kapitaal werkt als selectiemechanisme: het stroomt naar meetbare winst en bepaalt zo welke sectoren groeien. Hedgefondsen en aandeelhoudersactivisme versterken dat.",
+   "Het stakeholdersmodel kijkt anders: een onderneming bestaat doordat werknemers, leveranciers, gemeenschappen, ecosystemen en investeerders allemaal bijdragen en risico dragen. Volgens Freeman is het bedrijf een knooppunt van relaties. In de praktijk zitten bedrijven ergens op een spectrum, van Duitse Mitbestimmung tot de Amerikaanse Benefit Corporation.",
+   "In organisaties werkt een filtermechanisme. Morele overwegingen moeten passen binnen doelen en indicatoren, de beslissingspremissen van March en Simon. Wat daar niet in past, bereikt de besluitvorming niet. Onder concurrentiedruk kunnen normen bovendien geleidelijk verschuiven, tot twijfelachtige praktijken normaal lijken. De kernvraag is dus niet alleen wat bedrijven doen, maar hoe het systeem bepaalt wat als waarde telt."
+  ],
+  "m4": [
+   "Deze module laat zien dat technologie niet neutraal is. Volgens Winner kunnen technologische artefacten politieke eigenschappen hebben: ze kunnen bewust ontworpen zijn om bepaalde structuren te steunen, of onbedoeld een bepaalde organisatie vereisen. Zelfs een automatische deur verdeelt toegang en afhankelijkheid.",
+   "Latour beschrijft technologie als actor in een netwerk van mensen en dingen, en Verbeek laat zien hoe technologie bemiddelt in hoe we de wereld zien, zoals een navigatie-app. De grootste invloed zit vaak in infrastructuur: grootschalige systemen die activiteiten mogelijk maken, standaarden zetten en afhankelijkheid creëren. Wie de infrastructuur beheert, wordt poortwachter.",
+   "In de digitale economie is data een bron van macht. Zuboff beschrijft surveillancekapitalisme: data worden gebruikt om gedrag te voorspellen én te beïnvloeden. Algoritmen nemen bovendien de vooroordelen over uit de data waarop ze zijn getraind, zoals gezichtsherkenning die vrouwen en mensen met een donkere huidskleur slechter herkent. Ook duurzame technologie is niet waardevrij: een AI-sorteersysteem bepaalt mee welke materialen als waardevol gelden.",
+   "Toch is technologie geen autonome kracht; de les wijst technologisch determinisme af. Je kunt ingrijpen op drie niveaus. Ontwerpinterventies, zoals Value Sensitive Design, transparantie en explainable AI. Organisatorische interventies, zoals ethische commissies en algoritme-audits. En institutionele interventies, zoals de Europese AI Act en de Digital Services Act. Meestal is een combinatie nodig."
+  ],
+  "m5": [
+   "Deze module behandelt greenwashing: een groen imago zonder echte verandering in het bedrijfsmodel of de impact. De les zegt dat dit meer is dan misleidende marketing. Het is vaak een systeemfenomeen. Maatschappelijke verwachtingen over duurzaamheid veranderen sneller dan bedrijfsmodellen kunnen meebewegen.",
+   "Bedrijven willen legitimiteit: erkenning dat wat ze doen aanvaardbaar is. Als de druk groeit maar het bedrijfsmodel vastzit door padafhankelijkheid, ontstaat decoupling. De communicatie beweegt mee, de praktijk niet. Daarnaast spelen economische prikkels. Een duurzaam imago helpt bij toegang tot kapitaal, bijvoorbeeld via ESG-criteria. En door informatie-asymmetrie kunnen buitenstaanders de werkelijke impact moeilijk controleren.",
+   "Delmas en Burbano onderscheiden vier vormen. Selectieve communicatie: één duurzaam initiatief breed uitmeten. Vage claims: woorden als groen of natuurlijk zonder meetbaar criterium. Irrelevante communicatie: iets claimen wat al verplicht is, zoals CFK-vrij. En symbolische duurzaamheid: een klein initiatief dat zwaar wordt aangezet. De Conscious Collection van H&M is het voorbeeld: een duurzame lijn, terwijl het fast-fashionmodel bleef.",
+   "Regelgeving zoals de CSRD verkleint de informatie-asymmetrie met gestandaardiseerde rapportage. De ethische problemen van greenwashing zijn breder dan marketing: misleiding, oneerlijke concurrentie met bedrijven die wél investeren, minder vertrouwen in keurmerken, en vertraging van de systeemverandering die nodig is."
+  ]
+ },
+ "nagekeken": {
+  "m1": {
+   "vinger": "db9f4ce51d2f",
+   "datum": "2026-10-27"
+  },
+  "m2": {
+   "vinger": "cf03ea4a9c43",
+   "datum": "2026-10-27"
+  },
+  "m3": {
+   "vinger": "f67231f126f5",
+   "datum": "2026-10-27"
+  },
+  "m4": {
+   "vinger": "ceafcca41879",
+   "datum": "2026-10-27"
+  },
+  "m5": {
+   "vinger": "85c067f44fd0",
+   "datum": "2026-10-27"
+  }
+ }
+}

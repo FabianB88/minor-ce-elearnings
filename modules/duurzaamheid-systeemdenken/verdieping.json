@@ -1,0 +1,1787 @@
+{
+ "toelichting": "Begrippen, verbanden en luistersamenvattingen bij deze e-learning. Gebaseerd op de begrippenkaart Begrippen-Verbanden van een student uit de minor (met toestemming), nagelopen tegen de lesstof: begrippen zijn waar nodig gecorrigeerd, naar de juiste module verplaatst of aangevuld. Zie herkomst per begrip en verband.",
+ "types": {
+  "D": {
+   "naam": "Onderdeel of soort van",
+   "kleur": "#5C7A5A"
+  },
+  "O": {
+   "naam": "Leidt tot of versterkt",
+   "kleur": "#B07A1E"
+  },
+  "T": {
+   "naam": "Tegenpool",
+   "kleur": "#B5523B"
+  },
+  "H": {
+   "naam": "Hulpmiddel of toepassing",
+   "kleur": "#3F6B82"
+  },
+  "S": {
+   "naam": "Hangt samen met",
+   "kleur": "#8A7F76"
+  }
+ },
+ "begrippen": [
+  {
+   "id": "systeemdenken",
+   "les": "m1",
+   "naam": "Systeemdenken",
+   "def": "Kijken naar verbanden, interacties en patronen tussen de onderdelen van een geheel, in plaats van elk onderdeel los te bekijken.",
+   "vb": "Luchtvervuiling door verkeer aanpak je via verkeersbeleid, stedelijke planning én gezondheidszorg samen, niet met één losse maatregel.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "duurzaamheid",
+   "les": "m1",
+   "naam": "Duurzaamheid",
+   "def": "Een balans zoeken tussen ecologische, economische en sociale belangen, zodat huidige én toekomstige generaties in hun behoeften kunnen voorzien (Brundtland, 1987).",
+   "vb": "Een kledingmerk dat eerlijk betaalt, winst maakt én minder water gebruikt.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "triple-bottom-line",
+   "les": "m1",
+   "naam": "Triple Bottom Line",
+   "sub": "people – planet – profit",
+   "def": "Een organisatie beoordelen op haar sociale, ecologische én financiële prestaties tegelijk, niet alleen op winst.",
+   "vb": "Een jaarverslag met cijfers over winst, uitstoot én medewerkerstevredenheid.",
+   "herkomst": "student"
+  },
+  {
+   "id": "sdg-s",
+   "les": "m1",
+   "naam": "SDG's",
+   "sub": "Sustainable Development Goals",
+   "def": "De zeventien duurzaamheidsdoelen van de Verenigde Naties; een internationaal referentiekader voor beleid tot 2030.",
+   "vb": "Een gemeente koppelt haar plannen aan doelen als schoon water of klimaatactie.",
+   "herkomst": "student"
+  },
+  {
+   "id": "systeemgrenzen",
+   "les": "m1",
+   "naam": "Systeemgrenzen",
+   "def": "De keuze wat je wél en niet meeneemt in een systeemanalyse. Die afbakening bepaalt welke oorzaken, gevolgen en oplossingen je ziet.",
+   "vb": "Meet je alleen de fabriek, of ook de grondstoffen en het afval erna?",
+   "herkomst": "student"
+  },
+  {
+   "id": "drie-dimensies-van-duurzaamheid",
+   "les": "m1",
+   "naam": "Drie dimensies van duurzaamheid",
+   "sub": "ecologisch, economisch, sociaal",
+   "def": "Duurzaamheid heeft een ecologische, een economische en een sociale dimensie. In het beeld van een huis is de ecologie het fundament, de economie de structuur en het sociale het interieur. Raakt één dimensie uit balans, dan verliest het geheel zijn stabiliteit.",
+   "vb": "Economische groei op een uitgeputte aarde is als een huis uitbouwen op een rottend fundament.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "biosfeer",
+   "les": "m2",
+   "naam": "Biosfeer",
+   "def": "De laag van de aarde waarin leven voorkomt: alle levende organismen en hun onderlinge interacties.",
+   "vb": "Een bos met planten, dieren en schimmels die elkaar nodig hebben.",
+   "herkomst": "student"
+  },
+  {
+   "id": "atmosfeer",
+   "les": "m2",
+   "naam": "Atmosfeer",
+   "def": "De luchtlaag rond de aarde. Ze reguleert het klimaat, levert zuurstof en beschermt tegen schadelijke straling van de zon.",
+   "vb": "Zonder atmosfeer zou het overdag veel heter en 's nachts veel kouder zijn.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "hydrosfeer",
+   "les": "m2",
+   "naam": "Hydrosfeer",
+   "def": "Al het water op aarde, van oceanen en rivieren tot ijs en grondwater, plus de kringlopen daarvan.",
+   "vb": "Regen valt, stroomt naar zee, verdampt en wordt weer regen.",
+   "herkomst": "student"
+  },
+  {
+   "id": "lithosfeer",
+   "les": "m2",
+   "naam": "Lithosfeer",
+   "def": "De aardkorst en de bovenste laag van de mantel, met gesteenten, mineralen en bodems. Ze levert grondstoffen zoals metalen, fossiele brandstoffen en bouwmaterialen.",
+   "vb": "De metalen in je telefoon komen uit de lithosfeer.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "planetaire-grenzen",
+   "les": "m2",
+   "naam": "Planetaire grenzen",
+   "def": "Wetenschappelijke drempelwaarden voor negen processen, zoals klimaat, biodiversiteit en de stikstof- en fosforkringloop, waarbinnen de aarde stabiel blijft (Rockström en Steffen). Overschrijding vergroot het risico op onomkeerbare schade.",
+   "vb": "Als een brug met een maximaal gewicht: daarboven neemt het risico op instorten toe.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "eutrofiering",
+   "les": "m2",
+   "naam": "Eutrofiëring",
+   "def": "Een overmaat aan stikstof en fosfor in water, vooral door landbouw en industrie. Het gevolg is algenbloei, zuurstoftekort en dode zones.",
+   "vb": "Een meer vol algen waarin vissen sterven door zuurstoftekort.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "stikstofcrisis",
+   "les": "m2",
+   "naam": "Stikstofcrisis",
+   "def": "Het Nederlandse voorbeeld van een overschreden planetaire grens: door intensieve veehouderij en kunstmest komt te veel stikstof in de natuur. Kwetsbare natuur raakt overwoekerd, bouwprojecten liggen stil en de landbouw staat onder druk.",
+   "vb": "Heide die verandert in een veld met brandnetels en gras.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "lineaire-economie",
+   "les": "m3",
+   "naam": "Lineaire economie",
+   "def": "Een model van winnen, maken, gebruiken en weggooien: grondstoffen worden eenmalig ingezet en afval is het eindpunt.",
+   "vb": "Een wegwerpbeker: gemaakt, één keer gebruikt, in de prullenbak.",
+   "herkomst": "student"
+  },
+  {
+   "id": "circulaire-economie",
+   "les": "m3",
+   "naam": "Circulaire economie",
+   "def": "Grondstoffen en producten blijven zo lang mogelijk in de kringloop, afval wordt geminimaliseerd en waarde blijft behouden.",
+   "vb": "Een telefoon die wordt teruggenomen, opgeknapt en opnieuw verkocht.",
+   "herkomst": "student"
+  },
+  {
+   "id": "r-ladder",
+   "les": "m3",
+   "naam": "R-ladder",
+   "def": "Een rangorde van circulaire strategieën, van R0 Refuse tot R9 Recover. Hoe hoger op de ladder, hoe meer waarde behouden blijft.",
+   "vb": "Een kapotte fiets repareren (hoog) is beter dan hem recyclen (lager).",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "refuse",
+   "les": "m3",
+   "naam": "Refuse",
+   "sub": "R0, weigeren",
+   "def": "Onnodig grondstof- of verpakkingsgebruik voorkomen door het al bij het ontwerp of de inkoop te vermijden.",
+   "vb": "Geen plastic folie om een komkommer.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "reduce",
+   "les": "m3",
+   "naam": "Reduce",
+   "sub": "R2, verminderen",
+   "def": "Grondstofgebruik en afval beperken met efficiëntere processen en slimmere materiaalkeuzes.",
+   "vb": "Een lichtere verpakking met dezelfde bescherming.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "reuse",
+   "les": "m3",
+   "naam": "Reuse",
+   "sub": "R3, hergebruiken",
+   "def": "Een product of materiaal in de huidige vorm opnieuw inzetten in plaats van het te vervangen.",
+   "vb": "Statiegeldflessen die schoongemaakt en opnieuw gevuld worden.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "repair",
+   "les": "m3",
+   "naam": "Repair",
+   "sub": "R4, repareren",
+   "def": "Een defect product herstellen in plaats van vervangen, waardoor de levensduur langer wordt.",
+   "vb": "Een nieuwe accu in je laptop in plaats van een nieuwe laptop.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "recycle",
+   "les": "m3",
+   "naam": "Recycle",
+   "sub": "R8, recyclen",
+   "def": "Afgedankt materiaal verwerken tot nieuwe grondstof. Dat behoudt minder waarde dan de treden erboven, maar voorkomt verspilling.",
+   "vb": "Oude plastic flessen die weer plastic korrels worden.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "recover",
+   "les": "m3",
+   "naam": "Recover",
+   "sub": "R9, terugwinnen",
+   "def": "De laagste trede: nog energie of grondstoffen terugwinnen uit materiaal dat niet meer herbruikt of gerecycled kan worden.",
+   "vb": "Restafval verbranden en de warmte gebruiken voor stroom.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "circulaire-businessmodellen",
+   "les": "m3",
+   "naam": "Circulaire businessmodellen",
+   "def": "Verdienmodellen die eigendom en gebruik loskoppelen of de levensduur van producten verlengen.",
+   "vb": "Je koopt geen lampen, maar abonneert je op licht.",
+   "herkomst": "student"
+  },
+  {
+   "id": "product-as-a-service",
+   "les": "m3",
+   "naam": "Product-as-a-Service",
+   "def": "De klant betaalt voor gebruik, bijvoorbeeld via lease of abonnement. De aanbieder blijft eigenaar en regelt onderhoud en het einde van de levensduur.",
+   "vb": "Een leaseplan voor verlichting: de leverancier houdt de lampen in stand en neemt ze terug.",
+   "herkomst": "student"
+  },
+  {
+   "id": "sharing-platforms",
+   "les": "m3",
+   "naam": "Sharing platforms",
+   "def": "Platformen waarop meerdere gebruikers dezelfde producten delen, zodat er minder exemplaren nodig zijn.",
+   "vb": "Een deelauto die door tientallen buurtbewoners wordt gebruikt.",
+   "herkomst": "student"
+  },
+  {
+   "id": "levensduurverlenging",
+   "les": "m3",
+   "naam": "Levensduurverlenging",
+   "def": "Reparatie, opknappen en upgraden: strategieën die de gebruiksduur verlengen voordat een product wordt afgedankt.",
+   "vb": "Je smartphone een nieuw scherm en een update geven in plaats van hem te vervangen.",
+   "herkomst": "student"
+  },
+  {
+   "id": "lca",
+   "les": "m3",
+   "naam": "LCA",
+   "sub": "Life Cycle Assessment",
+   "def": "Een methode om de milieu-impact van een product over zijn hele levenscyclus te berekenen, van grondstof tot afdanking.",
+   "vb": "Vergelijken welke fles over de hele keten de minste milieu-impact heeft.",
+   "herkomst": "student"
+  },
+  {
+   "id": "ontwerpen-voor-hergebruik",
+   "les": "m3",
+   "naam": "Ontwerpen voor hergebruik",
+   "sub": "design for reuse",
+   "def": "Producten zo ontwerpen dat je ze eenvoudig kunt demonteren, repareren, upgraden of hergebruiken, bijvoorbeeld met modulair design. Volgens de les heeft dit meer impact dan alleen recyclen.",
+   "vb": "Een telefoon met losse onderdelen die je zelf kunt vervangen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "downcycling",
+   "les": "m3",
+   "naam": "Downcycling",
+   "def": "Materiaal wordt laagwaardig verwerkt, waardoor de waarde grotendeels verloren gaat.",
+   "vb": "Afgedankt textiel dat wordt verbrand of tot poetsdoek wordt verwerkt.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "tipping-point",
+   "les": "m4",
+   "naam": "Tipping point",
+   "sub": "kantelpunt",
+   "def": "Een drempel in een systeem waarna een kleine extra verandering een grote, vaak onomkeerbare verschuiving veroorzaakt.",
+   "vb": "De Groenlandse ijskap: voorbij het kantelpunt komt het ijs niet meer terug, ook niet als de temperatuur later daalt.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "positieve-feedback-loop",
+   "les": "m4",
+   "naam": "Positieve feedback(loop)",
+   "sub": "versterkende loop (R-loop)",
+   "def": "Een terugkoppeling die een effect versterkt, waardoor een verandering zichzelf aanjaagt.",
+   "vb": "Smeltend ijs legt donker water bloot, dat meer warmte opneemt, waardoor er nog meer ijs smelt.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "negatieve-feedback-loop",
+   "les": "m4",
+   "naam": "Negatieve feedback(loop)",
+   "sub": "dempende loop (B-loop)",
+   "def": "Een terugkoppeling die een verandering afremt en het systeem stabiliseert. In het klimaat zijn deze processen nu niet sterk genoeg om de menselijke invloed te compenseren.",
+   "vb": "Oceanen en planten nemen een deel van de CO₂ op en dempen zo tijdelijk de opwarming.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "broeikaseffect",
+   "les": "m4",
+   "naam": "Broeikaseffect",
+   "def": "Het natuurlijke proces waarbij broeikasgassen zoals CO₂, methaan en lachgas warmte vasthouden, waardoor het op aarde gemiddeld zo’n 15 °C is. Menselijke uitstoot versterkt het effect en dat leidt tot opwarming.",
+   "vb": "Een tuinkas: zonlicht komt binnen, de warmte kan er moeilijk uit.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "koolstofbudget",
+   "les": "m4",
+   "naam": "Koolstofbudget",
+   "def": "De hoeveelheid CO₂ die wereldwijd nog uitgestoten mag worden om onder een opwarmingsgrens, zoals 1,5 °C, te blijven.",
+   "vb": "Als een saldo op je rekening: elke uitstoot haalt er iets vanaf.",
+   "herkomst": "student"
+  },
+  {
+   "id": "albedo-effect",
+   "les": "m4",
+   "naam": "Albedo-effect",
+   "def": "IJs en sneeuw weerkaatsen zonlicht. Smelt het ijs, dan neemt het donkere water of land juist warmte op, waardoor de opwarming verder versnelt.",
+   "vb": "Smeltend zee-ijs maakt de oceaan donkerder en warmer.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "energietransitie",
+   "les": "m4",
+   "naam": "Energietransitie",
+   "def": "De overstap van fossiele naar duurzame energiebronnen, zoals zon, wind en waterstof. Daarvoor zijn ook nieuwe infrastructuur, opslag en slimme energiesystemen nodig.",
+   "vb": "Grote windparken op de Noordzee, die samen moeten gaan met natuur, visserij en scheepvaart.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "netcongestie",
+   "les": "m4",
+   "naam": "Netcongestie",
+   "def": "Het elektriciteitsnet raakt vol doordat het aanbod van zon en wind en de elektrificatie van industrie en mobiliteit sneller groeien dan het net. Nieuwe aansluitingen moeten dan wachten. Oplossingen zijn netuitbreiding, slimme sturing van vraag, opslag en flexibiliteit.",
+   "vb": "Een nieuwe woonwijk die niet kan worden aangesloten, en lokale batterijopslag als tussenoplossing.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "zes-kapitalen",
+   "les": "m5",
+   "naam": "Zes kapitalen",
+   "sub": "IIRC-model",
+   "def": "Een raamwerk waarin organisaties waarde creëren via zes vormen van kapitaal, niet alleen via geld.",
+   "vb": "Een bakkerij heeft geld, ovens, recepten, bakkers, klanten én graan nodig.",
+   "herkomst": "student"
+  },
+  {
+   "id": "financieel-kapitaal",
+   "les": "m5",
+   "naam": "Financieel kapitaal",
+   "def": "Geldmiddelen en financiële activa waarmee een organisatie haar doelen bereikt.",
+   "vb": "Spaargeld, leningen en investeringen.",
+   "herkomst": "student"
+  },
+  {
+   "id": "geproduceerd-kapitaal",
+   "les": "m5",
+   "naam": "Geproduceerd kapitaal",
+   "def": "De fysieke middelen die een organisatie gebruikt: gebouwen, machines en infrastructuur.",
+   "vb": "Een fabriekshal, een vrachtwagen, een server.",
+   "herkomst": "student"
+  },
+  {
+   "id": "intellectueel-kapitaal",
+   "les": "m5",
+   "naam": "Intellectueel kapitaal",
+   "def": "Kennis, patenten, merken en systemen die een organisatie onderscheidend maken.",
+   "vb": "Een bekend merk of een eigen recept.",
+   "herkomst": "student"
+  },
+  {
+   "id": "menselijk-kapitaal",
+   "les": "m5",
+   "naam": "Menselijk kapitaal",
+   "def": "De vaardigheden, kennis, ervaring, motivatie en gezondheid van medewerkers.",
+   "vb": "Een team dat goed is opgeleid en er zin in heeft.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "sociaal-en-relationeel-kapitaal",
+   "les": "m5",
+   "naam": "Sociaal & relationeel kapitaal",
+   "def": "De relaties, het vertrouwen en de samenwerkingsverbanden tussen een organisatie en haar omgeving.",
+   "vb": "Goede banden met buurt, klanten en leveranciers.",
+   "herkomst": "student"
+  },
+  {
+   "id": "natuurlijk-kapitaal",
+   "les": "m5",
+   "naam": "Natuurlijk kapitaal",
+   "def": "De natuurlijke hulpbronnen en ecosysteemdiensten waarvan een organisatie gebruikmaakt of afhankelijk is.",
+   "vb": "Schoon water, vruchtbare bodem en bestuivende bijen voor een fruitkweker.",
+   "herkomst": "student"
+  },
+  {
+   "id": "dubbele-materialiteit",
+   "les": "m5",
+   "naam": "Dubbele materialiteit",
+   "def": "Een organisatie rapporteert zowel over haar impact op mens en milieu (inside-out) als over hoe maatschappelijke en ecologische ontwikkelingen háár raken (outside-in).",
+   "vb": "Een brouwerij: haar waterverbruik raakt de omgeving én droogte raakt haar productie.",
+   "herkomst": "student"
+  },
+  {
+   "id": "inside-out",
+   "les": "m5",
+   "naam": "Inside-out",
+   "sub": "impactmaterialiteit",
+   "def": "De impact die een organisatie zelf veroorzaakt op haar omgeving.",
+   "vb": "De uitstoot van een fabriek voor de buurt.",
+   "herkomst": "student"
+  },
+  {
+   "id": "outside-in",
+   "les": "m5",
+   "naam": "Outside-in",
+   "sub": "financiële materialiteit",
+   "def": "Hoe externe ontwikkelingen, zoals klimaatrisico's, de financiële positie van een organisatie beïnvloeden.",
+   "vb": "Overstromingen die een magazijn beschadigen.",
+   "herkomst": "student"
+  },
+  {
+   "id": "stakeholderbetrokkenheid",
+   "les": "m5",
+   "naam": "Stakeholderbetrokkenheid",
+   "def": "Belanghebbenden actief betrekken bij strategische keuzes, zodat besluiten rekening houden met hun belangen en kennis.",
+   "vb": "Omwonenden meedenken over de plannen voor een nieuwe fabriek.",
+   "herkomst": "student"
+  },
+  {
+   "id": "meervoudige-waardecreatie",
+   "les": "m5",
+   "naam": "Meervoudige waardecreatie",
+   "def": "Waarde creëren op meerdere fronten tegelijk: ecologisch, economisch en sociaal. In het IIRC-model gaan kapitalen er als input in en komen ze er, vaak in andere vormen, als output weer uit.",
+   "vb": "Biobased isolatiepanelen: geld, kennis en hennep gaan erin; duurzame materialen, regionale banen en minder CO₂ komen eruit.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "csrd",
+   "les": "m5",
+   "naam": "CSRD",
+   "sub": "Corporate Sustainability Reporting Directive",
+   "def": "Europese regelgeving (2022) die grote bedrijven verplicht om over hun duurzaamheid te rapporteren, inclusief een dubbele materialiteitsanalyse.",
+   "vb": "Een jaarverslag waarin een bedrijf ook zijn milieu-impact en sociale risico’s moet onderbouwen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "biomimicry",
+   "les": "m6",
+   "naam": "Biomimicry",
+   "def": "Strategieën, processen en systeemprincipes uit de natuur bestuderen en functioneel nabootsen voor duurzame oplossingen. Het gaat om hoe iets werkt, niet om hoe het eruitziet. De natuur heeft die oplossingen in 3,8 miljard jaar evolutie getest.",
+   "vb": "Zelfreinigende oppervlakken naar het lotusblad, of een gebouw dat zichzelf koelt zoals een termietenheuvel.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "life-s-principles",
+   "les": "m6",
+   "naam": "Life's Principles",
+   "def": "Universele ontwerpstrategieën die de natuur gebruikt om te overleven en te floreren. De les behandelt er vijf.",
+   "vb": "Vijf ervan: zuinig, aanpasbaar, groei met ontwikkeling, veilige chemie en lokaal afgestemd.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "be-resource-efficient",
+   "les": "m6",
+   "naam": "Be resource efficient",
+   "def": "Zo zuinig mogelijk omgaan met materiaal en energie.",
+   "vb": "De natuur verspilt niets: reststromen worden grondstof voor iets anders, zoals in circulaire productieprocessen.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "adapt-to-changing-conditions",
+   "les": "m6",
+   "naam": "Adapt to changing conditions",
+   "def": "Flexibel en aanpasbaar zijn wanneer omstandigheden veranderen.",
+   "vb": "Modulaire gebouwen die je eenvoudig kunt aanpassen.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "integrate-development-with-growth",
+   "les": "m6",
+   "naam": "Integrate development with growth",
+   "def": "Groei die binnen de grenzen van het systeem blijft en het geheel sterker maakt, met oog voor de lange termijn.",
+   "vb": "Groene gevels die tegelijk isoleren en de biodiversiteit vergroten.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "use-life-friendly-chemistry",
+   "les": "m6",
+   "naam": "Use life-friendly chemistry",
+   "def": "Werken met stoffen en processen die veilig zijn voor levende systemen.",
+   "vb": "Biobased materialen en natuurlijke kleurstoffen in textiel.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "be-locally-attuned-and-responsive",
+   "les": "m6",
+   "naam": "Be locally attuned and responsive",
+   "def": "Oplossingen afstemmen op de lokale context en daarop reageren.",
+   "vb": "Een gebouw dat zonlicht en regenwater op zijn eigen locatie zo goed mogelijk benut.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "duurzaam-design",
+   "les": "m6",
+   "naam": "Duurzaam design",
+   "def": "Ontwerpen die schade aan mens en milieu zo veel mogelijk beperken.",
+   "vb": "Een product dat minder energie en minder grondstof kost.",
+   "herkomst": "student"
+  },
+  {
+   "id": "regeneratief-design",
+   "les": "m6",
+   "naam": "Regeneratief design",
+   "def": "Ontwerpen die verder gaan dan schade beperken: ze herstellen en versterken actief de ecologische of sociale systemen waarin ze functioneren.",
+   "vb": "Het Natural Pavilion (Floriade 2022) wekt meer energie op dan het verbruikt, is demontabel en versterkt de biodiversiteit.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "wicked-problem",
+   "les": "m7",
+   "naam": "Wicked problem",
+   "def": "Een complex maatschappelijk probleem dat je niet eenduidig kunt definiëren of oplossen. Oplossingen zijn niet waar of onwaar, maar beter of slechter.",
+   "vb": "Klimaatverandering of armoede: elke ingreep verandert het probleem zelf.",
+   "herkomst": "student"
+  },
+  {
+   "id": "holistisch-kijken",
+   "les": "m7",
+   "naam": "Holistisch kijken",
+   "def": "Een vraagstuk als geheel bekijken, inclusief de onderlinge relaties tussen onderdelen, in plaats van het op te splitsen in losse stukken.",
+   "vb": "Het voedselsysteem bekijken van boer tot bord, niet alleen de supermarkt.",
+   "herkomst": "student"
+  },
+  {
+   "id": "feedbackloop",
+   "les": "m7",
+   "naam": "Feedbackloop",
+   "def": "Een terugkoppeling waarbij een gevolg terugwerkt op zijn eigen oorzaak. Een loop is versterkend (R-loop) of dempend (B-loop); volgens de les zijn feedbackloops de motoren van systeemgedrag.",
+   "vb": "Schaalvoordelen: meer productie van virgin plastic maakt het goedkoper, wat weer tot meer productie leidt.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "hefboompunt",
+   "les": "m7",
+   "naam": "Hefboompunt",
+   "sub": "interventiepunt",
+   "def": "Een plek in het systeem waar een relatief kleine ingreep een grote verandering geeft. Volgens Meadows liggen hefboompunten meestal niet in zichtbare maatregelen, maar in regels, informatiestromen, aannames en structuren.",
+   "vb": "Een mix van marktprikkels en regelgeving die de lock-in in de plasticrecyclingmarkt doorbreekt.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "causal-loop-diagram-cld",
+   "les": "m7",
+   "naam": "Causal Loop Diagram (CLD)",
+   "def": "Een visuele techniek om oorzaak-gevolgrelaties en feedbackloops in een systeem in kaart te brengen, zodat je hefboompunten kunt vinden.",
+   "vb": "Pijlen tussen variabelen als de prijs van virgin plastic, recyclingcapaciteit en kwaliteit, met daarin versterkende en dempende loops.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "lock-in-effect",
+   "les": "m7",
+   "naam": "Lock-in effect",
+   "def": "Een systeem zit vast aan een bepaalde technologie, gewoonte of structuur, waardoor overstappen naar een beter alternatief moeilijk wordt.",
+   "vb": "Landen blijven afhankelijk van olie en gas door bestaande infrastructuur en economische belangen.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "padafhankelijkheid",
+   "les": "m7",
+   "naam": "Padafhankelijkheid",
+   "def": "Eerdere keuzes beperken de ruimte voor toekomstige keuzes, waardoor een systeem op een soms onduurzaam pad blijft, ook als er betere alternatieven zijn.",
+   "vb": "Het QWERTY-toetsenbord, ooit ontworpen voor typemachines, is nog steeds de standaard.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "emergentie",
+   "les": "m7",
+   "naam": "Emergentie",
+   "sub": "emergent gedrag",
+   "def": "Patronen die ontstaan uit de onderlinge relaties in een systeem, en die je niet begrijpt door alleen naar de losse onderdelen te kijken (Sterman, 2000). Volgens Meadows bestaat een systeem uit elementen, relaties en dit emergente gedrag.",
+   "vb": "Een markt die vastloopt in een lock-in, terwijl geen enkele partij dat wil.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "systeemkaart",
+   "les": "m8",
+   "naam": "Systeemkaart",
+   "def": "Een visuele weergave van de elementen (variabelen), de relaties ertussen en de terugkoppelingen in een vraagstuk, zodat je ziet wat het systeemgedrag bepaalt en waar hefbomen liggen.",
+   "vb": "Roetz Bikes: marktvraag, opschaling, beschikbaarheid van onderdelen en circulariteit in één kaart.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "stakeholderidentificatie",
+   "les": "m8",
+   "naam": "Stakeholderidentificatie",
+   "def": "Systematisch in kaart brengen wie betrokken is bij een vraagstuk of erdoor wordt geraakt. Een veelgebruikt model is de Mendelow-matrix, die stakeholders indeelt naar macht en interesse.",
+   "vb": "Hoge macht en hoge interesse: die partij betrek je intensief.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "belangenanalyse",
+   "les": "m8",
+   "naam": "Belangenanalyse",
+   "def": "Inzicht krijgen in de behoeften, verwachtingen en zorgen van stakeholders, bijvoorbeeld via interviews, enquêtes of workshops, zodat je mogelijke conflicten en weerstand vroeg ziet.",
+   "vb": "Partijen die weerstand kunnen bieden vroeg betrekken, zodat er draagvlak ontstaat.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "context-mapping",
+   "les": "m8",
+   "naam": "Context mapping",
+   "def": "De bredere omgeving van een vraagstuk in kaart brengen, zoals economische trends, regelgeving, technologie en sociale dynamiek. Hulpmiddelen zijn onder meer PESTLE, DESTEP, SWOT en scenarioplanning.",
+   "vb": "Eerst begrijpen in welk speelveld je ingrijpt, daarna pas ontwerpen.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "strategische-trade-off-analyse",
+   "les": "m8",
+   "naam": "Strategische trade-off analyse",
+   "def": "Meerdere oplossingsrichtingen systematisch afwegen. Elke keuze heeft eigen voor- en nadelen, afhankelijk van waarden en systeemdynamiek.",
+   "vb": "Roetz Bikes: snel groeien via franchising, of de circulaire normen en de sociale werkplaats bewaken.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "id": "socio-technisch-systeem",
+   "les": "m8",
+   "naam": "Socio-technisch systeem",
+   "def": "Een systeem waarin technologie, gedrag en regelgeving elkaar wederzijds beïnvloeden. Een technisch probleem vraagt dan ook om organisatorische, sociale en beleidsmatige oplossingen (Geels, 2002).",
+   "vb": "Het elektriciteitsnet: kabels, maar ook tarieven, gewoonten en regels.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "vraagsturing-en-flexibiliteit",
+   "les": "m8",
+   "naam": "Vraagsturing en flexibiliteit",
+   "def": "Stroomgebruik beter laten aansluiten op het aanbod, bijvoorbeeld met dynamische tarieven, congestiemanagement, flexibiliteitsmarkten en opslag. Zulke beleidsprikkels kunnen hefboompunten zijn.",
+   "vb": "Een wijk die lokale opslag combineert met vraagsturing om pieken te dempen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "id": "circulaire-strategie-hoog-op-de-r-ladder",
+   "les": "m9",
+   "naam": "Circulaire strategie hoog op de R-ladder",
+   "def": "Een strategie die kiest voor niet-produceren, herontwerpen of radicaal minder consumeren, in plaats van pas bij afdanking in te grijpen.",
+   "vb": "Een product helemaal niet maken is circulairder dan het perfect recyclen.",
+   "herkomst": "student"
+  },
+  {
+   "id": "materialiteitsmatrix",
+   "les": "m9",
+   "naam": "Materialiteitsmatrix",
+   "def": "Een matrix waarin je duurzaamheidsissues plaatst op twee assen: de impact van de organisatie op de wereld (inside-out) en het risico van de wereld voor de organisatie (outside-in). Zo zie je welke issues het meest materieel zijn.",
+   "vb": "CO₂-uitstoot scoort 5 op impact en 4 op risico, en komt dus rechtsboven te staan.",
+   "herkomst": "aangevuld"
+  }
+ ],
+ "verbanden": [
+  {
+   "a": "triple-bottom-line",
+   "b": "duurzaamheid",
+   "type": "D",
+   "rel": "meet de drie dimensies van",
+   "uitleg": "De Triple Bottom Line beoordeelt een organisatie op dezelfde drie dimensies als duurzaamheid: sociaal, ecologisch en economisch.",
+   "vb": "People – planet – profit: niet alleen de winst telt.",
+   "herkomst": "student"
+  },
+  {
+   "a": "sdg-s",
+   "b": "duurzaamheid",
+   "type": "H",
+   "rel": "is het kompas voor",
+   "uitleg": "De zeventien SDG's zijn het internationale referentiekader en laten zien dat milieu, maatschappij en economie onlosmakelijk verbonden zijn.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemdenken",
+   "b": "duurzaamheid",
+   "type": "H",
+   "rel": "is de sleutel tot",
+   "uitleg": "Duurzaamheid is geen los probleem maar een samenspel van ecologische, sociale en economische factoren; systeemdenken maakt dat zichtbaar.",
+   "vb": "Losse onderdelen aanpakken geeft vaak onverwachte neveneffecten.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemdenken",
+   "b": "systeemgrenzen",
+   "type": "S",
+   "rel": "vraagt om keuzes over",
+   "uitleg": "In een systeemanalyse bepaal je wat je wél en niet meeneemt. Die afbakening bepaalt welke oorzaken en gevolgen je ziet.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemdenken",
+   "b": "feedbackloop",
+   "type": "D",
+   "rel": "gebruikt",
+   "uitleg": "Feedbackloops zijn volgens de les de \"motoren van systeemgedrag\" en de kern van systeemdenken als analysetool.",
+   "vb": "Schaalvoordelen: groei verlaagt kosten, wat weer meer groei geeft.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemdenken",
+   "b": "holistisch-kijken",
+   "type": "S",
+   "rel": "gaat samen met",
+   "uitleg": "Systeemdenken onderzoekt het geheel – onderdelen, relaties en patronen – in plaats van één oorzaak en één oplossing.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemdenken",
+   "b": "wicked-problem",
+   "type": "H",
+   "rel": "helpt bij",
+   "uitleg": "Wicked problems laten zich niet lineair oplossen; de les combineert ze daarom met systeemdenken.",
+   "vb": "De plasticrecyclingmarkt als voorbeeld.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemdenken",
+   "b": "causal-loop-diagram-cld",
+   "type": "H",
+   "rel": "heeft als tool",
+   "uitleg": "Met een causal loop diagram maak je zichtbaar hoe variabelen elkaar beïnvloeden en waar terugkoppelingen zitten.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemdenken",
+   "b": "systeemkaart",
+   "type": "H",
+   "rel": "wordt in de praktijk gebracht met",
+   "uitleg": "In Les 8 wordt systeemdenken toegepast op strategische besluitvorming; de systeemkaart is daar een eerste stap.",
+   "vb": "Roetz Bikes en netcongestie.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemdenken",
+   "b": "hefboompunt",
+   "type": "S",
+   "rel": "zoekt",
+   "uitleg": "Volgens Meadows liggen de effectiefste plekken om te veranderen in regels, informatiestromen en structuren, niet in zichtbare maatregelen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "biosfeer",
+   "b": "atmosfeer",
+   "type": "S",
+   "rel": "wisselwerkt met",
+   "uitleg": "De vier sferen van het aardsysteem staan voortdurend met elkaar in wisselwerking en vormen samen onze leefomgeving.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "biosfeer",
+   "b": "hydrosfeer",
+   "type": "S",
+   "rel": "wisselwerkt met",
+   "uitleg": "De vier sferen van het aardsysteem staan voortdurend met elkaar in wisselwerking en vormen samen onze leefomgeving.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "biosfeer",
+   "b": "lithosfeer",
+   "type": "S",
+   "rel": "wisselwerkt met",
+   "uitleg": "De vier sferen van het aardsysteem staan voortdurend met elkaar in wisselwerking en vormen samen onze leefomgeving.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "atmosfeer",
+   "b": "hydrosfeer",
+   "type": "S",
+   "rel": "wisselwerkt met",
+   "uitleg": "De vier sferen van het aardsysteem staan voortdurend met elkaar in wisselwerking en vormen samen onze leefomgeving.",
+   "vb": "Waterdamp in de atmosfeer hoort tot de hydrosfeer.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "atmosfeer",
+   "b": "lithosfeer",
+   "type": "S",
+   "rel": "wisselwerkt met",
+   "uitleg": "De vier sferen van het aardsysteem staan voortdurend met elkaar in wisselwerking en vormen samen onze leefomgeving.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "hydrosfeer",
+   "b": "lithosfeer",
+   "type": "S",
+   "rel": "wisselwerkt met",
+   "uitleg": "De vier sferen van het aardsysteem staan voortdurend met elkaar in wisselwerking en vormen samen onze leefomgeving.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "planetaire-grenzen",
+   "b": "koolstofbudget",
+   "type": "H",
+   "rel": "wordt concreet in",
+   "uitleg": "Het koolstofbudget laat zien hoeveel ruimte er nog is binnen de planetaire grenzen en helpt bij concrete reductiedoelen.",
+   "vb": "1,5 °C of 2 °C opwarming als temperatuurdoel.",
+   "herkomst": "student"
+  },
+  {
+   "a": "planetaire-grenzen",
+   "b": "duurzaamheid",
+   "type": "H",
+   "rel": "is nodig voor",
+   "uitleg": "Binnen de planetaire grenzen blijven beschermt de basis van welvaart en gezondheid voor huidige en toekomstige generaties.",
+   "herkomst": "student"
+  },
+  {
+   "a": "planetaire-grenzen",
+   "b": "tipping-point",
+   "type": "S",
+   "rel": "is een drempelbegrip, net als",
+   "uitleg": "Planetaire grenzen en tipping points zijn allebei drempels: voorbij een bepaald punt volgt onomkeerbare schade.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "broeikaseffect",
+   "b": "atmosfeer",
+   "type": "S",
+   "rel": "speelt zich af in",
+   "uitleg": "Broeikasgassen in de atmosfeer houden warmte vast; menselijke uitstoot versterkt dat effect.",
+   "vb": "CO₂ en methaan.",
+   "herkomst": "student"
+  },
+  {
+   "a": "broeikaseffect",
+   "b": "koolstofbudget",
+   "type": "S",
+   "rel": "hangt samen met",
+   "uitleg": "Hoe het broeikaseffect werkt, bepaalt hoeveel CO₂ we nog kunnen uitstoten voor een opwarmingsgrens.",
+   "herkomst": "student"
+  },
+  {
+   "a": "broeikaseffect",
+   "b": "positieve-feedback-loop",
+   "type": "O",
+   "rel": "wordt versterkt door",
+   "uitleg": "Ontdooiende permafrost laat methaan vrij, een krachtig broeikasgas dat de opwarming verder versnelt.",
+   "vb": "Permafrost in poolgebieden.",
+   "herkomst": "student"
+  },
+  {
+   "a": "tipping-point",
+   "b": "positieve-feedback-loop",
+   "type": "O",
+   "rel": "wordt bereikt via",
+   "uitleg": "Positieve feedback laat een verandering zichzelf aanjagen; zo kan een kantelpunt worden bereikt.",
+   "vb": "Albedo-effect: smeltend ijs weerkaatst minder zonlicht, dus meer opwarming.",
+   "herkomst": "student"
+  },
+  {
+   "a": "positieve-feedback-loop",
+   "b": "negatieve-feedback-loop",
+   "type": "T",
+   "rel": "versterkt een verandering, in tegenstelling tot",
+   "uitleg": "Een versterkende loop jaagt verandering aan, een dempende loop remt die af en brengt het systeem in evenwicht.",
+   "vb": "CO₂-opname door oceanen en planten dempt de opwarming (maar te weinig).",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "a": "positieve-feedback-loop",
+   "b": "feedbackloop",
+   "type": "D",
+   "rel": "is een soort",
+   "uitleg": "Er zijn twee soorten feedbackloops: versterkende (R-loops) en dempende (B-loops).",
+   "herkomst": "student"
+  },
+  {
+   "a": "negatieve-feedback-loop",
+   "b": "feedbackloop",
+   "type": "D",
+   "rel": "is een soort",
+   "uitleg": "Er zijn twee soorten feedbackloops: versterkende (R-loops) en dempende (B-loops).",
+   "herkomst": "student"
+  },
+  {
+   "a": "negatieve-feedback-loop",
+   "b": "hydrosfeer",
+   "type": "S",
+   "rel": "werkt onder meer via",
+   "uitleg": "Oceanen nemen een deel van de CO₂-uitstoot op en werken dus stabiliserend.",
+   "herkomst": "student"
+  },
+  {
+   "a": "negatieve-feedback-loop",
+   "b": "biosfeer",
+   "type": "S",
+   "rel": "werkt onder meer via",
+   "uitleg": "Planten nemen CO₂ op en compenseren zo tijdelijk een deel van de uitstoot.",
+   "herkomst": "student"
+  },
+  {
+   "a": "lineaire-economie",
+   "b": "circulaire-economie",
+   "type": "T",
+   "rel": "is het tegenovergestelde van",
+   "uitleg": "Lineair: winnen – maken – gebruiken – weggooien. Circulair: grondstoffen en producten zo lang mogelijk in gebruik houden.",
+   "herkomst": "student"
+  },
+  {
+   "a": "circulaire-economie",
+   "b": "r-ladder",
+   "type": "H",
+   "rel": "heeft als rangorde",
+   "uitleg": "De R-ladder is de praktische strategie: hoe hoger op de ladder, hoe meer waarde behouden blijft.",
+   "herkomst": "student"
+  },
+  {
+   "a": "circulaire-economie",
+   "b": "circulaire-businessmodellen",
+   "type": "H",
+   "rel": "wordt mogelijk met",
+   "uitleg": "Businessmodellen zijn de sleutel om circulariteit daadwerkelijk toe te passen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "circulaire-economie",
+   "b": "lca",
+   "type": "H",
+   "rel": "kijkt naar de hele levenscyclus via",
+   "uitleg": "In de circulaire economie worden producten ontworpen met hun hele levenscyclus in gedachten; een LCA brengt die impact in kaart.",
+   "vb": "Nederlandse textielsector: LCA's voor circulaire strategieën.",
+   "herkomst": "student"
+  },
+  {
+   "a": "r-ladder",
+   "b": "refuse",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "De R-ladder is een rangorde van strategieën. Refuse: het product of de verpakking voorkomen.",
+   "vb": "Een bedrijf dat weigert in plastic te verpakken.",
+   "herkomst": "student"
+  },
+  {
+   "a": "r-ladder",
+   "b": "reduce",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "De R-ladder is een rangorde van strategieën. Reduce: minder grondstoffen en afval.",
+   "vb": "Productieproces optimaliseren voor minder restmateriaal.",
+   "herkomst": "student"
+  },
+  {
+   "a": "r-ladder",
+   "b": "reuse",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "De R-ladder is een rangorde van strategieën. Reuse: opnieuw gebruiken.",
+   "vb": "Herbruikbare verpakkingen voor transport.",
+   "herkomst": "student"
+  },
+  {
+   "a": "r-ladder",
+   "b": "repair",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "De R-ladder is een rangorde van strategieën. Repair: herstellen in plaats van vervangen.",
+   "vb": "Een reparatieservice voor oudere modellen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "r-ladder",
+   "b": "recycle",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "De R-ladder is een rangorde van strategieën. Recycle: verwerken tot nieuwe grondstof.",
+   "vb": "Textielafval inzamelen en verwerken tot nieuwe stoffen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "r-ladder",
+   "b": "recover",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "De R-ladder is een rangorde van strategieën. Recover: de laagste trede.",
+   "herkomst": "student"
+  },
+  {
+   "a": "circulaire-businessmodellen",
+   "b": "product-as-a-service",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Bij Product-as-a-Service verschuift de focus van bezit naar gebruik; de producent houdt de verantwoordelijkheid voor de hele levenscyclus.",
+   "vb": "MUD Jeans: je least een spijkerbroek.",
+   "herkomst": "student"
+  },
+  {
+   "a": "circulaire-businessmodellen",
+   "b": "sharing-platforms",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Deelplatforms vervangen bezit door toegang, zodat er minder nieuwe producten nodig zijn.",
+   "vb": "Peerby: gereedschap lenen van buurtgenoten.",
+   "herkomst": "student"
+  },
+  {
+   "a": "circulaire-businessmodellen",
+   "b": "levensduurverlenging",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Producten worden gerepareerd, opgeknapt of geüpgraded in plaats van weggegooid.",
+   "vb": "Patagonia Worn Wear.",
+   "herkomst": "student"
+  },
+  {
+   "a": "product-as-a-service",
+   "b": "recycle",
+   "type": "O",
+   "rel": "eindigt in",
+   "uitleg": "Bij leasen komt het product terug bij de aanbieder, waarna het materiaal in omloop blijft.",
+   "vb": "MUD Jeans: terugsturen, stof wordt gerecycled tot nieuw textiel.",
+   "herkomst": "student"
+  },
+  {
+   "a": "repair",
+   "b": "levensduurverlenging",
+   "type": "H",
+   "rel": "is een middel voor",
+   "uitleg": "Reparatie (en opknappen of upgraden) verlengt de gebruiksduur van een product.",
+   "herkomst": "student"
+  },
+  {
+   "a": "circulaire-strategie-hoog-op-de-r-ladder",
+   "b": "r-ladder",
+   "type": "H",
+   "rel": "zit hoog op",
+   "uitleg": "Een circulaire strategie hoog op de R-ladder kiest voor niet-produceren, herontwerpen of radicaal minder consumeren.",
+   "herkomst": "student"
+  },
+  {
+   "a": "circulaire-strategie-hoog-op-de-r-ladder",
+   "b": "refuse",
+   "type": "D",
+   "rel": "draait vooral om",
+   "uitleg": "R-strategieën met hoog waardebehoud zijn Refuse, Reduce en Reuse.",
+   "vb": "Fast fashion: moeilijk schaalbaar.",
+   "herkomst": "student"
+  },
+  {
+   "a": "circulaire-strategie-hoog-op-de-r-ladder",
+   "b": "reduce",
+   "type": "D",
+   "rel": "draait vooral om",
+   "uitleg": "R-strategieën met hoog waardebehoud zijn Refuse, Reduce en Reuse.",
+   "vb": "Fast fashion: moeilijk schaalbaar.",
+   "herkomst": "student"
+  },
+  {
+   "a": "circulaire-strategie-hoog-op-de-r-ladder",
+   "b": "reuse",
+   "type": "D",
+   "rel": "draait vooral om",
+   "uitleg": "R-strategieën met hoog waardebehoud zijn Refuse, Reduce en Reuse.",
+   "vb": "Fast fashion: moeilijk schaalbaar.",
+   "herkomst": "student"
+  },
+  {
+   "a": "zes-kapitalen",
+   "b": "financieel-kapitaal",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Het IIRC-model beschrijft waardecreatie via zes kapitalen die onderling samenhangen.",
+   "vb": "Geld en financiële middelen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "zes-kapitalen",
+   "b": "geproduceerd-kapitaal",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Het IIRC-model beschrijft waardecreatie via zes kapitalen die onderling samenhangen.",
+   "vb": "Gebouwen, machines, infrastructuur.",
+   "herkomst": "student"
+  },
+  {
+   "a": "zes-kapitalen",
+   "b": "intellectueel-kapitaal",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Het IIRC-model beschrijft waardecreatie via zes kapitalen die onderling samenhangen.",
+   "vb": "Kennis, patenten, merken.",
+   "herkomst": "student"
+  },
+  {
+   "a": "zes-kapitalen",
+   "b": "menselijk-kapitaal",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Het IIRC-model beschrijft waardecreatie via zes kapitalen die onderling samenhangen.",
+   "vb": "Vaardigheden en motivatie van medewerkers.",
+   "herkomst": "student"
+  },
+  {
+   "a": "zes-kapitalen",
+   "b": "sociaal-en-relationeel-kapitaal",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Het IIRC-model beschrijft waardecreatie via zes kapitalen die onderling samenhangen.",
+   "vb": "Relaties en vertrouwen met de omgeving.",
+   "herkomst": "student"
+  },
+  {
+   "a": "zes-kapitalen",
+   "b": "natuurlijk-kapitaal",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Het IIRC-model beschrijft waardecreatie via zes kapitalen die onderling samenhangen.",
+   "vb": "Grondstoffen en ecosysteemdiensten.",
+   "herkomst": "student"
+  },
+  {
+   "a": "zes-kapitalen",
+   "b": "dubbele-materialiteit",
+   "type": "H",
+   "rel": "wordt aangevuld met",
+   "uitleg": "Het IIRC-framework en de zes kapitalen helpen integraal sturen op waarde; dubbele materialiteit neemt zowel impact als risico mee.",
+   "herkomst": "student"
+  },
+  {
+   "a": "dubbele-materialiteit",
+   "b": "inside-out",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "Dubbele materialiteit combineert het inside-out- en het outside-in-perspectief voor een compleet beeld van risico's en kansen.",
+   "vb": "CO₂-uitstoot, arbeidsomstandigheden.",
+   "herkomst": "student"
+  },
+  {
+   "a": "dubbele-materialiteit",
+   "b": "outside-in",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "Dubbele materialiteit combineert het inside-out- en het outside-in-perspectief voor een compleet beeld van risico's en kansen.",
+   "vb": "Klimaatrisico's voor de financiële positie.",
+   "herkomst": "student"
+  },
+  {
+   "a": "inside-out",
+   "b": "outside-in",
+   "type": "T",
+   "rel": "kijkt naar de impact van het bedrijf op de wereld, in tegenstelling tot",
+   "uitleg": "Inside-out vraagt welke impact het bedrijf heeft op de wereld; outside-in vraagt welke invloed de wereld op het bedrijf heeft.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "a": "sociaal-en-relationeel-kapitaal",
+   "b": "stakeholderbetrokkenheid",
+   "type": "S",
+   "rel": "wordt gemeten met",
+   "uitleg": "Stakeholderbetrokkenheid is een voorbeeld-KPI voor sociaal en relationeel kapitaal.",
+   "herkomst": "student"
+  },
+  {
+   "a": "menselijk-kapitaal",
+   "b": "sociaal-en-relationeel-kapitaal",
+   "type": "S",
+   "rel": "versterkt samen met",
+   "uitleg": "De kapitalen versterken elkaar: kennis van medewerkers maakt processen efficiënter en samenwerking met lokale partijen bouwt sociaal kapitaal.",
+   "vb": "Ontwerpers en ingenieurs werken samen met lokale boeren en aannemers.",
+   "vraag": false,
+   "herkomst": "student"
+  },
+  {
+   "a": "sdg-s",
+   "b": "dubbele-materialiteit",
+   "type": "O",
+   "rel": "stimuleert",
+   "uitleg": "De SDG's stimuleerden bredere impactrapportage; daarna volgden de CSRD en dubbele materialiteit.",
+   "herkomst": "student"
+  },
+  {
+   "a": "biomimicry",
+   "b": "life-s-principles",
+   "type": "D",
+   "rel": "levert",
+   "uitleg": "Life's Principles zijn ontwerpprincipes die uit de natuur zijn afgeleid; biomimicry gebruikt ze om oplossingen te ontwerpen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "life-s-principles",
+   "b": "be-resource-efficient",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Life's Principles bevatten onder meer vijf ontwerpprincipes uit de natuur.",
+   "vb": "Zo zuinig mogelijk met materiaal en energie.",
+   "herkomst": "student"
+  },
+  {
+   "a": "life-s-principles",
+   "b": "adapt-to-changing-conditions",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Life's Principles bevatten onder meer vijf ontwerpprincipes uit de natuur.",
+   "vb": "Flexibel zijn bij veranderende omstandigheden.",
+   "herkomst": "student"
+  },
+  {
+   "a": "life-s-principles",
+   "b": "integrate-development-with-growth",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Life's Principles bevatten onder meer vijf ontwerpprincipes uit de natuur.",
+   "vb": "Groei combineren met ontwikkeling.",
+   "herkomst": "student"
+  },
+  {
+   "a": "life-s-principles",
+   "b": "use-life-friendly-chemistry",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Life's Principles bevatten onder meer vijf ontwerpprincipes uit de natuur.",
+   "vb": "Stoffen die veilig zijn voor levende systemen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "life-s-principles",
+   "b": "be-locally-attuned-and-responsive",
+   "type": "D",
+   "rel": "omvat",
+   "uitleg": "Life's Principles bevatten onder meer vijf ontwerpprincipes uit de natuur.",
+   "vb": "Afstemmen op de lokale context.",
+   "herkomst": "student"
+  },
+  {
+   "a": "biomimicry",
+   "b": "duurzaam-design",
+   "type": "H",
+   "rel": "inspireert",
+   "uitleg": "Biomimicry kijkt naar strategieën die de natuur in miljarden jaren ontwikkelde, voor duurzame en regeneratieve ontwerpen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "biomimicry",
+   "b": "regeneratief-design",
+   "type": "H",
+   "rel": "inspireert",
+   "uitleg": "Biomimicry kijkt naar strategieën die de natuur in miljarden jaren ontwikkelde, voor duurzame en regeneratieve ontwerpen.",
+   "vb": "The Natural Pavilion: regeneratief paviljoen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "duurzaam-design",
+   "b": "regeneratief-design",
+   "type": "T",
+   "rel": "beperkt alleen schade, in tegenstelling tot",
+   "uitleg": "Duurzaam design vermindert negatieve impact; regeneratief design herstelt en voegt waarde toe aan ecosystemen.",
+   "vb": "Gebouwen die meer energie opwekken dan ze verbruiken.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "a": "duurzaam-design",
+   "b": "lca",
+   "type": "H",
+   "rel": "houdt rekening met",
+   "uitleg": "Duurzaam design kijkt naar de volledige levenscyclus van een product, van productie tot hergebruik.",
+   "herkomst": "student"
+  },
+  {
+   "a": "duurzaam-design",
+   "b": "levensduurverlenging",
+   "type": "H",
+   "rel": "ontwerpt voor",
+   "uitleg": "Duurzaam design maakt producten die langer meegaan of eenvoudig te repareren zijn.",
+   "herkomst": "student"
+  },
+  {
+   "a": "regeneratief-design",
+   "b": "circulaire-economie",
+   "type": "H",
+   "rel": "draagt bij aan",
+   "uitleg": "Het regeneratieve paviljoen laat zien hoe biomimicry kan bijdragen aan circulaire economie en duurzaam bouwen.",
+   "vb": "The Natural Pavilion.",
+   "herkomst": "student"
+  },
+  {
+   "a": "wicked-problem",
+   "b": "feedbackloop",
+   "type": "S",
+   "rel": "blijft bestaan door",
+   "uitleg": "Het herkennen van terugkoppelingen maakt zichtbaar waarom sommige problemen blijven bestaan, ook na herhaalde interventies.",
+   "vb": "Elke interventie verandert het probleem zelf.",
+   "herkomst": "student"
+  },
+  {
+   "a": "wicked-problem",
+   "b": "hefboompunt",
+   "type": "S",
+   "rel": "zoekt naar",
+   "uitleg": "Bij de plasticrecyclingmarkt wijs je met systeemdenken mogelijke hefboompunten voor ingrijpen aan.",
+   "vb": "Statiegeld, belastingen en subsidies.",
+   "herkomst": "student"
+  },
+  {
+   "a": "wicked-problem",
+   "b": "lock-in-effect",
+   "type": "S",
+   "rel": "toont zich in",
+   "uitleg": "De plasticrecyclingmarkt laat zien hoe wicked problems en lock-ins in de praktijk werken.",
+   "vb": "Gerecycled plastic is duurder en minder goed, dus de markt loopt vast.",
+   "herkomst": "student"
+  },
+  {
+   "a": "feedbackloop",
+   "b": "causal-loop-diagram-cld",
+   "type": "H",
+   "rel": "wordt getekend in",
+   "uitleg": "Een CLD maakt zichtbaar welke feedbackloops er zijn: versterkende en dempende terugkoppelingen en vertragingen.",
+   "vb": "Waarom komt gerecycled plastic moeilijk van de grond?",
+   "herkomst": "student"
+  },
+  {
+   "a": "hefboompunt",
+   "b": "feedbackloop",
+   "type": "S",
+   "rel": "zit vaak in",
+   "uitleg": "Volgens de les zijn beleidsprikkels die feedbackloops dempen, zoals dynamische tarieven bij netcongestie, mogelijke hefboompunten.",
+   "vb": "Dynamische tarieven en congestiemanagement bij netcongestie.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "a": "causal-loop-diagram-cld",
+   "b": "lock-in-effect",
+   "type": "H",
+   "rel": "helpt bij het herkennen van",
+   "uitleg": "Met een CLD maak je feedbackloops, onbedoelde effecten, lock-in en padafhankelijkheid zichtbaar.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "a": "causal-loop-diagram-cld",
+   "b": "padafhankelijkheid",
+   "type": "H",
+   "rel": "helpt bij het herkennen van",
+   "uitleg": "Met een CLD maak je feedbackloops, onbedoelde effecten, lock-in en padafhankelijkheid zichtbaar.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "a": "lock-in-effect",
+   "b": "padafhankelijkheid",
+   "type": "S",
+   "rel": "hangt samen met",
+   "uitleg": "Lock-in is het vastzitten in een patroon door investeringen, regels of gewoontes; padafhankelijkheid is dat eerdere keuzes de toekomstige opties beperken. Lock-in: fossiele brandstoffen. Padafhankelijkheid: het QWERTY-toetsenbord.",
+   "vb": "Fossiele brandstoffen; het QWERTY-toetsenbord.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "a": "lock-in-effect",
+   "b": "positieve-feedback-loop",
+   "type": "O",
+   "rel": "ontstaat door",
+   "uitleg": "Lock-in ontstaat door zelfversterkende mechanismen.",
+   "herkomst": "student"
+  },
+  {
+   "a": "systeemkaart",
+   "b": "feedbackloop",
+   "type": "H",
+   "rel": "toont",
+   "uitleg": "Een systeemkaart laat patronen, afhankelijkheden en mogelijke terugkoppelingen zien.",
+   "herkomst": "student, aangepast"
+  },
+  {
+   "a": "systeemkaart",
+   "b": "stakeholderidentificatie",
+   "type": "S",
+   "rel": "gaat samen met",
+   "uitleg": "In het besluitvormingsproces maak je een systeemkaart en betrek je de juiste stakeholders.",
+   "vb": "Roetz Bikes.",
+   "herkomst": "student"
+  },
+  {
+   "a": "context-mapping",
+   "b": "stakeholderidentificatie",
+   "type": "H",
+   "rel": "gebruikt onder meer",
+   "uitleg": "Context mapping kijkt naar de bredere omgeving; stakeholder mapping brengt daarbinnen de relaties en invloed van stakeholders in kaart.",
+   "vb": "Ook SWOT-analyse is een tool voor context mapping.",
+   "herkomst": "student"
+  },
+  {
+   "a": "stakeholderidentificatie",
+   "b": "belangenanalyse",
+   "type": "O",
+   "rel": "is de eerste stap voor",
+   "uitleg": "Stakeholderidentificatie is de eerste stap; daarna analyseer je hun belangen, macht en invloed.",
+   "vb": "Mendelow-matrix: macht en interesse.",
+   "herkomst": "student"
+  },
+  {
+   "a": "belangenanalyse",
+   "b": "stakeholderbetrokkenheid",
+   "type": "H",
+   "rel": "leidt tot",
+   "uitleg": "Uit de belangenanalyse volgt wie je actief moet betrekken om draagvlak te creëren.",
+   "vb": "Weerstand vroeg bespreken.",
+   "herkomst": "student"
+  },
+  {
+   "a": "belangenanalyse",
+   "b": "strategische-trade-off-analyse",
+   "type": "O",
+   "rel": "gaat vooraf aan",
+   "uitleg": "Eerst breng je belangen en invloed in kaart, daarna ontwikkel je scenario's en analyseer je de trade-offs.",
+   "vb": "Roetz Bikes: groei versus circulariteit.",
+   "herkomst": "student"
+  },
+  {
+   "a": "strategische-trade-off-analyse",
+   "b": "triple-bottom-line",
+   "type": "S",
+   "rel": "weegt de drie dimensies af van",
+   "uitleg": "De les vraagt trade-offs te analyseren tussen ecologische, economische en sociale doelen.",
+   "vb": "Roetz Bikes: sociale impact versus winstgevendheid.",
+   "herkomst": "student"
+  },
+  {
+   "a": "duurzaamheid",
+   "b": "drie-dimensies-van-duurzaamheid",
+   "type": "D",
+   "rel": "bestaat uit",
+   "uitleg": "Duurzaamheid vraagt om balans tussen de ecologische, economische en sociale dimensie; de ecologische dimensie is het fundament.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "triple-bottom-line",
+   "b": "drie-dimensies-van-duurzaamheid",
+   "type": "S",
+   "rel": "meet prestaties op",
+   "uitleg": "People, planet en profit zijn dezelfde drie dimensies, vertaald naar de prestaties van een organisatie.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "planetaire-grenzen",
+   "b": "eutrofiering",
+   "type": "O",
+   "rel": "leidt bij overschrijding van de stikstof- en fosforgrens tot",
+   "uitleg": "Te veel stikstof en fosfor verstoort de kringlopen; in water ontstaan algenbloei, zuurstoftekort en dode zones.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "stikstofcrisis",
+   "b": "planetaire-grenzen",
+   "type": "D",
+   "rel": "is een Nederlands voorbeeld van overschreden",
+   "uitleg": "De les noemt de stikstofcrisis als duidelijk voorbeeld van het overschrijden van de grens voor biogeochemische stromen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "eutrofiering",
+   "b": "hydrosfeer",
+   "type": "S",
+   "rel": "tast aan",
+   "uitleg": "Eutrofiëring verstoort meren, rivieren en zeeën: het water raakt overbelast met voedingsstoffen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "albedo-effect",
+   "b": "positieve-feedback-loop",
+   "type": "D",
+   "rel": "is een voorbeeld van",
+   "uitleg": "Smeltend ijs weerkaatst minder zonlicht, het donkere oppervlak warmt op en er smelt nog meer ijs: een versterkende loop.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "albedo-effect",
+   "b": "tipping-point",
+   "type": "O",
+   "rel": "kan bijdragen aan het bereiken van een",
+   "uitleg": "Een versterkende loop zoals het albedo-effect kan een systeem over een kantelpunt duwen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "koolstofbudget",
+   "b": "energietransitie",
+   "type": "O",
+   "rel": "dwingt tot",
+   "uitleg": "Hoe kleiner het resterende budget, hoe sneller de overstap op duurzame energie nodig is.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "energietransitie",
+   "b": "netcongestie",
+   "type": "O",
+   "rel": "vergroot",
+   "uitleg": "Meer zon en wind en de elektrificatie van industrie en mobiliteit belasten het net sneller dan het kan meegroeien.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "vraagsturing-en-flexibiliteit",
+   "b": "netcongestie",
+   "type": "H",
+   "rel": "vermindert",
+   "uitleg": "Door pieken in vraag en aanbod te dempen, kan het bestaande net meer aan, ook zolang uitbreiding op zich laat wachten.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "netcongestie",
+   "b": "socio-technisch-systeem",
+   "type": "D",
+   "rel": "is een vraagstuk in een",
+   "uitleg": "Netcongestie gaat niet alleen over kabels: gedrag, technologie en regelgeving beïnvloeden elkaar.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "vraagsturing-en-flexibiliteit",
+   "b": "hefboompunt",
+   "type": "S",
+   "rel": "kan werken als",
+   "uitleg": "Beleidsprikkels zoals dynamische tarieven en flexibiliteitsmarkten veranderen gedrag en dempen piekbelasting; de les noemt ze mogelijke hefboompunten.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "netcongestie",
+   "b": "strategische-trade-off-analyse",
+   "type": "S",
+   "rel": "vraagt om een",
+   "uitleg": "De les noemt trade-offs als versnellen tegenover betaalbaarheid en lokale tegenover systeemoplossingen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "ontwerpen-voor-hergebruik",
+   "b": "levensduurverlenging",
+   "type": "H",
+   "rel": "maakt mogelijk",
+   "uitleg": "Een product dat te demonteren en te repareren is, gaat langer mee.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "ontwerpen-voor-hergebruik",
+   "b": "recycle",
+   "type": "T",
+   "rel": "heeft meer impact dan alleen",
+   "uitleg": "Volgens de les heeft ontwerpen voor hergebruik de grootste positieve impact; alleen recyclen behoudt minder waarde.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "downcycling",
+   "b": "recycle",
+   "type": "D",
+   "rel": "is een laagwaardige vorm van",
+   "uitleg": "Bij downcycling gaat de waarde van het materiaal grotendeels verloren, zoals bij afgedankt textiel.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "meervoudige-waardecreatie",
+   "b": "zes-kapitalen",
+   "type": "H",
+   "rel": "brengt in kaart met",
+   "uitleg": "De zes kapitalen laten zien welke waarde erin gaat en welke er, vaak in andere vormen, uitkomt.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "csrd",
+   "b": "dubbele-materialiteit",
+   "type": "O",
+   "rel": "verplicht",
+   "uitleg": "Sinds de CSRD (2022) moeten grote bedrijven een dubbele materialiteitsanalyse in hun rapportage opnemen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "materialiteitsmatrix",
+   "b": "dubbele-materialiteit",
+   "type": "H",
+   "rel": "is een hulpmiddel voor",
+   "uitleg": "In de matrix zet je impact (inside-out) tegen risico (outside-in) af en zie je welke issues het meest materieel zijn.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "emergentie",
+   "b": "systeemdenken",
+   "type": "S",
+   "rel": "wordt zichtbaar met",
+   "uitleg": "Systeemdenken kijkt naar patronen die pas ontstaan uit de relaties tussen onderdelen.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "lock-in-effect",
+   "b": "emergentie",
+   "type": "D",
+   "rel": "is een voorbeeld van",
+   "uitleg": "De les noemt markten die vastlopen in een lock-in als voorbeeld van emergent gedrag.",
+   "herkomst": "aangevuld"
+  }
+ ],
+ "extern": [
+  {
+   "begrip": "planetaire-grenzen",
+   "richting": "uit",
+   "cursus": "business-ethics",
+   "ander": "begrenzing",
+   "naam": "Begrenzing",
+   "type": "S",
+   "rel": "sluit aan bij",
+   "uitleg": "Begrenzing zegt dat elk systeem grenzen heeft; planetaire grenzen zijn de wetenschappelijk bepaalde grenzen van de aarde."
+  },
+  {
+   "begrip": "zes-kapitalen",
+   "richting": "uit",
+   "cursus": "business-ethics",
+   "ander": "aandeelhoudersmodel",
+   "naam": "Aandeelhoudersmodel",
+   "type": "T",
+   "rel": "kijkt verder dan",
+   "uitleg": "Meervoudige waardecreatie gaat over waarde voor meer dan alleen aandeelhouders."
+  },
+  {
+   "begrip": "inside-out",
+   "richting": "uit",
+   "cursus": "business-ethics",
+   "ander": "externaliteiten",
+   "naam": "Externaliteiten",
+   "type": "S",
+   "rel": "laat de impact zien die samenhangt met",
+   "uitleg": "Inside-out vraagt naar je impact op mens en milieu; externaliteiten zijn de kosten van die impact die bij anderen terechtkomen."
+  },
+  {
+   "begrip": "stakeholderbetrokkenheid",
+   "richting": "in",
+   "cursus": "business-ethics",
+   "ander": "stakeholdersmodel",
+   "naam": "Stakeholdersmodel",
+   "type": "S",
+   "rel": "wordt in de praktijk gebracht met",
+   "uitleg": "Het stakeholdersmodel ziet de onderneming als samenwerkingsverband; stakeholderbetrokkenheid is de manier om die partijen actief mee te laten doen."
+  },
+  {
+   "begrip": "lock-in-effect",
+   "richting": "uit",
+   "cursus": "business-ethics",
+   "ander": "kapitaal-als-selectiemechanisme",
+   "naam": "Kapitaal als selectiemechanisme",
+   "type": "S",
+   "rel": "speelt mee bij",
+   "uitleg": "Eerdere investeringen in infrastructuur en regels maken verandering moeilijk en kostbaar."
+  },
+  {
+   "begrip": "lock-in-effect",
+   "richting": "uit",
+   "cursus": "business-ethics",
+   "ander": "datamacht",
+   "naam": "Datamacht",
+   "type": "S",
+   "rel": "ontstaat via",
+   "uitleg": "Infrastructuren kunnen lock-in effecten creëren: overstappen wordt technisch en financieel zeer complex."
+  },
+  {
+   "begrip": "padafhankelijkheid",
+   "richting": "uit",
+   "cursus": "business-ethics",
+   "ander": "greenwashing",
+   "naam": "Greenwashing",
+   "type": "O",
+   "rel": "verklaart",
+   "uitleg": "Verwachtingen veranderen snel, organisaties traag: investeringen in bestaande systemen maken snel omschakelen moeilijk."
+  },
+  {
+   "begrip": "csrd",
+   "richting": "uit",
+   "cursus": "business-ethics",
+   "ander": "institutionele-interventie",
+   "naam": "Institutionele interventie",
+   "type": "D",
+   "rel": "is een",
+   "uitleg": "Regelgeving die bedrijven verplicht transparanter te rapporteren is een ingreep op het niveau van wet en beleid."
+  },
+  {
+   "begrip": "csrd",
+   "richting": "uit",
+   "cursus": "business-ethics",
+   "ander": "informatie-asymmetrie",
+   "naam": "Informatie-asymmetrie",
+   "type": "H",
+   "rel": "verkleint",
+   "uitleg": "Gestandaardiseerde rapportage maakt vergelijken mogelijk en zelf kiezen wat je laat zien lastiger."
+  },
+  {
+   "begrip": "lock-in-effect",
+   "richting": "in",
+   "cursus": "business-ethics",
+   "ander": "infrastructuur",
+   "naam": "Infrastructuur",
+   "type": "O",
+   "rel": "creëert",
+   "uitleg": "Zodra je volledig bent geïntegreerd in bijvoorbeeld een cloudomgeving, wordt overstappen technisch en financieel zeer complex."
+  }
+ ],
+ "samenvattingen": {
+  "m1": [
+   "In deze eerste module draait het om systeemdenken: kijken naar het geheel in plaats van naar losse onderdelen. Duurzaamheid is geen kwestie van één probleem oplossen. Ecologische, sociale en economische factoren beïnvloeden elkaar voortdurend. Wie alleen losse onderdelen aanpakt, mist de onderliggende dynamiek en krijgt soms onverwachte gevolgen.",
+   "Duurzaamheid betekent een balans zoeken tussen die drie belangen, zodat huidige én toekomstige generaties in hun behoeften kunnen voorzien. Dat idee komt uit het Brundtland-rapport van 1987. De les gebruikt het beeld van een huis. De ecologie is het fundament: schoon water, vruchtbare grond, een stabiel klimaat. De economie is de structuur van het huis, en het sociale is het interieur: welzijn, gelijkheid en meedoen. Raakt één van de drie uit balans, dan wordt het hele huis instabiel.",
+   "Twee kaders helpen om breder te kijken. De Triple Bottom Line beoordeelt organisaties op people, planet en profit tegelijk. De zeventien Sustainable Development Goals van de Verenigde Naties laten zien dat milieu, maatschappij en economie onlosmakelijk verbonden zijn. En bij elke analyse kies je systeemgrenzen: wat neem je wel mee en wat niet? Die keuze bepaalt welke oorzaken en oplossingen je ziet.",
+   "Tot slot laat de les voorbeelden zien van samenhang, zoals klimaatverandering, voedselproductie, steden, de energietransitie en biodiversiteit. Telkens zie je hetzelfde: een keuze op het ene vlak werkt door in andere domeinen."
+  ],
+  "m2": [
+   "Deze module bekijkt de aarde als systeem. Vier sferen werken voortdurend op elkaar in. De biosfeer is al het leven. De atmosfeer is de luchtlaag die het klimaat reguleert en ons beschermt tegen straling. De hydrosfeer is al het water, van oceanen tot grondwater en waterdamp. En de lithosfeer is de aardkorst en de bovenste laag van de mantel, waar onze grondstoffen vandaan komen.",
+   "Het centrale begrip is planetaire grenzen. Wetenschappers onder leiding van Johan Rockström en Will Steffen beschreven negen processen die de aarde stabiel houden, zoals klimaatverandering, biodiversiteitsverlies, landgebruik, zoetwatergebruik en de stikstof- en fosforkringloop. Binnen die grenzen kan de mensheid veilig opereren. Gaan we eroverheen, dan verliezen ecosystemen hun veerkracht en ontstaat het risico op onomkeerbare schade, zoals voedsel- en watertekorten.",
+   "Een voorbeeld is eutrofiëring: te veel stikstof en fosfor in het water leidt tot algenbloei, zuurstoftekort en dode zones. Dichter bij huis is er de stikstofcrisis in Nederland. Door intensieve veehouderij en kunstmest komt te veel stikstof in de natuur. Heide en veen raken overwoekerd door brandnetels en gras, zeldzame soorten verdwijnen, bouwprojecten liggen stil en boeren staan voor ingrijpende keuzes.",
+   "De boodschap van de les: planetaire grenzen zijn geen suggestie. Naleven vraagt vaak om offers op korte termijn, maar het beschermt de basis van onze welvaart en gezondheid."
+  ],
+  "m3": [
+   "Deze module gaat over de overstap van een lineaire naar een circulaire economie. De lineaire economie werkt volgens take, make, waste: grondstoffen winnen, producten maken en na gebruik weggooien. Dat kost veel energie, verspilt materialen en maakt bedrijven afhankelijk van eindige grondstoffen.",
+   "De circulaire economie sluit kringlopen. Producten en materialen blijven zo lang mogelijk in gebruik, waarde blijft behouden en afval wordt grondstof. Belangrijke strategieën zijn ontwerpen voor hergebruik, gebruik in plaats van bezit, slimme materiaalstromen en modulair design.",
+   "De R-ladder zet circulaire strategieën op volgorde, van R0 Refuse tot R9 Recover. Hoe hoger op de ladder, hoe meer waarde je behoudt. Weigeren, verminderen en hergebruiken staan hoog. Repareren verlengt de levensduur. Recyclen staat lager, omdat je het product afbreekt tot grondstof. En wordt materiaal laagwaardig verwerkt, dan heet dat downcycling.",
+   "Om de milieu-impact te meten, gebruik je een levenscyclusanalyse, een LCA. Die kijkt naar alle fasen van een product, van grondstof tot afvalverwerking, volgens de ISO 14040-richtlijnen.",
+   "De les bespreekt drie circulaire businessmodellen. Bij product-as-a-service blijft de producent eigenaar en betaal je voor gebruik, zoals bij de lease-jeans van MUD Jeans. Deelplatforms zoals Peerby vervangen bezit door toegang. En levensduurverlenging, zoals Patagonia Worn Wear of iFixit, houdt producten langer in gebruik. De textielsector laat zien waarom dit urgent is: veel afval, weinig recycling, maar ook nieuwe kansen."
+  ],
+  "m4": [
+   "In deze module gaat het om klimaatverandering en de infrastructuur die nodig is om die aan te pakken. Aan de basis staat het broeikaseffect. Gassen als CO₂, methaan en lachgas houden warmte vast, waardoor het op aarde gemiddeld zo’n vijftien graden is. Door fossiele brandstoffen, ontbossing en intensieve landbouw neemt de concentratie toe, en dat versterkte broeikaseffect warmt de aarde op.",
+   "Het koolstofbudget is de hoeveelheid CO₂ die we nog kunnen uitstoten om onder een temperatuurdoel te blijven, zoals anderhalve of twee graad. Hoe langer we doorgaan, hoe kleiner de ruimte en hoe drastischer de maatregelen later. Welke sector de meeste uitstoot heeft, is deels een kwestie van indeling, maar de energiesector is de grootste.",
+   "Het klimaatsysteem kent kantelpunten, tipping points: drempels waarna een kleine verandering een grote, vaak onomkeerbare verschuiving geeft. Denk aan de Groenlandse ijskap, het Amazonewoud en koraalriffen. Daarbij spelen feedbackloops. Positieve feedback versterkt de opwarming, zoals ontdooiende permafrost die methaan vrijlaat, of het albedo-effect: smeltend ijs weerkaatst minder zonlicht. Negatieve feedback dempt juist, zoals de opname van CO₂ door oceanen en planten. Die dempende processen zijn nu niet sterk genoeg om de menselijke invloed te compenseren.",
+   "Tot slot de energietransitie in Nederland: de overstap naar zon, wind en waterstof. Een groot knelpunt is netcongestie. Het elektriciteitsnet groeit minder snel dan het aanbod van duurzame stroom en de elektrificatie, dus nieuwe aansluitingen moeten wachten. Oplossingen zijn netuitbreiding, slimme sturing van de vraag, opslag en flexibiliteit."
+  ],
+  "m5": [
+   "Deze module gaat over hoe bedrijven waarde creëren die verder gaat dan winst. Dat heet meervoudige waardecreatie. Een belangrijk hulpmiddel is het IIRC Integrated Reporting Framework, met zes kapitalen: financieel, geproduceerd, intellectueel, menselijk, sociaal en relationeel, en natuurlijk kapitaal.",
+   "Het idee is input, proces en output. Kapitalen gaan erin en komen er, vaak in een andere vorm, weer uit. Neem een producent van biobased isolatiepanelen: geld, kennis en hennep gaan erin. Duurzame bouwmaterialen, regionale samenwerking, banen en minder CO₂ komen eruit. Met kpi’s per kapitaal, zoals CO₂-uitstoot, ziekteverzuim of klantloyaliteit, kun je daarop sturen.",
+   "Het tweede kernbegrip is dubbele materialiteit. Inside-out kijkt naar de impact van het bedrijf op mens en milieu, zoals uitstoot of arbeidsomstandigheden. Outside-in kijkt naar hoe ontwikkelingen in de wereld het bedrijf raken, zoals klimaatrisico’s of strengere regels. Dubbele materialiteit combineert die twee. Sinds de CSRD van 2022 zijn grote bedrijven in Europa verplicht zo’n analyse te maken. Stakeholders actief betrekken hoort erbij, want zij bepalen mee wat er echt toe doet.",
+   "De casus Tata Steel laat zien hoe ingewikkeld dat is. Het bedrijf levert werk en economische waarde, maar veroorzaakt uitstoot van CO₂ en fijnstof die omwonenden raakt. Alle zes kapitalen spelen mee, en geen keuze is zonder afweging."
+  ],
+  "m6": [
+   "In deze module leer je van de natuur. Biomimicry betekent strategieën, processen en systeemprincipes uit de natuur bestuderen en functioneel nabootsen. Het gaat om hoe iets werkt, niet om hoe het eruitziet. De natuur heeft haar oplossingen in 3,8 miljard jaar evolutie getest. Voorbeelden zijn zelfreinigende oppervlakken naar het lotusblad, gebouwen die koelen zoals een termietenheuvel, en windturbinebladen naar de vinnen van een bultrugwalvis.",
+   "Life’s Principles zijn ontwerplessen van de natuur. De les noemt er vijf. Wees zuinig met grondstoffen en energie. Pas je aan veranderende omstandigheden aan. Laat groei samengaan met ontwikkeling, binnen de grenzen van het systeem. Gebruik chemie die veilig is voor het leven. En stem je ontwerp af op de lokale omstandigheden.",
+   "De les maakt ook onderscheid tussen duurzaam en regeneratief design. Duurzaam design beperkt schade: minder energie, minder afval, langere levensduur. Regeneratief design gaat verder: het herstelt ecosystemen, sluit kringlopen en vergroot de biodiversiteit. Het Natural Pavilion op de Floriade van 2022 is daar een voorbeeld van: het wekt meer energie op dan het verbruikt, is gemaakt van biobased en herbruikbare materialen en kan volledig uit elkaar.",
+   "Biomimicry toepassen gaat in stappen: de natuur observeren, de strategie vertalen naar een ontwerpprincipe, een prototype maken en dat testen en verbeteren."
+  ],
+  "m7": [
+   "Deze module gaat over wicked problems: hardnekkige vraagstukken zonder eenduidige definitie of oplossing. De les noemt vijf kenmerken. Je kunt het probleem niet definitief formuleren. Er is geen eenduidige oplossing. Oplossingen zijn beter of slechter, niet waar of onwaar. Elke ingreep verandert het probleem zelf. En elke situatie heeft een unieke context. De plasticrecyclingmarkt is het voorbeeld.",
+   "Systeemdenken helpt hier. Volgens Meadows bestaat een systeem uit elementen, relaties en emergent gedrag: patronen die je niet ziet als je alleen naar de losse onderdelen kijkt. Feedbackloops zijn de motoren van dat gedrag. Een versterkende loop, een R-loop, jaagt een verandering aan, zoals schaalvoordelen bij virgin plastic. Een dempende loop, een B-loop, remt af, zoals zichtbaar afval dat leidt tot strengere regels.",
+   "Met een causal loop diagram teken je variabelen en pijlen, en zie je waar loops en vertragingen zitten. Zo vind je hefboompunten: plekken waar een kleine ingreep veel verandert. Meadows benadrukt dat die meestal niet in zichtbare maatregelen liggen, maar in regels, informatiestromen, aannames en structuren.",
+   "Twee begrippen verklaren waarom verandering zo moeilijk is. Bij een lock-in loopt een systeem vast in een patroon door investeringen, regels of gewoontes, zoals onze afhankelijkheid van olie en gas. Padafhankelijkheid betekent dat keuzes uit het verleden de opties voor de toekomst beperken, zoals het QWERTY-toetsenbord. In de plasticmarkt bleef gerecycled plastic duurder en minder goed dan nieuw. Volgens de les doorbreek je zo’n lock-in het best met een combinatie van marktprikkels en regelgeving."
+  ],
+  "m8": [
+   "In deze module pas je systeemdenken toe op echte strategische keuzes, aan de hand van twee casussen. Belangen botsen, en elke keuze heeft gevolgen elders in het systeem.",
+   "Roetz Bikes maakt fietsen van hergebruikte onderdelen en biedt werk aan mensen met een afstand tot de arbeidsmarkt. De vraag groeit, maar snelle groei via franchising of uitbesteding kan ten koste gaan van de controle over materiaalstromen en circulaire normen. Dat is een klassieke trade-off: groei tegenover circulariteit, en sociale impact tegenover winstgevendheid. Mogelijke hefbomen zijn ketenpartnerschappen, modulair ontwerp en regionale hubs die sociale werkgelegenheid combineren met schaal.",
+   "De tweede casus is netcongestie. Het net groeit niet mee met zonnepanelen, warmtepompen en elektrische auto’s. Het elektriciteitsnet is een socio-technisch systeem: techniek, gedrag en regels beïnvloeden elkaar. De structurele oorzaak is dat piekaanbod en piekvraag niet samenvallen. De trade-offs zijn onder meer versnellen tegenover betaalbaarheid, en lokale oplossingen zoals buurtbatterijen tegenover systeemoplossingen. Vraagsturing, flexibiliteitsmarkten en dynamische tarieven kunnen hefboompunten zijn.",
+   "De les geeft je ook gereedschap. Een systeemkaart toont elementen, relaties en terugkoppelingen. Met stakeholderidentificatie, bijvoorbeeld met de Mendelow-matrix van macht en interesse, zie je wie betrokken is. Een belangenanalyse brengt hun behoeften en zorgen in beeld. En context mapping, met hulpmiddelen als PESTLE, DESTEP en SWOT, laat de bredere omgeving zien. Het besluitvormingsproces loopt van probleemanalyse via stakeholders en scenario’s naar besluit, evaluatie en leren."
+  ],
+  "m9": [
+   "Deze laatste module brengt alles samen. Je bent begonnen bij systeemdenken en planetaire grenzen, en via klimaat, circulaire strategieën, meervoudige waardecreatie, biomimicry en wicked problems uitgekomen bij besluitvorming in de praktijk.",
+   "De rode draad: alles hangt samen. Planetaire grenzen geven de ecologische ruimte aan waarbinnen economie en samenleving zich kunnen ontwikkelen. Circulaire strategieën hoog op de R-ladder, zoals niet produceren, herontwerpen en minder consumeren, verminderen materiaalstromen structureel. Dubbele materialiteit laat bedrijven kijken naar hun impact op de wereld én de impact van de wereld op henzelf. En met een causal loop diagram maak je zichtbaar waar versterkende en dempende loops zitten en waar hefboompunten liggen.",
+   "De kennistoets vraagt je om die begrippen te combineren. Waarom vertragen lock-ins de innovatie? Waarom is een leasemodel gunstiger dan verkoop? Waarom zijn klimaatfeedbacks anders dan die in een textielketen? Steeds gaat het om het verband, niet om het losse begrip.",
+   "Tot slot maak je een mini dubbele materialiteitsanalyse. Je kiest een organisatie, benoemt drie duurzaamheidsissues, scoort per issue de impact en het risico van nul tot vijf, en zet ze in een materialiteitsmatrix. Daarna reflecteer je op je eigen rol: welke concrete actie neem jij het komende jaar?"
+  ]
+ },
+ "nagekeken": {
+  "m1": {
+   "vinger": "180987578c92",
+   "datum": "2026-10-27"
+  },
+  "m2": {
+   "vinger": "919b609c2ccd",
+   "datum": "2026-10-27"
+  },
+  "m3": {
+   "vinger": "cee032474992",
+   "datum": "2026-10-27"
+  },
+  "m4": {
+   "vinger": "f66dcf43f69a",
+   "datum": "2026-10-27"
+  },
+  "m5": {
+   "vinger": "ba5258abe24c",
+   "datum": "2026-10-27"
+  },
+  "m6": {
+   "vinger": "0a7c5b193d62",
+   "datum": "2026-10-27"
+  },
+  "m7": {
+   "vinger": "cdd8077e5a21",
+   "datum": "2026-10-27"
+  },
+  "m8": {
+   "vinger": "80e30a709df7",
+   "datum": "2026-10-27"
+  },
+  "m9": {
+   "vinger": "ad74e0479aaa",
+   "datum": "2026-10-27"
+  }
+ }
+}
