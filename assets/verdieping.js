@@ -166,9 +166,11 @@
       var eigen = begrippenVan(les.id);
       var vragen = vragenVoorLes(les);
       if (!sam && !eigen.length && !vragen.length) return null;
-      blokken.push({ t: 'text', heading: 'Verdieping', body: '<p>Zet de module voor jezelf op een rij: luister de samenvatting terug, bekijk de begrippen en leg daarna een paar verbanden.</p>' });
+      blokken.push({ t: 'text', heading: 'Verdieping', body: '<p>Zet de module voor jezelf op een rij: zie hoe je kaart van begrippen groeit, luister de samenvatting terug en leg daarna een paar verbanden. Let op: de samenvatting is om je beeld te versterken. Alleen de samenvatting volgen is <strong>niet</strong> voldoende voor het tentamen.</p>' });
+      if (eigen.length) blokken.push({ t: 'groei', les: les.id });
       if (sam) blokken.push({ t: 'luister', les: les.id });
       if (eigen.length) blokken.push({ t: 'begrippen', les: les.id });
+      if (nieuweLijnen(les).length) blokken.push({ t: 'lijnen', les: les.id });
       if (vragen.length) {
         blokken.push({ t: 'text', heading: 'Verbanden leggen', body: '<p>Hoe hangen de begrippen samen? Kies het begrip dat de zin juist maakt.</p>' });
         blokken = blokken.concat(vragen);
@@ -179,7 +181,274 @@
     function tekenBlok(blok) {
       if (blok.t === 'luister') return luisterKaart(blok.les);
       if (blok.t === 'begrippen') return begrippenBlok(blok.les);
+      if (blok.t === 'groei') return groeiKaart(blok.les);
+      if (blok.t === 'lijnen') return lijnenBlok(blok.les);
       return null;
+    }
+
+    /* ------------------------------------------------ verhaallijnen */
+
+    /* Een verhaallijn loopt langs een paar verbanden, zoals Jibbe ze maakte:
+       "Klimaat dat zichzelf versnelt". Hij gaat open als de modules van al
+       zijn begrippen af zijn. */
+    var lijnen = (data.verhaallijnen || []).map(function (l, nr) {
+      var stappen = l.stappen.map(function (p) {
+        for (var n = 0; n < verbanden.length; n++) {
+          var v = verbanden[n];
+          if ((v.a === p[0] && v.b === p[1]) || (v.a === p[1] && v.b === p[0])) return n;
+        }
+        return -1;
+      }).filter(function (n) { return n >= 0; });
+      var ids = {};
+      stappen.forEach(function (n) { ids[verbanden[n].a] = 1; ids[verbanden[n].b] = 1; });
+      /* de lijn hoort bij zijn eigen module, nooit eerder dan het laatste begrip erin */
+      var laatste = Math.max.apply(null, Object.keys(ids).map(function (id) { return lesNr[perId[id].les]; }).concat(lesNr[l.les] !== undefined ? [lesNr[l.les]] : []));
+      return { nr: nr, titel: l.titel, intro: l.intro, stappen: stappen, ids: Object.keys(ids), laatste: laatste };
+    }).filter(function (l) { return l.stappen.length; });
+
+    function lijnOpen(l) {
+      return l.ids.every(function (id) { return af(perId[id].les); });
+    }
+    function nieuweLijnen(les) {
+      return lijnen.filter(function (l) { return l.laatste === lesNr[les.id]; });
+    }
+
+    function lijnenBlok(lesId) {
+      var blok = el('div', 'lijnen-blok');
+      blok.appendChild(el('strong', null, 'De verhaallijn van deze module'));
+      blok.appendChild(el('p', null, 'Volg stap voor stap op de kaart hoe de begrippen uit deze module, en wat je al kende, in elkaar grijpen.'));
+      nieuweLijnen({ id: lesId }).forEach(function (l) {
+        var k = el('button', 'lijn-knop');
+        k.type = 'button';
+        k.appendChild(el('strong', null, l.titel));
+        k.appendChild(el('span', null, l.intro));
+        k.addEventListener('click', function () { toon('kaart', 'lijn-' + l.nr); });
+        blok.appendChild(k);
+      });
+      return blok;
+    }
+
+    /* Eén zin uitspreken; opEind volgt ook als er geen stem is. */
+    function zeg(tekst, snelheid, opEind) {
+      var klaar = false;
+      function eind() { if (!klaar) { klaar = true; opEind(); } }
+      var gestart = false;
+      try {
+        var u = new window.SpeechSynthesisUtterance(tekst);
+        var stem = nlStem();
+        u.lang = stem ? stem.lang : 'nl-NL';
+        if (stem) u.voice = stem;
+        u.rate = snelheid || 1;
+        u.onstart = function () { gestart = true; };
+        u.onend = eind;
+        u.onerror = eind;
+        window.speechSynthesis.speak(u);
+      } catch (e) { setTimeout(eind, 3000); return function () { klaar = true; }; }
+      setTimeout(function () { if (!gestart) { try { window.speechSynthesis.cancel(); } catch (e) { /* niets */ } setTimeout(eind, 2500); } }, 2500);
+      return function () { klaar = true; try { window.speechSynthesis.cancel(); } catch (e) { /* niets */ } };
+    }
+
+    /* Stapspeler voor de groeiende kaart en de verhaallijnen: vorige, afspelen,
+       volgende, met desgewenst een stem die de uitleg voorleest. */
+    function stapSpeler(opties) {
+      var n = opties.stappen.length;
+      var i = -1, speelt = false, wacht = null, stopZeg = null;
+      var balk = el('div', 'stap-balk');
+      var vorige = el('button', 'knop-klein stil', '← Vorige');
+      var speel = el('button', 'knop-klein', opties.speelLabel || 'Afspelen');
+      var volgende = el('button', 'knop-klein stil', 'Volgende →');
+      var alles = el('button', 'tekstknop', 'Alles tonen');
+      [vorige, speel, volgende, alles].forEach(function (b) { b.type = 'button'; });
+      var teller = el('span', 'stap-teller');
+      var stemLabel = el('label', 'schakel stap-stem');
+      var stem = el('input');
+      stem.type = 'checkbox';
+      stemLabel.appendChild(stem);
+      stemLabel.appendChild(document.createTextNode(' Lees voor'));
+      balk.appendChild(vorige);
+      balk.appendChild(speel);
+      balk.appendChild(volgende);
+      balk.appendChild(teller);
+      balk.appendChild(alles);
+      if (typeof window.speechSynthesis !== 'undefined') balk.appendChild(stemLabel);
+
+      function stopTimers() {
+        clearTimeout(wacht);
+        if (stopZeg) stopZeg();
+        stopZeg = null;
+      }
+      function zet(j) {
+        i = Math.max(-1, Math.min(n - 1, j));
+        opties.toon(i);
+        teller.textContent = i < 0 ? n + ' stappen' : (i + 1) + ' / ' + n;
+        vorige.disabled = i < 0;
+        volgende.disabled = i >= n - 1;
+        if (i >= n - 1 && speelt) pauze();
+      }
+      function pauze() {
+        speelt = false;
+        stopTimers();
+        speel.textContent = i >= n - 1 ? 'Opnieuw' : 'Verder';
+      }
+      function verder() {
+        if (!speelt) return;
+        if (i >= n - 1) { pauze(); return; }
+        zet(i + 1);
+        if (!speelt) return;
+        var tekst = opties.tekst(i);
+        if (stem.checked) {
+          stopZeg = zeg(tekst, 1, function () { stopZeg = null; wacht = setTimeout(verder, 500); });
+        } else {
+          wacht = setTimeout(verder, Math.min(9000, 2200 + tekst.length * 28));
+        }
+      }
+      speel.addEventListener('click', function () {
+        if (speelt) { pauze(); return; }
+        stopSpraak();
+        spraakStop = pauze;
+        if (i >= n - 1) zet(-1);
+        speelt = true;
+        speel.textContent = 'Pauzeren';
+        verder();
+      });
+      vorige.addEventListener('click', function () { pauze(); zet(i - 1); });
+      volgende.addEventListener('click', function () { pauze(); zet(i + 1); });
+      alles.addEventListener('click', function () { pauze(); zet(n - 1); });
+      stem.addEventListener('change', function () { if (!stem.checked && stopZeg) { stopZeg(); stopZeg = null; } });
+      zet(opties.begin === undefined ? -1 : opties.begin);
+      return { balk: balk, zet: zet, stop: pauze };
+    }
+
+    function verbandZin(v) { return perId[v.a].naam + ' ' + v.rel + ' ' + perId[v.b].naam + '.'; }
+
+    /* ------------------------------------------------ jouw kaart groeit */
+
+    /* Aan het eind van een module verschijnen de nieuwe begrippen één voor één
+       op de kaart van wat je al kende, en tekenen hun verbanden zich. */
+    function groeiKaart(lesId) {
+      var k = lesNr[lesId];
+      var ind = maakIndeling();
+      var nieuw = begrippenVan(lesId);
+      var eerder = begrippen.filter(function (b) { return lesNr[b.les] < k; });
+      var zichtbaar = {};
+      eerder.forEach(function (b) { zichtbaar[b.id] = 1; });
+      var stappen = [], gedaan = {};
+      nieuw.forEach(function (b) {
+        stappen.push({ t: 'begrip', b: b });
+        zichtbaar[b.id] = 1;
+        buren[b.id].forEach(function (n) {
+          if (gedaan[n] || !zichtbaar[ander(verbanden[n], b.id)]) return;
+          gedaan[n] = 1;
+          stappen.push({ t: 'verband', n: n });
+        });
+      });
+
+      var blok = el('div', 'groei');
+      var kop = el('div', 'groei-kop');
+      kop.appendChild(el('strong', null, 'Jouw kaart groeit'));
+      var verbindingen = stappen.filter(function (s) { return s.t === 'verband'; }).length;
+      kop.appendChild(el('span', null, nieuw.length + ' nieuwe begrippen · ' + verbindingen + ' verbanden' + (eerder.length ? ', ook met wat je al kende' : '')));
+      blok.appendChild(kop);
+
+      /* ingezoomd op de nieuwe begrippen; lijnen naar eerdere lopen de rand over */
+      var svg = kaartSvg(eerder.concat(nieuw), { klein: true, focus: nieuw, marge: 120 });
+      blok.appendChild(svg.el);
+      eerder.forEach(function (b) { svg.knoop[b.id].classList.add('oud'); });
+      nieuw.forEach(function (b) { svg.knoop[b.id].classList.add('weg'); });
+      verbanden.forEach(function (v, n) {
+        if (!svg.lijn[n]) return;
+        if (lesNr[perId[v.a].les] < k && lesNr[perId[v.b].les] < k) svg.lijn[n].classList.add('oud');
+        else svg.lijn[n].classList.add('weg');
+      });
+
+      var tekst = el('div', 'groei-tekst');
+      blok.appendChild(tekst);
+      function zinVan(j) {
+        var s = stappen[j];
+        return s.t === 'begrip' ? s.b.naam + '. ' + s.b.def : verbandZin(verbanden[s.n]) + ' ' + verbanden[s.n].uitleg;
+      }
+      function toonStap(j) {
+        nieuw.forEach(function (b) { svg.knoop[b.id].classList.add('weg'); svg.knoop[b.id].classList.remove('nu'); });
+        Object.keys(svg.lijn).forEach(function (n) { if (svg.lijn[n].classList.contains('weg') || svg.lijn[n].classList.contains('getekend')) { svg.lijn[n].classList.add('weg'); svg.lijn[n].classList.remove('getekend', 'nu'); } });
+        Object.keys(svg.knoop).forEach(function (id) { svg.knoop[id].classList.remove('raak'); });
+        for (var s = 0; s <= j; s++) {
+          var st = stappen[s];
+          if (st.t === 'begrip') svg.knoop[st.b.id].classList.remove('weg');
+          else { svg.lijn[st.n].classList.remove('weg'); svg.lijn[st.n].classList.add('getekend'); }
+        }
+        tekst.innerHTML = '';
+        if (j < 0) {
+          tekst.appendChild(el('p', null, eerder.length
+            ? 'In grijs zie je de begrippen die je al kent. Speel af om de ' + nieuw.length + ' begrippen van deze module erbij te zien komen.'
+            : 'Dit wordt het begin van je kaart. Speel af om de ' + nieuw.length + ' begrippen van deze module te zien verschijnen.'));
+          return;
+        }
+        var st2 = stappen[j];
+        if (st2.t === 'begrip') {
+          svg.knoop[st2.b.id].classList.add('nu');
+          tekst.appendChild(el('p', 'groei-naam', st2.b.naam));
+          tekst.appendChild(el('p', null, st2.b.def));
+        } else {
+          var v = verbanden[st2.n];
+          svg.lijn[st2.n].classList.add('nu');
+          svg.knoop[v.a].classList.add('raak');
+          svg.knoop[v.b].classList.add('raak');
+          tekst.appendChild(el('p', 'groei-naam', verbandZin(v)));
+          tekst.appendChild(el('p', null, v.uitleg));
+        }
+        if (j === stappen.length - 1) {
+          var naar = el('button', 'tekstknop', 'Bekijk je hele kaart');
+          naar.type = 'button';
+          naar.addEventListener('click', function () { toon('kaart'); });
+          tekst.appendChild(naar);
+        }
+      }
+      var speler = stapSpeler({ stappen: stappen, toon: toonStap, tekst: zinVan });
+      blok.appendChild(speler.balk);
+      return blok;
+    }
+
+    /* Een SVG met de begrippen op hun vaste plek. Zonder klein: hele kaart. */
+    function kaartSvg(lijst, opt) {
+      var ind = maakIndeling();
+      var svgNS = 'http://www.w3.org/2000/svg';
+      function s(tag, attrs) {
+        var e = document.createElementNS(svgNS, tag);
+        Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); });
+        return e;
+      }
+      var ids = {};
+      lijst.forEach(function (b) { ids[b.id] = 1; });
+      var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+      ((opt && opt.focus) || lijst).forEach(function (b) {
+        var p = ind.pos[ind.index[b.id]];
+        minX = Math.min(minX, p.x); minY = Math.min(minY, p.y); maxX = Math.max(maxX, p.x); maxY = Math.max(maxY, p.y);
+      });
+      var m = (opt && opt.marge) || 70;
+      var vak = [minX - m, minY - m, Math.max(300, maxX - minX + 2 * m), Math.max(220, maxY - minY + 2 * m)];
+      var svg = s('svg', { viewBox: vak.join(' '), role: 'img', 'aria-label': 'Kaart van begrippen', 'class': opt && opt.klein ? 'kaart-klein' : '' });
+      var lijnen = s('g', { 'class': 'lijnen' }), knopen = s('g', { 'class': 'knopen' });
+      svg.appendChild(lijnen);
+      svg.appendChild(knopen);
+      var lijn = {}, knoop = {};
+      verbanden.forEach(function (v, n) {
+        if (!ids[v.a] || !ids[v.b]) return;
+        var a = ind.pos[ind.index[v.a]], b = ind.pos[ind.index[v.b]];
+        var l = s('line', { x1: a.x, y1: a.y, x2: b.x, y2: b.y, pathLength: 1, stroke: (types[v.type] || {}).kleur || '#999' });
+        lijnen.appendChild(l);
+        lijn[n] = l;
+      });
+      lijst.forEach(function (b) {
+        var p = ind.pos[ind.index[b.id]];
+        var g = s('g', { 'class': 'knoop', transform: 'translate(' + p.x + ' ' + p.y + ')' });
+        g.appendChild(s('circle', { r: 7 + Math.min(5, buren[b.id].length) }));
+        var t = s('text', { y: -14, 'text-anchor': 'middle' });
+        t.textContent = b.naam.length > 26 ? b.naam.slice(0, 24) + '…' : b.naam;
+        g.appendChild(t);
+        knopen.appendChild(g);
+        knoop[b.id] = g;
+      });
+      return { el: svg, lijn: lijn, knoop: knoop, vak: vak };
     }
 
     /* ------------------------------------------------ luistersamenvatting */
@@ -208,9 +477,13 @@
       kop.appendChild(titel);
       kaart.appendChild(kop);
 
+      /* De disclaimer staat bovenaan en is ook het eerste wat de stem zegt. */
       var letop = el('p', 'luister-let');
-      letop.appendChild(el('strong', null, 'Let op: '));
-      letop.appendChild(document.createTextNode(DISCLAIMER));
+      letop.appendChild(el('span', 'luister-let-icoon', '!'));
+      var letopTekst = el('span');
+      letopTekst.appendChild(el('strong', null, 'Let op: '));
+      letopTekst.appendChild(document.createTextNode(DISCLAIMER));
+      letop.appendChild(letopTekst);
       kaart.appendChild(letop);
 
       var balk = el('div', 'luister-balk');
@@ -243,7 +516,7 @@
       meelees.appendChild(el('summary', null, 'Lees de tekst mee'));
       var tekst = el('div', 'luister-tekst');
       meelees.appendChild(tekst);
-      var zinnen = [];
+      var zinnen = [{ tekst: 'Let op. ' + DISCLAIMER, span: letop }];
       alineas.forEach(function (a) {
         var p = el('p');
         (a.match(/[^.!?]+[.!?]+[”’")]*\s*|[^.!?]+$/g) || [a]).forEach(function (z) {
@@ -378,6 +651,113 @@
 
     /* ------------------------------------------------ weet je nog? */
 
+    /* Ouder en kind bij een 'onderdeel of soort van'-verband; de richting
+       verschilt per formulering. */
+    function ouderKind(v) {
+      if (v.type !== 'D') return null;
+      if (/^(bestaat uit|omvat|werkt via|draait vooral om)/.test(v.rel)) return { ouder: v.a, kind: v.b };
+      if (/^is een/.test(v.rel)) return { ouder: v.b, kind: v.a };
+      return null;
+    }
+    function kinderen(id) {
+      var uit = [];
+      buren[id].forEach(function (n) { var ok = ouderKind(verbanden[n]); if (ok && ok.ouder === id) uit.push(ok.kind); });
+      return uit;
+    }
+    function broers(id) {
+      var uit = [];
+      buren[id].forEach(function (n) {
+        var ok = ouderKind(verbanden[n]);
+        if (ok && ok.kind === id) kinderen(ok.ouder).forEach(function (k) { if (k !== id && uit.indexOf(k) < 0) uit.push(k); });
+      });
+      return uit;
+    }
+    function maskeer(tekst, b) {
+      [b.naam].concat(b.sub ? [b.sub] : []).forEach(function (n) {
+        var kern = n.replace(/\s*\(.*\)\s*/g, '').trim();
+        if (kern.length > 3) tekst = tekst.split(kern).join('…').split(kern.toLowerCase()).join('…');
+      });
+      return tekst;
+    }
+    /* Afleiders die er bewust op lijken: broers, buren en begrippen uit dezelfde
+       module. Bij een voorbeeld geen ouder of kind, want het voorbeeld van een
+       soort past ook bij het geheel. */
+    function lijktOp(b, maxLes, zonderFamilie, rnd) {
+      var familie = {};
+      if (zonderFamilie) buren[b.id].forEach(function (n) { var ok = ouderKind(verbanden[n]); if (ok) familie[ander(verbanden[n], b.id)] = 1; });
+      var ok = function (x) { return x && x !== b && lesNr[x.les] <= maxLes && !familie[x.id]; };
+      var lijst = [];
+      function voeg(x) { if (ok(x) && lijst.indexOf(x) < 0) lijst.push(x); }
+      hussel(broers(b.id), rnd).forEach(function (id) { voeg(perId[id]); });
+      hussel(buren[b.id].map(function (n) { return perId[ander(verbanden[n], b.id)]; }), rnd).forEach(voeg);
+      hussel(begrippenVan(b.les), rnd).forEach(voeg);
+      hussel(begrippen, rnd).forEach(voeg);
+      return lijst.slice(0, 3);
+    }
+
+    function voorbeeldVraag(b, sleutel, maxLes) {
+      if (!b.vb) return null;
+      var rnd = reeks(sleutel);
+      var af3 = lijktOp(b, maxLes, true, rnd);
+      if (af3.length < 3) return null;
+      return {
+        t: 'quiz', label: 'Weet je nog?',
+        question: '<p>Welk begrip herken je in dit voorbeeld?</p><p class="verband-zin">' + esc(maskeer(b.vb, b)) + '</p>',
+        options: hussel([b].concat(af3), rnd).map(function (x) { return { text: x.naam, correct: x === b }; }),
+        feedback: b.naam + ': ' + b.def
+      };
+    }
+    function omschrijvingVraag(b, sleutel, maxLes) {
+      var rnd = reeks(sleutel);
+      var af3 = lijktOp(b, maxLes, false, rnd);
+      if (af3.length < 3) return null;
+      return {
+        t: 'quiz', label: 'Weet je nog?',
+        question: '<p>Welke omschrijving hoort bij <strong>' + esc(b.naam) + '</strong>?</p>',
+        options: hussel([b].concat(af3), rnd).map(function (x) { return { text: maskeer(x.def, x), correct: x === b, feedback: x === b ? '' : 'Dit is ' + x.naam + '.' }; }),
+        feedback: b.naam + ': ' + b.def
+      };
+    }
+    /* Meer antwoorden goed: welke begrippen vallen onder een geheel? */
+    function onderdelenVraag(b, sleutel, maxLes) {
+      var rnd = reeks(sleutel);
+      var ouder = kinderen(b.id).length >= 3 ? b : null;
+      if (!ouder) buren[b.id].forEach(function (n) { var ok = ouderKind(verbanden[n]); if (!ouder && ok && ok.kind === b.id && kinderen(ok.ouder).length >= 3) ouder = perId[ok.ouder]; });
+      if (!ouder) return null;
+      var kids = kinderen(ouder.id).map(function (id) { return perId[id]; });
+      var goed = hussel(kids, rnd).slice(0, 2);
+      if (goed.indexOf(b) < 0 && kids.indexOf(b) >= 0) goed[0] = b;
+      var verboden = {};
+      verboden[ouder.id] = 1;
+      kids.forEach(function (x) { verboden[x.id] = 1; });
+      buren[ouder.id].forEach(function (n) { verboden[ander(verbanden[n], ouder.id)] = 1; });
+      var fout = hussel(begrippen.filter(function (x) { return !verboden[x.id] && lesNr[x.les] <= maxLes && Math.abs(lesNr[x.les] - lesNr[ouder.les]) <= 1; }), rnd).slice(0, 2);
+      if (fout.length < 2) return null;
+      return {
+        t: 'quiz', multi: true, label: 'Weet je nog? · meer antwoorden goed',
+        question: '<p>Wat hoort bij <strong>' + esc(ouder.naam) + '</strong>? Kies alle juiste antwoorden.</p>',
+        options: hussel(goed.concat(fout), rnd).map(function (x) { return { text: x.naam, correct: goed.indexOf(x) >= 0 }; }),
+        feedback: ouder.naam + ' omvat onder meer ' + kids.map(function (x) { return x.naam; }).join(', ') + '.'
+      };
+    }
+
+    /* Begrippen die je fout had komen vaker terug, oude modules ook. */
+    function kiesHerhaling(pool, k, rnd) {
+      var hst = staat().herhaal || {};
+      return pool.map(function (b) {
+        var h = hst[b.id] || { g: 0, f: 0 };
+        var w = 1 + h.f * 3 - h.g * 0.6 + (h.g + h.f === 0 ? 1.2 : 0) + (k - lesNr[b.les]) * 0.05;
+        return { b: b, w: Math.max(0.15, w) * (0.4 + rnd()) };
+      }).sort(function (x, y) { return y.w - x.w; }).map(function (x) { return x.b; });
+    }
+    function onthoud(id, goed) {
+      var st = staat();
+      if (!st.herhaal) st.herhaal = {};
+      var h = st.herhaal[id] || (st.herhaal[id] = { g: 0, f: 0 });
+      if (goed) h.g++; else h.f++;
+      api.bewaar();
+    }
+
     function herhaling(les) {
       var k = lesNr[les.id];
       var eerder = begrippen.filter(function (b) { return lesNr[b.les] < k && af(b.les); });
@@ -388,21 +768,51 @@
       vak.open = !ms.af && !ms.segment;
       var sum = el('summary');
       sum.appendChild(el('strong', null, 'Weet je nog?'));
-      sum.appendChild(el('span', null, ' Drie korte vragen over eerdere modules'));
+      sum.appendChild(el('span', null, ' Drie vragen over eerdere modules'));
       vak.appendChild(sum);
       var binnen = el('div', 'herhaal-binnen');
       vak.appendChild(binnen);
 
       function vul() {
         binnen.innerHTML = '';
-        binnen.appendChild(el('p', 'herhaal-uitleg', 'Even ophalen wat je eerder leerde helpt je het te onthouden. Deze vragen tellen niet mee voor je voortgang.'));
+        binnen.appendChild(el('p', 'herhaal-uitleg', 'Even ophalen wat je eerder leerde helpt je het te onthouden. Wat je fout hebt, komt later vaker terug. Deze vragen tellen niet mee voor je voortgang.'));
         var rnd = reeks(les.id + ':herhaal:' + ronde);
-        hussel(eerder, rnd).slice(0, 3).forEach(function (b, n) {
-          var q = definitieVraag(b, les.id + ':' + ronde + ':' + b.id);
-          if (!q) return;
-          var node = api.tekenBlok(q, les.id, 'h' + ronde, n, function () {});
+        var vormen = hussel([voorbeeldVraag, omschrijvingVraag, onderdelenVraag], rnd);
+        /* Per vraagvorm het hoogst gerangschikte begrip dat zich ervoor leent. */
+        var gekozen = [], volgorde = kiesHerhaling(eerder, k, rnd), gebruikt = {};
+        vormen.forEach(function (vorm) {
+          var q = null;
+          volgorde.some(function (b) {
+            if (gebruikt[b.id]) return false;
+            q = vorm(b, les.id + ':' + ronde + ':' + b.id, k);
+            if (q) { gebruikt[b.id] = 1; gekozen.push({ b: b, q: q }); }
+            return !!q;
+          });
+          if (!q) volgorde.some(function (b) {
+            if (gebruikt[b.id]) return false;
+            var r = omschrijvingVraag(b, les.id + ':' + ronde + ':' + b.id, k) || definitieVraag(b, les.id + ':' + ronde + ':' + b.id);
+            if (r) { gebruikt[b.id] = 1; gekozen.push({ b: b, q: r }); }
+            return !!r;
+          });
+        });
+        var score = el('p', 'herhaal-score');
+        gekozen.forEach(function (x, n) {
+          var id = les.id + ':h' + ronde + ':' + n;
+          var node = api.tekenBlok(x.q, les.id, 'h' + ronde, n, function () {
+            var a = ms.antwoorden[id];
+            if (a) onthoud(x.b.id, a.goed);
+            werkScoreBij();
+          });
           if (node) binnen.appendChild(node);
         });
+        function werkScoreBij() {
+          var klaar = gekozen.map(function (x, n) { return ms.antwoorden[les.id + ':h' + ronde + ':' + n]; }).filter(Boolean);
+          score.textContent = klaar.length === gekozen.length
+            ? klaar.filter(function (a) { return a.goed; }).length + ' van de ' + gekozen.length + ' goed.'
+            : '';
+        }
+        binnen.appendChild(score);
+        werkScoreBij();
         var nieuw = el('button', 'knop-klein stil', 'Andere vragen');
         nieuw.type = 'button';
         nieuw.addEventListener('click', function () {
@@ -459,8 +869,8 @@
         rij.appendChild(t);
         return t;
       }
-      tegel('Begrippen', begrippen.length + ' begrippen met uitleg en samenvattingen', 'begrippen');
-      tegel('Kaart van verbanden', ontdekt + ' van ' + begrippen.length + ' begrippen ontdekt', 'kaart');
+      tegel('Begrippen', begrippen.length + ' begrippen met uitleg en luistersamenvattingen', 'begrippen');
+      tegel('Kaart van verbanden', ontdekt + ' van ' + begrippen.length + ' begrippen ontdekt' + (lijnen.length ? ' · ' + lijnen.filter(lijnOpen).length + ' van ' + lijnen.length + ' verhaallijnen' : ''), 'kaart');
       laadCasussen().then(function (c) {
         if (c && c.casussen && c.casussen.length) tegel('Oefencasussen', c.casussen.length + ' casussen om begrippen in te herkennen', 'casussen');
       });
@@ -537,7 +947,7 @@
           sectie.appendChild(el('h2', null, 'Module ' + (n + 1) + ' · ' + les.title));
           if (samenvattingen[les.id] && !q) {
             var luister = el('details', 'luister-uitklap');
-            var s = el('summary', null, 'Luistersamenvatting');
+            var s = el('summary', null, 'Luistersamenvatting (alleen de samenvatting volgen is niet voldoende voor het tentamen)');
             luister.appendChild(s);
             luister.addEventListener('toggle', function () {
               if (luister.open && luister.children.length === 1) luister.appendChild(luisterKaart(les.id));
@@ -628,7 +1038,13 @@
         return e;
       }
 
-      var zichtbaar = function (b) { return st.kaartAlles || af(b.les); };
+      /* Een verhaallijn openen vanaf het eind van een module kan voordat die
+         module af is: zijn begrippen tonen we dan alvast. */
+      var lijnNr = /^lijn-\d+$/.test(gekozenId || '') ? Number(gekozenId.slice(5)) : -1;
+      var startLijn = lijnen.filter(function (l) { return l.nr === lijnNr; })[0] || null;
+      var extra = {};
+      if (startLijn) startLijn.ids.forEach(function (id) { extra[id] = 1; });
+      var zichtbaar = function (b) { return st.kaartAlles || af(b.les) || !!extra[b.id]; };
       var aantal = begrippen.filter(zichtbaar).length;
 
       var intro = el('div', 'kaart-intro');
@@ -659,6 +1075,24 @@
       });
       lezer.appendChild(legenda);
 
+      if (lijnen.length) {
+        var lijnVak = el('div', 'kaart-lijnen');
+        lijnVak.appendChild(el('strong', null, 'Verhaallijnen'));
+        var lijnRij = el('div', 'kaart-lijnen-rij');
+        lijnen.forEach(function (l) {
+          var open = lijnOpen(l) || st.kaartAlles || l === startLijn;
+          var k = el('button', 'lijn-chip' + (open ? '' : ' dicht'), (open ? '' : '🔒 ') + l.titel);
+          k.type = 'button';
+          if (!open) {
+            k.disabled = true;
+            k.title = 'Rond module ' + (l.laatste + 1) + ' en de modules ervoor af om deze verhaallijn te openen.';
+          } else k.addEventListener('click', function () { if (l.ids.every(function (id) { return knoopPer[id]; })) speelLijn(l); else toonOpnieuw('lijn-' + l.nr); });
+          lijnRij.appendChild(k);
+        });
+        lijnVak.appendChild(lijnRij);
+        lezer.appendChild(lijnVak);
+      }
+
       var werk = el('div', 'kaart-werk');
       var vlak = el('div', 'kaart-vlak');
       var detail = el('aside', 'kaart-detail');
@@ -675,9 +1109,9 @@
       var vb = ind.vak.slice();
       var svg = s('svg', { viewBox: vb.join(' '), role: 'img', 'aria-label': 'Kaart van verbanden tussen begrippen' });
       vlak.appendChild(svg);
-      var lijnen = s('g', { 'class': 'lijnen' });
+      var lijnGroep = s('g', { 'class': 'lijnen' });
       var knopen = s('g', { 'class': 'knopen' });
-      svg.appendChild(lijnen);
+      svg.appendChild(lijnGroep);
       svg.appendChild(knopen);
 
       /* module-namen als lichte achtergrondlabels */
@@ -689,7 +1123,7 @@
         eigen.forEach(function (b) { var p = ind.pos[ind.index[b.id]]; xs += p.x; boven = Math.min(boven, p.y); });
         var t = s('text', { x: xs / eigen.length, y: boven - 34, 'class': 'kaart-module', 'text-anchor': 'middle' });
         t.textContent = 'Module ' + (i + 1);
-        lijnen.appendChild(t);
+        lijnGroep.appendChild(t);
       });
 
       var lijnPer = [];
@@ -698,7 +1132,7 @@
         var a = ind.pos[ind.index[v.a]], b = ind.pos[ind.index[v.b]];
         var lijn = s('line', { x1: a.x, y1: a.y, x2: b.x, y2: b.y, stroke: (types[v.type] || {}).kleur || '#999' });
         lijn.dataset.n = n;
-        lijnen.appendChild(lijn);
+        lijnGroep.appendChild(lijn);
         lijnPer[n] = lijn;
       });
       var knoopPer = {};
@@ -860,7 +1294,55 @@
         toonKaart(lezer, id);
       }
 
-      if (gekozenId && knoopPer[gekozenId]) kies(gekozenId);
+      /* Een verhaallijn afspelen: stap voor stap de verbanden, ingezoomd op
+         zijn begrippen. */
+      var lijnSpeler = null;
+      function speelLijn(l) {
+        if (lijnSpeler) lijnSpeler.stop();
+        try { history.replaceState(null, '', '#kaart:lijn-' + l.nr); } catch (e) { /* bestand */ }
+        Array.prototype.forEach.call(document.querySelectorAll('.lijn-chip'), function (c) { c.classList.toggle('actief', c.textContent === l.titel); });
+        var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+        l.ids.forEach(function (id) { var p = ind.pos[ind.index[id]]; minX = Math.min(minX, p.x); minY = Math.min(minY, p.y); maxX = Math.max(maxX, p.x); maxY = Math.max(maxY, p.y); });
+        var w = Math.max(380, maxX - minX + 200), h = Math.max(280, maxY - minY + 160);
+        vb = [(minX + maxX) / 2 - w / 2, (minY + maxY) / 2 - h / 2, w, h];
+        zet();
+        detail.innerHTML = '';
+        detail.appendChild(el('p', 'kicker', 'Verhaallijn'));
+        detail.appendChild(el('h2', null, l.titel));
+        detail.appendChild(el('p', 'kaart-hint', l.intro));
+        var bijschrift = el('div', 'lijn-tekst');
+        detail.appendChild(bijschrift);
+        function toonStap(i) {
+          svg.classList.add('gekozen');
+          Object.keys(knoopPer).forEach(function (k) { knoopPer[k].classList.remove('actief', 'buur'); });
+          lijnPer.forEach(function (x) { if (x) x.classList.remove('actief', 'nu'); });
+          l.ids.forEach(function (id) { if (knoopPer[id]) knoopPer[id].classList.add('buur'); });
+          bijschrift.innerHTML = '';
+          for (var j = 0; j <= i; j++) {
+            var v = verbanden[l.stappen[j]];
+            if (lijnPer[l.stappen[j]]) lijnPer[l.stappen[j]].classList.add('actief');
+            [v.a, v.b].forEach(function (id) { if (knoopPer[id]) knoopPer[id].classList.add('actief'); });
+          }
+          if (i < 0) { bijschrift.appendChild(el('p', 'herhaal-uitleg', 'Speel af of klik op Volgende.')); return; }
+          var nu = verbanden[l.stappen[i]];
+          if (lijnPer[l.stappen[i]]) lijnPer[l.stappen[i]].classList.add('nu');
+          bijschrift.appendChild(el('p', 'verband-regel', verbandZin(nu)));
+          bijschrift.appendChild(el('p', 'verband-uitleg', nu.uitleg));
+        }
+        lijnSpeler = stapSpeler({
+          stappen: l.stappen, toon: toonStap,
+          tekst: function (i) { var v = verbanden[l.stappen[i]]; return verbandZin(v) + ' ' + v.uitleg; }
+        });
+        detail.appendChild(lijnSpeler.balk);
+        var sluit = el('button', 'tekstknop', 'Verhaallijn sluiten');
+        sluit.type = 'button';
+        sluit.addEventListener('click', function () { lijnSpeler.stop(); vb = ind.vak.slice(); zet(); Array.prototype.forEach.call(document.querySelectorAll('.lijn-chip'), function (c) { c.classList.remove('actief'); }); leegDetail(); });
+        detail.appendChild(sluit);
+        if (window.matchMedia('(max-width: 899px)').matches) detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+
+      if (startLijn) speelLijn(startLijn);
+      else if (gekozenId && knoopPer[gekozenId]) kies(gekozenId);
       else leegDetail();
     }
 

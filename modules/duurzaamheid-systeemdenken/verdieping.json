@@ -1783,5 +1783,279 @@
    "vinger": "ad74e0479aaa",
    "datum": "2026-10-27"
   }
- }
+ },
+ "verhaallijnen": [
+  {
+   "les": "m1",
+   "titel": "De bril van de systeemdenker",
+   "herkomst": "aangevuld",
+   "intro": "Duurzaamheid is geen los probleem. Zie hoe systeemdenken, de drie dimensies en de kaders uit deze module samen één manier van kijken vormen.",
+   "stappen": [
+    [
+     "systeemdenken",
+     "duurzaamheid"
+    ],
+    [
+     "duurzaamheid",
+     "drie-dimensies-van-duurzaamheid"
+    ],
+    [
+     "triple-bottom-line",
+     "drie-dimensies-van-duurzaamheid"
+    ],
+    [
+     "sdg-s",
+     "duurzaamheid"
+    ],
+    [
+     "systeemdenken",
+     "systeemgrenzen"
+    ]
+   ]
+  },
+  {
+   "les": "m2",
+   "titel": "Een aarde met grenzen",
+   "herkomst": "aangevuld",
+   "intro": "De aarde is een systeem met grenzen. Volg hoe een overschreden grens in Nederland zichtbaar wordt, tot in het water.",
+   "stappen": [
+    [
+     "planetaire-grenzen",
+     "duurzaamheid"
+    ],
+    [
+     "stikstofcrisis",
+     "planetaire-grenzen"
+    ],
+    [
+     "planetaire-grenzen",
+     "eutrofiering"
+    ],
+    [
+     "eutrofiering",
+     "hydrosfeer"
+    ],
+    [
+     "biosfeer",
+     "hydrosfeer"
+    ]
+   ]
+  },
+  {
+   "titel": "Van lineair naar circulair met een spijkerbroek",
+   "intro": "MUD Jeans verkoopt geen spijkerbroeken maar least ze. Zo zie je hoe een businessmodel de R-ladder in praktijk brengt.",
+   "herkomst": "student",
+   "les": "m3",
+   "stappen": [
+    [
+     "lineaire-economie",
+     "circulaire-economie"
+    ],
+    [
+     "circulaire-economie",
+     "circulaire-businessmodellen"
+    ],
+    [
+     "circulaire-businessmodellen",
+     "product-as-a-service"
+    ],
+    [
+     "product-as-a-service",
+     "recycle"
+    ],
+    [
+     "recycle",
+     "r-ladder"
+    ]
+   ]
+  },
+  {
+   "titel": "Klimaat dat zichzelf versnelt",
+   "intro": "Een eerste opwarming veroorzaakt processen die de opwarming nog verder vergroten. Volg hoe de begrippen hier in elkaar grijpen.",
+   "herkomst": "student",
+   "les": "m4",
+   "stappen": [
+    [
+     "broeikaseffect",
+     "positieve-feedback-loop"
+    ],
+    [
+     "positieve-feedback-loop",
+     "tipping-point"
+    ],
+    [
+     "tipping-point",
+     "planetaire-grenzen"
+    ],
+    [
+     "planetaire-grenzen",
+     "koolstofbudget"
+    ]
+   ]
+  },
+  {
+   "les": "m5",
+   "titel": "Waarde in meer dan geld",
+   "herkomst": "aangevuld",
+   "intro": "Een bedrijf creëert en verbruikt meer dan geld. Zie hoe de zes kapitalen en dubbele materialiteit samen een compleet beeld geven.",
+   "stappen": [
+    [
+     "meervoudige-waardecreatie",
+     "zes-kapitalen"
+    ],
+    [
+     "zes-kapitalen",
+     "natuurlijk-kapitaal"
+    ],
+    [
+     "zes-kapitalen",
+     "dubbele-materialiteit"
+    ],
+    [
+     "dubbele-materialiteit",
+     "inside-out"
+    ],
+    [
+     "inside-out",
+     "outside-in"
+    ],
+    [
+     "csrd",
+     "dubbele-materialiteit"
+    ]
+   ]
+  },
+  {
+   "les": "m6",
+   "titel": "Ontwerpen zoals de natuur",
+   "herkomst": "aangevuld",
+   "intro": "Van leren van de natuur naar ontwerpen die herstellen: zo leidt biomimicry tot de circulaire economie.",
+   "stappen": [
+    [
+     "biomimicry",
+     "life-s-principles"
+    ],
+    [
+     "life-s-principles",
+     "be-locally-attuned-and-responsive"
+    ],
+    [
+     "biomimicry",
+     "duurzaam-design"
+    ],
+    [
+     "duurzaam-design",
+     "regeneratief-design"
+    ],
+    [
+     "regeneratief-design",
+     "circulaire-economie"
+    ]
+   ]
+  },
+  {
+   "titel": "Waarom gerecycled plastic vastloopt",
+   "intro": "De plasticrecyclingmarkt is in de e-learning het voorbeeld van een wicked problem. Zie hoe systeemdenken er grip op krijgt.",
+   "herkomst": "student",
+   "les": "m7",
+   "stappen": [
+    [
+     "wicked-problem",
+     "feedbackloop"
+    ],
+    [
+     "feedbackloop",
+     "causal-loop-diagram-cld"
+    ],
+    [
+     "causal-loop-diagram-cld",
+     "lock-in-effect"
+    ],
+    [
+     "lock-in-effect",
+     "padafhankelijkheid"
+    ]
+   ]
+  },
+  {
+   "titel": "Een besluit nemen als systeemdenker",
+   "intro": "Roetz Bikes wil groeien én circulair blijven. Zo ga je van kaart naar afweging.",
+   "herkomst": "student",
+   "les": "m8",
+   "stappen": [
+    [
+     "systeemkaart",
+     "stakeholderidentificatie"
+    ],
+    [
+     "stakeholderidentificatie",
+     "belangenanalyse"
+    ],
+    [
+     "belangenanalyse",
+     "strategische-trade-off-analyse"
+    ]
+   ]
+  },
+  {
+   "titel": "Van windpark tot vol stroomnet",
+   "herkomst": "aangevuld",
+   "les": "m8",
+   "intro": "Het koolstofbudget dwingt tot snelle verduurzaming, maar het net groeit niet mee. Zie hoe een technisch probleem een systeemvraagstuk wordt.",
+   "stappen": [
+    [
+     "koolstofbudget",
+     "energietransitie"
+    ],
+    [
+     "energietransitie",
+     "netcongestie"
+    ],
+    [
+     "netcongestie",
+     "socio-technisch-systeem"
+    ],
+    [
+     "vraagsturing-en-flexibiliteit",
+     "netcongestie"
+    ],
+    [
+     "vraagsturing-en-flexibiliteit",
+     "hefboompunt"
+    ],
+    [
+     "netcongestie",
+     "strategische-trade-off-analyse"
+    ]
+   ]
+  },
+  {
+   "les": "m9",
+   "titel": "Alles komt samen",
+   "herkomst": "aangevuld",
+   "intro": "Een lijn door de hele e-learning: kijken als systeemdenker, kiezen voor strategieën die hoog scoren en afwegen wat ertoe doet.",
+   "stappen": [
+    [
+     "systeemdenken",
+     "hefboompunt"
+    ],
+    [
+     "circulaire-strategie-hoog-op-de-r-ladder",
+     "r-ladder"
+    ],
+    [
+     "circulaire-strategie-hoog-op-de-r-ladder",
+     "refuse"
+    ],
+    [
+     "materialiteitsmatrix",
+     "dubbele-materialiteit"
+    ],
+    [
+     "strategische-trade-off-analyse",
+     "triple-bottom-line"
+    ]
+   ]
+  }
+ ]
 }

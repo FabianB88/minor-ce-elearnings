@@ -301,3 +301,92 @@ button.chip { border: 0; font-family: inherit; cursor: pointer; }
   border-radius: var(--r-knop); background: var(--go-vlak);
   font-size: 0.85rem; line-height: 1.5; color: var(--go-tekst-3);
 }
+
+/* ---------------------------------------------------------------- disclaimer */
+
+.luister-let {
+  display: flex; gap: 0.7rem; align-items: flex-start;
+  border: 1px solid #E6CFA8; font-weight: 500;
+}
+.luister-let-icoon {
+  flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%;
+  display: grid; place-items: center; margin-top: 0.05rem;
+  background: var(--go-warm-tekst); color: #fff; font-weight: 700; font-size: 0.8rem;
+}
+.luister-let.nu { box-shadow: 0 0 0 3px var(--go-warm-tekst); }
+
+/* ---------------------------------------------------------------- jouw kaart groeit */
+
+.groei {
+  margin: 0 0 1.75rem;
+  background: var(--go-kaart); border: 1px solid var(--go-rand);
+  border-radius: var(--r-kaart); box-shadow: var(--go-schaduw); overflow: hidden;
+}
+.groei-kop {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0.3rem 1rem;
+  padding: 1rem var(--binnen) 0.6rem;
+}
+.groei-kop strong { font-size: 1rem; font-weight: 600; }
+.groei-kop span { font-size: 0.8rem; color: var(--go-tekst-2); }
+.groei svg { display: block; width: 100%; height: 340px; background: var(--go-vlak); }
+.groei-tekst { padding: 0.9rem var(--binnen) 0.2rem; min-height: 5.2rem; font-size: 0.93rem; line-height: 1.6; color: var(--go-tekst-3); }
+.groei-tekst p { margin: 0 0 0.4rem; }
+.groei-naam { font-weight: 600; color: var(--go-tekst); }
+
+.kaart-klein .knoop { cursor: default; }
+.kaart-klein .knoop text { font-size: 12px; }
+.knoop, .lijnen line { transition: opacity 0.45s ease; }
+.knoop.weg, .lijnen line.weg { opacity: 0; }
+.knoop.oud circle { fill: var(--go-gedimd); }
+.knoop.oud text { fill: var(--go-tekst-2); font-weight: 400; }
+.knoop.oud { opacity: 0.55; }
+.knoop.oud.raak { opacity: 1; }
+.knoop.oud.raak circle { fill: var(--go-groen-medium); stroke: var(--go-groen); }
+.knoop.nu circle { fill: var(--go-groen-donker); stroke: var(--go-groen-medium); stroke-width: 5; }
+.knoop.nu text { font-weight: 700; font-size: 13px; }
+.lijnen line.oud { opacity: 0.18; }
+.lijnen line.getekend { opacity: 0.6; stroke-dasharray: 1; stroke-dashoffset: 0; animation: tekenen 0.9s ease both; }
+.lijnen line.nu { opacity: 1; stroke-width: 3; }
+@keyframes tekenen { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) { .lijnen line.getekend { animation: none; } .knoop, .lijnen line { transition: none; } }
+
+.stap-balk {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.6rem;
+  padding: 0.7rem var(--binnen) 1rem;
+}
+.stap-teller { font-size: 0.8rem; color: var(--go-tekst-2); min-width: 4.5rem; }
+.stap-stem { margin-left: auto; }
+.kaart-detail .stap-balk { padding: 0.8rem 0; }
+
+/* ---------------------------------------------------------------- verhaallijnen */
+
+.lijnen-blok {
+  margin: 0 0 1.75rem; padding: 1rem var(--binnen);
+  background: var(--go-groen-licht); border: 1px solid var(--go-groen-medium); border-radius: var(--r-kaart);
+}
+.lijnen-blok > strong { display: block; font-size: 1rem; color: var(--go-groen-donker); }
+.lijnen-blok > p { margin: 0.3rem 0 0.8rem; font-size: 0.88rem; color: var(--go-tekst-2); }
+.lijn-knop {
+  display: grid; gap: 0.2rem; width: 100%; text-align: left; margin-top: 0.5rem;
+  padding: 0.8rem 1rem; border: 1px solid var(--go-groen-medium); border-radius: var(--r-knop);
+  background: var(--go-kaart); font: inherit; color: var(--go-tekst); cursor: pointer;
+}
+.lijn-knop:hover { border-color: var(--go-groen); }
+.lijn-knop strong { font-size: 0.95rem; color: var(--go-groen-donker); }
+.lijn-knop span { font-size: 0.85rem; color: var(--go-tekst-2); line-height: 1.5; }
+
+.kaart-lijnen { margin: 0 0 1rem; }
+.kaart-lijnen > strong { display: block; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--go-tekst-2); margin-bottom: 0.5rem; }
+.kaart-lijnen-rij { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.lijn-chip {
+  padding: 0.4rem 0.8rem; border-radius: 999px;
+  border: 1px solid var(--go-groen-medium); background: var(--go-groen-licht);
+  font: inherit; font-size: 0.82rem; font-weight: 600; color: var(--go-groen-donker); cursor: pointer;
+}
+.lijn-chip:hover:not(:disabled) { border-color: var(--go-groen); }
+.lijn-chip.actief { background: var(--go-groen); border-color: var(--go-groen); color: #fff; }
+.lijn-chip.dicht { background: var(--go-vlak); border-color: var(--go-rand); color: var(--go-gedimd); cursor: default; }
+.lijn-tekst { min-height: 4rem; }
+svg.gekozen .lijnen line.nu { opacity: 1; stroke-width: 3.5; }
+
+.herhaal-score:not(:empty) { font-weight: 600; color: var(--go-groen-donker); margin: 0.5rem 0 0.8rem; }

@@ -166,8 +166,16 @@ Staat er naast `course.json` een `verdieping.json`, dan gebruikt de speler
   De browser leest de samenvatting voor, met de vaste melding dat alleen de
   samenvatting volgen niet genoeg is voor het tentamen. De verbandvragen zijn
   gewone kennisvragen: de module is pas af als ze beantwoord zijn.
-- **Weet je nog?** Vanaf de tweede module staan bovenaan drie korte vragen over
-  begrippen uit eerder afgeronde modules. Die tellen niet mee.
+- **Jouw kaart groeit**: aan het eind van elke module verschijnen de nieuwe
+  begrippen één voor één op de kaart van wat je al kende, en tekenen hun verbanden
+  zich, met uitleg en desgewenst voorgelezen.
+- **Verhaallijnen**: elke module heeft een verhaallijn (`verhaallijnen` in
+  `verdieping.json`) die je stap voor stap op de kaart volgt; hij gaat open als de
+  modules van zijn begrippen af zijn.
+- **Weet je nog?** Vanaf de tweede module staan bovenaan drie vragen over eerder
+  afgeronde modules: een begrip herkennen in een voorbeeld, de juiste omschrijving
+  kiezen uit omschrijvingen die op elkaar lijken, en "wat hoort erbij?" met meer
+  goede antwoorden. Wat je fout had komt vaker terug. Die vragen tellen niet mee.
 - **Op de startpagina** staan een doorzoekbare begrippenlijst, een kaart van
   verbanden die groeit met elke afgeronde module, en oefencasussen (als
   `modules/casussen.json` er is). In een casus markeer je waar je begrippen

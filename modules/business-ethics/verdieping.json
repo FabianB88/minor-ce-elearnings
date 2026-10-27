@@ -1052,5 +1052,139 @@
    "vinger": "85c067f44fd0",
    "datum": "2026-10-27"
   }
- }
+ },
+ "verhaallijnen": [
+  {
+   "les": "m1",
+   "titel": "Economie is een morele keuze",
+   "herkomst": "aangevuld",
+   "intro": "Achter elke economische keuze zit een morele: wie krijgt wat, en wie draagt de kosten?",
+   "stappen": [
+    [
+     "morele-economie",
+     "rechtvaardige-verdeling"
+    ],
+    [
+     "rechtvaardige-verdeling",
+     "externaliteiten"
+    ],
+    [
+     "morele-economie",
+     "commons"
+    ],
+    [
+     "morele-economie",
+     "systeemlogica"
+    ]
+   ]
+  },
+  {
+   "les": "m2",
+   "titel": "Hoe een norm verschuift, en weer terug",
+   "herkomst": "aangevuld",
+   "intro": "Schadelijk gedrag wordt normaal als niemand iets zegt. Maar er is altijd ruimte om te handelen.",
+   "stappen": [
+    [
+     "morele-ontkoppeling",
+     "normalisatie-van-afwijkend-gedrag"
+    ],
+    [
+     "pluralistische-onwetendheid",
+     "normalisatie-van-afwijkend-gedrag"
+    ],
+    [
+     "morele-moed",
+     "normalisatie-van-afwijkend-gedrag"
+    ],
+    [
+     "morele-moed",
+     "agency"
+    ],
+    [
+     "systeemlogica",
+     "agency"
+    ]
+   ]
+  },
+  {
+   "titel": "Waarom goede mensen toch meedoen",
+   "intro": "Een systeem optimaliseert op winst, mensen passen hun verhaal aan. En toch is er ruimte om te handelen.",
+   "herkomst": "student",
+   "les": "m3",
+   "stappen": [
+    [
+     "systeemlogica",
+     "aandeelhoudersmodel"
+    ],
+    [
+     "aandeelhoudersmodel",
+     "morele-ontkoppeling"
+    ],
+    [
+     "morele-ontkoppeling",
+     "normalisatie-van-afwijkend-gedrag"
+    ],
+    [
+     "normalisatie-van-afwijkend-gedrag",
+     "agency"
+    ]
+   ]
+  },
+  {
+   "titel": "Hoe data macht wordt",
+   "herkomst": "aangevuld",
+   "les": "m4",
+   "intro": "Wie de infrastructuur en de data beheert, bepaalt wat je ziet en kiest. En technologie is aan te passen.",
+   "stappen": [
+    [
+     "infrastructuur",
+     "technologie-is-niet-neutraal"
+    ],
+    [
+     "infrastructuur",
+     "marktconcentratie"
+    ],
+    [
+     "surveillancekapitalisme",
+     "datamacht"
+    ],
+    [
+     "surveillancekapitalisme",
+     "aanbod-stuurt-vraag"
+    ],
+    [
+     "algoritmische-bias",
+     "technologie-is-niet-neutraal"
+    ],
+    [
+     "technologie-is-niet-neutraal",
+     "ontwerpinterventie"
+    ],
+    [
+     "value-sensitive-design",
+     "ontwerpinterventie"
+    ]
+   ]
+  },
+  {
+   "titel": "Waarom greenwashing loont",
+   "intro": "Als geld stroomt naar wat meetbaar rendeert, wordt een groen imago waardevol. Wat helpt er tegen?",
+   "herkomst": "student",
+   "les": "m5",
+   "stappen": [
+    [
+     "financialisering",
+     "kapitaal-als-selectiemechanisme"
+    ],
+    [
+     "kapitaal-als-selectiemechanisme",
+     "greenwashing"
+    ],
+    [
+     "greenwashing",
+     "institutionele-interventie"
+    ]
+   ]
+  }
+ ]
 }
