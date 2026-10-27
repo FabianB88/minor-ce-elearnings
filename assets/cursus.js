@@ -18,6 +18,11 @@
   /* Begrippen, luistersamenvatting en verbandvragen uit verdieping.js, als
      de module een verdieping.json heeft. */
   var verdieping = null;
+  /* Testmodus: doorklikken zonder de vragen te beantwoorden, en een module
+     telt aan het eind als af. Alleen de portal zet dit aan, en alleen voor de
+     admin; de instelling geldt voor dit tabblad. */
+  var testmodus = false;
+  try { testmodus = sessionStorage.getItem('aice-testmodus') === '1'; } catch (e) { /* geen opslag */ }
 
   /* ------------------------------------------------------------ opslag */
 
@@ -882,9 +887,10 @@
 
         herbeoordeel = function () {
           var open = openVragen(index);
-          knop.disabled = open > 0;
+          knop.disabled = open > 0 && !testmodus;
           hint.textContent = open > 0
-            ? (open === 1 ? 'Beantwoord eerst de vraag hierboven.' : 'Beantwoord eerst de ' + open + ' vragen hierboven.')
+            ? (testmodus ? 'Testmodus: je mag de vragen overslaan.'
+              : (open === 1 ? 'Beantwoord eerst de vraag hierboven.' : 'Beantwoord eerst de ' + open + ' vragen hierboven.'))
             : '';
         };
         herbeoordeel();
@@ -922,7 +928,7 @@
         seg.appendChild(slot);
 
         herbeoordeel = function () {
-          if (openVragen(index) === 0 && !ms.af) {
+          if ((testmodus || openVragen(index) === 0) && !ms.af) {
             ms.af = true;
             bewaar();
           }
@@ -979,6 +985,14 @@
   if (!slug) return fout('Geen module opgegeven.');
 
   sleutel = 'elearning:' + slug;
+
+  /* Een klein label, buiten body zodat het blijft staan als een scherm opnieuw
+     wordt getekend. */
+  if (testmodus) {
+    var label = el('div', 'testmodus-label', 'Testmodus');
+    label.title = 'Vragen overslaan staat aan. Zet het uit in de portal.';
+    document.documentElement.appendChild(label);
+  }
 
   fetch('modules/' + slug + '/course.json', { cache: 'no-cache' })
     .then(function (r) {
