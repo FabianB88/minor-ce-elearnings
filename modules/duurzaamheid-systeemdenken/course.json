@@ -305,27 +305,27 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "<p>Welk mechanisme versterkt klimaatverandering via een positieve terugkoppeling?</p>",
+          "question": "<p>Een team maakt een milieuanalyse van een elektrische auto. Het kijkt alleen naar de uitstoot tijdens het rijden, en niet naar de winning van grondstoffen en de productie van de batterij. Wat gaat hier mis?</p>",
           "options": [
             {
-              "text": "Meer wolkenvorming door de hogere temperaturen.",
+              "text": "De analyse kijkt alleen naar de sociale dimensie, terwijl de ecologische dimensie ook meetelt.",
               "correct": false,
-              "feedback": "Wolken zijn ingewikkeld: afhankelijk van het type kunnen ze opwarming versterken of juist dempen. Het is daarom geen eenduidig voorbeeld van positieve terugkoppeling."
+              "feedback": "Uitstoot is juist een ecologisch onderwerp. Het probleem zit niet in de dimensie, maar in wat wel en niet is meegenomen."
             },
             {
-              "text": "Zwakkere oceaanstromingen door smeltwater.",
-              "correct": false,
-              "feedback": "Dit is een belangrijk gevolg van klimaatverandering, maar het versterkt niet de opwarming zelf. Het is daarom geen positieve terugkoppeling."
-            },
-            {
-              "text": "Meer CO₂-opname door planten bij hogere temperaturen.",
-              "correct": false,
-              "feedback": "Dit heet CO₂-bemesting. Het werkt eerder dempend, omdat planten extra CO₂ uit de lucht halen."
-            },
-            {
-              "text": "Ontdooiende permafrost die methaan laat vrijkomen.",
+              "text": "De systeemgrenzen zijn te krap gekozen, waardoor een groot deel van de impact buiten beeld blijft.",
               "correct": true,
-              "feedback": "Juist. Opwarming laat permafrost ontdooien. Daarbij komt methaan vrij, een krachtig broeikasgas, waardoor het verder opwarmt. Het effect versterkt zichzelf."
+              "feedback": "Juist. Door alleen het rijden mee te nemen, valt de impact van grondstoffen en batterijproductie buiten de analyse. De keuze van systeemgrenzen bepaalt welke conclusie je trekt."
+            },
+            {
+              "text": "De analyse gebruikt de SDG’s niet, waardoor het internationale kader voor duurzaamheid ontbreekt.",
+              "correct": false,
+              "feedback": "De SDG’s zijn een kompas, maar ze bepalen niet wat je in een analyse meeneemt. Hier ontbreken delen van de keten zelf."
+            },
+            {
+              "text": "Er is geen sprake van systeemdenken, omdat een auto een product is en geen systeem.",
+              "correct": false,
+              "feedback": "Een auto maakt deel uit van een groter systeem van grondstoffen, productie, energie en gebruik. Juist daarom doet het ertoe waar je de grens trekt."
             }
           ],
           "feedback": ""
@@ -673,7 +673,7 @@
         {
           "t": "text",
           "heading": "Van wegwerpen naar waarde behouden",
-          "body": "<p>Het klassieke lineaire model werkt volgens nemen, maken en weggooien. Dat levert verspilling van grondstoffen en schade aan het milieu op. De circulaire economie is het alternatief: grondstoffen en producten zo lang mogelijk in gebruik houden. In deze module leer je de strategieën daarvoor, zoals de R-ladder, en circulaire businessmodellen waarmee bedrijven waarde behouden.</p><p>De Nederlandse textielsector laat zien hoe dat in de praktijk gaat. Loop.a life recyclet oude kleding tot nieuwe truien, zonder water of verfstoffen, en produceert lokaal om de voetafdruk klein te houden: <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://loopalife.com\">https://loopalife.com</a>.</p><p>MUD Jeans werkt met Lease A Jeans: klanten leasen een spijkerbroek in plaats van hem te kopen. Na gebruik sturen ze hem terug, en de producent gebruikt het materiaal voor nieuwe jeans. Zo ontstaat minder afval en blijft de waarde in de keten. Meer over dit voorbeeld lees je bij CircularX: <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://www.circularx.eu/en/cases/30/mud-jeans-lease-a-jeans\">https://www.circularx.eu/en/cases/30/mud-jeans-lease-a-jeans</a>.</p><p>De video hieronder geeft in vier minuten een beeld van de principes van de circulaire economie.</p>"
+          "body": "<p>Het klassieke lineaire model werkt volgens nemen, maken en weggooien. Dat levert verspilling van grondstoffen en schade aan het milieu op. De circulaire economie is het alternatief: grondstoffen en producten zo lang mogelijk in gebruik houden. In deze module leer je de strategieën daarvoor, zoals de R-ladder, en circulaire businessmodellen waarmee bedrijven waarde behouden.</p><p>De Nederlandse textielsector laat zien hoe dat in de praktijk gaat. Loop.a life recyclet oude kleding tot nieuwe truien, zonder water of verfstoffen, en produceert lokaal om de voetafdruk klein te houden.</p><p>MUD Jeans werkt met Lease A Jeans: klanten leasen een spijkerbroek in plaats van hem te kopen. Na gebruik sturen ze hem terug, en de producent gebruikt het materiaal voor nieuwe jeans. Zo ontstaat minder afval en blijft de waarde in de keten. Meer over dit voorbeeld lees je bij CircularX: <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://www.circularx.eu/en/cases/30/mud-jeans-lease-a-jeans\">https://www.circularx.eu/en/cases/30/mud-jeans-lease-a-jeans</a>.</p><p>De video hieronder geeft in vier minuten een beeld van de principes van de circulaire economie.</p>"
         },
         {
           "t": "video",
@@ -699,7 +699,7 @@
         },
         {
           "t": "text",
-          "body": "<p>Het lineaire model, take, make, waste, past niet in een wereld met schaarse grondstoffen en duidelijke milieugrenzen. Grondstoffen worden gewonnen, verwerkt tot producten en na gebruik weggegooid. Dat kost waardevolle materialen en veel energie, en veroorzaakt milieuschade: uitgeputte hulpbronnen, groeiende afvalbergen en meer CO₂-uitstoot. Het model is bovendien economisch kwetsbaar, omdat bedrijven afhankelijk blijven van eindige grondstoffen en onzekere aanvoerketens.</p><p>Om binnen de grenzen van de planeet te blijven, is een omslag nodig naar circulaire modellen, waarin materialen en producten zo lang mogelijk in omloop blijven. Dat vraagt om een andere manier van ontwerpen, produceren en consumeren. Belangrijke strategieën zijn:</p><ul><li><p><strong>Ontwerpen voor hergebruik</strong>: producten zo maken dat ze makkelijk te demonteren, te repareren of opnieuw te gebruiken zijn.</p></li><li><p><strong>Gebruik in plaats van bezit</strong>: businessmodellen waarin klanten producten leasen of delen.</p></li><li><p><strong>Slimme materiaalstromen</strong>: gerecyclede of biobased grondstoffen gebruiken in plaats van nieuwe, schaarse materialen.</p></li><li><p><strong>Modulair ontwerp en recyclingtechniek</strong>: oplossingen waarmee grondstoffen worden teruggewonnen voor nieuwe producten.</p></li></ul><p>Circulair werken is ook economisch verstandig. Bedrijven worden minder afhankelijk van schaarse grondstoffen en zijn beter voorbereid op nieuwe regels en schommelingen in de markt. En er ontstaat nieuw werk in reparatie, hergebruik en materiaalinnovatie.</p><p>Voorbeelden uit de praktijk vind je op <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://www.circulairondernemen.nl\">https://www.circulairondernemen.nl</a>. Na de vraag volgt een video van drie minuten over hoe de circulaire economie werkt.</p>",
+          "body": "<p>Het lineaire model, take, make, waste, past niet in een wereld met schaarse grondstoffen en duidelijke milieugrenzen. Grondstoffen worden gewonnen, verwerkt tot producten en na gebruik weggegooid. Dat kost waardevolle materialen en veel energie, en veroorzaakt milieuschade: uitgeputte hulpbronnen, groeiende afvalbergen en meer CO₂-uitstoot. Het model is bovendien economisch kwetsbaar, omdat bedrijven afhankelijk blijven van eindige grondstoffen en onzekere aanvoerketens.</p><p>Om binnen de grenzen van de planeet te blijven, is een omslag nodig naar circulaire modellen, waarin materialen en producten zo lang mogelijk in omloop blijven. Dat vraagt om een andere manier van ontwerpen, produceren en consumeren. Belangrijke strategieën zijn:</p><ul><li><p><strong>Ontwerpen voor hergebruik</strong>: producten zo maken dat ze makkelijk te demonteren, te repareren of opnieuw te gebruiken zijn.</p></li><li><p><strong>Gebruik in plaats van bezit</strong>: businessmodellen waarin klanten producten leasen of delen.</p></li><li><p><strong>Slimme materiaalstromen</strong>: gerecyclede of biobased grondstoffen gebruiken in plaats van nieuwe, schaarse materialen.</p></li><li><p><strong>Modulair ontwerp en recyclingtechniek</strong>: oplossingen waarmee grondstoffen worden teruggewonnen voor nieuwe producten.</p></li></ul><p>Circulair werken is ook economisch verstandig. Bedrijven worden minder afhankelijk van schaarse grondstoffen en zijn beter voorbereid op nieuwe regels en schommelingen in de markt. En er ontstaat nieuw werk in reparatie, hergebruik en materiaalinnovatie.</p><p>Voorbeelden uit de praktijk vind je bij het programma Nederland Circulair in 2050: <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://www.nederlandcirculairin2050.nl\">https://www.nederlandcirculairin2050.nl</a>. Na de vraag volgt een video van drie minuten over hoe de circulaire economie werkt.</p>",
           "heading": "Van lineair naar circulair denken"
         },
         {
@@ -2788,7 +2788,7 @@
             {
               "text": "Omdat ze zowel de productiecapaciteit als de mate van circulariteit bepaalt, en dus twee doelen tegelijk raakt.",
               "correct": true,
-              "feedback": "Juist. Een knoop die meerdere doelen tegelijk raakt, is in een systeemkaart een belangrijke plek, zowel als risico als als hefboom."
+              "feedback": "Juist. Een knoop die meerdere doelen tegelijk raakt, is in een systeemkaart een belangrijke plek: ze is zowel een risico als een hefboom."
             },
             {
               "text": "Omdat ze aan het begin van de keten staat, waardoor alle andere variabelen er rechtstreeks uit volgen.",
@@ -2992,7 +2992,7 @@
             },
             {
               "title": "Context Mapping Tools",
-              "body": "<p>Met deze hulpmiddelen breng je de bredere omgeving in kaart: economische trends, regels, technologische ontwikkelingen en sociale veranderingen.</p><ul><li><strong>PESTLE-analyse:</strong> politieke, economische, sociale, technologische, legale (juridische) en ecologische factoren.</li><li><strong>SWOT-analyse:</strong> sterktes, zwaktes, kansen en bedreigingen van een project.</li><li><strong>Scenarioplanning:</strong> mogelijke toekomsten verkennen en je voorbereiden op onzekerheid.</li><li><strong>Stakeholder mapping:</strong> de relaties en invloed van stakeholders in kaart brengen.</li><li><strong>DESTEP-analyse:</strong> demografische, economische, sociale, technologische, ecologische en politieke factoren.</li></ul><p>Zo zie je risico’s en kansen eerder, en neem je beslissingen die beter passen bij de werkelijkheid waarin een organisatie werkt.</p>"
+              "body": "<p>Met deze hulpmiddelen breng je de bredere omgeving in kaart: economische trends, regels, technologische ontwikkelingen en sociale veranderingen.</p><ul><li><strong>PESTLE-analyse:</strong> je loopt zes soorten omgevingsfactoren langs. <em>Politiek</em>: beleid en politieke keuzes, zoals subsidies of de plannen van een nieuw kabinet. <em>Economisch</em>: prijzen, rente en koopkracht. <em>Sociaal</em>: gedrag en waarden, zoals de groeiende belangstelling voor tweedehands. <em>Technologisch</em>: nieuwe technieken en hun mogelijkheden. <em>Legaal</em>: wetten en regels die gelden of eraan komen. <em>Ecologisch</em>: klimaat, grondstoffen en natuur. Let op het verschil tussen P en L: zolang iets een politieke wens of beleidsrichting is, hoort het bij P; zodra het een wettelijke verplichting is, hoort het bij L.</li><li><strong>SWOT-analyse:</strong> sterktes, zwaktes, kansen en bedreigingen van een project.</li><li><strong>Scenarioplanning:</strong> mogelijke toekomsten verkennen en je voorbereiden op onzekerheid.</li><li><strong>Stakeholder mapping:</strong> de relaties en invloed van stakeholders in kaart brengen.</li><li><strong>DESTEP-analyse:</strong> demografische, economische, sociale, technologische, ecologische en politieke factoren.</li></ul><p>Zo zie je risico’s en kansen eerder, en neem je beslissingen die beter passen bij de werkelijkheid waarin een organisatie werkt.</p>"
             }
           ]
         },
