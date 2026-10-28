@@ -15,7 +15,7 @@ Nagelopen op 27 oktober 2026. Per module: wat klopte, wat is aangepast of verpla
 ## Duurzaamheid m3
 - 14-27 kloppen. R-ladder in de tekst: Refuse, Reduce, Reuse, Repair, Recycle; afbeelding R0 Refuse t/m R9 Recover (RLI 2015/PBL). Recover = R9, alleen in afbeelding: houden, met "R9".
 - TOEVOEGEN: Ontwerpen voor hergebruik (design for reuse, modulair design) — kennisvraag: grootste impact voor kledingbedrijf. Downcycling (textiel laagwaardig gerecycled/verbrand). Take-make-waste zit in lineaire economie.
-- Voorbeelden uit de les: MUD Jeans (lease), Loop.a life, Peerby, Patagonia Worn Wear, iFixit.
+- Voorbeelden uit de les: MUD Jeans (lease), Zeeman x Frankenhuis (truien uit 70% oude kleding), Peerby, Patagonia Worn Wear, iFixit.
 
 ## Duurzaamheid m4
 - 11 tipping point, 12 positieve en 13 negatieve feedback horen HIER (student had ze bij Les 2). Negatieve feedback: les-voorbeeld is CO2-opname door oceanen en planten / bewolking, niet de thermostaat van de student; en: niet krachtig genoeg om menselijke invloed te compenseren.
