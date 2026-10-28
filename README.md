@@ -183,7 +183,11 @@ Staat er naast `course.json` een `verdieping.json`, dan gebruikt de speler
 
 De vragen worden uit de verbanden gemaakt: een zin met één begrip open, zoals
 "Downcycling is een laagwaardige vorm van …". Een verband met
-`"vraag": false` wordt niet gevraagd. `verdieping.json` werk je met de hand bij;
+`"vraag": false` wordt niet gevraagd. Een begrip met `"bijzaak": true`
+(zoals de vier sferen) staat in de begrippenlijst en op de kaart, maar wordt
+niet gevraagd en niet als fout antwoord gebruikt; op de groeiende kaart
+komen de bijzaken van een module samen in één stap, met de tekst uit
+`bijzaken`. `verdieping.json` werk je met de hand bij;
 per begrip en verband staat de herkomst (`student`, `student, aangepast` of
 `aangevuld`). `tools/verdieping-controle.md` beschrijft wat er bij de controle
 tegen de lesstof is aangepast.

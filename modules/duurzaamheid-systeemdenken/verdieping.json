@@ -80,7 +80,8 @@
    "naam": "Biosfeer",
    "def": "De laag van de aarde waarin leven voorkomt: alle levende organismen en hun onderlinge interacties.",
    "vb": "Een bos met planten, dieren en schimmels die elkaar nodig hebben.",
-   "herkomst": "student"
+   "herkomst": "student",
+   "bijzaak": true
   },
   {
    "id": "atmosfeer",
@@ -88,7 +89,8 @@
    "naam": "Atmosfeer",
    "def": "De luchtlaag rond de aarde. Ze reguleert het klimaat, levert zuurstof en beschermt tegen schadelijke straling van de zon.",
    "vb": "Zonder atmosfeer zou het overdag veel heter en 's nachts veel kouder zijn.",
-   "herkomst": "student, aangepast"
+   "herkomst": "student, aangepast",
+   "bijzaak": true
   },
   {
    "id": "hydrosfeer",
@@ -96,7 +98,8 @@
    "naam": "Hydrosfeer",
    "def": "Al het water op aarde, van oceanen en rivieren tot ijs en grondwater, plus de kringlopen daarvan.",
    "vb": "Regen valt, stroomt naar zee, verdampt en wordt weer regen.",
-   "herkomst": "student"
+   "herkomst": "student",
+   "bijzaak": true
   },
   {
    "id": "lithosfeer",
@@ -104,7 +107,8 @@
    "naam": "Lithosfeer",
    "def": "De aardkorst en de bovenste laag van de mantel, met gesteenten, mineralen en bodems. Ze levert grondstoffen zoals metalen, fossiele brandstoffen en bouwmaterialen.",
    "vb": "De metalen in je telefoon komen uit de lithosfeer.",
-   "herkomst": "student, aangepast"
+   "herkomst": "student, aangepast",
+   "bijzaak": true
   },
   {
    "id": "planetaire-grenzen",
@@ -1697,7 +1701,7 @@
    "Tot slot laat de les voorbeelden zien van samenhang, zoals klimaatverandering, voedselproductie, steden, de energietransitie en biodiversiteit. Telkens zie je hetzelfde: een keuze op het ene vlak werkt door in andere domeinen."
   ],
   "m2": [
-   "Deze module bekijkt de aarde als systeem. Vier sferen werken voortdurend op elkaar in. De biosfeer is al het leven. De atmosfeer is de luchtlaag die het klimaat reguleert en ons beschermt tegen straling. De hydrosfeer is al het water, van oceanen tot grondwater en waterdamp. En de lithosfeer is de aardkorst en de bovenste laag van de mantel, waar onze grondstoffen vandaan komen.",
+   "Deze module bekijkt de aarde als één systeem. Leven, lucht, water en bodem werken voortdurend op elkaar in, dus wat je op de ene plek verandert, merk je elders.",
    "Het centrale begrip is planetaire grenzen. Wetenschappers onder leiding van Johan Rockström en Will Steffen beschreven negen processen die de aarde stabiel houden, zoals klimaatverandering, biodiversiteitsverlies, landgebruik, zoetwatergebruik en de stikstof- en fosforkringloop. Binnen die grenzen kan de mensheid veilig opereren. Gaan we eroverheen, dan verliezen ecosystemen hun veerkracht en ontstaat het risico op onomkeerbare schade, zoals voedsel- en watertekorten.",
    "Een voorbeeld is eutrofiëring: te veel stikstof en fosfor in het water leidt tot algenbloei, zuurstoftekort en dode zones. Dichter bij huis is er de stikstofcrisis in Nederland. Door intensieve veehouderij en kunstmest komt te veel stikstof in de natuur. Heide en veen raken overwoekerd door brandnetels en gras, zeldzame soorten verdwijnen, bouwprojecten liggen stil en boeren staan voor ingrijpende keuzes.",
    "De boodschap van de les: planetaire grenzen zijn geen suggestie. Naleven vraagt vaak om offers op korte termijn, maar het beschermt de basis van onze welvaart en gezondheid."
@@ -1833,10 +1837,6 @@
     ],
     [
      "eutrofiering",
-     "hydrosfeer"
-    ],
-    [
-     "biosfeer",
      "hydrosfeer"
     ]
    ]
@@ -2057,5 +2057,8 @@
     ]
    ]
   }
- ]
+ ],
+ "bijzaken": {
+  "m2": "De aarde werkt als één systeem: leven, lucht, water en gesteente beïnvloeden elkaar voortdurend. Wat je op de ene plek verandert, merk je elders."
+ }
 }

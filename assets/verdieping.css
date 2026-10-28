@@ -332,20 +332,22 @@ button.chip { border: 0; font-family: inherit; cursor: pointer; }
 .groei-tekst { padding: 0.9rem var(--binnen) 0.2rem; min-height: 5.2rem; font-size: 0.93rem; line-height: 1.6; color: var(--go-tekst-3); }
 .groei-tekst p { margin: 0 0 0.4rem; }
 .groei-naam { font-weight: 600; color: var(--go-tekst); }
+.groei-verbanden { margin: 0.2rem 0 0.5rem; padding-left: var(--inspring); }
+.groei-verbanden li { margin-bottom: 0.2rem; }
 
-.kaart-klein .knoop { cursor: default; }
+.kaart-klein .knoop.weg { pointer-events: none; }
 .kaart-klein .knoop text { font-size: 12px; }
 .knoop, .lijnen line { transition: opacity 0.45s ease; }
 .knoop.weg, .lijnen line.weg { opacity: 0; }
 .knoop.oud circle { fill: var(--go-gedimd); }
 .knoop.oud text { fill: var(--go-tekst-2); font-weight: 400; }
 .knoop.oud { opacity: 0.55; }
-.knoop.oud.raak { opacity: 1; }
+.knoop.oud.raak, .knoop.oud.nu { opacity: 1; }
 .knoop.oud.raak circle { fill: var(--go-groen-medium); stroke: var(--go-groen); }
 .knoop.nu circle { fill: var(--go-groen-donker); stroke: var(--go-groen-medium); stroke-width: 5; }
 .knoop.nu text { font-weight: 700; font-size: 13px; }
 .lijnen line.oud { opacity: 0.18; }
-.lijnen line.getekend { opacity: 0.6; stroke-dasharray: 1; stroke-dashoffset: 0; animation: tekenen 0.9s ease both; }
+.lijnen line.getekend { opacity: 0.6; stroke-dasharray: 1; stroke-dashoffset: 0; animation: tekenen 0.7s ease both; }
 .lijnen line.nu { opacity: 1; stroke-width: 3; }
 @keyframes tekenen { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
 @media (prefers-reduced-motion: reduce) { .lijnen line.getekend { animation: none; } .knoop, .lijnen line { transition: none; } }
@@ -389,4 +391,8 @@ button.chip { border: 0; font-family: inherit; cursor: pointer; }
 .lijn-tekst { min-height: 4rem; }
 svg.gekozen .lijnen line.nu { opacity: 1; stroke-width: 3.5; }
 
+.herhaal-acties { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin-top: 0.4rem; }
+.herhaal-acties .knop-klein { white-space: normal; text-align: left; }
+/* Ruimte onder de leesbalk als je naar het begin van de module springt. */
+.segment { scroll-margin-top: 4.5rem; }
 .herhaal-score:not(:empty) { font-weight: 600; color: var(--go-groen-donker); margin: 0.5rem 0 0.8rem; }
