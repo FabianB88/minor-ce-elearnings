@@ -2067,12 +2067,12 @@
       "blocks": [
         {
           "t": "text",
-          "heading": "Complexiteit Ontwarren: Wicked Problems en Systeemdenken",
-          "body": "<p>In deze les duiken we diep in de wereld van complexe duurzaamheidsvraagstukken. Je ontdekt waarom veel uitdagingen in de circulaire economie niet simpel op te lossen zijn en waarom systeemdenken een cruciale benadering is. We introduceren het begrip wicked problems, dat verwijst naar problemen die gekenmerkt worden door hun ingewikkelde, veranderlijke en vaak tegenstrijdige aard. Deze problemen vereisen een aanpak die verder gaat dan traditionele lineaire denkpatronen.</p><p>Daarnaast leer je werken met causal loop diagrams, een krachtige methode om de onderlinge afhankelijkheden en terugkoppelingen binnen systemen te visualiseren. We analyseren een actuele casus uit de plasticrecyclingmarkt, waarbij we de belangrijkste actoren, processen en uitdagingen in kaart brengen. Door deze inzichten krijg je niet alleen een beter begrip van de complexiteit, maar ontwikkel je ook praktische tools om dergelijke problemen effectiever aan te pakken. Dit stelt je in staat om een waardevolle bijdrage te leveren aan duurzame oplossingen in jouw werkveld.</p>"
+          "heading": "Complexiteit ontwarren: wicked problems en systeemdenken",
+          "body": "<p>Sommige duurzaamheidsvraagstukken lijken onoplosbaar. Er komt beleid, er komt nieuwe technologie, en toch keert het probleem terug of duikt het op een andere plek op. In deze module onderzoek je waarom. Je leert het begrip <strong>wicked problems</strong> kennen: problemen die ingewikkeld en veranderlijk zijn, en waarin belangen botsen. Lineair denken, één oorzaak en één oplossing, schiet daar tekort.</p><p>Daarna werk je met causal loop diagrams: een manier om afhankelijkheden en terugkoppelingen in een systeem zichtbaar te maken. Je past dat toe op de plasticrecyclingmarkt, met haar actoren, processen en knelpunten. Zo krijg je gereedschap om zulke problemen in je eigen werkveld beter te analyseren.</p>"
         },
         {
           "t": "text",
-          "body": "<p>Duurzame oplossingen vragen om inzicht in complexiteit en het vermogen om systemen te analyseren. Door wicked problems te herkennen en systeemdenken toe te passen, kun je als professional betere keuzes maken voor echte verandering.</p>"
+          "body": "<p>Wie wicked problems herkent en systeemdenken toepast, maakt betere keuzes: niet de snelste oplossing, maar een ingreep die op de juiste plek in het systeem iets verandert.</p>"
         },
         {
           "t": "list",
@@ -2086,38 +2086,38 @@
         },
         {
           "t": "text",
-          "body": "<p>Veel vraagstukken rond duurzaamheid en circulariteit zijn hardnekkig. Ondanks goede bedoelingen, nieuwe technologie en beleidsmaatregelen blijven ze terugkomen of verschuiven ze naar een andere plek in het systeem. In deze les onderzoek je waarom dat zo is.</p><p>Je maakt kennis met het begrip wicked problems: problemen zonder duidelijke definitie, waarbij belangen botsen, de context steeds verandert en oplossingen vaak nieuwe problemen creëren. Je leert waarom traditionele, lineaire oplossingen hier onvoldoende werken.</p><p>Daarna ga je aan de slag met systeemdenken en causal loop diagrams. Deze helpen je om:</p><ul><li>de belangrijkste actoren en variabelen in een systeem te identificeren</li><li>feedbackloops en onbedoelde effecten zichtbaar te maken</li><li>lock-in effecten en padafhankelijkheid te herkennen</li></ul><p>We passen dit toe op een actuele casus uit de plasticrecyclingmarkt. Zo ontwikkel je praktische analysetools die je later in je eigen werkveld kunt inzetten om duurzame systeemoplossingen te verkennen.</p>"
+          "body": "<p>Veel vraagstukken rond duurzaamheid en circulariteit zijn hardnekkig. Ondanks goede bedoelingen, technologie en beleid blijven ze terugkomen of verschuiven ze naar een andere plek in het systeem.</p><p>Wicked problems hebben geen duidelijke definitie, belangen botsen, de context verandert steeds, en oplossingen veroorzaken vaak nieuwe problemen. Daarom werken lineaire oplossingen hier onvoldoende.</p><p>Systeemdenken en causal loop diagrams helpen je om:</p><ul><li>de belangrijkste actoren en variabelen in een systeem te vinden</li><li>feedbackloops en onbedoelde effecten zichtbaar te maken</li><li>lock-in effecten en padafhankelijkheid te herkennen</li></ul><p>Je oefent dat met de plasticrecyclingmarkt, zodat je het later in je eigen werk kunt gebruiken.</p>"
         },
         {
           "t": "continue"
         },
         {
           "t": "text",
-          "heading": "Kenmerken van Wicked Problems",
-          "body": "<p>Wicked problems zijn fundamenteel anders dan simpele of gecompliceerde problemen. Ze vragen om een andere manier van denken en aanpakken. Ontdek hieronder de belangrijkste kenmerken.</p>"
+          "heading": "Kenmerken van wicked problems",
+          "body": "<p>Wicked problems zijn fundamenteel anders dan simpele of gecompliceerde problemen. Een gecompliceerd probleem, zoals een raket bouwen, is moeilijk maar oplosbaar met genoeg kennis. Een wicked problem verandert terwijl je eraan werkt. Dit zijn de kenmerken.</p>"
         },
         {
           "t": "accordion",
           "items": [
             {
               "title": "Geen definitieve formulering",
-              "body": "<p>Wicked problems zijn lastig precies te definiëren. Het probleem verandert vaak zodra je het probeert te omschrijven. Voorbeeld: de plasticsoep is niet alleen een afvalprobleem, maar raakt ook consumptie, beleid en gedrag.</p>"
+              "body": "<p>Een wicked problem is lastig precies te omschrijven, en de omschrijving bepaalt al welke oplossingen je ziet. De plasticsoep is bijvoorbeeld niet alleen een afvalprobleem, maar ook een kwestie van consumptie, beleid en gedrag.</p>"
             },
             {
               "title": "Geen eenduidige oplossing",
-              "body": "<p>Er bestaat geen simpele of universele oplossing. Elke aanpak heeft voor- en nadelen en wat werkt in de ene context, werkt niet per se elders. Voorbeeld: statiegeld op plastic werkt anders in verschillende landen.</p>"
+              "body": "<p>Er is geen simpele of universele oplossing. Elke aanpak heeft voor- en nadelen, en wat op de ene plek werkt, werkt niet vanzelf op een andere. Statiegeld op plastic werkt bijvoorbeeld in elk land weer anders.</p>"
             },
             {
               "title": "Oplossingen zijn beter of slechter, niet waar of onwaar",
-              "body": "<p>Bij wicked problems zijn oplossingen subjectief: ze kunnen beter of slechter zijn, maar nooit absoluut goed of fout. Voorbeeld: het vervangen van plastic door papier kan nieuwe milieuproblemen veroorzaken.</p>"
+              "body": "<p>Een oplossing is nooit absoluut goed of fout, alleen beter of slechter, en dat hangt af van wie je het vraagt. Plastic vervangen door papier kan bijvoorbeeld weer andere milieuproblemen veroorzaken.</p>"
             },
             {
               "title": "Elke interventie verandert het probleem",
-              "body": "<p>Als je ingrijpt, verandert het systeem en daarmee het probleem zelf. Voorbeeld: strengere regelgeving kan leiden tot ontwijkgedrag of innovatie.</p>"
+              "body": "<p>Zodra je ingrijpt, verandert het systeem, en daarmee het probleem zelf. Strengere regels kunnen bijvoorbeeld leiden tot ontwijkgedrag, of juist tot innovatie.</p>"
             },
             {
               "title": "Unieke context",
-              "body": "<p>Ieder wicked problem speelt zich af in een unieke context met eigen actoren, belangen en geschiedenis. Voorbeeld: de plasticrecyclingmarkt in Nederland verschilt sterk van die in andere landen.</p>"
+              "body": "<p>Elk wicked problem speelt zich af in een eigen context, met eigen actoren, belangen en geschiedenis. De plasticrecyclingmarkt in Nederland is bijvoorbeeld heel anders dan die in andere landen.</p>"
             }
           ]
         },
@@ -2132,7 +2132,7 @@
         {
           "t": "text",
           "heading": "Systeemdenken als analysetool",
-          "body": "<p>Systeemdenken is een manier van kijken waarbij je niet alleen kijkt wat er gebeurt, maar vooral hoe dingen met elkaar samenhangen. In plaats van één oorzaak en één oplossing (lineair denken), onderzoek je het geheel: de onderdelen, de relaties en de patronen die daaruit ontstaan. Deze benadering wordt al tientallen jaren beschreven in het werk van Meadows (2008), Senge (2006) en Sterman (2000).</p><p>Volgens Meadows (2008) bestaat ieder systeem uit drie belangrijke onderdelen:</p><ul><li><p><strong>Elementen (de onderdelen van het systeem):</strong> Dit zijn de zichtbare componenten van het systeem: organisaties, mensen, grondstoffen, infrastructuur, regels of routines. <em>Voorbeeld:</em> in de plasticrecyclingmarkt zijn dat o.a. producenten, consumenten, inzamelingsbedrijven, sorteersystemen en regelgeving.</p></li><li><p><strong>Relaties en interacties (hoe onderdelen elkaar beïnvloeden):</strong> Senge (2006) benadrukt dat systemen vooral worden bepaald door de verbindingen tussen elementen. Het gaat om vragen zoals: Wie beïnvloedt wie? In welke richting werkt die invloed? Wat gebeurt er na verloop van tijd? <em>Voorbeeld:</em> de prijs van virgin plastic beïnvloedt de vraag van producenten; die vraag beïnvloedt de schaal van recycling; de schaal beïnvloedt de kosten.</p></li><li><p><strong>Emergent gedrag (patronen die ontstaan door het geheel):</strong> Sterman (2000) legt uit dat systemen gedrag laten zien dat niet te begrijpen is door alleen naar losse onderdelen te kijken. Dit noemen we emergentie: patronen die ontstaan door de onderlinge relaties. <em>Voorbeelden van emergent gedrag:</em> markten die vastlopen in lock-in, onbedoelde neveneffecten van beleid, consumentengedrag dat moeilijk te veranderen is.</p></li></ul><h2><strong>Feedbackloops: motoren van systeemgedrag</strong></h2><p>Feedbackloops zijn de kern van systeemdynamiek (Forrester, 1961; Sterman, 2000).</p><p><strong>Versterkende loops (positief)</strong><br>Een verandering versterkt zichzelf. Denk aan schaalvoordelen: groei leidt tot kostenverlaging, wat tot nog meer groei leidt.</p><p><strong>Dempende loops (negatief)</strong><br>Een verandering roept een tegenreactie op die het systeem stabiliseert. Bijvoorbeeld gedrag dat automatisch gecorrigeerd wordt door regelgeving of natuurlijke grenzen.</p><p>Het herkennen van terugkoppelingen maakt zichtbaar waarom sommige problemen blijven bestaan, zelfs als er herhaaldelijk interventies plaatsvinden.</p><p><strong>Wat betekent dit voor systeemdenken?</strong></p><p>Systeemdenken vraagt je om niet alleen naar gebeurtenissen te kijken, maar vooral naar de structuur die het gedrag veroorzaakt. Je zoekt dus naar de onderliggende patronen, relaties en terugkoppelingen die het systeem vormen.</p><p>Meadows (2008) noemt dit “denken in systemen”: begrijpen waarom een systeem doet wat het doet – en waar in het systeem je kunt ingrijpen als je echte verandering wilt bereiken.</p>"
+          "body": "<p>Systeemdenken kijkt niet alleen naar wat er gebeurt, maar vooral naar hoe dingen samenhangen. In plaats van één oorzaak en één oplossing onderzoek je het geheel: de onderdelen, hun relaties en de patronen die daaruit ontstaan. Meadows (2008), Senge (2006) en Sterman (2000) beschrijven deze benadering al tientallen jaren.</p><p>Volgens Meadows (2008) heeft elk systeem drie onderdelen:</p><ul><li><p><strong>Elementen:</strong> de zichtbare onderdelen, zoals organisaties, mensen, grondstoffen, infrastructuur, regels en routines. In de plasticrecyclingmarkt zijn dat onder meer producenten, consumenten, inzamelaars, sorteerinstallaties en regelgeving.</p></li><li><p><strong>Relaties:</strong> hoe die onderdelen elkaar beïnvloeden. Senge (2006) benadrukt dat juist de verbindingen een systeem bepalen. Wie beïnvloedt wie, in welke richting, en wat gebeurt er na verloop van tijd? De prijs van virgin plastic beïnvloedt bijvoorbeeld de vraag van producenten; die vraag bepaalt de schaal van recycling; en die schaal bepaalt weer de kosten.</p></li><li><p><strong>Emergent gedrag:</strong> patronen die je niet begrijpt door alleen naar de losse onderdelen te kijken (Sterman, 2000). Dat heet emergentie. Denk aan markten die vastlopen in een lock-in, beleid met onbedoelde bijwerkingen, of gedrag dat maar niet verandert.</p></li></ul><h3>Feedbackloops: de motor van systeemgedrag</h3><p>Feedbackloops zijn de kern van systeemdynamica (Forrester, 1961; Sterman, 2000).</p><p><strong>Versterkende loops</strong><br>Een verandering versterkt zichzelf. Denk aan schaalvoordelen: groei verlaagt de kosten, en lagere kosten zorgen voor nog meer groei.</p><p><strong>Dempende loops</strong><br>Een verandering roept een tegenreactie op die het systeem stabiliseert, bijvoorbeeld door regelgeving of natuurlijke grenzen.</p><p>Wie de terugkoppelingen ziet, begrijpt waarom sommige problemen blijven bestaan, ook na herhaalde ingrepen. Systeemdenken vraagt dus om niet alleen naar gebeurtenissen te kijken, maar naar de structuur die het gedrag veroorzaakt. Meadows (2008) noemt dat denken in systemen: begrijpen waarom een systeem doet wat het doet, en waar je moet ingrijpen als je echt iets wilt veranderen.</p>"
         },
         {
           "t": "video",
@@ -2144,15 +2144,15 @@
           "items": [
             {
               "title": "Holistisch Kijken",
-              "body": "<p>Holistisch kijken betekent dat je het systeem als geheel bekijkt, inclusief de interacties en patronen die ontstaan door relaties tussen onderdelen. Senge (2006) benadrukt dat problemen vaak ontstaan uit de structuur van het systeem, niet uit de afzonderlijke elementen. Meadows (2008) wijst erop dat het weglaten van onderlinge verbanden leidt tot gebrekkige of zelfs contraproductieve interventies.</p><p><strong>Kern:</strong> zie het geheel, niet de losse delen.</p>"
+              "body": "<p>Holistisch kijken betekent het systeem als geheel bekijken, inclusief de patronen die ontstaan door de relaties tussen onderdelen. Senge (2006) benadrukt dat problemen vaak voortkomen uit de structuur van het systeem, niet uit losse onderdelen. Volgens Meadows (2008) leidt het negeren van verbanden tot ingrepen die niet werken of zelfs averechts uitpakken.</p><p><strong>Kern:</strong> zie het geheel, niet de losse delen.</p>"
             },
             {
               "title": "Feedbackloops",
-              "body": "<p>Feedbackloops bepalen hoe systemen zich ontwikkelen over tijd. Forrester (1961) introduceerde het begrip in zijn systeemdynamisch werk en liet zien dat veel maatschappelijke problemen terug te voeren zijn op versterkende en dempende terugkoppelingen. Sterman (2000) bouwde hierop voort met modellen die laten zien hoe vertragingen, versterkingen en stabilisaties complex gedrag veroorzaken.</p><p><strong>Kern:</strong> systemen veranderen door terugkoppeling, niet door lineaire oorzaken.</p>"
+              "body": "<p>Feedbackloops bepalen hoe een systeem zich in de tijd ontwikkelt. Forrester (1961) liet zien dat veel maatschappelijke problemen terug te voeren zijn op versterkende en dempende terugkoppelingen. Sterman (2000) bouwde daarop voort met modellen die laten zien hoe vertragingen, versterking en stabilisatie samen complex gedrag veroorzaken.</p><p><strong>Kern:</strong> systemen veranderen door terugkoppeling, niet door één oorzaak.</p>"
             },
             {
               "title": "Hefbomen en Interventies",
-              "body": "<p>Meadows (1999) beschrijft hefboompunten als de meest effectieve plekken om verandering te realiseren. Deze bevinden zich meestal niet in zichtbare maatregelen, maar in onderliggende regels, informatiestromen, aannames en systeemstructuren. Rotmans en Loorbach (2009) passen dit toe op transities en tonen aan dat structurele verandering alleen mogelijk is door ingrepen op meerdere systeemniveaus.</p><p><strong>Kern:</strong> kleine ingrepen op de juiste plek creëren grote verandering.</p>"
+              "body": "<p>Meadows (1999) beschrijft hefboompunten: de plekken waar een ingreep het meeste verandert. Die zitten zelden in de zichtbare maatregelen, maar in de onderliggende regels, informatiestromen, aannames en structuren. Rotmans en Loorbach (2009) laten zien dat structurele verandering, een transitie, ingrepen op meerdere niveaus tegelijk vraagt.</p><p><strong>Kern:</strong> een kleine ingreep op de juiste plek kan veel veranderen.</p>"
             }
           ]
         },
@@ -2161,27 +2161,27 @@
         },
         {
           "t": "text",
-          "heading": "Causal Loop Diagrams",
-          "body": "<p>Causal loop diagrams zijn handige tools om complexe interacties in kaart te brengen. Ze maken zichtbaar hoe variabelen elkaar beïnvloeden en waar terugkoppelingen optreden.</p>"
+          "heading": "Causal loop diagrams",
+          "body": "<p>Een causal loop diagram (CLD) brengt in kaart hoe variabelen elkaar beïnvloeden en waar terugkoppelingen ontstaan.</p>"
         },
         {
           "t": "accordion",
           "items": [
             {
               "title": "Wat zijn Causal Loop Diagrams (CLD’s)?",
-              "body": "<p>Causal Loop Diagrams zijn hulpmiddelen om zichtbaar te maken hoe variabelen elkaar beïnvloeden en welke terugkoppelingen daardoor ontstaan. Ze vormen een kerninstrument binnen de systeemdynamica, zoals beschreven in het werk van Forrester (1961) en verder uitgewerkt door Sterman (2000).</p><p>Met een CLD kun je de dynamiek van complexe systemen beter begrijpen. Ze helpen om inzicht te krijgen in de relaties tussen variabelen en hoe deze bijdragen aan het gedrag van het systeem.</p>"
+              "body": "<p>Een CLD laat zien hoe variabelen elkaar beïnvloeden en welke terugkoppelingen daardoor ontstaan. Het is een kerninstrument van de systeemdynamica, beschreven door Forrester (1961) en uitgewerkt door Sterman (2000). Met een CLD begrijp je beter waarom een systeem zich gedraagt zoals het doet.</p>"
             },
             {
               "title": "Waarom gebruiken we CLD’s?",
-              "body": "<p>Veel duurzaamheidsproblemen zijn lastig te begrijpen omdat oorzaak en gevolg niet lineair zijn. Een ingreep kan onverwachte gevolgen hebben, of pas veel later effect krijgen. CLD’s helpen om deze complexiteit te visualiseren.</p><p>Met een CLD teken je de belangrijkste variabelen in een systeem, pijlen die aangeven hoe de ene variabele de andere beïnvloedt, versterkende of dempende terugkoppelingen en vertragingen in het systeem. Het doel is niet om een perfect diagram te maken, maar om inzicht te krijgen in de dynamiek achter het gedrag van het systeem.</p>"
+              "body": "<p>Bij veel duurzaamheidsproblemen zijn oorzaak en gevolg niet lineair. Een ingreep heeft onverwachte gevolgen, of werkt pas veel later. Een CLD maakt dat zichtbaar.</p><p>Je tekent de belangrijkste variabelen, pijlen die laten zien hoe de ene de andere beïnvloedt, versterkende en dempende terugkoppelingen, en vertragingen. Het doel is geen perfect diagram, maar inzicht in de dynamiek.</p>"
             },
             {
               "title": "Twee soorten feedbackloops",
-              "body": "<p>Er zijn twee soorten feedbackloops: versterkende loops (R-loops) en dempende loops (B-loops). Deze loops vormen de kern van hoe systemen zich gedragen en veranderen.</p><p>Versterkende loops zorgen ervoor dat een effect zichzelf versterkt, zoals bij meer productie van virgin plastic dat leidt tot lagere kosten door schaalvoordelen, wat weer zorgt voor nóg meer productie. Dempende loops stabiliseren het systeem, zoals meer zichtbaar plastic afval dat leidt tot strengere regelgeving en daardoor de productie van plastic afremt.</p>"
+              "body": "<p>Er zijn versterkende loops (R-loops, van reinforcing) en dempende loops (B-loops, van balancing).</p><p>Een versterkende loop versterkt zichzelf. Meer productie van virgin plastic verlaagt bijvoorbeeld de kosten door schaalvoordelen, wat weer tot nog meer productie leidt. Een dempende loop stabiliseert: meer zichtbaar plastic afval leidt tot strengere regels, en die remmen de productie van plastic af.</p>"
             },
             {
               "title": "Hoe bouw je een eenvoudig CLD?",
-              "body": "<p>Het bouwen van een eenvoudig CLD kan in drie stappen, zoals beschreven door Sterman (2000). Eerst kies je een vraagstuk, bijvoorbeeld: waarom komt gerecycled plastic moeilijk van de grond?</p><p>Vervolgens identificeer je de belangrijkste variabelen, zoals prijs virgin plastic, schaal recycling, kwaliteit gerecycled plastic, vraag van producenten en regelgeving. Tot slot teken je de relaties met pijlen om aan te geven hoe variabelen elkaar beïnvloeden, of er loops ontstaan, en of deze versterkend of dempend zijn. CLD’s maken patronen zichtbaar die anders moeilijk te herkennen zijn.</p>"
+              "body": "<p>Sterman (2000) beschrijft drie stappen. Eerst kies je een vraagstuk, bijvoorbeeld: waarom komt gerecycled plastic moeilijk van de grond?</p><p>Dan bepaal je de belangrijkste variabelen, zoals de prijs van virgin plastic, de schaal van recycling, de kwaliteit van gerecycled plastic, de vraag van producenten en regelgeving. Tot slot teken je met pijlen hoe ze elkaar beïnvloeden, en kijk je of er loops ontstaan en of die versterkend of dempend zijn.</p>"
             }
           ]
         },
@@ -2190,8 +2190,8 @@
         },
         {
           "t": "text",
-          "heading": "CLD Maken",
-          "body": "<p>Aan de hand van oefeningen maken we nu onze eerste schets van een CLD. Volg de oefeningen om stap voor stap de variabelen inzichtelijk te maken.</p>"
+          "heading": "Zelf een CLD maken",
+          "body": "<p>In de volgende oefeningen bouw je stap voor stap een eerste schets van een CLD. Je begint met het indelen van de variabelen in het plasticsysteem.</p>"
         },
         {
           "t": "sort",
@@ -2208,10 +2208,6 @@
             },
             {
               "text": "Beschikbaarheid grondstoffen voor virgin plastic",
-              "pile": 0
-            },
-            {
-              "text": "Vraag van producenten naar verpakkingsmateriaal",
               "pile": 0
             },
             {
@@ -2237,6 +2233,10 @@
             {
               "text": "Kosten van recyclingprocessen",
               "pile": 1
+            },
+            {
+              "text": "Vraag van producenten naar verpakkingsmateriaal",
+              "pile": 2
             },
             {
               "text": "Prijs van gerecycled plastic",
@@ -2270,34 +2270,49 @@
               "text": "Minimumpercentage gerecycled materiaal in verpakkingen",
               "pile": 3
             }
-          ]
+          ],
+          "question": "In welk deel van het plasticsysteem hoort elke variabele?",
+          "feedback": "Goed ingedeeld. Met deze variabelen kun je nu relaties gaan tekenen.",
+          "feedbackWrong": "Nog niet alles klopt. Vraag je per variabele af wie haar het meest bepaalt: de producenten van nieuw plastic, de recyclingketen, de markt en consumenten, of de overheid."
         },
         {
           "t": "continue"
         },
         {
-          "t": "match",
-          "question": "Kies per variabele de juiste richting van de invloed. Let op of een stijging van A zorgt voor een stijging of een daling van B.",
-          "pairs": [
+          "t": "sort",
+          "question": "Stijgt A, wat gebeurt er dan met B?",
+          "piles": [
+            "B stijgt mee (+)",
+            "B daalt (−)"
+          ],
+          "items": [
             {
-              "left": "Kosten virgin plastic → Vraag van producenten",
-              "right": "A↑ → B↓ (negatief effect – producenten)"
+              "text": "A: kosten van virgin plastic → B: vraag naar virgin plastic",
+              "pile": 1
             },
             {
-              "left": "Capaciteit van recyclinginstallaties → Kosten van gerecycled plastic",
-              "right": "A↑ → B↓ (negatief effect – recyclingkosten)"
+              "text": "A: kosten van virgin plastic → B: vraag naar gerecycled plastic",
+              "pile": 0
             },
             {
-              "left": "Kwaliteit van gerecycled plastic → Vraag naar gerecycled plastic",
-              "right": "A↑ → B↑ (positief effect – marktvraag)"
+              "text": "A: capaciteit van recyclinginstallaties → B: kosten per kilo gerecycled plastic",
+              "pile": 1
             },
             {
-              "left": "Kwaliteit van gescheiden afvalstromen → Capaciteit van recyclinginstallaties",
-              "right": "A↑ → B↑ (positief effect – capaciteit)"
+              "text": "A: kwaliteit van gerecycled plastic → B: vraag naar gerecycled plastic",
+              "pile": 0
+            },
+            {
+              "text": "A: kwaliteit van gescheiden afvalstromen → B: benutte capaciteit van recyclinginstallaties",
+              "pile": 0
+            },
+            {
+              "text": "A: aantal ingeleverde statiegeldflessen → B: zwerfafval in de natuur",
+              "pile": 1
             }
           ],
-          "feedback": "Goed gedaan. Je hebt de richting van de invloed correct gekoppeld. Dit inzicht heb je nodig om feedbackloops te herkennen in een CLD.",
-          "feedbackWrong": "Niet helemaal juist. Kijk opnieuw naar de richting van de invloed: neemt B toe of af wanneer A stijgt?"
+          "feedback": "Juist. Duurder virgin plastic remt de vraag ernaar en duwt kopers naar gerecycled plastic. Grotere installaties verlagen de kosten per kilo. Betere kwaliteit verhoogt de vraag en de benutting. En meer ingeleverde flessen betekent minder zwerfafval. Met deze plussen en minnen kun je loops herkennen.",
+          "feedbackWrong": "Nog niet alles klopt. Stel je per paar voor dat A flink stijgt: neemt B dan toe of af? Let op dat duurder virgin plastic een ander effect heeft op de vraag naar virgin plastic dan op de vraag naar gerecycled plastic."
         },
         {
           "t": "continue"
@@ -2305,22 +2320,22 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "In de plasticrecyclingketen speelt het volgende patroon: Wanneer de kosten van virgin plastic stijgen, verschuift een deel van de vraag naar gerecycled plastic. Een groeiende vraag stimuleert investeringen in recyclingcapaciteit. Met een grotere capaciteit verbetert de kwaliteit van gerecycled plastic, waardoor producenten het vaker toepassen. Tegelijkertijd zorgt de hogere vraag tijdelijk voor tekorten in gescheiden afvalstromen, wat de recyclingkosten weer verhoogt. Op lange termijn leidt de verbeterde kwaliteit echter tot een stabielere vraag naar gerecycled materiaal. Welk type feedbackloop domineert dit systeemgedrag?",
+          "question": "<p>In de plasticrecyclingketen zie je dit patroon. Als virgin plastic duurder wordt, verschuift een deel van de vraag naar gerecycled plastic. Die groeiende vraag lokt investeringen in recyclingcapaciteit uit. Met meer capaciteit verbetert de kwaliteit, waardoor producenten gerecycled plastic vaker gebruiken. Tegelijk ontstaan door de hogere vraag tijdelijk tekorten aan gescheiden afval, waardoor de recyclingkosten stijgen. Op lange termijn zorgt de betere kwaliteit toch voor een stabiele, groeiende vraag. Welk type feedbackloop bepaalt dit gedrag?</p>",
           "options": [
             {
-              "text": "Dempende loop (B-loop): de tegenwerkende effecten stabiliseren het systeem.",
+              "text": "Een dempende loop: de tegenwerkende effecten, zoals de tekorten, brengen het systeem weer in balans.",
               "correct": false,
-              "feedback": "Hoewel er tijdelijke stabiliserende effecten zijn, zoals hogere recyclingkosten door tekorten, domineert dit niet het lange termijn gedrag van het systeem."
+              "feedback": "Er is een tijdelijk dempend effect, de hogere kosten door tekorten, maar dat bepaalt niet het gedrag op lange termijn."
             },
             {
-              "text": "Versterkende loop (R-loop): ondanks tijdelijke tegendruk versterkt de dynamiek zich op de lange termijn.",
+              "text": "Een versterkende loop: ondanks tijdelijke tegendruk versterkt de dynamiek zich op lange termijn.",
               "correct": true,
-              "feedback": "De verbeterde kwaliteit van gerecycled plastic leidt tot een stabielere en groeiende vraag, wat investeringen en verdere verbeteringen stimuleert. Dit is kenmerkend voor een versterkende loop."
+              "feedback": "Juist. Vraag, investeringen, kwaliteit en toepassing versterken elkaar. De tekorten remmen tijdelijk, maar de loop als geheel groeit."
             },
             {
-              "text": "Geen loop: dit is een lineair proces zonder terugkoppeling.",
+              "text": "Geen loop: het is een keten van oorzaak en gevolg die bij de vraag begint en ook weer eindigt.",
               "correct": false,
-              "feedback": "Dit proces bevat duidelijke terugkoppelingen, zoals de invloed van vraag op investeringen en kwaliteit, wat een feedbackloop vormt."
+              "feedback": "De keten sluit zich juist: meer toepassing leidt weer tot meer vraag. Daarmee is het een feedbackloop."
             }
           ],
           "feedback": ""
@@ -2365,32 +2380,32 @@
         },
         {
           "t": "text",
-          "body": "<p>Dit causale diagram toont hoe verschillende onderdelen van het plasticsysteem elkaar wederzijds beïnvloeden. In het midden staat de hoeveelheid plasticafval, een variabele die zowel het inzamelproces als de druk op afvalverwerking bepaalt. Wanneer de inzameling toeneemt, groeit de recyclingcapaciteit en kan er meer gerecycled materiaal worden geproduceerd. Dit gerecyclede materiaal vervangt een deel van het virgin plastic, waardoor de totale hoeveelheid afval op lange termijn kan afnemen. Dit vormt een <strong>versterkende loop</strong>, omdat verbeteringen in capaciteit en kwaliteit leiden tot meer gerecycled materiaal en een structurele vermindering van afval.</p><p>Daarnaast zien we een <strong>dempende loop</strong>: als de hoeveelheid plasticafval stijgt, neemt de inzet van afvalverwerking zoals verbranden of storten toe. Daardoor daalt de afvalberg wel, maar zonder circulaire waarde en vaak met negatieve milieueffecten.</p><p>Een derde dynamiek wordt gevormd door de relatie tussen niet-ingezameld afval en plasticvervuiling. Wanneer plastic niet wordt ingezameld, komt het vaker in het milieu terecht. Dit verhoogt de maatschappelijke en politieke druk, wat kan leiden tot beleid dat inzameling en recycling stimuleert. Dit vormt opnieuw een <strong>versterkende lus</strong>, maar gedreven door externe prikkels zoals publieke druk en regelgeving.</p><p>Het diagram laat zien dat het plasticsysteem niet lineair functioneert, maar bestaat uit meerdere, deels concurrerende terugkoppelmechanismen. Hierdoor kan een interventie op één plek onverwachte gevolgen hebben op andere plekken in het systeem. Dit maakt plasticrecycling tot een typisch <strong>wicked problem</strong>, waarbij inzicht in systeemstructuren essentieel is om effectieve en duurzame keuzes te maken.</p>"
+          "body": "<p>Dit diagram laat zien hoe de onderdelen van het plasticsysteem elkaar beïnvloeden. In het midden staat de hoeveelheid plasticafval: die bepaalt zowel de inzameling als de druk op de afvalverwerking. Als de inzameling toeneemt, groeit de recyclingcapaciteit en komt er meer gerecycled materiaal. Dat vervangt een deel van het virgin plastic, waardoor er op lange termijn minder afval ontstaat. Dit is een <strong>versterkende loop</strong>: betere capaciteit en kwaliteit leveren meer gerecycled materiaal op en verkleinen de afvalberg structureel.</p><p>Er is ook een <strong>dempende loop</strong>: als er meer plasticafval is, wordt er meer verbrand of gestort. De afvalberg krimpt dan wel, maar zonder dat er waarde behouden blijft, en vaak met schade aan het milieu.</p><p>Een derde dynamiek loopt via afval dat níet wordt ingezameld. Dat komt vaker in het milieu terecht. De maatschappelijke en politieke druk neemt toe, en dat kan leiden tot beleid dat inzameling en recycling stimuleert. Ook dat is een <strong>versterkende loop</strong>, maar aangedreven door een prikkel van buiten: publieke druk en regelgeving.</p><p>Het plasticsysteem werkt dus niet lineair. Het bestaat uit meerdere loops die deels met elkaar concurreren. Een ingreep op de ene plek kan daardoor onverwachte gevolgen hebben op een andere, en dat maakt plasticrecycling tot een typisch <strong>wicked problem</strong>.</p>"
         },
         {
           "t": "quiz",
           "multi": false,
-          "question": "Welke variabelen vormen samen de versterkende loop (R-loop) die recycling stimuleert?",
+          "question": "<p>Welke reeks variabelen in het diagram vormt de versterkende loop die recycling stimuleert?</p>",
           "options": [
             {
-              "text": "Plasticafval → Afvalverwerking → Minder afval",
+              "text": "Plasticafval → afvalverwerking (verbranden, storten) → minder plasticafval",
               "correct": false,
-              "feedback": "Deze optie beschrijft geen versterkende loop, omdat het geen cyclus vormt die zichzelf versterkt."
+              "feedback": "Dit is de dempende loop: meer afval leidt tot meer verwerking, waardoor het afval weer afneemt. Er blijft geen waarde behouden."
             },
             {
-              "text": "Plasticafval → Inzameling → Recyclingcapaciteit → Gerecycled materiaal → Minder virgin plastic",
+              "text": "Plasticafval → inzameling → recyclingcapaciteit → gerecycled materiaal → minder virgin plastic",
               "correct": true,
-              "feedback": "Dit is de centrale versterkende loop waarin inzameling en recyclingcapaciteit elkaar op termijn versterken, waardoor de totale afvalberg kan dalen."
+              "feedback": "Juist. Inzameling, capaciteit en gerecycled materiaal versterken elkaar, waardoor er minder virgin plastic nodig is en de afvalberg op termijn krimpt."
             },
             {
-              "text": "Inzameling → Plasticvervuiling → Beleidsdruk",
+              "text": "Virgin plastic → goedkopere verpakkingen → meer plasticafval → meer verbranding",
               "correct": false,
-              "feedback": "Deze optie beschrijft een lineair proces en geen versterkende loop die recycling stimuleert."
+              "feedback": "Dit is een keten die op verbranding uitkomt, niet op recycling. Er sluit zich hier ook geen loop die recycling versterkt."
             },
             {
-              "text": "Virgin plastic → Afvalverwerking → Plasticvervuiling",
+              "text": "Inzameling → plasticvervuiling → beleidsdruk → minder inzameling",
               "correct": false,
-              "feedback": "Deze optie beschrijft een proces dat eerder bijdraagt aan vervuiling dan aan recycling."
+              "feedback": "De richtingen kloppen niet. Minder inzameling leidt tot meer vervuiling, en de beleidsdruk die daaruit volgt, leidt juist tot méér inzameling."
             }
           ],
           "feedback": ""
@@ -2398,52 +2413,56 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "Welke relatie vormt een dempende (B-loop) in het systeem? Kies alle juiste antwoorden.",
+          "question": "<p>Welke relatie in het diagram is een dempende loop (B-loop)?</p>",
           "options": [
             {
-              "text": "Meer gerecycled materiaal leidt tot minder vraag naar gerecycled materiaal.",
-              "correct": false
+              "text": "Meer recyclingcapaciteit verhoogt de kwaliteit, waardoor de vraag en de capaciteit verder groeien.",
+              "correct": false,
+              "feedback": "Dit versterkt zichzelf: het is een versterkende loop."
             },
             {
-              "text": "Meer recyclingcapaciteit verhoogt de kwaliteit van gerecycled materiaal.",
-              "correct": false
+              "text": "Meer plasticafval leidt tot meer verbranden en storten, waardoor het afvalvolume weer daalt.",
+              "correct": true,
+              "feedback": "Juist. Een stijging roept een tegenreactie op die de stijging weer ongedaan maakt. Dat is dempend."
             },
             {
-              "text": "Meer plasticafval leidt tot meer afvalverwerking, wat het afvalvolume vermindert.",
-              "correct": true
+              "text": "Meer niet-ingezameld afval leidt tot meer plasticvervuiling in de natuur.",
+              "correct": false,
+              "feedback": "Dit is één oorzaak-gevolgrelatie, geen loop. Er komt niets terug bij het beginpunt."
             },
             {
-              "text": "Meer niet-ingezameld afval leidt tot meer vervuiling.",
-              "correct": false
+              "text": "Meer gerecycled materiaal verdringt virgin plastic, waardoor er op termijn minder afval ontstaat.",
+              "correct": false,
+              "feedback": "Dit is een onderdeel van de versterkende recyclingloop, niet van een dempende loop."
             }
           ],
-          "feedback": "Correct! Dit is een klassieke negatieve terugkoppeling: meer afval activeert een mechanisme dat afval weer reduceert, zonder het systeem te versterken.",
+          "feedback": "",
           "feedbackWrong": "Niet correct. Denk aan een dempende loop als een mechanisme dat het systeem stabiliseert door tegenwerkende effecten."
         },
         {
           "t": "quiz",
           "multi": false,
-          "question": "Welke onbedoelde consequentie is zichtbaar wanneer de inzameling achterblijft?",
+          "question": "<p>Stel dat de inzameling in het diagram achterblijft. Welke reeks gevolgen laat het diagram dan zien?</p>",
           "options": [
             {
-              "text": "De plasticvervuiling neemt toe en vergroot de beleidsdruk.",
+              "text": "Minder plasticafval in de verwerking, omdat er minder wordt ingezameld en dus minder hoeft te worden verbrand.",
+              "correct": false,
+              "feedback": "Het afval verdwijnt niet: wat niet wordt ingezameld, komt vaker in het milieu terecht."
+            },
+            {
+              "text": "Meer recyclingcapaciteit, omdat installaties uitbreiden om het tekort aan ingezameld materiaal op te vangen.",
+              "correct": false,
+              "feedback": "Met minder ingezameld materiaal is er juist minder reden om capaciteit uit te breiden."
+            },
+            {
+              "text": "Meer plastic in het milieu, meer maatschappelijke druk, en daarna beleid dat de inzameling stimuleert.",
               "correct": true,
-              "feedback": "Dit is correct. Onvoldoende inzameling leidt tot meer plasticvervuiling, wat de maatschappelijke en politieke druk op beleidsmakers vergroot."
+              "feedback": "Juist. Dit is de derde loop in het diagram: vervuiling leidt tot druk, en druk tot beleid. Het systeem corrigeert zich, maar pas na schade en via een prikkel van buiten."
             },
             {
-              "text": "De hoeveelheid niet-ingezameld afval daalt.",
+              "text": "Een lagere vraag naar virgin plastic, omdat producenten nu al rekening houden met strengere regels.",
               "correct": false,
-              "feedback": "Dit is onjuist. Wanneer inzameling achterblijft, neemt de hoeveelheid niet-ingezameld afval juist toe."
-            },
-            {
-              "text": "De recyclingcapaciteit neemt automatisch toe.",
-              "correct": false,
-              "feedback": "Dit is onjuist. Recyclingcapaciteit neemt niet vanzelf toe zonder investeringen of beleidsinterventies."
-            },
-            {
-              "text": "De vraag naar virgin plastic daalt vanzelf.",
-              "correct": false,
-              "feedback": "Dit is onjuist. De vraag naar virgin plastic daalt niet vanzelf zonder externe factoren zoals regelgeving of marktdruk."
+              "feedback": "Dat effect zit niet in het diagram. Zonder beleid of marktprikkel verandert de vraag naar virgin plastic niet vanzelf."
             }
           ],
           "feedback": ""
@@ -2453,19 +2472,19 @@
         },
         {
           "t": "text",
-          "heading": "Lock-in Effecten en Padafhankelijkheid",
-          "body": "<p>Sommige onduurzame praktijken blijven bestaan door zelfversterkende mechanismen. Ontdek hieronder waarom systemen soms moeilijk te veranderen zijn.</p>"
+          "heading": "Lock-in effecten en padafhankelijkheid",
+          "body": "<p>Sommige onduurzame praktijken blijven bestaan omdat ze zichzelf in stand houden. Hieronder lees je waarom systemen soms zo moeilijk te veranderen zijn.</p>"
         },
         {
           "t": "tabs",
           "items": [
             {
               "title": "Lock-in Effecten",
-              "body": "<p>Lock-in effecten ontstaan als een systeem vastloopt in een bepaald patroon, bijvoorbeeld door investeringen, regelgeving of gewoontes. Dit gebeurt vaak wanneer organisaties of samenlevingen al veel middelen hebben geïnvesteerd in een bepaalde technologie of aanpak. Hierdoor wordt het lastig om te veranderen, zelfs als betere alternatieven beschikbaar zijn. Een bekend voorbeeld is het gebruik van fossiele brandstoffen: ondanks de opkomst van duurzame energiebronnen blijven veel landen afhankelijk van olie en gas vanwege bestaande infrastructuur en economische belangen.</p><p>Het begrijpen van lock-in effecten is essentieel om te kunnen innoveren en duurzame oplossingen te implementeren. Door bewust te zijn van deze barrières, kunnen beleidsmakers en bedrijven strategieën ontwikkelen om uit deze patronen te breken en nieuwe mogelijkheden te verkennen.</p>"
+              "body": "<p>Een lock-in ontstaat als een systeem vastzit in een patroon, door eerdere investeringen, regels of gewoontes. Wie al veel heeft geïnvesteerd in een technologie of aanpak, stapt niet makkelijk over, ook niet als er betere alternatieven zijn. Fossiele brandstoffen zijn een bekend voorbeeld: ondanks de opkomst van duurzame energie blijven veel landen afhankelijk van olie en gas, door de bestaande infrastructuur en de economische belangen die eraan vastzitten.</p><p>Wie lock-ins herkent, kan gericht zoeken naar manieren om eruit te breken.</p>"
             },
             {
               "title": "Padafhankelijkheid",
-              "body": "<p>Padafhankelijkheid betekent dat keuzes uit het verleden de opties voor de toekomst beperken. Dit concept speelt een belangrijke rol in economische en sociale systemen, waar eerdere beslissingen de richting van toekomstige ontwikkelingen bepalen. Een voorbeeld hiervan is de infrastructuur voor plasticproductie, die innovatie in recycling belemmert. Omdat de industrie al decennialang is afgestemd op de productie van wegwerpplastic, is het moeilijk om over te schakelen naar duurzamere alternatieven.</p><p>Daarnaast kan padafhankelijkheid ook invloed hebben op technologische ontwikkelingen. Denk bijvoorbeeld aan het QWERTY-toetsenbord, dat oorspronkelijk werd ontworpen om typemachines te optimaliseren, maar nog steeds de standaard is, ondanks dat er efficiëntere ontwerpen bestaan. Het doorbreken van padafhankelijkheid vereist vaak een bewuste inspanning en een bereidheid om bestaande structuren en gewoontes te herzien.</p>"
+              "body": "<p>Padafhankelijkheid betekent dat keuzes uit het verleden de opties voor de toekomst beperken. De plasticindustrie is bijvoorbeeld al decennia ingericht op wegwerpplastic. Die infrastructuur maakt het lastig om over te stappen op recycling en duurzamere alternatieven.</p><p>Ook bij technologie zie je het. Het QWERTY-toetsenbord werd ontworpen voor mechanische typemachines, en is nog steeds de standaard, ook al bestaan er andere indelingen. Padafhankelijkheid doorbreken vraagt een bewuste inspanning om bestaande structuren en gewoontes te herzien.</p>"
             }
           ]
         },
@@ -2474,8 +2493,8 @@
         },
         {
           "t": "text",
-          "heading": "Plasticrecyclingmarkt",
-          "body": "<p>De plasticrecyclingmarkt in Nederland laat zien hoe wicked problems en lock-ins in de praktijk werken. Bekijk hieronder de belangrijkste ontwikkelingen.</p>"
+          "heading": "Casus: de plasticrecyclingmarkt",
+          "body": "<p>De plasticrecyclingmarkt in Nederland laat zien hoe wicked problems en lock-ins in de praktijk werken.</p>"
         },
         {
           "t": "timeline",
@@ -2512,65 +2531,101 @@
         {
           "t": "text",
           "heading": "Kennisvragen",
-          "body": "<p>Test je kennis en reflecteer op wat je hebt geleerd. De volgende opdrachten helpen je om de kernconcepten uit deze les te herhalen en toe te passen op praktijkvoorbeelden.</p>"
+          "body": "<p>Drie opdrachten om alles samen te brengen: de kenmerken van wicked problems, het herkennen van loops en een beleidskeuze.</p>"
         },
         {
           "t": "quiz",
           "multi": false,
-          "question": "Wat is een kenmerkend aspect van wicked problems?",
+          "question": "<p>Na een verbod op een bepaalde plasticsoort stappen producenten over op een nieuwe kunststof, die niet in de bestaande sorteerinstallaties past. Welk kenmerk van wicked problems herken je hier het duidelijkst?</p>",
           "options": [
             {
-              "text": "Ze hebben altijd een duidelijke oplossing.",
+              "text": "Er is geen definitieve formulering van het probleem.",
               "correct": false,
-              "feedback": "Wicked problems hebben geen eenduidige oplossing; elke aanpak heeft voor- en nadelen."
+              "feedback": "Dat kenmerk gaat over hoe lastig het is het probleem te omschrijven. Hier zie je iets anders: de ingreep zelf heeft het probleem veranderd."
             },
             {
-              "text": "Elke interventie verandert het probleem zelf.",
+              "text": "Oplossingen zijn beter of slechter, niet waar of onwaar.",
+              "correct": false,
+              "feedback": "Dat speelt ook mee, maar het opvallendste is dat het verbod een nieuw probleem heeft gecreëerd dat er eerst niet was."
+            },
+            {
+              "text": "Elke interventie verandert het probleem.",
               "correct": true,
-              "feedback": "Juist! Bij wicked problems verandert het probleem als je ingrijpt."
+              "feedback": "Juist. Het verbod heeft het systeem veranderd: producenten passen zich aan, en daardoor ontstaat een nieuw knelpunt in de sortering."
             },
             {
-              "text": "Ze zijn eenvoudig te definiëren.",
+              "text": "Elk probleem speelt zich af in een unieke context.",
               "correct": false,
-              "feedback": "Het tegenovergestelde is waar: wicked problems zijn lastig precies te omschrijven."
-            },
-            {
-              "text": "Oplossingen zijn altijd waar of onwaar.",
-              "correct": false,
-              "feedback": "Oplossingen zijn subjectief: beter of slechter, niet waar of onwaar."
+              "feedback": "De context doet ertoe, maar dit voorbeeld laat vooral zien hoe het ingrijpen zelf het probleem verandert."
             }
           ],
           "feedback": ""
         },
         {
           "t": "text",
-          "heading": "Koppel de feedbackloops aan de juiste voorbeelden.",
-          "body": "<p>Het herkennen van feedbackloops helpt je om systemen beter te begrijpen. Sleep de juiste voorbeelden naar het bijbehorende type feedbackloop.</p>"
+          "heading": "Koppel de voorbeelden aan het type feedbackloop",
+          "body": "<p>Wie feedbackloops herkent, begrijpt een systeem beter. Is elk voorbeeld een versterkende of een dempende loop?</p>"
+        },
+        {
+          "t": "sort",
+          "question": "Is elk voorbeeld een versterkende of een dempende loop?",
+          "piles": [
+            "Versterkende loop (R)",
+            "Dempende loop (B)"
+          ],
+          "items": [
+            {
+              "text": "Meer gebruikers maken een deelplatform aantrekkelijker, waardoor er nog meer gebruikers bij komen",
+              "pile": 0
+            },
+            {
+              "text": "Opwarming laat permafrost ontdooien, waardoor methaan vrijkomt en het verder opwarmt",
+              "pile": 0
+            },
+            {
+              "text": "Betere kwaliteit van gerecycled plastic trekt kopers, wat investeringen en kwaliteit verder verhoogt",
+              "pile": 0
+            },
+            {
+              "text": "Een kamer wordt te warm, de thermostaat zet de verwarming uit, en de temperatuur zakt weer",
+              "pile": 1
+            },
+            {
+              "text": "Meer zwerfafval leidt tot onvrede en strengere regels, waardoor het zwerfafval weer afneemt",
+              "pile": 1
+            },
+            {
+              "text": "Een hoge prijs van gerecycled plastic remt de vraag, waardoor de prijs weer daalt",
+              "pile": 1
+            }
+          ],
+          "feedback": "Juist. Bij een versterkende loop maakt een verandering zichzelf groter; bij een dempende loop roept een verandering een tegenreactie op die haar weer kleiner maakt.",
+          "feedbackWrong": "Nog niet alles klopt. Volg per voorbeeld de verandering rond: komt ze versterkt terug bij het begin, of wordt ze juist afgeremd?"
         },
         {
           "t": "quiz",
           "multi": false,
-          "question": "De overheid wil de lock-in in de plasticrecyclingmarkt doorbreken. Welke beleidsmix is het meest effectief?",
+          "question": "<p>De overheid wil de lock-in in de plasticrecyclingmarkt doorbreken. Welke aanpak past het best bij wat je in deze module hebt geleerd?</p>",
           "options": [
             {
-              "text": "Alleen belasting op virgin plastic invoeren.",
+              "text": "Een flinke belasting op virgin plastic, zodat gerecycled plastic eindelijk op prijs kan concurreren.",
               "correct": false,
-              "feedback": "Een belasting helpt, maar is vaak niet genoeg om de lock-in volledig te doorbreken."
+              "feedback": "Een belasting is een sterke prikkel, maar het is één knop. Zolang de kwaliteit van gerecycled plastic tekortschiet, blijven producenten er weinig van gebruiken."
             },
             {
-              "text": "Combinatie van marktprikkels en regelgeving.",
+              "text": "Subsidie voor nieuwe recyclingtechnologie, zodat de kwaliteit van gerecycled plastic omhooggaat.",
+              "correct": false,
+              "feedback": "Betere kwaliteit helpt, maar zonder prijsprikkel en vraag blijft virgin plastic de goedkoopste keuze."
+            },
+            {
+              "text": "Een publiekscampagne voor beter scheiden, zodat de afvalstromen die de recyclers krijgen schoner worden.",
+              "correct": false,
+              "feedback": "Schonere stromen helpen de recyclingketen, maar raken de prijsverhouding en de vraag van producenten niet."
+            },
+            {
+              "text": "Een belasting op virgin plastic, een verplicht minimumaandeel gerecycled materiaal en steun voor betere sortering.",
               "correct": true,
-              "feedback": "Juist! Een mix van prikkels, regelgeving en innovatie is het meest effectief."
-            },
-            {
-              "text": "Alleen innovatie stimuleren.",
-              "correct": false,
-              "feedback": "Innovatie is belangrijk, maar zonder beleid en marktprikkels blijft de lock-in vaak bestaan."
-            },
-            {
-              "text": "Niets doen en hopen op verbetering.",
-              "correct": false,
-              "feedback": "Zonder ingrijpen verandert er meestal weinig aan de lock-in."
+              "feedback": "Juist. Een lock-in houdt zichzelf in stand via meerdere loops tegelijk. Door prijs, vraag en kwaliteit samen aan te pakken, grijp je in op meer dan één plek in het systeem."
             }
           ],
           "feedback": ""
@@ -2580,8 +2635,8 @@
         },
         {
           "t": "text",
-          "heading": "Samenvatting & Vooruitblik",
-          "body": "<p>Je hebt geleerd wat wicked problems zijn, hoe systeemdenken en causal loop diagrams helpen bij het analyseren van complexe vraagstukken, en waarom lock-in effecten en padafhankelijkheid verandering bemoeilijken. De casus plasticrecyclingmarkt laat zien hoe deze concepten samenkomen in de praktijk. In de volgende les pas je systeemdenken toe op integratieve casussen en strategische besluitvorming. Denk alvast na over hoe jij systeemdenken kunt inzetten in je eigen (toekomstige) werkpraktijk.</p>"
+          "heading": "Samenvatting & vooruitblik",
+          "body": "<p>Je hebt gezien wat wicked problems zijn en waarom lineaire oplossingen daar tekortschieten. Systeemdenken laat de elementen, relaties en patronen van een systeem zien, en met een causal loop diagram maak je versterkende en dempende loops zichtbaar. Lock-ins en padafhankelijkheid verklaren waarom systemen zo moeilijk veranderen. De plasticrecyclingmarkt liet zien hoe dat allemaal samenkomt. In de volgende module pas je systeemdenken toe op echte casussen en strategische keuzes.</p>"
         }
       ]
     },
