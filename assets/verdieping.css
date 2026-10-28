@@ -328,7 +328,7 @@ button.chip { border: 0; font-family: inherit; cursor: pointer; }
 }
 .groei-kop strong { font-size: 1rem; font-weight: 600; }
 .groei-kop span { font-size: 0.8rem; color: var(--go-tekst-2); }
-.groei svg { display: block; width: 100%; height: 340px; background: var(--go-vlak); }
+.groei svg { display: block; width: 100%; height: auto; min-height: 260px; max-height: 480px; background: var(--go-vlak); }
 .groei-tekst { padding: 0.9rem var(--binnen) 0.2rem; min-height: 5.2rem; font-size: 0.93rem; line-height: 1.6; color: var(--go-tekst-3); }
 .groei-tekst p { margin: 0 0 0.4rem; }
 .groei-naam { font-weight: 600; color: var(--go-tekst); }
@@ -336,7 +336,7 @@ button.chip { border: 0; font-family: inherit; cursor: pointer; }
 .groei-verbanden li { margin-bottom: 0.2rem; }
 
 .kaart-klein .knoop.weg { pointer-events: none; }
-.kaart-klein .knoop text { font-size: 12px; }
+.kaart-klein .knoop text { font-size: 10.5px; }
 .knoop, .lijnen line { transition: opacity 0.45s ease; }
 .knoop.weg, .lijnen line.weg { opacity: 0; }
 .knoop.oud circle { fill: var(--go-gedimd); }

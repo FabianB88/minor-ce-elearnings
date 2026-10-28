@@ -366,8 +366,46 @@
       kop.appendChild(el('span', null, nieuw.length + ' nieuwe begrippen · ' + verbindingen + ' verbanden' + (eerder.length ? ', ook met wat je al kende' : '')));
       blok.appendChild(kop);
 
-      /* ingezoomd op de nieuwe begrippen; lijnen naar eerdere lopen de rand over */
+      /* Ingezoomd op de nieuwe begrippen. Eerdere begrippen die ermee verbonden
+         zijn maar buiten beeld vallen, staan aan de rand, in hun richting, zodat
+         elke nieuwe lijn op een zichtbaar en aanklikbaar begrip eindigt. */
       var svg = kaartSvg(eerder.concat(nieuw), { klein: true, focus: nieuw, marge: 120 });
+      svg.el.style.aspectRatio = svg.vak[2] + ' / ' + svg.vak[3];
+      var vak = svg.vak;
+      var x0 = vak[0] + 24, y0 = vak[1] + 26, x1 = vak[0] + vak[2] - 24, y1 = vak[1] + vak[3] - 16;
+      var cx = 0, cy = 0;
+      nieuw.forEach(function (b) { var p = ind.pos[ind.index[b.id]]; cx += p.x / nieuw.length; cy += p.y / nieuw.length; });
+      var naarRand = {};
+      nieuw.forEach(function (b) {
+        buren[b.id].forEach(function (n) {
+          var id = ander(verbanden[n], b.id);
+          if (lesNr[perId[id].les] >= k || naarRand[id]) return;
+          var p = ind.pos[ind.index[id]];
+          if (p.x >= x0 && p.x <= x1 && p.y >= y0 && p.y <= y1) return;
+          var dx = p.x - cx, dy = p.y - cy, t = 1;
+          if (dx > 0) t = Math.min(t, (x1 - cx) / dx);
+          if (dx < 0) t = Math.min(t, (x0 - cx) / dx);
+          if (dy > 0) t = Math.min(t, (y1 - cy) / dy);
+          if (dy < 0) t = Math.min(t, (y0 - cy) / dy);
+          naarRand[id] = { x: cx + dx * t, y: cy + dy * t };
+        });
+      });
+      Object.keys(naarRand).forEach(function (id) {
+        var q = naarRand[id];
+        var g = svg.knoop[id];
+        g.setAttribute('transform', 'translate(' + q.x + ' ' + q.y + ')');
+        /* Het label loopt de kaart in, niet eruit. */
+        var t = g.querySelector('text');
+        if (q.x <= x0 + 1) { t.setAttribute('text-anchor', 'start'); t.setAttribute('x', -6); }
+        else if (q.x >= x1 - 1) { t.setAttribute('text-anchor', 'end'); t.setAttribute('x', 6); }
+        if (q.y <= y0 + 1) t.setAttribute('y', 22);
+        verbanden.forEach(function (v, n) {
+          var l = svg.lijn[n];
+          if (!l) return;
+          if (v.a === id) { l.setAttribute('x1', q.x); l.setAttribute('y1', q.y); }
+          if (v.b === id) { l.setAttribute('x2', q.x); l.setAttribute('y2', q.y); }
+        });
+      });
       blok.appendChild(svg.el);
       eerder.forEach(function (b) { svg.knoop[b.id].classList.add('oud'); });
       nieuw.forEach(function (b) { svg.knoop[b.id].classList.add('weg'); });
