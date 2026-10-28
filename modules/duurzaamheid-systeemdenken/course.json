@@ -672,8 +672,8 @@
       "blocks": [
         {
           "t": "text",
-          "heading": "Van Wegwerp naar Waardebehoud: De Circulaire Economie",
-          "body": "<p>In deze les onderzoeken we waarom het klassieke lineaire economische model – gebaseerd op 'nemen, maken en weggooien' – leidt tot verspilling van grondstoffen en schadelijke milieueffecten. De circulaire economie biedt een duurzaam alternatief door grondstoffen en producten zo lang mogelijk in gebruik te houden. Je leert over praktische strategieën zoals de R-ladder (Refuse, Reduce, Reuse, Repair, Recycle) en circulaire businessmodellen die bedrijven helpen waarde te behouden.</p><p>We bekijken een actuele casus uit de Nederlandse textielsector, waar innovatieve bedrijven zoals Loop.a life en MUD Jeans laten zien hoe circulaire principes in de praktijk worden toegepast. Loop.a life recyclet oude kleding tot nieuwe truien, zonder water of verfstoffen te gebruiken, en produceert lokaal om de ecologische voetafdruk te minimaliseren. Meer informatie vind je op hun website: <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://loopalife.com\">https://loopalife.com</a>.</p><p>MUD Jeans hanteert het ‘Lease A Jeans’-model, waarbij klanten een spijkerbroek leasen in plaats van kopen. Na gebruik kan de broek worden teruggestuurd, waarna de producent het materiaal hergebruikt om nieuwe jeans te maken. Dit circulaire businessmodel vermindert afval, stimuleert recycling en houdt waarde in de keten. Lees meer over dit initiatief op de website van CircularX: <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://www.circularx.eu/en/cases/30/mud-jeans-lease-a-jeans\">https://www.circularx.eu/en/cases/30/mud-jeans-lease-a-jeans</a>.</p><p>Voor een visuele introductie in de principes van de circulaire economie kun je de video van de Ellen MacArthur Foundation bekijken hieronder (4min).</p><p>Door deze les krijg je niet alleen inzicht in de theorie, maar ook praktische handvatten om als professional bij te dragen aan een duurzamere toekomst. Samen maken we de stap van wegwerp naar waardebehoud.</p>"
+          "heading": "Van wegwerpen naar waarde behouden",
+          "body": "<p>Het klassieke lineaire model werkt volgens nemen, maken en weggooien. Dat levert verspilling van grondstoffen en schade aan het milieu op. De circulaire economie is het alternatief: grondstoffen en producten zo lang mogelijk in gebruik houden. In deze module leer je de strategieën daarvoor, zoals de R-ladder, en circulaire businessmodellen waarmee bedrijven waarde behouden.</p><p>De Nederlandse textielsector laat zien hoe dat in de praktijk gaat. Loop.a life recyclet oude kleding tot nieuwe truien, zonder water of verfstoffen, en produceert lokaal om de voetafdruk klein te houden: <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://loopalife.com\">https://loopalife.com</a>.</p><p>MUD Jeans werkt met Lease A Jeans: klanten leasen een spijkerbroek in plaats van hem te kopen. Na gebruik sturen ze hem terug, en de producent gebruikt het materiaal voor nieuwe jeans. Zo ontstaat minder afval en blijft de waarde in de keten. Meer over dit voorbeeld lees je bij CircularX: <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://www.circularx.eu/en/cases/30/mud-jeans-lease-a-jeans\">https://www.circularx.eu/en/cases/30/mud-jeans-lease-a-jeans</a>.</p><p>De video hieronder geeft in vier minuten een beeld van de principes van de circulaire economie.</p>"
         },
         {
           "t": "video",
@@ -685,50 +685,51 @@
         },
         {
           "t": "text",
-          "body": "<p>In deze les leer je waarom inzicht in economische modellen belangrijk is voor duurzame innovatie. Je ontdekt hoe waarde verloren gaat in het lineaire model en hoe circulaire strategieën kunnen helpen om dit te voorkomen. Zo kun je als professional bijdragen aan een toekomstbestendige economie.</p>"
+          "body": "<p>Wie duurzaam wil innoveren, moet begrijpen waar in het huidige economische model waarde verloren gaat. Pas dan zie je welke circulaire strategie op welke plek het meeste oplevert.</p>"
         },
         {
           "t": "list",
           "ordered": true,
           "items": [
-            "Je analyseert de tekortkomingen van het lineaire economisch model.",
+            "Je analyseert de tekortkomingen van het lineaire economische model.",
             "Je past circulaire strategieën toe, zoals de R-ladder.",
-            "Je evalueert circulaire businessmodellen.",
+            "Je beoordeelt circulaire businessmodellen.",
             "Je onderzoekt een actuele casus uit de Nederlandse textielsector."
           ]
         },
         {
           "t": "text",
-          "body": "<h2>Van Lineair naar Circulair Denken</h2><p>Het traditionele lineaire economische model – ‘take, make, waste’ – is niet langer houdbaar in een wereld met schaarse grondstoffen en duidelijke milieugrenzen. In dit systeem worden grondstoffen gewonnen, producten gemaakt en na gebruik weggegooid. Dit leidt tot verspilling van waardevolle materialen, hoge energieverbruik en aanzienlijke milieuschade. De negatieve effecten zijn zichtbaar in de uitputting van natuurlijke hulpbronnen, toenemende afvalstromen en groeiende CO₂-uitstoot. Ook economisch gezien is dit model kwetsbaar, omdat bedrijven afhankelijk blijven van eindige grondstoffen en onzekere aanvoerketens.</p><p>Om binnen de grenzen van onze planeet te blijven, is een fundamentele omslag nodig naar circulaire modellen waarin materialen en producten zo lang mogelijk in omloop blijven. De circulaire economie draait om het sluiten van kringlopen, het behouden van waarde en het minimaliseren van afval. Dit vraagt om een nieuwe manier van denken over ontwerp, productie en consumptie.</p><p>Belangrijke strategieën hierbij zijn onder meer:</p><ul><li><p><strong>Ontwerpen voor hergebruik</strong>: producten zo ontwikkelen dat ze eenvoudig kunnen worden gedemonteerd, gerepareerd of hergebruikt.</p></li><li><p><strong>Gebruik in plaats van bezit</strong>: businessmodellen waarin consumenten producten leasen of delen in plaats van bezitten.</p></li><li><p><strong>Slimme materiaalstromen</strong>: het inzetten van gerecyclede of biobased grondstoffen in plaats van nieuwe, schaarse materialen.</p></li><li><p><strong>Modulair design en recyclingtechnologieën</strong>: innovatieve oplossingen die het mogelijk maken om grondstoffen terug te winnen en opnieuw te gebruiken in nieuwe productcycli.</p></li></ul><p>De circulaire economie is niet alleen goed voor het milieu, maar versterkt ook economische veerkracht. Bedrijven die circulair werken, zijn minder afhankelijk van schaarse grondstoffen en beter voorbereid op toekomstige regelgeving en marktschommelingen. Bovendien ontstaan er nieuwe banen en kansen in reparatie, hergebruik en materiaalinnovatie.</p><p>Wil je meer leren over circulaire economie en voorbeelden uit de praktijk? Bekijk de website Circulair Ondernemen: <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://www.circulairondernemen.nl\">https://www.circulairondernemen.nl</a>.<br>Voor een verdere uitleg over hoe de circulaire economie werkt, bekijk onderstaande video (3min).</p>"
+          "body": "<p>Het lineaire model, take, make, waste, past niet in een wereld met schaarse grondstoffen en duidelijke milieugrenzen. Grondstoffen worden gewonnen, verwerkt tot producten en na gebruik weggegooid. Dat kost waardevolle materialen en veel energie, en veroorzaakt milieuschade: uitgeputte hulpbronnen, groeiende afvalbergen en meer CO₂-uitstoot. Het model is bovendien economisch kwetsbaar, omdat bedrijven afhankelijk blijven van eindige grondstoffen en onzekere aanvoerketens.</p><p>Om binnen de grenzen van de planeet te blijven, is een omslag nodig naar circulaire modellen, waarin materialen en producten zo lang mogelijk in omloop blijven. Dat vraagt om een andere manier van ontwerpen, produceren en consumeren. Belangrijke strategieën zijn:</p><ul><li><p><strong>Ontwerpen voor hergebruik</strong>: producten zo maken dat ze makkelijk te demonteren, te repareren of opnieuw te gebruiken zijn.</p></li><li><p><strong>Gebruik in plaats van bezit</strong>: businessmodellen waarin klanten producten leasen of delen.</p></li><li><p><strong>Slimme materiaalstromen</strong>: gerecyclede of biobased grondstoffen gebruiken in plaats van nieuwe, schaarse materialen.</p></li><li><p><strong>Modulair ontwerp en recyclingtechniek</strong>: oplossingen waarmee grondstoffen worden teruggewonnen voor nieuwe producten.</p></li></ul><p>Circulair werken is ook economisch verstandig. Bedrijven worden minder afhankelijk van schaarse grondstoffen en zijn beter voorbereid op nieuwe regels en schommelingen in de markt. En er ontstaat nieuw werk in reparatie, hergebruik en materiaalinnovatie.</p><p>Voorbeelden uit de praktijk vind je op <a rel=\"noopener noreferrer nofollow\" target=\"_blank\" href=\"https://www.circulairondernemen.nl\">https://www.circulairondernemen.nl</a>. Na de vraag volgt een video van drie minuten over hoe de circulaire economie werkt.</p>",
+          "heading": "Van lineair naar circulair denken"
         },
         {
           "t": "quiz",
           "multi": true,
-          "question": "Welke van de volgende initiatieven laten zien hoe bedrijven circulaire principes toepassen om waarde te behouden en afval te minimaliseren? Kies alle juiste antwoorden.",
+          "question": "<p>Welke van deze initiatieven passen circulaire principes toe om waarde te behouden en afval te voorkomen? Kies alle juiste antwoorden.</p>",
           "options": [
             {
-              "text": "Een kledingmerk dat een leaseprogramma aanbiedt waarbij klanten kleding kunnen terugsturen voor recycling na gebruik.",
+              "text": "Een kledingmerk dat kleding verhuurt en na gebruik terugneemt voor reparatie of recycling",
               "correct": true
             },
             {
-              "text": "Een elektronica fabrikant die apparaten ontwerpt met modulaire onderdelen die eenvoudig te vervangen of te upgraden zijn.",
-              "correct": true
-            },
-            {
-              "text": "Een meubelbedrijf dat oude meubels inzamelt, repareert en opnieuw verkoopt als refurbished producten.",
-              "correct": true
-            },
-            {
-              "text": "Een supermarkt die uitsluitend producten verkoopt met wegwerpverpakkingen zonder recyclingopties.",
+              "text": "Een webwinkel die gratis retourneren aanbiedt, zodat klanten zonder risico kleding uitproberen",
               "correct": false
             },
             {
-              "text": "Een fabrikant die producten ontwerpt voor eenmalig gebruik zonder mogelijkheden voor hergebruik of recycling.",
+              "text": "Een fietsenmaker die onderdelen van afgedankte fietsen gebruikt om andere fietsen te repareren",
+              "correct": true
+            },
+            {
+              "text": "Een merk dat zijn kleding “eco” noemt omdat ze in een doos van gerecycled karton wordt verstuurd",
               "correct": false
+            },
+            {
+              "text": "Een elektronicaproducent die apparaten modulair ontwerpt, zodat onderdelen te vervangen zijn",
+              "correct": true
             }
           ],
-          "feedback": "Goed gedaan! De gekozen voorbeelden laten zien hoe bedrijven circulaire principes toepassen door hergebruik, modulaire ontwerpen en recycling, wat leidt tot minder afval en meer waarde in de keten.",
-          "feedbackWrong": "Niet helemaal correct. Kies voorbeelden die gericht zijn op het verlengen van de levensduur van producten, het hergebruiken van materialen of het minimaliseren van afval. Denk aan initiatieven zoals kledingleaseprogramma's, modulaire ontwerpen en refurbished meubels."
+          "feedback": "Juist. Verhuur met terugname, onderdelen hergebruiken en modulair ontwerpen houden producten en materialen langer in gebruik. Gratis retourneren levert vooral extra transport op, en een kartonnen doos verandert niets aan de kleding zelf.",
+          "feedbackWrong": "Niet helemaal. Vraag je per voorbeeld af of het product zelf langer in gebruik blijft. Bij gratis retourneren en een gerecyclede doos gebeurt dat niet; bij verhuur met terugname, onderdelen hergebruiken en modulair ontwerp wel."
         },
         {
           "t": "video",
@@ -740,19 +741,19 @@
         },
         {
           "t": "text",
-          "heading": "Van Lineair naar Circulair: Wat is het verschil?",
-          "body": "<p>Om duurzame oplossingen te ontwerpen, is het essentieel om het verschil te begrijpen tussen het lineaire en circulaire model. Het lineaire model volgt een 'nemen-gebruiken-weggooien'-benadering, waarbij grondstoffen worden gewonnen, gebruikt en vervolgens als afval worden weggegooid. Dit leidt tot verspilling en uitputting van natuurlijke hulpbronnen.</p><p>Het circulaire model daarentegen is gericht op het minimaliseren van afval en het behouden van waarde. Dit wordt bereikt door producten en materialen zo lang mogelijk in gebruik te houden, bijvoorbeeld door hergebruik, reparatie, refurbishing en recycling. In een circulaire economie worden grondstoffen opnieuw ingezet, waardoor de afhankelijkheid van nieuwe grondstoffen afneemt en de impact op het milieu wordt verminderd.</p><p>Een circulaire economie biedt niet alleen voordelen voor het milieu, maar stimuleert ook innovatie en economische groei. Het daagt bedrijven en individuen uit om creatief na te denken over hoe producten kunnen worden ontworpen, gebruikt en hergebruikt, met als doel een duurzamere toekomst te creëren.</p>"
+          "heading": "Lineair en circulair: wat is het verschil?",
+          "body": "<p>In het lineaire model gaan grondstoffen één kant op: winnen, gebruiken, weggooien. Daardoor raken hulpbronnen uitgeput en gaat waarde verloren.</p><p>Het circulaire model probeert afval te voorkomen en waarde te behouden. Producten en materialen blijven zo lang mogelijk in gebruik, via hergebruik, reparatie, opknappen en recycling. Daardoor zijn er minder nieuwe grondstoffen nodig en neemt de druk op het milieu af.</p><p>Dat vraagt creativiteit van bedrijven en gebruikers: hoe ontwerp, gebruik en hergebruik je producten zo dat er zo weinig mogelijk verloren gaat? Die vraag levert ook innovatie en nieuwe bedrijvigheid op.</p>"
         },
         {
           "t": "tabs",
           "items": [
             {
               "title": "Lineaire Economie",
-              "body": "<p>In de lineaire economie worden grondstoffen gewonnen, verwerkt tot producten, gebruikt en vervolgens weggegooid. Dit ‘take-make-waste’-model heeft lange tijd de economische groei gestimuleerd, maar gaat gepaard met toenemende druk op natuurlijke hulpbronnen en een groeiende hoeveelheid afval. Door de eenrichtingsstroom van grondstoffen raken hulpbronnen uitgeput, terwijl waardevolle materialen verloren gaan in de afvalfase.</p><p>De lineaire economie is sterk gericht op korte termijn winst en consumptie. Producten worden vaak ontworpen voor snelle vervanging, wat leidt tot meer productie, meer afval en grotere milieuproblemen zoals CO₂-uitstoot, vervuiling en verlies van biodiversiteit. Deze manier van produceren en consumeren zorgt ervoor dat de ecologische en economische kosten steeds hoger worden, terwijl de baten op lange termijn afnemen.</p>"
+              "body": "<p>In de lineaire economie worden grondstoffen gewonnen, verwerkt, gebruikt en weggegooid. Dit take-make-waste-model heeft lang voor economische groei gezorgd, maar zet de natuurlijke hulpbronnen onder druk en laat de afvalberg groeien. Waardevolle materialen verdwijnen in de afvalfase.</p><p>Het model is sterk gericht op winst en consumptie op korte termijn. Producten worden vaak gemaakt om snel te worden vervangen. Dat betekent meer productie, meer afval en meer milieuproblemen, zoals CO₂-uitstoot, vervuiling en verlies van biodiversiteit. De ecologische en economische kosten stijgen, terwijl de baten op lange termijn afnemen.</p>"
             },
             {
               "title": "Circulaire Economie",
-              "body": "<p>De circulaire economie richt zich op het sluiten van kringlopen van grondstoffen, materialen en producten, zodat waarde behouden blijft binnen het systeem. Waar de lineaire economie is gebaseerd op een eenrichtingsproces van produceren, consumeren en weggooien, draait de circulaire economie om continu hergebruik en optimalisatie. Producten worden ontworpen met hun hele levenscyclus in gedachten: van materiaalkeuze tot productie, gebruik, onderhoud en uiteindelijke terugwinning van grondstoffen.</p><p>Binnen dit model worden grondstoffen niet langer gezien als eindig, maar als waardevolle bouwstenen die opnieuw kunnen worden ingezet. Dat vraagt om slimme ontwerpstrategieën zoals modulair design, waarbij onderdelen eenvoudig te vervangen of te upgraden zijn, en om productieprocessen die herstel, demontage en recycling mogelijk maken. Ook nieuwe businessmodellen spelen hierin een rol, bijvoorbeeld leasen in plaats van kopen, delen in plaats van bezitten, of producten verkopen als dienst.</p><p>De voordelen van dit systeem reiken verder dan alleen milieuwinst.</p><p>Door kringlopen te sluiten wordt de afhankelijkheid van schaarse grondstoffen kleiner en ontstaan nieuwe economische kansen in hergebruik, reparatie en materiaalinnovatie. Bedrijven worden veerkrachtiger, consumenten krijgen duurzamere keuzes, en samen bouwen we aan een economie die past binnen de ecologische grenzen van de aarde.</p><p>D</p><p>e circulaire economie vraagt daarmee om een fundamentele verandering in denken: van lineair bezit naar circulair gebruik, van korte termijn winst naar langetermijnwaarde, en van afval als probleem naar grondstof als uitgangspunt.</p>"
+              "body": "<p>De circulaire economie sluit de kringlopen van grondstoffen, materialen en producten, zodat hun waarde in het systeem blijft. Producten worden ontworpen met hun hele levensloop in gedachten: materiaalkeuze, productie, gebruik, onderhoud en terugwinning.</p><p>Grondstoffen zijn in dit model geen eindvoorraad, maar bouwstenen die opnieuw kunnen worden ingezet. Dat vraagt om slim ontwerp, zoals modulaire producten waarvan onderdelen te vervangen of te upgraden zijn, en om productie die herstel, demontage en recycling mogelijk maakt. Ook nieuwe businessmodellen horen erbij: leasen in plaats van kopen, delen in plaats van bezitten, of een product als dienst verkopen.</p><p>De voordelen reiken verder dan milieuwinst. Bedrijven worden minder afhankelijk van schaarse grondstoffen, er ontstaan nieuwe kansen in hergebruik, reparatie en materiaalinnovatie, en de economie past beter binnen de grenzen van de aarde.</p><p>Het vraagt wel een andere manier van denken: van bezit naar gebruik, van korte naar lange termijn, en van afval als probleem naar afval als grondstof.</p>"
             }
           ]
         },
@@ -761,8 +762,8 @@
         },
         {
           "t": "text",
-          "heading": "Inzicht in LCA Analyse",
-          "body": "<p>Een levenscyclusanalyse (LCA) is een methode om de milieueffecten van een product, proces of dienst te beoordelen gedurende de volledige levenscyclus. Daarbij worden alle fasen meegenomen: van de winning van grondstoffen en de productie tot het gebruik, transport, onderhoud en de uiteindelijke afvalverwerking of recycling. Deze systematische aanpak maakt zichtbaar waar in de keten de grootste milieubelasting plaatsvindt, zodat gerichte verbeteringen kunnen worden doorgevoerd.</p><p>Een LCA biedt waardevolle inzichten voor bedrijven, overheden en ontwerpers. Door milieueffecten in kaart te brengen, kunnen organisaties efficiënter omgaan met energie en grondstoffen, verspilling verminderen en hun impact op klimaat en milieu verlagen. De methode is internationaal vastgelegd in de richtlijnen van het ISO 14040-framework, dat de basis vormt voor betrouwbare en vergelijkbare analyses. </p><p>Naast ecologische voordelen kan een LCA ook economische kansen opleveren. Door inefficiënties in de keten te identificeren, kunnen bedrijven kosten besparen en hun producten verbeteren. Bovendien helpt een LCA organisaties om te voldoen aan Europese regelgeving, zoals de Green Deal, en om hun marktpositie te versterken door transparant te communiceren over duurzaamheidsprestaties.</p><p>Een concreet voorbeeld komt uit de Nederlandse textielsector, waar bedrijven LCA’s inzetten om circulaire strategieën te ontwikkelen. Denk aan ontwerpen voor hergebruik of recycling, het verminderen van waterverbruik en het verlengen van de levensduur van kleding. Deze aanpak wordt ondersteund door het RIVM, dat onderzoek doet naar circulaire economie en milieueffecten van productketens. Door LCA’s te integreren in hun processen kunnen organisaties bijdragen aan een duurzamere economie én voldoen aan de toenemende vraag naar milieuvriendelijke producten. Kijk onderstaande video (6min)</p>"
+          "heading": "De levenscyclusanalyse (LCA)",
+          "body": "<p>Een levenscyclusanalyse (LCA) beoordeelt de milieueffecten van een product, proces of dienst over de hele levenscyclus: winning van grondstoffen, productie, gebruik, transport, onderhoud en de afvalverwerking of recycling aan het eind. Zo zie je waar in de keten de grootste milieubelasting zit, en waar verbeteren het meeste oplevert.</p><p>Bedrijven, overheden en ontwerpers gebruiken een LCA om zuiniger om te gaan met energie en grondstoffen en hun impact op klimaat en milieu te verlagen. De methode ligt internationaal vast in de ISO 14040-normen, waardoor analyses betrouwbaar en vergelijkbaar zijn.</p><p>Een LCA levert ook economisch iets op. Wie inefficiënties in de keten ontdekt, kan kosten besparen en producten verbeteren. Bovendien helpt een LCA om te voldoen aan Europese regels, zoals die uit de Green Deal, en om transparant te zijn over duurzaamheidsprestaties.</p><p>In de Nederlandse textielsector zetten bedrijven LCA’s in om circulaire strategieën te kiezen, zoals ontwerpen voor hergebruik of recycling, minder waterverbruik en kleding die langer meegaat. Het RIVM doet onderzoek naar de circulaire economie en naar de milieueffecten van productketens. De video hieronder (6 minuten) legt de methode uit.</p>"
         },
         {
           "t": "video",
@@ -774,31 +775,31 @@
         },
         {
           "t": "text",
-          "heading": "De R-ladder: Strategieën voor Waardebehoud",
-          "body": "<p>De R-ladder biedt een hiërarchie van circulaire strategieën. Hoe hoger op de ladder, hoe meer waarde behouden blijft. Ontdek hieronder de belangrijkste R’s en hoe je ze kunt toepassen in de praktijk.</p>"
+          "heading": "De R-ladder: strategieën voor waardebehoud",
+          "body": "<p>De R-ladder zet circulaire strategieën op volgorde: hoe hoger op de ladder, hoe meer waarde behouden blijft. Een product weigeren of zuiniger maken levert meer op dan het repareren, en repareren levert meer op dan het recyclen. Hieronder vind je vijf van de tien treden uitgewerkt; de afbeelding toont de hele ladder.</p>"
         },
         {
           "t": "accordion",
           "items": [
             {
               "title": "Refuse (Weigeren)",
-              "body": "<p>Refuse betekent het vermijden van onnodige producten of verpakkingen binnen bedrijfsprocessen. Door bewuste keuzes te maken in de inkoop en het ontwerp van producten, kunnen organisaties afval aan de bron voorkomen. Dit draagt bij aan een duurzamere bedrijfsvoering en vermindert kosten op lange termijn.</p><p>Voorbeeld: Een bedrijf dat weigert om producten te verpakken in plastic en in plaats daarvan kiest voor volledig composteerbare materialen. </p>"
+              "body": "<p>Refuse betekent onnodige producten of verpakkingen vermijden. Door bewust in te kopen en te ontwerpen, voorkomt een organisatie afval aan de bron. Dat scheelt ook kosten.</p><p>Voorbeeld: een bedrijf dat zijn producten niet meer in plastic verpakt.</p>"
             },
             {
               "title": "Reduce (Verminderen)",
-              "body": "<p>Reduce draait om het beperken van grondstofgebruik en afval binnen organisaties. Dit kan door efficiëntere productieprocessen, het gebruik van duurzame materialen en het minimaliseren van verspilling. Het verminderen van afval leidt niet alleen tot een kleinere ecologische voetafdruk, maar ook tot kostenbesparingen.</p><p>Voorbeeld: Een fabrikant die zijn productieproces optimaliseert om minder restmateriaal te genereren. </p>"
+              "body": "<p>Reduce draait om minder grondstoffen gebruiken en minder afval maken, bijvoorbeeld met efficiëntere productieprocessen. Dat verkleint de voetafdruk en bespaart geld.</p><p>Voorbeeld: een fabrikant die zijn productie zo aanpast dat er minder restmateriaal overblijft.</p>"
             },
             {
               "title": "Reuse (Hergebruiken)",
-              "body": "<p>Reuse betekent het opnieuw gebruiken van materialen en producten binnen bedrijfsprocessen. Dit verlengt de levensduur van grondstoffen en vermindert de behoefte aan nieuwe materialen. Hergebruik kan ook leiden tot innovatieve oplossingen en nieuwe zakelijke kansen.</p><p>Voorbeeld: Een logistiek bedrijf dat herbruikbare verpakkingen inzet voor transport in plaats van wegwerpverpakkingen. </p>"
+              "body": "<p>Reuse betekent producten en materialen opnieuw gebruiken. Dat verlengt hun levensduur en vermindert de vraag naar nieuwe materialen. Het levert ook nieuwe zakelijke kansen op.</p><p>Voorbeeld: een logistiek bedrijf dat herbruikbare transportverpakkingen gebruikt in plaats van wegwerpverpakkingen.</p>"
             },
             {
               "title": "Repair (Repareren)",
-              "body": "<p>Repair houdt in dat bedrijven defecte producten herstellen in plaats van ze te vervangen. Dit verlengt de levensduur van producten en vermindert afval. Repareren kan ook bijdragen aan klanttevredenheid door betere service en ondersteuning te bieden.</p><p>Voorbeeld: Een elektronica fabrikant die een reparatieservice aanbiedt voor oudere modellen in plaats van klanten aan te moedigen nieuwe producten te kopen. </p>"
+              "body": "<p>Repair betekent kapotte producten herstellen in plaats van vervangen. Dat verlengt de levensduur, voorkomt afval en kan de band met klanten versterken.</p><p>Voorbeeld: een elektronicaproducent die oudere modellen blijft repareren, in plaats van klanten aan te sporen iets nieuws te kopen.</p>"
             },
             {
               "title": "Recycle (Recyclen)",
-              "body": "<p>Recycle is het verwerken van afgedankte materialen tot nieuwe grondstoffen binnen de bedrijfsvoering. Hoewel recyclen minder waardevol is dan hergebruik of reparatie, blijft het een belangrijke stap om afval te verminderen en grondstoffen te behouden. Bedrijven kunnen recyclingprogramma's implementeren om hun impact te verkleinen.</p><p>Voorbeeld: Een modebedrijf dat textielafval inzamelt en verwerkt tot nieuwe stoffen. </p>"
+              "body": "<p>Recycle is het verwerken van afgedankte materialen tot nieuwe grondstoffen. Het staat laag op de ladder, omdat de vorm en functie van het product verloren gaan; alleen het materiaal blijft over. Toch is het een belangrijke stap om afval te verminderen en grondstoffen te behouden.</p><p>Voorbeeld: een modebedrijf dat textielafval inzamelt en verwerkt tot nieuwe stoffen.</p>"
             }
           ]
         },
@@ -814,23 +815,23 @@
         },
         {
           "t": "text",
-          "heading": "Circulaire Businessmodellen",
-          "body": "<p>Businessmodellen zijn de sleutel tot het daadwerkelijk toepassen van circulariteit. Ontdek hieronder een voorbeeld van drie modellen die bedrijven helpen om waarde te behouden en verspilling te voorkomen.</p>"
+          "heading": "Circulaire businessmodellen",
+          "body": "<p>Circulariteit wordt pas werkelijkheid als het verdienmodel meewerkt. Hieronder staan drie businessmodellen waarmee bedrijven waarde behouden en verspilling voorkomen.</p>"
         },
         {
           "t": "tabs",
           "items": [
             {
               "title": "Product-as-a-Service",
-              "body": "<p>Bij het <strong>Product-as-a-Service</strong>-model verschuift de focus van bezit naar gebruik. De producent blijft eigenaar van het product en de klant betaalt alleen voor de dienst of functionaliteit die het product biedt. In plaats van winst te halen uit verkoop, verdient de aanbieder aan langdurig gebruik, onderhoud of vervanging. Dit stimuleert producenten om producten te ontwerpen die langer meegaan, eenvoudig te repareren zijn en waarvan onderdelen kunnen worden hergebruikt of gerecycled.</p><p>Deze benadering verandert de economische prikkels fundamenteel. Waar het traditionele model vaak leidt tot overproductie en snelle vervanging, zorgt Product-as-a-Service juist voor een belang bij kwaliteit, efficiëntie en duurzaamheid. Een goed ontworpen product verlaagt onderhoudskosten, blijft langer bruikbaar en kan na afloop van de gebruiksperiode opnieuw worden ingezet.</p><p>Het model vraagt ook om nieuwe vormen van samenwerking tussen producent en gebruiker. De producent behoudt verantwoordelijkheid voor het hele levenscyclusbeheer, van productie tot terugname en hergebruik. De gebruiker profiteert van gemak, flexibiliteit en de zekerheid van goed onderhoud, zonder de lasten van bezit of vervanging.</p><p>Een bekend voorbeeld is het leasen van kleding of elektronica. Bedrijven zoals MUD Jeans laten zien hoe dit in de praktijk werkt: klanten leasen een spijkerbroek en sturen die na gebruik terug, waarna de stof wordt gerecycled tot nieuw textiel. Hierdoor blijven materialen in omloop, wordt verspilling voorkomen en ontstaat een duurzamer verdienmodel dat beter aansluit bij de principes van de circulaire economie.</p>"
+              "body": "<p>Bij <strong>product-as-a-service</strong> verschuift de focus van bezit naar gebruik. De producent blijft eigenaar en de klant betaalt voor wat het product doet. De aanbieder verdient dan niet aan de verkoop, maar aan lang gebruik, onderhoud en vervanging. Dat is een prikkel om producten te maken die lang meegaan, makkelijk te repareren zijn en waarvan onderdelen opnieuw te gebruiken zijn.</p><p>Daarmee veranderen de economische prikkels fundamenteel. Het traditionele model beloont snelle vervanging; product-as-a-service beloont kwaliteit en duurzaamheid. Een goed product kost minder onderhoud, blijft langer bruikbaar en kan daarna opnieuw worden ingezet.</p><p>De producent blijft verantwoordelijk voor de hele levensloop, van productie tot terugname. De gebruiker heeft gemak en de zekerheid van goed onderhoud, zonder de lasten van bezit.</p><p>MUD Jeans laat zien hoe dat werkt: klanten leasen een spijkerbroek en sturen hem na gebruik terug, waarna de stof wordt gerecycled tot nieuw textiel.</p>"
             },
             {
               "title": "Sharing Platforms",
-              "body": "<p><strong>Deelplatforms </strong>maken het mogelijk om producten en middelen gezamenlijk te gebruiken in plaats van individueel te bezitten. Door spullen te delen, lenen of verhuren ontstaat een efficiënter gebruik van bestaande producten, waardoor de vraag naar nieuwe productie afneemt. Dit vermindert niet alleen grondstoffengebruik en afval, maar verlaagt ook de ecologische voetafdruk van consumptie.</p><p>Het concept gaat verder dan enkel praktisch delen: het draagt bij aan een mentaliteitsverandering van bezit naar toegang. Mensen krijgen wat ze nodig hebben, op het moment dat ze het nodig hebben, zonder dat ze alles zelf hoeven te kopen. Dit bevordert een cultuur van samenwerking, vertrouwen en gemeenschapszin, vooral op lokaal niveau.</p><p>Economisch gezien leidt het delen van producten tot lagere kosten voor gebruikers en biedt het ondernemers nieuwe kansen om vraag en aanbod op een slimme manier te verbinden. Digitale technologie speelt hierin een sleutelrol: apps en online platforms maken het eenvoudig om spullen, voertuigen of zelfs woonruimte tijdelijk te delen.</p><p>Een bekend voorbeeld is Peerby, een platform waarop mensen gereedschap, huishoudelijke apparaten en andere gebruiksvoorwerpen kunnen lenen van buurtgenoten. Door dit soort initiatieven wordt het aantal ongebruikte spullen in huishoudens verminderd en wordt de levensduur van producten verlengd. Deelplatforms laten zien dat duurzaamheid niet alleen gaat over minder consumeren, maar ook over slimmer, collectiever en socialer omgaan met wat we al hebben</p>"
+              "body": "<p><strong>Deelplatforms</strong> maken het mogelijk om producten samen te gebruiken in plaats van ze allemaal zelf te bezitten. Door te delen, lenen of verhuren wordt beter gebruikgemaakt van wat er al is, en daalt de vraag naar nieuwe producten. Dat bespaart grondstoffen en afval.</p><p>Het gaat ook om een andere houding: van bezit naar toegang. Je krijgt wat je nodig hebt, wanneer je het nodig hebt, zonder alles te kopen. Dat bevordert samenwerking en vertrouwen, vooral in de buurt.</p><p>Voor gebruikers zijn de kosten lager, en ondernemers krijgen nieuwe kansen om vraag en aanbod te verbinden. Apps en online platforms maken het makkelijk om spullen, voertuigen of woonruimte te delen.</p><p>Een bekend voorbeeld is Peerby, waar mensen gereedschap en huishoudelijke apparaten lenen van buurtgenoten. Zo liggen er minder ongebruikte spullen in huis en gaan producten langer mee.</p>"
             },
             {
               "title": "Levensduurverlenging",
-              "body": "<p>Het <strong>levensduurverlengingsmodel</strong> draait om het behouden van waarde door producten langer in gebruik te houden. In plaats van weggooien of vervangen bij slijtage of defecten, worden producten gerepareerd, opgeknapt (<em>refurbished</em>) of geüpgraded. </p><p>Hierdoor wordt de levenscyclus van materialen verlengd, wat leidt tot minder grondstofverbruik, minder afval en een kleinere milieubelasting.</p><p>Dit model is een essentieel onderdeel van de circulaire economie, omdat het de behoefte aan nieuwe productie vermindert en bestaande producten optimaal benut. Het vraagt om een andere manier van ontwerpen en produceren: producten moeten zo worden gemaakt dat ze demontabel zijn, onderdelen eenvoudig te vervangen zijn en materialen herbruikbaar blijven. Ook vraagt het om een cultuurverandering bij consumenten, waarin reparatie en hergebruik de voorkeur krijgen boven vervanging.</p><p>Bedrijven die levensduurverlenging toepassen, laten zien dat duurzaamheid en commercieel succes hand in hand kunnen gaan. Patagonia’s Worn Wear-programma is een bekend voorbeeld: gebruikte kleding wordt ingezameld, hersteld en opnieuw verkocht, waardoor de levensduur van elk kledingstuk aanzienlijk toeneemt. iFixit ondersteunt deze aanpak door mensen in staat te stellen zelf te repareren, met gedetailleerde handleidingen en gereedschappen voor talloze apparaten.</p><p>Levensduurverlenging versterkt de verbinding tussen producent en gebruiker en stimuleert bewust consumentengedrag. Door producten te zien als iets wat onderhouden en verbeterd kan worden, ontstaat een duurzamer systeem waarin waarde behouden blijft — zowel economisch als ecologisch.</p>"
+              "body": "<p>Bij <strong>levensduurverlenging</strong> blijft waarde behouden doordat producten langer in gebruik blijven. Bij slijtage of een defect wordt een product gerepareerd, opgeknapt (refurbished) of geüpgraded in plaats van weggegooid. Dat betekent minder grondstofverbruik, minder afval en minder milieubelasting.</p><p>Het vraagt om ander ontwerp: producten die te demonteren zijn, onderdelen die makkelijk te vervangen zijn en materialen die herbruikbaar blijven. En om consumenten die repareren en hergebruiken verkiezen boven vervangen.</p><p>Dat het commercieel kan werken, laat Patagonia zien met Worn Wear: gebruikte kleding wordt ingezameld, hersteld en opnieuw verkocht. iFixit helpt mensen zelf te repareren, met handleidingen en gereedschap voor talloze apparaten.</p><p>Levensduurverlenging versterkt zo de band tussen producent en gebruiker, en maakt van een product iets wat je onderhoudt in plaats van afdankt.</p>"
             }
           ]
         },
@@ -846,35 +847,35 @@
         },
         {
           "t": "text",
-          "heading": "De Weg van Textiel: Van Lineair naar Circulair",
-          "body": "<p>De levenscyclus van textiel laat goed zien hoe een product van lineair naar circulair kan bewegen. Bekijk hieronder de belangrijkste stappen en verschillen.</p>"
+          "heading": "De weg van textiel: van lineair naar circulair",
+          "body": "<p>Aan de levensloop van textiel zie je goed hoe een product van lineair naar circulair kan bewegen.</p>"
         },
         {
           "t": "text",
-          "body": "<p>De Nederlandse textielsector produceert jaarlijks grote hoeveelheden afval, terwijl het recyclingpercentage relatief laag blijft. Fast fashion, de korte levensduur van kleding en het gebruik van complexe materialen maken het lastig om textiel circulair te verwerken.</p><p>Tegelijkertijd ontstaan er kansen: steeds meer bedrijven ontwerpen kleding voor hergebruik en recycling, en nieuwe businessmodellen zoals kledinglease en deelplatforms winnen terrein. De sector staat voor de uitdaging om van verspilling naar waardebehoud te bewegen.</p>"
+          "body": "<p>De Nederlandse textielsector veroorzaakt elk jaar veel afval, terwijl er relatief weinig wordt gerecycled. Fast fashion, de korte levensduur van kleding en gemengde materialen maken circulaire verwerking lastig.</p><p>Tegelijk ontstaan er kansen. Steeds meer bedrijven ontwerpen kleding voor hergebruik en recycling, en nieuwe modellen zoals kledinglease en deelplatforms winnen terrein. De opgave voor de sector: van verspilling naar waardebehoud.</p>"
         },
         {
           "t": "timeline",
           "items": [
             {
-              "date": "Productie & Consumptie (Lineair)",
-              "title": "Traditioneel textielpad",
-              "body": "<p>Grondstoffen worden gewonnen, verwerkt tot kleding en na korte tijd weggegooid. Dit leidt tot veel afval en verspilling van waarde.</p>"
+              "date": "Productie & consumptie (lineair)",
+              "title": "Het traditionele textielpad",
+              "body": "<p>Grondstoffen worden gewonnen, verwerkt tot kleding en na korte tijd weggegooid. Dat levert veel afval op en verspilt waarde.</p>"
             },
             {
-              "date": "Afval & Downcycling",
-              "title": "Einde levensduur (Lineair)",
-              "body": "<p>Afgedankt textiel wordt vaak verbrand of laagwaardig gerecycled, waardoor waarde grotendeels verloren gaat.</p>"
+              "date": "Afval & downcycling",
+              "title": "Einde levensduur (lineair)",
+              "body": "<p>Afgedankt textiel wordt vaak verbrand of laagwaardig gerecycled, bijvoorbeeld tot poetsdoeken of isolatiemateriaal. De meeste waarde gaat dan verloren.</p>"
             },
             {
-              "date": "Circulair Ontwerp & Hergebruik",
-              "title": "Nieuwe circulaire aanpak",
-              "body": "<p>Kleding wordt ontworpen voor hergebruik en recycling. Producten krijgen een tweede leven via inzameling, reparatie of upcycling.</p>"
+              "date": "Circulair ontwerp & hergebruik",
+              "title": "Een circulaire aanpak",
+              "body": "<p>Kleding wordt ontworpen voor hergebruik en recycling, en krijgt een tweede leven via inzameling, reparatie of upcycling.</p>"
             },
             {
-              "date": "Nieuwe Businessmodellen",
+              "date": "Nieuwe businessmodellen",
               "title": "Innovatie in de sector",
-              "body": "<p>Bedrijven experimenteren met leasemodellen, deelplatforms en refurbishen om textiel langer in de kringloop te houden.</p>"
+              "body": "<p>Bedrijven experimenteren met leasen, deelplatforms en refurbishen om textiel langer in de kringloop te houden.</p>"
             }
           ]
         },
@@ -888,46 +889,47 @@
         {
           "t": "text",
           "heading": "Kennisvragen",
-          "body": "<p>Test je kennis en reflecteer op wat je hebt geleerd. De volgende opdrachten helpen je om de kernconcepten uit deze les te herhalen en toe te passen op praktijkvoorbeelden.</p>"
+          "body": "<p>Drie opdrachten om de stof toe te passen. Let bij de R-ladder goed op de volgorde.</p>"
         },
         {
           "t": "quiz",
           "multi": false,
-          "question": "Wat is een belangrijk verschil tussen de lineaire en circulaire economie?",
+          "question": "<p>Wat is het wezenlijke verschil tussen een lineaire en een circulaire economie?</p>",
           "options": [
             {
-              "text": "De lineaire economie minimaliseert afval, de circulaire economie maximaliseert afval.",
+              "text": "In een circulaire economie wordt al het afval gescheiden en gerecycled; in een lineaire economie wordt het verbrand of gestort.",
               "correct": false,
-              "feedback": "Dit klopt niet. De circulaire economie streeft juist naar het minimaliseren van afval."
+              "feedback": "Recyclen hoort erbij, maar staat laag op de R-ladder. Een circulaire economie draait er juist om dat producten langer meegaan, zodat er minder te recyclen valt."
             },
             {
-              "text": "De lineaire economie richt zich op korte termijn gebruik en weggooien, de circulaire economie op het behouden van waarde en sluiten van kringlopen.",
+              "text": "In een circulaire economie blijft de waarde van producten en materialen zo lang mogelijk in het systeem; in een lineaire gaat die bij het afdanken verloren.",
               "correct": true,
-              "feedback": "Juist! De circulaire economie draait om waardebehoud en het sluiten van kringlopen."
+              "feedback": "Juist. Het verschil zit in wat er met waarde gebeurt. Circulair betekent kringlopen sluiten, zodat producten, onderdelen en materialen zo lang en zo hoogwaardig mogelijk in gebruik blijven."
             },
             {
-              "text": "In de circulaire economie worden producten nooit hergebruikt.",
+              "text": "In een circulaire economie maken bedrijven minder producten en verdienen ze aan service; in een lineaire maken ze er zoveel mogelijk.",
               "correct": false,
-              "feedback": "Dit is onjuist. Hergebruik is juist een belangrijk onderdeel van de circulaire economie."
+              "feedback": "Minder produceren kan een gevolg zijn, maar het is niet de kern. Een circulair bedrijf kan best groeien, bijvoorbeeld met verhuur, reparatie of refurbishment."
             },
             {
-              "text": "De lineaire economie stimuleert delen en leasen van producten.",
+              "text": "In een circulaire economie gebruiken bedrijven alleen biobased grondstoffen die kunnen composteren; in een lineaire fossiele.",
               "correct": false,
-              "feedback": "Delen en leasen zijn juist kenmerken van de circulaire economie."
+              "feedback": "Biobased materialen kunnen helpen, maar ook een biobased product dat na één keer gebruiken wordt weggegooid, is lineair. Het gaat om de kringloop, niet om het soort grondstof."
             }
           ],
           "feedback": ""
         },
         {
           "t": "text",
-          "heading": "Zet de R-strategieën in volgorde van hoogste naar laagste waardebehoud.",
-          "body": "<p>De volgorde van de R-strategieën bepaalt hoeveel waarde behouden blijft in de keten. Strategieën die afval voorkomen of producten langer in gebruik houden, leveren het meeste op. Zet de volgende R’s op de juiste plek.</p>"
+          "heading": "Deel de R-strategieën in",
+          "body": "<p>Het PBL deelt de tien treden van de R-ladder in drie groepen: slimmer maken en gebruiken (R0 tot R2), de levensduur van producten en onderdelen verlengen (R3 tot R7), en materialen nuttig toepassen (R8 en R9). Hoe hoger de groep, hoe meer waarde behouden blijft. Bij welke groep hoort elke strategie?</p>"
         },
         {
           "t": "sort",
           "piles": [
-            "Hoogste waardebehoud",
-            "Laagste waardebehoud"
+            "Slimmer maken en gebruiken (R0–R2)",
+            "Levensduur verlengen (R3–R7)",
+            "Materialen nuttig toepassen (R8–R9)"
           ],
           "items": [
             {
@@ -935,55 +937,66 @@
               "pile": 0
             },
             {
-              "text": "Reuse",
+              "text": "Reduce",
               "pile": 0
+            },
+            {
+              "text": "Reuse",
+              "pile": 1
             },
             {
               "text": "Repair",
               "pile": 1
             },
             {
-              "text": "Recycle",
+              "text": "Refurbish",
               "pile": 1
             },
             {
+              "text": "Recycle",
+              "pile": 2
+            },
+            {
               "text": "Recover",
-              "pile": 1
+              "pile": 2
             }
-          ]
+          ],
+          "question": "Bij welke groep van de R-ladder hoort elke strategie?",
+          "feedback": "Juist. Weigeren en verminderen voorkomen dat een product of grondstof nodig is. Hergebruiken, repareren en opknappen houden het product zelf in gebruik. Bij recyclen en terugwinnen blijft alleen het materiaal of de energie over.",
+          "feedbackWrong": "Bekijk de afbeelding van de R-ladder nog eens. De vraag per strategie is: voorkom je het product, blijft het product zelf in gebruik, of houd je alleen het materiaal of de energie over?"
         },
         {
           "t": "quiz",
           "multi": false,
-          "question": "Een kledingbedrijf wil zijn impact verminderen. Welke circulaire strategie heeft de grootste positieve impact?",
+          "question": "<p>Een kledingbedrijf wil zijn impact zo veel mogelijk verminderen. Welke strategie behoudt de meeste waarde?</p>",
           "options": [
             {
-              "text": "Alleen recyclen van kleding.",
+              "text": "Alle ingezamelde kleding laten verwerken tot nieuwe vezels voor de volgende collectie.",
               "correct": false,
-              "feedback": "Recycling is waardevol, maar voorkomt niet alle verspilling. Er zijn effectievere strategieën hoger op de R-ladder."
+              "feedback": "Recyclen sluit een kringloop, maar staat laag op de R-ladder: het kledingstuk zelf verdwijnt, alleen de vezel blijft over."
             },
             {
-              "text": "Design for reuse (ontwerpen voor hergebruik).",
+              "text": "De hele collectie overzetten op gerecycled polyester, met dezelfde snelle wisselingen per seizoen.",
+              "correct": false,
+              "feedback": "Een ander materiaal verandert niets aan het fast-fashionmodel. De kleding wordt nog steeds snel afgedankt."
+            },
+            {
+              "text": "Kleding zo ontwerpen dat ze lang meegaat, te repareren is en tweedehands kan worden doorverkocht.",
               "correct": true,
-              "feedback": "Juist! Door te ontwerpen voor hergebruik blijft waarde het langst behouden en wordt afval voorkomen."
+              "feedback": "Juist. Ontwerpen voor hergebruik werkt hoog op de R-ladder: het kledingstuk zelf blijft lang in gebruik, waardoor er minder nieuwe kleding en minder afval nodig is."
             },
             {
-              "text": "Fast fashion blijven doen.",
+              "text": "Afgedankte kleding laten verbranden in een centrale die er stroom voor de winkels van maakt.",
               "correct": false,
-              "feedback": "Fast fashion leidt juist tot meer verspilling en is niet circulair."
-            },
-            {
-              "text": "Product-as-a-service negeren.",
-              "correct": false,
-              "feedback": "Product-as-a-service kan juist bijdragen aan circulariteit. Het negeren ervan is geen effectieve strategie."
+              "feedback": "Dit is Recover, de laagste trede: alleen de energie wordt teruggewonnen, het materiaal is weg."
             }
           ],
           "feedback": ""
         },
         {
           "t": "text",
-          "heading": "Samenvatting & Vooruitblik",
-          "body": "<p>Je hebt geleerd waarom het lineaire model niet langer houdbaar is en hoe circulaire strategieën zoals de R-ladder en nieuwe businessmodellen waarde kunnen behouden. De textielcasus laat zien dat de omslag naar circulariteit urgent én haalbaar is. In de volgende les onderzoeken we de fysica en systeemuitdagingen van klimaatverandering en infrastructuur. Denk alvast na over hoe jij circulaire strategieën kunt toepassen in je eigen (toekomstige) werkpraktijk.</p>"
+          "heading": "Samenvatting & vooruitblik",
+          "body": "<p>Je hebt gezien waarom het lineaire model niet houdbaar is en hoe een circulaire economie waarde behoudt. De R-ladder laat zien welke strategieën het meeste opleveren: voorkomen en langer gebruiken gaan voor recyclen. Een LCA helpt te bepalen waar in de keten je het meeste wint, en businessmodellen als product-as-a-service, deelplatforms en levensduurverlenging maken circulair werken ook commercieel haalbaar. De textielcasus liet zien dat de omslag urgent én mogelijk is. In de volgende module kijk je naar de natuurkunde van klimaatverandering en de uitdagingen voor onze infrastructuur.</p>"
         }
       ]
     },
