@@ -1007,106 +1007,106 @@
       "blocks": [
         {
           "t": "text",
-          "heading": "Klimaatverandering: Theorie en Praktijk",
-          "body": "<p>Klimaatverandering is een complex en veelzijdig verschijnsel dat zowel natuurkundige processen als maatschappelijke en economische gevolgen omvat. Aan de basis ligt het broeikaseffect: een natuurlijk mechanisme waarbij bepaalde gassen in de atmosfeer – zoals koolstofdioxide (CO₂), methaan (CH₄) en lachgas (N₂O) – warmte vasthouden en zo de aarde bewoonbaar maken. Door menselijke activiteiten, zoals verbranding van fossiele brandstoffen, ontbossing en intensieve landbouw, neemt de concentratie van deze gassen echter sterk toe. Dit versterkte broeikaseffect leidt tot een stijging van de gemiddelde temperatuur op aarde.</p><p>De gevolgen daarvan zijn wereldwijd zichtbaar én voelbaar: smeltende ijskappen, stijgende zeespiegels, langdurige droogte, intensere regenval en toenemende frequentie van extreme weersomstandigheden. Ecosystemen raken uit balans, landbouwopbrengsten staan onder druk en biodiversiteit neemt af. Ook in Nederland zijn de effecten merkbaar, onder andere in de vorm van wateroverlast, hittegolven en bodemdaling.</p><p>Naast het wetenschappelijke inzicht is er een groeiende noodzaak tot praktisch handelen. De energietransitie – de overstap van fossiele naar duurzame energiebronnen zoals zon, wind en waterstof – vormt een essentieel onderdeel van de oplossing. Dit vraagt om innovatie, samenwerking en aanpassing van onze infrastructuur. Denk aan uitdagingen als netcongestie, energieopslag en de ontwikkeling van slimme energiesystemen die vraag en aanbod beter op elkaar afstemmen.</p><p>Een voorbeeld hiervan is de grootschalige uitbreiding van windparken op de Noordzee, die bijdragen aan een schonere energievoorziening en een vermindering van CO₂-uitstoot. Tegelijkertijd benadrukt deze ontwikkeling hoe belangrijk het is om ecologische, economische en sociale belangen in balans te houden: duurzame energieproductie moet samengaan met bescherming van natuur, visserij en scheepvaart.</p><p>Om de complexiteit van klimaatverandering goed te begrijpen, helpt het om zowel de wetenschappelijke onderbouwing als de praktische toepassingen te bestuderen. Door inzicht te krijgen in de samenhang tussen oorzaken, gevolgen en oplossingen, wordt duidelijk dat klimaatverandering niet alleen een milieuprobleem is, maar een systeemvraagstuk dat alle aspecten van onze samenleving raakt.</p>"
+          "heading": "Klimaatverandering: theorie en praktijk",
+          "body": "<p>Klimaatverandering is natuurkunde, maar ook economie en samenleving. De basis is het broeikaseffect: gassen in de atmosfeer, zoals koolstofdioxide (CO₂), methaan (CH₄) en lachgas (N₂O), houden warmte vast en maken de aarde zo bewoonbaar. Door menselijke activiteiten, zoals de verbranding van fossiele brandstoffen, ontbossing en intensieve landbouw, neemt de concentratie van die gassen sterk toe. Dat versterkte broeikaseffect laat de gemiddelde temperatuur stijgen.</p><p>De gevolgen zijn wereldwijd te zien en te voelen: smeltende ijskappen, een stijgende zeespiegel, langdurige droogte, hevigere regenval en vaker extreem weer. Ecosystemen raken uit balans, oogsten staan onder druk en de biodiversiteit neemt af. Ook in Nederland merk je het, aan wateroverlast, hittegolven en bodemdaling.</p><p>Er zijn daarom twee sporen nodig. Het eerste is de uitstoot beperken, vooral met de energietransitie: de overstap van fossiele naar duurzame bronnen als zon, wind en waterstof. Dat vraagt om een andere infrastructuur, met uitdagingen als netcongestie, energieopslag en slimme systemen die vraag en aanbod op elkaar afstemmen. Het tweede spoor is je aanpassen aan de gevolgen die al onvermijdelijk zijn: klimaatadaptatie.</p><p>Neem de windparken op de Noordzee. Ze leveren schone stroom en verlagen de CO₂-uitstoot, maar moeten wel samengaan met natuur, visserij en scheepvaart. Zo zie je dat klimaatverandering geen los milieuprobleem is, maar een systeemvraagstuk dat de hele samenleving raakt.</p>"
         },
         {
           "t": "continue"
         },
         {
           "t": "text",
-          "body": "<p>Klimaatverandering begrijpen vereist een combinatie van wetenschappelijke kennis en inzicht in de impact op de echte wereld. Naast de natuurkundige processen, zoals het broeikaseffect en energiestromen, is het essentieel om te kijken naar hoe deze processen steden, ecosystemen en gemeenschappen beïnvloeden. Denk bijvoorbeeld aan de stijgende zeespiegel en de gevolgen voor kustgebieden, of de toename van extreme weersomstandigheden en de impact op infrastructuur. </p>"
+          "body": "<p>Klimaatverandering begrijpen vraagt om natuurkundige kennis én om inzicht in wat die processen doen met steden, ecosystemen en gemeenschappen. Denk aan een stijgende zeespiegel langs de kust, of aan extreem weer dat wegen, spoor en stroomnet op de proef stelt.</p>"
         },
         {
           "t": "list",
           "ordered": true,
           "items": [
-            "Je leert hoe het broeikaseffect werkt en wat een koolstofbudget inhoudt, inclusief de impact hiervan op wereldwijde temperatuurstijgingen.",
-            "Je analyseert hoe verschillende sectoren, zoals transport en landbouw, bijdragen aan CO2-uitstoot en welke stappen kunnen worden genomen om deze te verminderen.",
-            "Je ontdekt wat tipping points en feedbackloops zijn in het klimaatsysteem en hoe deze de toekomst van onze planeet kunnen beïnvloeden.",
-            "Je onderzoekt de uitdagingen van de energietransitie in Nederland, zoals netcongestie en de implementatie van hernieuwbare energiebronnen.",
-            "Je leert hoe steden zich aanpassen aan klimaatverandering door middel van groene infrastructuur, zoals stadsparken en waterbeheer.",
-            "Je verdiept je in de rol van internationale samenwerking en klimaatakkoorden, zoals het Akkoord van Parijs, bij het aanpakken van klimaatverandering."
+            "Je legt uit hoe het broeikaseffect werkt en wat een koolstofbudget is, en wat dat betekent voor de wereldwijde opwarming.",
+            "Je analyseert hoe sectoren als energie, industrie, transport en landbouw bijdragen aan de uitstoot, en hoe die omlaag kan.",
+            "Je legt uit wat tipping points en feedbackloops in het klimaatsysteem zijn en waarom ze het klimaat deels onvoorspelbaar maken.",
+            "Je onderzoekt de uitdagingen van de energietransitie in Nederland, zoals netcongestie.",
+            "Je legt uit hoe steden en regio’s zich aanpassen aan klimaatverandering, met groen, water en ruimte voor de rivier.",
+            "Je kent de rol van internationale afspraken, zoals het Akkoord van Parijs."
           ]
         },
         {
           "t": "text",
-          "heading": "Duurzame Infrastructuur Ontwerpen",
-          "body": "<p>Om duurzame infrastructuren te ontwerpen, is het essentieel om zowel de wetenschappelijke basis van klimaatverandering als de praktische implicaties in de echte wereld te begrijpen. Het gaat niet alleen om het kennen van concepten zoals het broeikaseffect en koolstofbudgetten, maar ook om het vertalen van deze kennis naar oplossingen die onze steden, gemeenschappen en ecosystemen verbeteren.</p><p>De energietransitie vraagt om innovatieve en haalbare oplossingen die aansluiten bij de dagelijkse behoeften van mensen. Denk aan het ontwerpen van energiezuinige gebouwen, het ontwikkelen van slimme transportsystemen en het creëren van groene stedelijke ruimtes. Deze veranderingen vereisen een geïntegreerde aanpak waarin technologie, beleid en samenwerking centraal staan.</p><p>Door wetenschap en praktijk te combineren, kunnen we niet alleen de uitdagingen van klimaatverandering aanpakken, maar ook een toekomst creëren waarin duurzaamheid en levenskwaliteit hand in hand gaan. Het is een gezamenlijke inspanning die vraagt om visie, daadkracht en een lange termijn perspectief.</p>"
+          "heading": "Duurzame infrastructuur ontwerpen",
+          "body": "<p>Wie duurzame infrastructuur ontwerpt, moet de wetenschap achter klimaatverandering kennen én die kunnen vertalen naar oplossingen voor steden, gemeenschappen en ecosystemen.</p><p>Denk aan energiezuinige gebouwen, slimme vervoerssystemen en groene stedelijke ruimtes die ook bij hitte en hevige buien leefbaar blijven. Zulke oplossingen werken alleen als techniek, beleid en samenwerking op elkaar aansluiten, en als ze passen bij hoe mensen echt leven. Dat vraagt om een lange adem.</p>"
         },
         {
           "t": "quiz",
           "multi": true,
-          "question": "Welke complexe processen en mechanismen spelen een rol bij het versterken van klimaatverandering? Kies alle juiste opties.",
+          "question": "<p>Welke processen versterken klimaatverandering? Kies alle juiste antwoorden.</p>",
           "options": [
             {
-              "text": "Positieve feedbackloops zoals het smelten van permafrost dat methaan vrijlaat.",
+              "text": "Ontdooiende permafrost die methaan laat vrijkomen",
               "correct": true
             },
             {
-              "text": "Tipping points zoals het onomkeerbaar smelten van de Groenlandse ijskap.",
-              "correct": true
-            },
-            {
-              "text": "Negatieve feedbackmechanismen zoals de opname van CO₂ door oceanen.",
+              "text": "Opname van CO₂ door de oceanen",
               "correct": false
             },
             {
-              "text": "Het albedo-effect waarbij smeltend ijs minder zonlicht weerkaatst en opwarming versnelt.",
+              "text": "Het onomkeerbaar smelten van de Groenlandse ijskap",
               "correct": true
             },
             {
-              "text": "De natuurlijke balans van broeikasgassen zonder menselijke invloed.",
+              "text": "Meer bewolking bij hogere temperaturen, die zonlicht weerkaatst",
               "correct": false
+            },
+            {
+              "text": "Smeltend ijs dat minder zonlicht weerkaatst (het albedo-effect)",
+              "correct": true
             }
           ],
-          "feedback": "Goed gedaan! Positieve feedbackloops, tipping points en het albedo-effect zijn complexe processen die bijdragen aan het versterken van klimaatverandering. Ze maken het klimaatsysteem gevoeliger voor veranderingen.",
-          "feedbackWrong": "Niet helemaal correct. Denk aan processen zoals positieve feedbackloops, tipping points en het albedo-effect, die bijdragen aan het versterken van klimaatverandering. Negatieve feedbackmechanismen werken juist stabiliserend."
+          "feedback": "Juist. Permafrost, het smelten van de ijskap en het albedo-effect versterken de opwarming. Opname van CO₂ door oceanen en weerkaatsing door wolken werken juist dempend.",
+          "feedbackWrong": "Niet helemaal. Vraag je per proces af of het de opwarming groter of kleiner maakt. CO₂-opname door oceanen en zonlicht weerkaatsende wolken dempen; permafrost, de smeltende ijskap en het albedo-effect versterken."
         },
         {
           "t": "continue"
         },
         {
           "t": "text",
-          "heading": "Broeikaseffect en Koolstofbudget",
-          "body": "<p>Het broeikaseffect en het koolstofbudget vormen de wetenschappelijke basis voor klimaatbeleid. Begrijp deze concepten om te zien waarom snelle actie nodig is.</p>"
+          "heading": "Broeikaseffect en koolstofbudget",
+          "body": "<p>Het broeikaseffect en het koolstofbudget vormen de wetenschappelijke basis onder het klimaatbeleid. Wie ze begrijpt, ziet waarom snel handelen nodig is.</p>"
         },
         {
           "t": "tabs",
           "items": [
             {
               "title": "Broeikaseffect",
-              "body": "<p>Het broeikaseffect is een natuurlijk proces dat essentieel is voor het leven op aarde. Broeikasgassen zoals koolstofdioxide (CO₂), methaan (CH₄) houden warmte vast in de atmosfeer, waardoor de gemiddelde temperatuur op aarde rond de 15 graden Celsius ligt in plaats van ver onder het vriespunt. Zonder dit natuurlijke evenwicht zou onze planeet te koud zijn om leven mogelijk te maken.</p><p>Door menselijke activiteiten – met name het verbranden van fossiele brandstoffen, industriële productie en grootschalige ontbossing – neemt de concentratie van broeikasgassen echter sterk toe. Hierdoor wordt het broeikaseffect versterkt, wat leidt tot een stijging van de gemiddelde temperatuur op aarde. De gevolgen zijn wereldwijd merkbaar: smeltende ijskappen, stijgende zeespiegels, langere periodes van droogte en hevigere stormen. Deze veranderingen tasten ecosystemen aan, beïnvloeden landbouwproductie en hebben directe gevolgen voor de leefomstandigheden van mensen overal ter wereld.</p>"
+              "body": "<p>Het broeikaseffect is een natuurlijk proces dat leven op aarde mogelijk maakt. Broeikasgassen zoals CO₂ en methaan houden warmte vast in de atmosfeer, waardoor de gemiddelde temperatuur rond de 15 graden ligt in plaats van ver onder nul.</p><p>Door de verbranding van fossiele brandstoffen, industriële productie en grootschalige ontbossing neemt de hoeveelheid broeikasgassen sterk toe. Het broeikaseffect wordt versterkt en de temperatuur stijgt. Dat zie je terug in smeltende ijskappen, een stijgende zeespiegel, langere droogte en zwaardere stormen, met gevolgen voor ecosystemen, landbouw en de leefomstandigheden van mensen overal ter wereld.</p>"
             },
             {
               "title": "Koolstofbudget",
-              "body": "<p>Het koolstofbudget beschrijft de maximale hoeveelheid CO₂ die de mensheid nog kan uitstoten om de opwarming van de aarde te beperken tot een bepaald temperatuurdoel, bijvoorbeeld 1,5°C of 2°C. Dit concept maakt inzichtelijk hoeveel ruimte er nog is binnen de planetaire grenzen en helpt landen, bedrijven en organisaties bij het stellen van concrete reductiedoelen</p><p>.</p><p>Het koolstofbudget onderstreept de urgentie van actie: hoe sneller we blijven uitstoten, hoe kleiner de resterende ruimte wordt en hoe drastischer de toekomstige maatregelen zullen moeten zijn. In de praktijk betekent dit dat we fundamentele keuzes moeten maken over hoe we energie produceren, transporteren en gebruiken. Het dwingt beleidsmakers, bedrijven en burgers om versneld over te stappen op duurzame alternatieven zoals hernieuwbare energie, elektrificatie en circulaire productie. Het koolstofbudget is daarmee niet alleen een wetenschappelijk kader, maar ook een moreel en economisch kompas voor de transitie naar een klimaatneutrale samenleving.</p>"
+              "body": "<p>Het koolstofbudget is de hoeveelheid CO₂ die de mensheid nog kan uitstoten als we de opwarming willen beperken tot een bepaald doel, bijvoorbeeld 1,5 of 2 graden. Het maakt zichtbaar hoeveel ruimte er nog is, en helpt landen, bedrijven en organisaties om concrete reductiedoelen te stellen.</p><p>Die doelen komen uit het Akkoord van Parijs (2015). Daarin spraken bijna alle landen af de opwarming ruim onder de 2 graden te houden en te streven naar 1,5 graad. Ook het aanpassen aan de gevolgen van klimaatverandering is een onderdeel van het akkoord.</p><p>Het koolstofbudget laat de urgentie zien: hoe langer we doorgaan met uitstoten, hoe kleiner de resterende ruimte en hoe drastischer de maatregelen later moeten zijn. Dat dwingt tot fundamentele keuzes over hoe we energie opwekken, vervoeren en gebruiken, en tot een snellere overstap op hernieuwbare energie, elektrificatie en circulaire productie.</p>"
             }
           ]
         },
         {
           "t": "text",
-          "heading": "Sectorale Emissies en Klimaatimpact",
-          "body": "<p>Niet alle sectoren dragen evenveel bij aan klimaatverandering. Ontdek hieronder welke sectoren de grootste rol spelen en waar de kansen liggen voor reductie. Let op dat dit een kwestie is van interpretatie. Welke uitstoot valt onder welke sector en hoe maak je deze arbitraire indeling? Voorbeeld: Ligt de uitstoot van een product bij de consument of bij de productie? Er zijn ook kaarten waarbij 85% gewoon wordt gezien als \"energy\".</p>"
+          "heading": "Uitstoot per sector",
+          "body": "<p>Niet elke sector draagt evenveel bij aan klimaatverandering. Hieronder zie je welke sectoren een grote rol spelen en waar kansen liggen om de uitstoot te verlagen.</p><p>Let op: hoe je uitstoot over sectoren verdeelt, is een keuze. Hoort de uitstoot van een product bij de fabriek, bij de energiecentrale die de stroom leverde, of bij de consument die het koopt? Daarom zie je in verschillende grafieken heel verschillende verdelingen. Er zijn zelfs overzichten waarin zo’n 85 procent simpelweg onder “energie” valt.</p>"
         },
         {
           "t": "accordion",
           "items": [
             {
-              "title": "Energie en Duurzaamheid",
-              "body": "<p>De energiesector is wereldwijd een van de grootste bronnen van broeikasgasemissies. Dit komt voornamelijk door het gebruik van fossiele brandstoffen zoals steenkool, olie en gas voor elektriciteitsopwekking. Naast de milieueffecten heeft dit ook invloed op de volksgezondheid, zoals luchtvervuiling in stedelijke gebieden.</p><p>De overstap naar hernieuwbare energiebronnen zoals zonne- en windenergie is essentieel om emissies te verminderen. Daarnaast kunnen energie-efficiëntie en slimme technologieën, zoals slimme thermostaten en energieopslag, bijdragen aan een duurzamere toekomst. </p>"
+              "title": "Energie en duurzaamheid",
+              "body": "<p>De energiesector is wereldwijd een van de grootste bronnen van broeikasgassen, vooral door stroomopwekking met kolen, olie en gas. Dat veroorzaakt ook luchtvervuiling en gezondheidsschade, vooral in steden.</p><p>De overstap naar zon en wind is daarom cruciaal. Energiebesparing en slimme technologie, zoals slimme thermostaten en opslag, helpen daarbij.</p>"
             },
             {
-              "title": "Industrie en Innovatie",
-              "body": "<p>De industriële sector draagt aanzienlijk bij aan de uitstoot van broeikasgassen, vooral door energie-intensieve processen zoals staal- en cementproductie. Deze sector is echter ook een motor van innovatie, met nieuwe technologieën die de uitstoot kunnen verminderen.</p><p>Door elektrificatie, circulaire economie en het gebruik van alternatieve grondstoffen kan de industrie duurzamer worden. Een voorbeeld hiervan is het gebruik van gerecycled staal of biobased materialen. </p>"
+              "title": "Industrie en innovatie",
+              "body": "<p>De industrie stoot veel uit door energie-intensieve processen, zoals de productie van staal en cement. Tegelijk is de industrie een motor van innovatie.</p><p>Elektrificatie, circulaire productie en andere grondstoffen kunnen de uitstoot verlagen, bijvoorbeeld door gerecycled staal of biobased materialen te gebruiken.</p>"
             },
             {
-              "title": "Landbouw en Voedselproductie",
-              "body": "<p>De landbouwsector veroorzaakt een aanzienlijke uitstoot van methaan en lachgas, voornamelijk door veeteelt en het gebruik van kunstmest. Dit heeft niet alleen impact op het milieu, maar ook op de voedselzekerheid en biodiversiteit.</p><p>Door duurzamere landbouwpraktijken, zoals precisielandbouw en agroforestry, kan de impact worden verminderd. Daarnaast speelt het verminderen van voedselverspilling een cruciale rol. </p>"
+              "title": "Landbouw en voedselproductie",
+              "body": "<p>De landbouw veroorzaakt veel uitstoot van methaan en lachgas, vooral via veeteelt en kunstmest. Dat raakt ook de voedselzekerheid en de biodiversiteit.</p><p>Duurzamere methoden, zoals precisielandbouw en agroforestry, verminderen de impact. Minder voedselverspilling helpt ook.</p>"
             },
             {
-              "title": "Transport en Mobiliteit",
-              "body": "<p>De transportsector is verantwoordelijk voor een groot deel van de wereldwijde CO2-uitstoot. Dit omvat wegverkeer, luchtvaart en scheepvaart, die allemaal bijdragen aan luchtvervuiling en klimaatverandering.</p><p>Elektrische voertuigen, biobrandstoffen en gedeelde mobiliteitsoplossingen zoals carpooling kunnen helpen de uitstoot te verminderen. Daarnaast kunnen steden investeren in fietsvriendelijke infrastructuur en openbaar vervoer. </p>"
+              "title": "Transport en mobiliteit",
+              "body": "<p>Transport, over de weg, door de lucht en over zee, is verantwoordelijk voor een groot deel van de wereldwijde CO₂-uitstoot en voor veel luchtvervuiling.</p><p>Elektrische voertuigen, biobrandstoffen en gedeelde mobiliteit kunnen de uitstoot verlagen, net als investeringen in fietspaden en openbaar vervoer.</p>"
             }
           ]
         },
@@ -1122,23 +1122,23 @@
         },
         {
           "t": "text",
-          "heading": "Tipping Points en Feedbackloops",
-          "body": "<p>Het klimaatsysteem bevat kritische drempels, ook wel tipping points genoemd, waarbij kleine veranderingen kunnen leiden tot grote en onomkeerbare gevolgen. Voorbeelden hiervan zijn het smelten van de ijskappen en het afsterven van het Amazone regenwoud. Daarnaast spelen feedbackloops een belangrijke rol, zoals het albedo-effect waarbij smeltend ijs minder zonlicht weerkaatst en zo verdere opwarming versnelt. </p>"
+          "heading": "Tipping points en feedbackloops",
+          "body": "<p>Het klimaatsysteem kent kritische drempels, tipping points, waarop een kleine verandering grote en onomkeerbare gevolgen kan hebben, zoals het smelten van de ijskappen of het afsterven van het Amazonewoud. Daarnaast spelen feedbackloops een grote rol. Een bekend voorbeeld is het albedo-effect: smeltend ijs weerkaatst minder zonlicht, waardoor het verder opwarmt en er nog meer ijs smelt.</p>"
         },
         {
           "t": "tabs",
           "items": [
             {
               "title": "Tipping Points",
-              "body": "<p>Tipping points, of kantelpunten, zijn kritieke drempels binnen het klimaatsysteem waarbij een kleine verandering grote, vaak onomkeerbare gevolgen kan veroorzaken. Zodra zo’n kantelpunt wordt overschreden, kan een natuurlijk systeem abrupt in een nieuwe toestand terechtkomen die niet eenvoudig te herstellen is. </p><p>Bekende voorbeelden zijn het smelten van de ijskappen op Groenland en Antarctica, het afsterven van het Amazonewoud of het verdwijnen van koraalriffen.</p><p>Wanneer het smelten van de Groenlandse ijskap bijvoorbeeld een bepaald punt bereikt, kan dit een onstuitbaar proces op gang brengen waarbij het ijs niet meer volledig kan terugkeren, zelfs als de temperatuur later daalt. Dit zou leiden tot een aanzienlijke stijging van de zeespiegel en ingrijpende gevolgen hebben voor kustgebieden wereldwijd. Dergelijke tipping points maken het klimaatsysteem complex en deels onvoorspelbaar: kleine, geleidelijke veranderingen kunnen plotseling omslaan in grootschalige verschuivingen.</p>"
+              "body": "<p>Tipping points, of kantelpunten, zijn drempels waarop een kleine verandering grote, vaak onomkeerbare gevolgen heeft. Gaat een systeem over zo’n punt, dan kan het abrupt in een nieuwe toestand terechtkomen die niet makkelijk terug te draaien is.</p><p>Bekende voorbeelden zijn het smelten van de ijskappen op Groenland en Antarctica, het afsterven van het Amazonewoud en het verdwijnen van koraalriffen.</p><p>Bereikt het smelten van de Groenlandse ijskap een bepaald punt, dan kan dat een proces in gang zetten dat niet meer stopt, ook als de temperatuur later weer daalt. Dat zou de zeespiegel flink laten stijgen, met grote gevolgen voor kustgebieden. Kantelpunten maken het klimaat daardoor deels onvoorspelbaar: geleidelijke veranderingen kunnen plotseling omslaan in grote verschuivingen.</p>"
             },
             {
               "title": "Positieve Feedback",
-              "body": "<p>Positieve feedbackmechanismen versterken veranderingen in het klimaatsysteem. Ze werken als een soort versneller: een eerste opwarming veroorzaakt processen die die opwarming nog verder vergroten. Een veelvoorkomend voorbeeld is het ontdooien van permafrost in poolgebieden. Wanneer de bodem ontdooit, komt methaan vrij — een krachtig broeikasgas dat de opwarming verder versnelt. Een ander voorbeeld is het smelten van zee-ijs. IJs weerkaatst zonlicht, maar zodra het smelt, neemt donker oceaanwater de warmte juist op, waardoor de temperatuur verder stijgt.</p><p>Deze zogenaamde <em>feedbackloops</em> kunnen een vicieuze cirkel creëren. Hoe sterker ze worden, hoe moeilijker het wordt om klimaatverandering te beperken. Ze laten zien dat het klimaat niet altijd geleidelijk reageert, maar dat er momenten zijn waarop veranderingen zichzelf versterken en versnellen.</p>"
+              "body": "<p>Positieve feedback versterkt een verandering. Het werkt als een versneller: opwarming zet processen in gang die de opwarming verder vergroten. Ontdooiende permafrost in poolgebieden laat bijvoorbeeld methaan vrijkomen, een krachtig broeikasgas. En als zee-ijs smelt, neemt het donkere zeewater meer warmte op dan het witte ijs deed.</p><p>Zulke feedbackloops kunnen een vicieuze cirkel vormen: hoe sterker ze worden, hoe moeilijker het is om klimaatverandering te beperken. Het klimaat reageert dus niet altijd geleidelijk.</p>"
             },
             {
               "title": "Negatieve Feedback",
-              "body": "<p>Negatieve feedbackmechanismen werken juist stabiliserend: ze dempen veranderingen en helpen het klimaatsysteem in balans te houden. Een voorbeeld is de opname van CO₂ door oceanen en planten, waardoor een deel van de uitstoot tijdelijk wordt gecompenseerd. Ook het ontstaan van extra bewolking bij hogere temperaturen kan soms een licht afkoelend effect hebben, omdat wolken zonlicht weerkaatsen.</p><p>Hoewel negatieve feedback een belangrijk natuurlijk evenwicht bevordert, zijn deze processen in de huidige situatie niet krachtig genoeg om de snelheid en omvang van de menselijke invloed op het klimaat volledig te compenseren. De balans in het klimaatsysteem raakt daardoor steeds verder verstoord, wat de urgentie onderstreept van het verminderen van broeikasgasuitstoot en het versterken van natuurlijke veerkracht.</p>"
+              "body": "<p>Negatieve feedback werkt stabiliserend: het dempt veranderingen. Oceanen en planten nemen bijvoorbeeld een deel van de uitgestoten CO₂ op. Ook extra bewolking bij hogere temperaturen kan soms licht verkoelend werken, omdat wolken zonlicht weerkaatsen.</p><p>Die processen zijn op dit moment niet sterk genoeg om de snelheid en omvang van de menselijke invloed te compenseren. Daarom blijft het nodig de uitstoot te verlagen en de natuurlijke veerkracht te versterken.</p>"
             }
           ]
         },
@@ -1149,35 +1149,35 @@
         },
         {
           "t": "match",
-          "question": "Koppel elk kritisch kantelpunt in het klimaatsysteem aan de bijbehorende beschrijving. Dit helpt je om het belang en de mogelijke gevolgen van deze drempels te begrijpen.",
+          "question": "<p>Koppel elk kantelpunt aan de manier waarop het doorwerkt.</p>",
           "pairs": [
             {
               "left": "Smelten van de Groenlandse ijskap",
-              "right": "Kan een onomkeerbare stijging van de zeespiegel veroorzaken, zelfs als de temperatuur later daalt."
+              "right": "Gaat door, zelfs als de temperatuur later weer daalt, en laat kustgebieden wereldwijd onder druk komen te staan."
             },
             {
               "left": "Afsterven van het Amazonewoud",
-              "right": "Verlies van biodiversiteit en koolstofopslag, wat klimaatverandering verder versnelt."
+              "right": "Een gebied dat nu koolstof opslaat, verliest die functie en gaat zelf bijdragen aan de opwarming."
             },
             {
               "left": "Verdwijnen van koraalriffen",
-              "right": "Leidt tot verlies van mariene ecosystemen en bedreigt voedselzekerheid wereldwijd."
+              "right": "De kraamkamers van veel vissoorten verdwijnen, met gevolgen voor visserij en voedselzekerheid."
             },
             {
               "left": "Ontdooien van permafrost",
-              "right": "Vrijlating van methaan uit de bodem, wat de opwarming van de aarde verder versnelt."
+              "right": "Bevroren bodem komt vrij en laat een krachtig broeikasgas ontsnappen."
             }
           ],
-          "feedback": "Goed gedaan! Je hebt de juiste koppelingen gemaakt. Het smelten van de Groenlandse ijskap kan leiden tot een aanzienlijke stijging van de zeespiegel, wat kustgebieden wereldwijd bedreigt. Het afsterven van het Amazonewoud verstoort de biodiversiteit en vermindert de opslag van koolstof, wat de opwarming versnelt. Het verdwijnen van koraalriffen heeft een grote impact op mariene ecosystemen en bedreigt de voedselzekerheid. Het ontdooien van permafrost zorgt voor de vrijlating van methaan, wat een vicieuze cirkel van opwarming creëert.",
-          "feedbackWrong": "Niet helemaal correct. Denk nog eens goed na over de unieke gevolgen van elk kantelpunt. Het smelten van de Groenlandse ijskap leidt tot een stijging van de zeespiegel. Het afsterven van het Amazonewoud versnelt klimaatverandering door verlies van biodiversiteit en koolstofopslag. Het verdwijnen van koraalriffen bedreigt mariene ecosystemen en voedselzekerheid. Het ontdooien van permafrost veroorzaakt de vrijlating van methaan, wat de opwarming verder versnelt."
+          "feedback": "Goed gekoppeld. Elk kantelpunt heeft een eigen doorwerking: zeespiegelstijging, verlies van koolstofopslag, verlies van ecosystemen of het vrijkomen van methaan. Bij het Amazonewoud en de permafrost versterkt het effect bovendien de opwarming zelf.",
+          "feedbackWrong": "Nog niet alles klopt. Vraag je per kantelpunt af wat er verdwijnt of vrijkomt: landijs, een koolstofopslag, een ecosysteem of een broeikasgas in de bodem."
         },
         {
           "t": "continue"
         },
         {
           "t": "text",
-          "heading": "Energietransitie en Infrastructuur in Nederland",
-          "body": "<p>De Nederlandse energietransitie verloopt in fasen en brengt grote uitdagingen voor infrastructuur met zich mee. Bekijk hieronder de belangrijkste ontwikkelingen en knelpunten.</p>"
+          "heading": "Energietransitie en infrastructuur in Nederland",
+          "body": "<p>De Nederlandse energietransitie verloopt in fasen, en elke fase vraagt iets anders van de infrastructuur.</p>"
         },
         {
           "t": "timeline",
@@ -1206,7 +1206,7 @@
         },
         {
           "t": "text",
-          "body": "<p>Netcongestie is een groeiend probleem in Nederland en heeft invloed op de energietransitie. Door de snelle toename van zonne- en windenergie, gecombineerd met de elektrificatie van industrie en mobiliteit, raakt het elektriciteitsnet op veel plekken overbelast. Dit betekent dat nieuwe bedrijven soms moeten wachten op een aansluiting en dat duurzame projecten vertraging oplopen. </p><p>Om dit probleem aan te pakken, zijn er verschillende oplossingen nodig. Het uitbreiden van het elektriciteitsnet is essentieel, maar dit kost tijd. Daarnaast kan een betere afstemming tussen vraag en aanbod helpen, bijvoorbeeld door gebruik te maken van slimme technologieën. Ook opslag van energie en flexibiliteit in het gebruik spelen een belangrijke rol. </p><p>Wil je meer weten over hoe netcongestie werkt? Kijk het filmpje hieronder (9min).</p>"
+          "body": "<p>Netcongestie is een groeiend probleem. Door de snelle groei van zon en wind en de elektrificatie van industrie en mobiliteit raakt het stroomnet op veel plekken vol. Nieuwe bedrijven moeten soms wachten op een aansluiting, en duurzame projecten lopen vertraging op.</p><p>Het net uitbreiden is nodig, maar kost jaren. Intussen helpen slimmere afstemming van vraag en aanbod, opslag van energie en flexibiliteit in het gebruik. Hoe netcongestie werkt, zie je in de video hieronder (9 minuten).</p>"
         },
         {
           "t": "video",
@@ -1222,33 +1222,66 @@
         },
         {
           "t": "text",
+          "heading": "Klimaatadaptatie: leven met wat al verandert",
+          "body": "<p>Ook als de uitstoot snel daalt, gaat een deel van de klimaatverandering door. Daarom zijn er twee sporen. <strong>Mitigatie</strong> beperkt de uitstoot, zodat de opwarming niet verder toeneemt dan nodig. <strong>Klimaatadaptatie</strong> is je aanpassen aan de gevolgen die al merkbaar of niet meer te voorkomen zijn. Het ene spoor kan niet zonder het andere.</p><p>Nederland is daar extra gevoelig voor. Een groot deel van het land ligt onder zeeniveau, de bodem daalt, en steden zijn dichtbebouwd en versteend. Het Deltaprogramma Ruimtelijke Adaptatie heeft als doel dat Nederland in 2050 klimaatbestendig en waterrobuust is ingericht. Gemeenten, waterschappen en provincies brengen daarvoor met stresstests in kaart waar het kwetsbaar is, en spreken af welke risico’s ze aanvaardbaar vinden en wat ze aanpakken.</p>"
+        },
+        {
+          "t": "accordion",
+          "items": [
+            {
+              "title": "Hitte",
+              "body": "<p>Steden worden bij hitte warmer dan het platteland, omdat steen en asfalt warmte opslaan en ’s nachts weer afgeven. Dat heet het hitte-eilandeffect. Vooral ouderen en mensen met een zwakke gezondheid lopen dan risico.</p><p>Groen, bomen, water en schaduw verkoelen de stad. Een groen dak houdt een gebouw koeler, en een boom in de straat kan de gevoelstemperatuur flink verlagen.</p>"
+            },
+            {
+              "title": "Wateroverlast",
+              "body": "<p>Buien worden heviger. Een versteende stad kan al dat water niet snel genoeg kwijt, waardoor straten en kelders onderlopen.</p><p>De oplossing is water de ruimte geven waar het valt: groene daken die regen vasthouden, wadi’s waarin water langzaam wegzakt, en waterpleinen die bij een bui tijdelijk vollopen. Het Benthemplein in Rotterdam is daarvan een bekend voorbeeld.</p>"
+            },
+            {
+              "title": "Droogte",
+              "body": "<p>Na lange droge periodes zakt het grondwater, verdrogen natuur en landbouwgrond, en kunnen houten funderingen en dijken schade oplopen.</p><p>Het helpt om regenwater vast te houden in plaats van het zo snel mogelijk af te voeren, bijvoorbeeld door het in de bodem te laten infiltreren. Dezelfde maatregelen die wateroverlast tegengaan, kunnen zo ook droogte verzachten.</p>"
+            },
+            {
+              "title": "Zeespiegelstijging en rivieren",
+              "body": "<p>De zeespiegel stijgt en rivieren moeten bij extreme regen meer water afvoeren. Dijken verhogen alleen is daarvoor niet genoeg.</p><p>Met het programma Ruimte voor de Rivier kregen rivieren op tientallen plekken meer ruimte, zoals bij Nijmegen, waar een nevengeul in de Waal werd gegraven. Zo kan het water bij hoogwater veilig weg.</p>"
+            }
+          ]
+        },
+        {
+          "t": "text",
+          "body": "<p>Ook bij adaptatie helpt systeemdenken. Een maatregel die één probleem oplost, kan elders een nieuw probleem veroorzaken. Overal airconditioning plaatsen helpt tegen hitte, maar vraagt veel extra stroom, en vergroot zo de netcongestie en de uitstoot. Dat heet maladaptatie. Groen en water in de stad doen het omgekeerde: ze vangen hevige buien op, houden water vast voor droge periodes, verkoelen de buurt en zijn goed voor de biodiversiteit.</p>"
+        },
+        {
+          "t": "continue"
+        },
+        {
+          "t": "text",
           "heading": "Kennisvragen",
-          "body": "<p>Test je kennis en reflecteer op wat je hebt geleerd. De volgende vragen helpen je om de kernconcepten uit deze les te herhalen en toe te passen op actuele uitdagingen.</p>"
+          "body": "<p>Vier vragen om de stof toe te passen. Ze gaan over oorzaken, cijfers, het stroomnet en aanpassing aan klimaatverandering.</p>"
         },
         {
           "t": "quiz",
           "multi": false,
-          "question": "Welke processen dragen het meest bij aan de toename van broeikasgassen in de atmosfeer en hoe beïnvloeden deze het klimaat?",
+          "question": "<p>Wat is de belangrijkste oorzaak van de toename van broeikasgassen sinds de industriële revolutie?</p>",
           "options": [
             {
-              "text": "Verbranding van fossiele brandstoffen en ontbossing.",
+              "text": "Meer waterdamp door verdamping, omdat waterdamp het grootste aandeel heeft in het broeikaseffect.",
+              "correct": false,
+              "feedback": "Waterdamp is inderdaad een belangrijk broeikasgas, maar de toename is een gevolg van de opwarming, geen oorzaak. Het werkt als een versterkende terugkoppeling."
+            },
+            {
+              "text": "Verbranding van fossiele brandstoffen en ontbossing, waardoor er meer CO₂ bij komt en minder wordt opgenomen.",
               "correct": true,
-              "feedback": "Juist! Verbranding van fossiele brandstoffen zoals olie, kolen en gas produceert grote hoeveelheden CO2. Ontbossing vermindert de opname van CO2 door bomen, wat de concentratie in de atmosfeer verhoogt."
+              "feedback": "Juist. Fossiele brandstoffen brengen koolstof in de lucht die miljoenen jaren in de bodem zat, en ontbossing haalt de bomen weg die CO₂ opnamen."
             },
             {
-              "text": "Natuurlijke vulkaanuitbarstingen en zonneactiviteit.",
+              "text": "Vulkaanuitbarstingen en een actievere zon, die samen voor de grootste natuurlijke schommelingen zorgen.",
               "correct": false,
-              "feedback": "Hoewel vulkanen en zonneactiviteit invloed hebben, zijn hun bijdragen klein in vergelijking met menselijke activiteiten zoals fossiele brandstoffen en ontbossing."
+              "feedback": "Vulkanen en de zon beïnvloeden het klimaat, maar hun bijdrage aan de huidige opwarming is klein vergeleken met die van menselijke activiteiten."
             },
             {
-              "text": "Toename van waterdamp door verdamping.",
+              "text": "Het smelten van ijskappen, waardoor er minder zonlicht wordt weerkaatst en de aarde verder opwarmt.",
               "correct": false,
-              "feedback": "Waterdamp is een belangrijk broeikasgas, maar de toename ervan is een gevolg van opwarming door andere broeikasgassen, niet de primaire oorzaak."
-            },
-            {
-              "text": "Afname van oceaanstromingen door klimaatverandering.",
-              "correct": false,
-              "feedback": "Afname van oceaanstromingen kan het klimaat beïnvloeden, maar het is een gevolg van klimaatverandering, niet de belangrijkste oorzaak van het versterkte broeikaseffect."
+              "feedback": "Dit is het albedo-effect: een terugkoppeling die opwarming versterkt. Het verklaart niet waarom er meer broeikasgassen in de lucht zitten."
             }
           ],
           "feedback": ""
@@ -1256,27 +1289,27 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "Welke sector is verantwoordelijk voor het grootste aandeel van de broeikasgasemissies in Nederland?",
+          "question": "<p>Waarom geven grafieken over uitstoot per sector soms heel verschillende uitkomsten?</p>",
           "options": [
             {
-              "text": "Landbouw",
+              "text": "Omdat elk land met andere meetapparatuur werkt, waardoor de cijfers niet goed te vergelijken zijn.",
               "correct": false,
-              "feedback": "Landbouw is belangrijk, maar niet de grootste bron van emissies."
+              "feedback": "Er zijn internationale afspraken over hoe uitstoot wordt berekend. Het verschil zit vooral in hoe je de uitstoot daarna over sectoren verdeelt."
             },
             {
-              "text": "Energie",
+              "text": "Omdat sommige sectoren hun uitstoot niet hoeven te melden, waardoor ze buiten de grafieken vallen.",
+              "correct": false,
+              "feedback": "Ontbrekende gegevens kunnen een rol spelen, maar de grote verschillen komen door de keuze hoe je uitstoot toerekent."
+            },
+            {
+              "text": "Omdat alleen CO₂ wordt meegeteld, en gassen als methaan en lachgas buiten beschouwing blijven.",
+              "correct": false,
+              "feedback": "De meeste overzichten rekenen methaan en lachgas juist om naar CO₂-equivalenten. Dat verklaart de verschillen dus niet."
+            },
+            {
+              "text": "Omdat de indeling een keuze is: telt uitstoot bij de fabriek, de energiecentrale of de consument?",
               "correct": true,
-              "feedback": "Correct! De energiesector is de grootste bron van broeikasgasemissies in Nederland."
-            },
-            {
-              "text": "Transport",
-              "correct": false,
-              "feedback": "Transport draagt bij, maar is niet de grootste bron."
-            },
-            {
-              "text": "Bouw",
-              "correct": false,
-              "feedback": "De bouwsector is niet de grootste bron van emissies."
+              "feedback": "Juist. Dezelfde uitstoot kan bij de stroomopwekking, bij de industrie die de stroom gebruikt, of bij de consument van het product worden geteld. Daarom zegt een sectorgrafiek ook iets over de keuzes van de maker."
             }
           ],
           "feedback": ""
@@ -1284,27 +1317,55 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "Een gemeente wil een nieuwe woonwijk bouwen, maar stuit op netcongestie. Welke oplossing draagt het meest bij aan het verminderen van netcongestie?",
+          "question": "<p>Een gemeente wil een nieuwe woonwijk bouwen, maar het stroomnet zit vol. Welke aanpak helpt het meest om de wijk toch aan te sluiten?</p>",
           "options": [
             {
-              "text": "Wachten op netuitbreiding.",
+              "text": "Wachten tot de netbeheerder het net heeft verzwaard, omdat alleen een zwaarder net het probleem echt oplost.",
               "correct": false,
-              "feedback": "Dit lost het probleem niet direct op en zorgt voor vertraging."
+              "feedback": "Netuitbreiding is nodig, maar duurt vaak jaren. In de tussentijd kan het bestaande net slimmer worden gebruikt."
             },
             {
-              "text": "Lokale batterijopslag inzetten.",
+              "text": "Lokale opslag en slimme sturing inzetten, zodat opwek en verbruik in de wijk beter op elkaar aansluiten.",
               "correct": true,
-              "feedback": "Juist! Lokale opslag helpt pieken op te vangen en het net te ontlasten."
+              "feedback": "Juist. Door pieken op te vangen en verbruik te verschuiven naar momenten met ruimte op het net, kan het bestaande net meer aan."
             },
             {
-              "text": "Minder woningen bouwen.",
+              "text": "Alle woningen voorzien van zoveel mogelijk zonnepanelen, zodat de wijk zelf genoeg stroom opwekt.",
               "correct": false,
-              "feedback": "Dit beperkt de groei, maar lost het netprobleem niet structureel op."
+              "feedback": "Zonder opslag of sturing leveren al die panelen op zonnige middagen tegelijk terug. Dat vergroot de piek op het net juist."
             },
             {
-              "text": "Niets doen en hopen op verbetering.",
+              "text": "De woningen op aardgas aansluiten in plaats van op warmtepompen, zodat er minder stroom nodig is.",
               "correct": false,
-              "feedback": "Actie is nodig om netcongestie aan te pakken."
+              "feedback": "Dat ontlast het net op korte termijn, maar legt een fossiele keuze voor tientallen jaren vast. Dat is een lock-in, het tegenovergestelde van de energietransitie."
+            }
+          ],
+          "feedback": ""
+        },
+        {
+          "t": "quiz",
+          "multi": false,
+          "question": "<p>Een gemeente heeft steeds vaker last van hittegolven én van hevige buien. Welke maatregel is klimaatadaptatie die meerdere problemen tegelijk aanpakt?</p>",
+          "options": [
+            {
+              "text": "Airconditioning in alle openbare gebouwen, zodat inwoners tijdens hittegolven ergens kunnen afkoelen.",
+              "correct": false,
+              "feedback": "Dit helpt tegen hitte, maar alleen tegen hitte. Bovendien vraagt het veel extra stroom, wat netcongestie en uitstoot vergroot. Dat heet maladaptatie: een aanpassing die elders het probleem verergert."
+            },
+            {
+              "text": "Versteende pleinen vervangen door groen en een waterplein, dat regen opvangt en de buurt koeler houdt.",
+              "correct": true,
+              "feedback": "Juist. Groen en water vangen hevige buien op, houden water vast voor droge periodes en verkoelen de buurt. Eén maatregel, meerdere problemen."
+            },
+            {
+              "text": "Het riool overal verdubbelen, zodat al het regenwater van extreme buien direct kan worden afgevoerd.",
+              "correct": false,
+              "feedback": "Dit helpt tegen wateroverlast, maar is duur en voert water af dat je in droge periodes juist nodig hebt. Tegen hitte doet het niets."
+            },
+            {
+              "text": "Op alle gemeentelijke daken zonnepanelen leggen, zodat de gemeente minder CO₂ uitstoot.",
+              "correct": false,
+              "feedback": "Dit is mitigatie: de uitstoot verlagen. Dat is belangrijk, maar het beschermt de buurt niet tegen hitte en hevige buien die nu al komen."
             }
           ],
           "feedback": ""
@@ -1314,8 +1375,8 @@
         },
         {
           "t": "text",
-          "heading": "Samenvatting & Vooruitblik",
-          "body": "<p>Je hebt geleerd hoe het broeikaseffect werkt, wat het koolstofbudget betekent, en welke sectoren de grootste impact hebben op het klimaat. Ook heb je inzicht gekregen in tipping points, infrastructuuruitdagingen en de casus netcongestie. In de volgende les onderzoeken we hoe bedrijven meervoudige waarde kunnen creëren en sturen op duurzaamheid. Denk alvast na over jouw rol in het versnellen van de energietransitie en het oplossen van infrastructuuruitdagingen.</p>"
+          "heading": "Samenvatting & vooruitblik",
+          "body": "<p>Je hebt gezien hoe het broeikaseffect werkt, wat het koolstofbudget betekent en welke afspraken landen in Parijs maakten. Je weet welke sectoren veel uitstoten, en dat de verdeling over sectoren een keuze is. Tipping points en feedbackloops maken het klimaat deels onvoorspelbaar. De energietransitie verlaagt de uitstoot, maar zet het stroomnet onder druk. En omdat een deel van de gevolgen al onvermijdelijk is, is ook klimaatadaptatie nodig: steden en regio’s inrichten op hitte, droogte en water. In de volgende module kijk je hoe bedrijven meervoudige waarde creëren en sturen op duurzaamheid.</p>"
         }
       ]
     },

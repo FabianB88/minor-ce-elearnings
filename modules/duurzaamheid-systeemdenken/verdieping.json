@@ -338,6 +338,14 @@
    "herkomst": "aangevuld"
   },
   {
+   "id": "klimaatadaptatie",
+   "les": "m4",
+   "naam": "Klimaatadaptatie",
+   "def": "Je aanpassen aan de gevolgen van klimaatverandering die al merkbaar of niet meer te voorkomen zijn, zoals hitte, droogte, wateroverlast en zeespiegelstijging. Het vult mitigatie aan: het beperken van de uitstoot zelf.",
+   "vb": "Een gemeente vervangt een versteend plein door groen en een waterplein, dat regen opvangt en de buurt koeler houdt.",
+   "herkomst": "aangevuld"
+  },
+  {
    "id": "zes-kapitalen",
    "les": "m5",
    "naam": "Zes kapitalen",
@@ -1589,6 +1597,32 @@
    "rel": "is een voorbeeld van",
    "uitleg": "De les noemt markten die vastlopen in een lock-in als voorbeeld van emergent gedrag.",
    "herkomst": "aangevuld"
+  },
+  {
+   "a": "klimaatadaptatie",
+   "b": "energietransitie",
+   "type": "S",
+   "rel": "vult aan",
+   "uitleg": "De energietransitie beperkt verdere opwarming (mitigatie); klimaatadaptatie bereidt de samenleving voor op de gevolgen die al onvermijdelijk zijn. Beide sporen zijn nodig.",
+   "herkomst": "aangevuld"
+  },
+  {
+   "a": "tipping-point",
+   "b": "klimaatadaptatie",
+   "type": "O",
+   "rel": "maakt dringender",
+   "uitleg": "Hoe dichter het klimaat bij kantelpunten komt, zoals het smelten van de Groenlandse ijskap, hoe groter de gevolgen waarop we ons moeten voorbereiden, zoals zeespiegelstijging.",
+   "herkomst": "aangevuld",
+   "vraag": false
+  },
+  {
+   "a": "klimaatadaptatie",
+   "b": "netcongestie",
+   "type": "S",
+   "rel": "kan botsen met",
+   "uitleg": "Een aanpassing als overal airconditioning plaatsen vraagt extra stroom en kan zo netcongestie en uitstoot vergroten. Daarom gaat de voorkeur uit naar maatregelen die meerdere problemen tegelijk oplossen, zoals groen en water in de stad.",
+   "herkomst": "aangevuld",
+   "vraag": false
   }
  ],
  "extern": [
@@ -1722,10 +1756,11 @@
   ],
   "m4": [
    "Deze module verbindt de natuurkunde van klimaatverandering met de praktijk van infrastructuur. De basis is het broeikaseffect: gassen in de atmosfeer, zoals koolstofdioxide, methaan en lachgas, houden warmte vast en maken de aarde zo bewoonbaar. Door menselijke activiteiten, zoals de verbranding van fossiele brandstoffen, ontbossing en intensieve landbouw, neemt de concentratie van die gassen sterk toe. Dat versterkte broeikaseffect zorgt voor opwarming.",
-   "Het koolstofbudget beschrijft hoeveel CO2 de mensheid nog mag uitstoten om de opwarming te beperken tot een bepaald doel, bijvoorbeeld anderhalf of twee graden. Hoe sneller we blijven uitstoten, hoe sneller dat budget op is. Daarom is snelle actie nodig.",
+   "Het koolstofbudget beschrijft hoeveel CO2 de mensheid nog mag uitstoten om de opwarming te beperken tot een bepaald doel, bijvoorbeeld anderhalf of twee graden. Hoe sneller we blijven uitstoten, hoe sneller dat budget op is. In het Akkoord van Parijs van 2015 spraken bijna alle landen af de opwarming ruim onder de twee graden te houden en te streven naar anderhalve graad. Daarom is snelle actie nodig.",
    "Niet elke sector draagt evenveel bij. De energiesector is wereldwijd een van de grootste bronnen van broeikasgassen; de overstap naar zon en wind is daar essentieel. De industrie stoot veel uit door energie-intensieve processen zoals staal- en cementproductie, en kan duurzamer worden door elektrificatie, circulaire economie en alternatieve grondstoffen. De landbouw veroorzaakt veel methaan en lachgas, vooral door veeteelt en kunstmest; precisielandbouw en agroforestry kunnen helpen. En in transport en mobiliteit helpen elektrische voertuigen, biobrandstoffen en gedeelde mobiliteit om de uitstoot te verlagen.",
    "Het klimaatsysteem kent ook kritische drempels, tipping points of kantelpunten. Daar kan een kleine verandering grote en vaak onomkeerbare gevolgen hebben, zoals het smelten van de ijskappen op Groenland en Antarctica of het afsterven van het Amazonewoud. Positieve feedbackloops werken als een versneller: opwarming zet processen in gang die de opwarming verder vergroten. Ontdooiende permafrost laat bijvoorbeeld methaan vrij, en smeltend ijs weerkaatst minder zonlicht, het albedo-effect. Negatieve feedbackloops werken juist stabiliserend, maar zijn op dit moment niet krachtig genoeg om de opwarming te compenseren.",
    "Het tweede deel van de module gaat over de Nederlandse energietransitie. Die begon met het stimuleren van wind- en zonne-energie en minder steenkool, en versnelde met grote windparken op zee en zonnepanelen op daken. Daardoor, en door de elektrificatie van industrie en mobiliteit, raakt het elektriciteitsnet op veel plekken vol. Die netcongestie zorgt voor wachtrijen voor nieuwe aansluitingen en remt de transitie af. Er wordt gewerkt aan netuitbreiding, slimme sturing van de vraag en opslag.",
+   "Omdat een deel van de gevolgen al onvermijdelijk is, is naast mitigatie ook klimaatadaptatie nodig: je aanpassen aan wat al verandert. Nederland is daar extra gevoelig voor, met veel land onder zeeniveau, dalende bodem en versteende steden. Het Deltaprogramma Ruimtelijke Adaptatie wil dat Nederland in 2050 klimaatbestendig en waterrobuust is ingericht. Denk aan groen en bomen tegen het hitte-eilandeffect, waterpleinen en wadi's tegen wateroverlast, regenwater vasthouden tegen droogte, en Ruimte voor de Rivier, zoals de nevengeul in de Waal bij Nijmegen. Ook hier helpt systeemdenken: overal airconditioning plaatsen helpt tegen hitte, maar vergroot de netcongestie en de uitstoot. Groen en water lossen juist meerdere problemen tegelijk op.",
    "De boodschap van deze module: de energietransitie vraagt niet alleen om nieuwe technologie, maar vooral om systeemdenken en samenwerking."
   ],
   "m5": [
@@ -1786,7 +1821,7 @@
    "datum": "2026-10-28"
   },
   "m4": {
-   "vinger": "f66dcf43f69a",
+   "vinger": "f186c3144246",
    "datum": "2026-10-28"
   },
   "m5": {
