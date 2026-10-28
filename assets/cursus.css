@@ -303,6 +303,9 @@ body.cursus {
 }
 .segment:first-child .blok:first-child h2 { margin-top: 0; }
 
+/* Lange woorden en links breken af als ze niet passen, in plaats van uit te steken. */
+.lezer { overflow-wrap: break-word; }
+
 .blok p, .blok li {
   font-size: 1.02rem;
   line-height: 1.75;
@@ -762,6 +765,7 @@ figure.schema figcaption {
   transition: opacity 0.2s ease;
 }
 .kaartje p { margin: 0; }
+.kaartje > div > div { max-width: 100%; overflow-wrap: anywhere; }
 .kaartje .voorkant { font-weight: 600; font-size: 1rem; }
 .kaartje .achterkant { font-size: 0.88rem; line-height: 1.55; opacity: 0; visibility: hidden; }
 .kaartje[aria-pressed="true"] { background: var(--go-groen-licht); border-color: var(--go-groen-medium); }

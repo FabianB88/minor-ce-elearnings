@@ -357,8 +357,14 @@
           kaartje.setAttribute('role', 'button');
           kaartje.tabIndex = 0;
           kaartje.setAttribute('aria-pressed', 'false');
-          kaartje.appendChild(html('div', 'voorkant', k.front));
-          kaartje.appendChild(html('div', 'achterkant', k.back));
+          /* De inhoud in één binnenblok, anders worden losse woorden, vet en
+             regeleinden elk een eigen flex-element en lopen ze door elkaar. */
+          var voor = el('div', 'voorkant');
+          voor.appendChild(html('div', null, k.front));
+          var achter = el('div', 'achterkant');
+          achter.appendChild(html('div', null, k.back));
+          kaartje.appendChild(voor);
+          kaartje.appendChild(achter);
           var draai = function () {
             kaartje.setAttribute('aria-pressed', kaartje.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
           };

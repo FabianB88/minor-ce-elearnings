@@ -328,7 +328,19 @@ button.chip { border: 0; font-family: inherit; cursor: pointer; }
 }
 .groei-kop strong { font-size: 1rem; font-weight: 600; }
 .groei-kop span { font-size: 0.8rem; color: var(--go-tekst-2); }
-.groei svg { display: block; width: 100%; height: auto; min-height: 260px; max-height: 480px; background: var(--go-vlak); }
+.groei-vlak { position: relative; }
+.groei svg { display: block; width: 100%; height: 380px; background: var(--go-vlak); touch-action: pan-y; cursor: grab; }
+.groei svg:active { cursor: grabbing; }
+.groei-zoom { top: 0.5rem; right: 0.5rem; }
+/* volledig scherm: de browserfunctie, of over de hele pagina als die niet mag */
+.groei:fullscreen, .groei.vol { display: flex; flex-direction: column; margin: 0; border-radius: 0; overflow: auto; background: var(--go-kaart); }
+.groei.vol { position: fixed; inset: 0; z-index: 1000; border: 0; }
+.groei:fullscreen .groei-vlak, .groei.vol .groei-vlak { flex: 1 1 auto; min-height: 0; display: flex; }
+.groei:fullscreen svg, .groei.vol svg { flex: 1 1 auto; height: auto; min-height: 240px; touch-action: none; }
+.groei:fullscreen .groei-tekst, .groei.vol .groei-tekst { flex: 0 0 auto; min-height: 0; max-height: 30vh; overflow: auto; }
+@media (max-width: 640px) {
+  .groei svg { height: 300px; }
+}
 .groei-tekst { padding: 0.9rem var(--binnen) 0.2rem; min-height: 5.2rem; font-size: 0.93rem; line-height: 1.6; color: var(--go-tekst-3); }
 .groei-tekst p { margin: 0 0 0.4rem; }
 .groei-naam { font-weight: 600; color: var(--go-tekst); }

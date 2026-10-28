@@ -366,47 +366,147 @@
       kop.appendChild(el('span', null, nieuw.length + ' nieuwe begrippen · ' + verbindingen + ' verbanden' + (eerder.length ? ', ook met wat je al kende' : '')));
       blok.appendChild(kop);
 
-      /* Ingezoomd op de nieuwe begrippen. Eerdere begrippen die ermee verbonden
-         zijn maar buiten beeld vallen, staan aan de rand, in hun richting, zodat
-         elke nieuwe lijn op een zichtbaar en aanklikbaar begrip eindigt. */
-      var svg = kaartSvg(eerder.concat(nieuw), { klein: true, focus: nieuw, marge: 120 });
-      svg.el.style.aspectRatio = svg.vak[2] + ' / ' + svg.vak[3];
-      var vak = svg.vak;
-      var x0 = vak[0] + 24, y0 = vak[1] + 26, x1 = vak[0] + vak[2] - 24, y1 = vak[1] + vak[3] - 16;
-      var cx = 0, cy = 0;
-      nieuw.forEach(function (b) { var p = ind.pos[ind.index[b.id]]; cx += p.x / nieuw.length; cy += p.y / nieuw.length; });
-      var naarRand = {};
+      /* De kaart bevat alles wat je kent en beweegt mee: bij elke stap zoomt ze
+         in op het nieuwe begrip en de begrippen waarmee het verbonden is, zodat
+         niets buiten beeld valt. Je kunt ook zelf zoomen en slepen, en de kaart
+         op volledig scherm zetten. */
+      var svg = kaartSvg(eerder.concat(nieuw), { klein: true, focus: nieuw, marge: 90 });
+      var vlak = el('div', 'groei-vlak');
+      vlak.appendChild(svg.el);
+      blok.appendChild(vlak);
+
+      var vb = svg.vak.slice(), anim = null, eind = null, focus = [];
+      var rustig = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      function zetVb(v) { vb = v; svg.el.setAttribute('viewBox', v.join(' ')); }
+      function naar(doel) {
+        if (anim) cancelAnimationFrame(anim);
+        anim = null;
+        clearTimeout(eind);
+        if (rustig || document.hidden) { zetVb(doel); return; }
+        /* Pauzeert de browser de animatie, bijvoorbeeld in een tabblad op de
+           achtergrond, dan staat de kaart daarna toch op de goede plek. */
+        eind = setTimeout(function () { if (anim) cancelAnimationFrame(anim); anim = null; zetVb(doel); }, 650);
+        var van = vb.slice(), t0 = null;
+        function stap(t) {
+          if (t0 === null) t0 = t;
+          var f = Math.min(1, (t - t0) / 500);
+          f = f < 0.5 ? 2 * f * f : 1 - Math.pow(-2 * f + 2, 2) / 2;
+          zetVb(van.map(function (x, i) { return x + (doel[i] - x) * f; }));
+          anim = f < 1 ? requestAnimationFrame(stap) : null;
+        }
+        anim = requestAnimationFrame(stap);
+      }
+      /* Het kader rond een groep begrippen, met ruimte voor de labels en in de
+         verhouding van de kaart op het scherm. */
+      function kader(ids) {
+        var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+        ids.forEach(function (id) {
+          var p = ind.pos[ind.index[id]];
+          if (!p) return;
+          minX = Math.min(minX, p.x); maxX = Math.max(maxX, p.x);
+          minY = Math.min(minY, p.y); maxY = Math.max(maxY, p.y);
+        });
+        if (minX === Infinity) return vb.slice();
+        minX -= 110; maxX += 110; minY -= 55; maxY += 40;
+        var w = Math.max(380, maxX - minX), h = Math.max(240, maxY - minY);
+        var bw = svg.el.clientWidth, bh = svg.el.clientHeight;
+        var r = bw && bh ? bw / bh : 1.9;
+        if (w / h < r) w = h * r; else h = w / r;
+        var mx = (minX + maxX) / 2, my = (minY + maxY) / 2;
+        return [mx - w / 2, my - h / 2, w, h];
+      }
+      function kijk(ids) { focus = ids; naar(kader(ids)); }
+      var verbondenEerder = [];
       nieuw.forEach(function (b) {
         buren[b.id].forEach(function (n) {
-          var id = ander(verbanden[n], b.id);
-          if (lesNr[perId[id].les] >= k || naarRand[id]) return;
-          var p = ind.pos[ind.index[id]];
-          if (p.x >= x0 && p.x <= x1 && p.y >= y0 && p.y <= y1) return;
-          var dx = p.x - cx, dy = p.y - cy, t = 1;
-          if (dx > 0) t = Math.min(t, (x1 - cx) / dx);
-          if (dx < 0) t = Math.min(t, (x0 - cx) / dx);
-          if (dy > 0) t = Math.min(t, (y1 - cy) / dy);
-          if (dy < 0) t = Math.min(t, (y0 - cy) / dy);
-          naarRand[id] = { x: cx + dx * t, y: cy + dy * t };
+          var o = ander(verbanden[n], b.id);
+          if (lesNr[perId[o].les] < k && verbondenEerder.indexOf(o) < 0) verbondenEerder.push(o);
         });
       });
-      Object.keys(naarRand).forEach(function (id) {
-        var q = naarRand[id];
-        var g = svg.knoop[id];
-        g.setAttribute('transform', 'translate(' + q.x + ' ' + q.y + ')');
-        /* Het label loopt de kaart in, niet eruit. */
-        var t = g.querySelector('text');
-        if (q.x <= x0 + 1) { t.setAttribute('text-anchor', 'start'); t.setAttribute('x', -6); }
-        else if (q.x >= x1 - 1) { t.setAttribute('text-anchor', 'end'); t.setAttribute('x', 6); }
-        if (q.y <= y0 + 1) t.setAttribute('y', 22);
-        verbanden.forEach(function (v, n) {
-          var l = svg.lijn[n];
-          if (!l) return;
-          if (v.a === id) { l.setAttribute('x1', q.x); l.setAttribute('y1', q.y); }
-          if (v.b === id) { l.setAttribute('x2', q.x); l.setAttribute('y2', q.y); }
-        });
+      function overzicht() { return nieuw.map(function (b) { return b.id; }).concat(verbondenEerder); }
+      /* buren van een begrip die op dit moment op de kaart staan */
+      function zichtbareBuren(id) {
+        return buren[id].map(function (n) { return ander(verbanden[n], id); })
+          .filter(function (o) { return svg.knoop[o] && !svg.knoop[o].classList.contains('weg'); });
+      }
+
+      var bediening = el('div', 'kaart-zoom groei-zoom');
+      function knop(tekst, label, actie) {
+        var b = el('button', null, tekst);
+        b.type = 'button';
+        b.title = label;
+        b.setAttribute('aria-label', label);
+        b.addEventListener('click', actie);
+        bediening.appendChild(b);
+        return b;
+      }
+      function schaal(f) {
+        var mx = vb[0] + vb[2] / 2, my = vb[1] + vb[3] / 2;
+        naar([mx - vb[2] * f / 2, my - vb[3] * f / 2, vb[2] * f, vb[3] * f]);
+      }
+      knop('+', 'Inzoomen', function () { schaal(0.7); });
+      knop('−', 'Uitzoomen', function () { schaal(1 / 0.7); });
+      knop('⤢', 'Alle nieuwe begrippen in beeld', function () { kijk(overzicht()); });
+      var volKnop = knop('⛶', 'Volledig scherm', wisselVol);
+      vlak.appendChild(bediening);
+
+      /* Slepen met de muis, en op volledig scherm ook met een vinger. */
+      var sleep = null;
+      svg.el.addEventListener('pointerdown', function (e) {
+        if (e.target.closest && e.target.closest('.knoop')) return;
+        if (e.pointerType !== 'mouse' && !isVol()) return;
+        if (anim) { cancelAnimationFrame(anim); anim = null; }
+        clearTimeout(eind);
+        sleep = { x: e.clientX, y: e.clientY, vb: vb.slice() };
       });
-      blok.appendChild(svg.el);
+      svg.el.addEventListener('pointermove', function (e) {
+        if (!sleep) return;
+        var f = vb[2] / (svg.el.clientWidth || 1);
+        zetVb([sleep.vb[0] - (e.clientX - sleep.x) * f, sleep.vb[1] - (e.clientY - sleep.y) * f, vb[2], vb[3]]);
+      });
+      svg.el.addEventListener('pointerup', function () { sleep = null; });
+      svg.el.addEventListener('pointerleave', function () { sleep = null; });
+      svg.el.addEventListener('wheel', function (e) {
+        if (!isVol()) return;
+        e.preventDefault();
+        schaal(e.deltaY > 0 ? 1.15 : 1 / 1.15);
+      }, { passive: false });
+
+      function isVol() { return document.fullscreenElement === blok || blok.classList.contains('vol'); }
+      function naVol() {
+        volKnop.textContent = isVol() ? '✕' : '⛶';
+        volKnop.title = isVol() ? 'Volledig scherm sluiten' : 'Volledig scherm';
+        volKnop.setAttribute('aria-label', volKnop.title);
+        setTimeout(function () { naar(kader(focus.length ? focus : overzicht())); }, 60);
+      }
+      /* Over de hele pagina, als echt volledig scherm niet mag. De kaart gaat dan
+         tijdelijk naar het hoogste niveau van de pagina, omdat een animatie van
+         een ouder anders bepaalt waar "vast op het scherm" begint. */
+      var plek = null;
+      function overPagina(aan) {
+        if (aan) {
+          plek = document.createComment('jouw kaart groeit');
+          blok.parentNode.insertBefore(plek, blok);
+          document.body.appendChild(blok);
+          blok.classList.add('vol');
+        } else {
+          blok.classList.remove('vol');
+          if (plek && plek.parentNode) { plek.parentNode.insertBefore(blok, plek); plek.parentNode.removeChild(plek); }
+          plek = null;
+        }
+        naVol();
+      }
+      /* Echt volledig scherm waar de browser dat toestaat, anders over de hele pagina. */
+      function wisselVol() {
+        if (document.fullscreenElement === blok) { document.exitFullscreen(); return; }
+        if (blok.classList.contains('vol')) { overPagina(false); return; }
+        if (blok.requestFullscreen && document.fullscreenEnabled) {
+          blok.requestFullscreen().catch(function () { overPagina(true); });
+        } else overPagina(true);
+      }
+      document.addEventListener('fullscreenchange', naVol);
+      blok.addEventListener('keydown', function (e) { if (e.key === 'Escape' && blok.classList.contains('vol')) overPagina(false); });
+      window.addEventListener('resize', function () { if (blok.isConnected) zetVb(kader(focus.length ? focus : overzicht())); });
       eerder.forEach(function (b) { svg.knoop[b.id].classList.add('oud'); });
       nieuw.forEach(function (b) { svg.knoop[b.id].classList.add('weg'); });
       verbanden.forEach(function (v, n) {
@@ -445,6 +545,7 @@
           tekst.appendChild(el('p', null, eerder.length
             ? 'In grijs zie je de begrippen die je al kent. Speel af om de ' + nieuw.length + ' begrippen van deze module erbij te zien komen.'
             : 'Dit wordt het begin van je kaart. Speel af om de ' + nieuw.length + ' begrippen van deze module te zien verschijnen.'));
+          kijk(overzicht());
           return;
         }
         var st2 = stappen[j];
@@ -464,11 +565,19 @@
           tekst.appendChild(el('p', 'groei-naam', verbandZin(v)));
           tekst.appendChild(el('p', null, v.uitleg));
         }
+        /* de camera volgt de stap; aan het eind het overzicht van de module */
+        if (j === stappen.length - 1) kijk(overzicht());
+        else if (st2.t === 'groep') {
+          var ids = st2.bs.map(function (x) { return x.id; });
+          st2.ns.forEach(function (n) { ids.push(verbanden[n].a, verbanden[n].b); });
+          kijk(ids);
+        } else if (st2.t === 'begrip') kijk([st2.b.id].concat(zichtbareBuren(st2.b.id)));
+        else kijk([verbanden[st2.n].a, verbanden[st2.n].b]);
         if (j === stappen.length - 1) {
-          var naar = el('button', 'tekstknop', 'Bekijk je hele kaart');
-          naar.type = 'button';
-          naar.addEventListener('click', function () { toon('kaart'); });
-          tekst.appendChild(naar);
+          var heleKaart = el('button', 'tekstknop', 'Bekijk je hele kaart');
+          heleKaart.type = 'button';
+          heleKaart.addEventListener('click', function () { toon('kaart'); });
+          tekst.appendChild(heleKaart);
         }
       }
       var speler = stapSpeler({ stappen: stappen, toon: toonStap, tekst: zinVan });
@@ -495,10 +604,11 @@
           zinnen.forEach(function (z) { ul.appendChild(el('li', null, z)); });
           tekst.appendChild(ul);
         }
-        var naar = el('button', 'tekstknop', 'Bekijk dit begrip op je hele kaart');
-        naar.type = 'button';
-        naar.addEventListener('click', function () { toon('kaart', b.id); });
-        tekst.appendChild(naar);
+        var naarKaart = el('button', 'tekstknop', 'Bekijk dit begrip op je hele kaart');
+        naarKaart.type = 'button';
+        naarKaart.addEventListener('click', function () { toon('kaart', b.id); });
+        tekst.appendChild(naarKaart);
+        kijk([b.id].concat(zichtbareBuren(b.id)));
       }
       svg.el.setAttribute('role', 'group');
       Object.keys(svg.knoop).forEach(function (id) {
