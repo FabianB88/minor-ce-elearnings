@@ -123,7 +123,7 @@
       var afleiders = hussel(zelfde, rnd).concat(hussel(pool, rnd))
         .filter(function (x, i, a) { return a.indexOf(x) === i; }).slice(0, 3);
       if (afleiders.length < 2) return null;
-      var omschrijving = b.def;
+      var omschrijving = zonderBron(b.def);
       [b.naam].concat(b.sub ? [b.sub] : []).forEach(function (n) {
         var kern = n.replace(/\s*\(.*\)\s*/g, '').trim();
         if (kern.length > 3) omschrijving = omschrijving.split(kern).join('…');
@@ -781,6 +781,14 @@
       });
       return uit;
     }
+    /* Bronvermeldingen als (Bandura, 1999) laten we weg in vragen: anders kies
+       je het antwoord op de auteur in plaats van op de inhoud. */
+    function zonderBron(tekst) {
+      return String(tekst || '')
+        .replace(/\s*\([^()]*\b(19|20)\d\d[a-z]?\)/g, '')
+        .replace(/\s*\((?:[A-Z][^\s(),]*(?:\s(?:en|&)\s|,\s)?)+\)/g, '')
+        .replace(/\s+([.,;:])/g, '$1');
+    }
     function maskeer(tekst, b) {
       [b.naam].concat(b.sub ? [b.sub] : []).forEach(function (n) {
         var kern = n.replace(/\s*\(.*\)\s*/g, '').trim();
@@ -811,7 +819,7 @@
       if (af3.length < 3) return null;
       return {
         t: 'quiz', label: 'Weet je nog?',
-        question: '<p>Welk begrip herken je in dit voorbeeld?</p><p class="verband-zin">' + esc(maskeer(b.vb, b)) + '</p>',
+        question: '<p>Welk begrip herken je in dit voorbeeld?</p><p class="verband-zin">' + esc(maskeer(zonderBron(b.vb), b)) + '</p>',
         options: hussel([b].concat(af3), rnd).map(function (x) { return { text: x.naam, correct: x === b }; }),
         feedback: b.naam + ': ' + b.def
       };
@@ -823,7 +831,7 @@
       return {
         t: 'quiz', label: 'Weet je nog?',
         question: '<p>Welke omschrijving hoort bij <strong>' + esc(b.naam) + '</strong>?</p>',
-        options: hussel([b].concat(af3), rnd).map(function (x) { return { text: maskeer(x.def, x), correct: x === b, feedback: x === b ? '' : 'Dit is ' + x.naam + '.' }; }),
+        options: hussel([b].concat(af3), rnd).map(function (x) { return { text: maskeer(zonderBron(x.def), x), correct: x === b, feedback: x === b ? '' : 'Dit is ' + x.naam + '.' }; }),
         feedback: b.naam + ': ' + b.def
       };
     }

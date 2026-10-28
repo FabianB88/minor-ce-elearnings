@@ -3179,70 +3179,70 @@
       "blocks": [
         {
           "t": "text",
-          "heading": "Jouw Synthese: Van Kennis naar Impact",
-          "body": "<p>Welkom bij de afsluitende les van deze module! Dit is het moment waarop je alle opgedane kennis samenbrengt, je inzichten toetst en reflecteert op jouw eigen rol in duurzame ontwikkeling. Je krijgt de kans om te laten zien wat je beheerst, een mini-dubbele materialiteitsanalyse uit te voeren en na te denken over jouw persoonlijke bijdrage aan de transitie naar een circulaire economie. Zet de laatste stap van leren naar impact!</p>"
+          "heading": "Jouw synthese: van kennis naar impact",
+          "body": "<p>Dit is de laatste module. Je brengt samen wat je hebt geleerd, je toetst je kennis, je voert een mini dubbele materialiteitsanalyse uit en je denkt na over je eigen bijdrage aan de overgang naar een circulaire economie.</p>"
         },
         {
           "t": "text",
-          "body": "<p>Het integreren van kennis en reflecteren op je eigen rol is essentieel om als professional verschil te maken. In deze slotles werk je aan een synthese van alles wat je hebt geleerd en zet je de stap naar toepassing in de praktijk.</p>"
+          "body": "<p>Kennis wordt pas bruikbaar als je de verbanden ziet. In deze module leg je die verbanden zelf, en vertaal je ze naar je eigen praktijk.</p>"
         },
         {
           "t": "list",
           "ordered": true,
           "items": [
-            "Je integreert kennis uit alle voorgaande lessen.",
-            "<p>Je demonstreert je beheersing via een kennistest.</p>",
-            "Je voert een mini-dubbele materialiteitsanalyse uit op een eigen gekozen organisatie of casus.",
-            "Je reflecteert op jouw eigen rol en handelingsperspectief binnen duurzame ontwikkeling."
+            "Je verbindt de kennis uit alle voorgaande modules.",
+            "Je laat in een kennistoets zien dat je de stof beheerst en kunt toepassen.",
+            "Je voert een mini dubbele materialiteitsanalyse uit op een organisatie of casus naar keuze.",
+            "Je reflecteert op je eigen rol en handelingsruimte in duurzame ontwikkeling."
           ]
         },
         {
           "t": "text",
-          "body": "<p>Je reis door deze cursus begon bij systeemdenken en planetaire grenzen, en voerde langs circulaire strategieën, businessmodellen, infrastructuur, biomimicry, wicked problems en besluitvorming in de praktijk. Je hebt geleerd hoe alles samenhangt en waarom duurzame ontwikkeling vraagt om integraal denken en handelen.</p><p>Nu is het tijd om deze inzichten te verbinden en te vertalen naar jouw eigen professionele context. De volgende stap is om niet alleen te weten, maar ook te doen – en zo bij te dragen aan de transitie naar een duurzame, circulaire economie.</p>"
+          "body": "<p>De cursus begon bij systeemdenken en planetaire grenzen, en ging langs circulaire strategieën, businessmodellen, klimaat en infrastructuur, meervoudige waarde, biomimicry, wicked problems en besluitvorming in de praktijk. Steeds kwam dezelfde les terug: alles hangt samen, en duurzame ontwikkeling vraagt om integraal denken en handelen.</p><p>Nu is het moment om die inzichten te verbinden met je eigen vak. Niet alleen weten, maar ook doen.</p>"
         },
         {
           "t": "text",
-          "heading": "Synthese: Belangrijkste Inzichten",
-          "body": "<p>Deze thema’s vormen samen het fundament voor duurzame systeemoplossingen. Klik op de tabs om de kerninzichten uit de cursus te herhalen en te integreren.</p>"
+          "heading": "Synthese: de belangrijkste inzichten",
+          "body": "<p>Samen vormen deze thema’s het fundament voor duurzame systeemoplossingen. Herhaal per tabblad de kern, en kijk vooral hoe de thema’s met elkaar verbonden zijn.</p>"
         },
         {
           "t": "tabs",
           "items": [
             {
               "title": "Planetaire Grenzen",
-              "body": "<p>Respect voor planetaire grenzen is essentieel om de leefbaarheid van de aarde te waarborgen. Ze geven de ecologische speelruimte aan waarbinnen economie en samenleving zich kunnen ontwikkelen.</p><p>De negen planetaire grenzen, zoals klimaatverandering, verlies van biodiversiteit en stikstofkringloopverstoring, vormen een wetenschappelijk kader dat aangeeft waar de grenzen liggen van wat onze planeet aankan. Het overschrijden van deze grenzen brengt het evenwicht van de aarde in gevaar.</p><p>Het is belangrijk om binnen deze grenzen te blijven door duurzame keuzes te maken, zoals het verminderen van CO2-uitstoot, het beschermen van ecosystemen en het bevorderen van circulaire economieën.</p>"
+              "body": "<p>Planetaire grenzen geven de ecologische ruimte aan waarbinnen economie en samenleving zich kunnen ontwikkelen. De negen grenzen, zoals klimaatverandering, verlies van biodiversiteit en de verstoring van de stikstofkringloop, laten zien wat de aarde aankan. Gaan we eroverheen, dan komt het evenwicht van de aarde in gevaar.</p><p>Binnen de grenzen blijven vraagt om keuzes als minder CO₂-uitstoot, ecosystemen beschermen en circulair werken.</p>"
             },
             {
               "title": "Klimaatverandering",
-              "body": "<p>Klimaatverandering is een van de grootste uitdagingen van onze tijd. Het wordt veroorzaakt door de ophoping van broeikasgassen in de atmosfeer, voornamelijk door menselijke activiteiten zoals het verbranden van fossiele brandstoffen, ontbossing en industriële processen.</p><p>De gevolgen van klimaatverandering zijn wereldwijd merkbaar, waaronder stijgende temperaturen, smeltende ijskappen, zeespiegelstijging en extreme weersomstandigheden. Deze veranderingen hebben niet alleen impact op het milieu, maar ook op economieën en gemeenschappen.</p><p>Om klimaatverandering tegen te gaan, is het essentieel om de uitstoot van broeikasgassen drastisch te verminderen, over te schakelen op hernieuwbare energiebronnen en duurzame praktijken te omarmen in alle sectoren van de samenleving.</p>"
+              "body": "<p>Klimaatverandering ontstaat door de ophoping van broeikasgassen, vooral door de verbranding van fossiele brandstoffen, ontbossing en industrie. De gevolgen zijn wereldwijd merkbaar: hogere temperaturen, smeltend ijs, een stijgende zeespiegel en extreem weer, met gevolgen voor economie en samenleving.</p><p>Daarom zijn twee sporen nodig: de uitstoot drastisch verlagen met hernieuwbare energie en duurzame praktijken (mitigatie), en de samenleving aanpassen aan de gevolgen die al onvermijdelijk zijn (klimaatadaptatie).</p>"
             },
             {
               "title": "Systeemdenken",
-              "body": "<p>Systeemdenken leert je om verbanden, patronen en terugkoppelingen te zien. Het helpt je om complexe problemen te analyseren en duurzame oplossingen te ontwerpen die verder gaan dan symptoombestrijding.</p><p>Door systeemdenken toe te passen, kun je de onderliggende oorzaken van problemen identificeren in plaats van alleen de symptomen aan te pakken. Dit perspectief is cruciaal in een wereld waarin alles met elkaar verbonden is, zoals klimaatverandering, biodiversiteitsverlies en sociale ongelijkheid.</p><p>Een belangrijk hulpmiddel binnen systeemdenken is het gebruik van causale lussendiagrammen. Hiermee kun je de dynamiek van systemen visualiseren en inzicht krijgen in hoe veranderingen in één deel van het systeem invloed hebben op andere delen.</p>"
+              "body": "<p>Systeemdenken leert je verbanden, patronen en terugkoppelingen te zien. Zo vind je de onderliggende oorzaken van een probleem, in plaats van alleen de symptomen te bestrijden. Dat is nodig in een wereld waarin klimaat, biodiversiteit en sociale ongelijkheid met elkaar verweven zijn.</p><p>Een belangrijk hulpmiddel is het causal loop diagram, waarmee je laat zien hoe een verandering in het ene deel van een systeem doorwerkt in andere delen.</p>"
             },
             {
               "title": "Circulaire Strategieën",
-              "body": "<p>De overgang van lineair naar circulair denken vraagt om het sluiten van kringlopen, waardebehoud en het toepassen van strategieën zoals de R-ladder en circulaire businessmodellen.</p><p>Circulaire strategieën richten zich op het minimaliseren van afval en het maximaal benutten van grondstoffen. Dit kan door producten te hergebruiken, te repareren, te recyclen of te delen. De R-ladder biedt een gestructureerde aanpak, variërend van Refuse (weigeren) tot Recycle (recyclen).</p><p>Daarnaast spelen circulaire businessmodellen, zoals product-as-a-service en modulaire ontwerpen, een belangrijke rol in het bevorderen van duurzaamheid. Deze modellen stimuleren bedrijven om verantwoordelijkheid te nemen voor de volledige levenscyclus van hun producten.</p>"
+              "body": "<p>Van lineair naar circulair betekent kringlopen sluiten en waarde behouden. De R-ladder ordent de strategieën, van Refuse (weigeren) bovenaan tot Recover (energie terugwinnen) onderaan: voorkomen en langer gebruiken gaan voor recyclen.</p><p>Circulaire businessmodellen, zoals product-as-a-service, deelplatforms en levensduurverlenging, maken dat commercieel haalbaar, en geven producenten verantwoordelijkheid voor de hele levensloop van hun producten.</p>"
             },
             {
               "title": "Meervoudige Waardecreatie",
-              "body": "<p>Duurzame ontwikkeling betekent sturen op ecologische, sociale én economische waarde. Door dubbele materialiteit en integrale KPI’s ontstaat een breder perspectief op succes.</p><p>Meervoudige waardecreatie gaat verder dan financiële winst. Het omvat ook het creëren van positieve impact op het milieu en de samenleving. Dit vraagt om een integrale benadering waarbij bedrijven en organisaties rekening houden met alle belanghebbenden.</p><p>Een belangrijk hulpmiddel binnen meervoudige waardecreatie is de Life Cycle Assessment (LCA). Dit is een methode om de milieueffecten van een product of proces gedurende de hele levenscyclus te analyseren, van grondstofwinning tot afvalverwerking. Met een LCA kunnen bedrijven inzicht krijgen in de impact van hun activiteiten en gerichte verbeteringen doorvoeren.</p><p>Een voorbeeld hiervan is het meten van ecologische voetafdrukken en sociale impact naast financiële prestaties. Door deze waarden te integreren in besluitvorming, kunnen organisaties bijdragen aan een duurzamere toekomst.</p>"
+              "body": "<p>Duurzame ontwikkeling betekent sturen op ecologische, sociale én economische waarde. De zes kapitalen laten zien welke waarde een organisatie opbouwt en verbruikt, en dubbele materialiteit helpt kiezen wat er echt toe doet: de impact op de wereld én de invloed van de wereld op de organisatie.</p><p>Een levenscyclusanalyse (LCA) helpt daarbij: die laat de milieueffecten van een product zien, van grondstofwinning tot afvalverwerking. Door ecologische en sociale effecten naast de financiële te zetten, nemen organisaties betere besluiten.</p>"
             },
             {
               "title": "Systeemdenken in de Praktijk",
-              "body": "<p>Het toepassen van systeemdenken op echte casussen – van plasticrecycling tot netcongestie – laat zien dat duurzame keuzes vragen om analyse, samenwerking en het maken van bewuste trade-offs.</p><p>In de praktijk betekent dit dat je moet kijken naar de interacties tussen verschillende actoren en factoren binnen een systeem. Bijvoorbeeld, bij plasticrecycling is het belangrijk om niet alleen te focussen op het inzamelen van afval, maar ook op het ontwerp van producten, consumentengedrag en beleidsmaatregelen.</p><p>Een ander voorbeeld is netcongestie in het elektriciteitsnet. Door systeemdenken toe te passen, kun je oplossingen ontwikkelen die rekening houden met zowel de groeiende vraag naar elektriciteit als de noodzaak om over te schakelen op hernieuwbare energiebronnen.</p>"
+              "body": "<p>De casussen, van plasticrecycling tot netcongestie, lieten zien dat duurzame keuzes vragen om analyse, samenwerking en bewuste trade-offs.</p><p>Bij plasticrecycling gaat het niet alleen om inzamelen, maar ook om productontwerp, consumentengedrag en beleid. Bij netcongestie gaat het om de groeiende vraag naar stroom én de overstap op hernieuwbare bronnen, die samen het net onder druk zetten.</p>"
             },
             {
               "title": "Biomimicry",
-              "body": "<p>Biomimicry is een benadering waarbij de natuur als inspiratiebron dient voor het oplossen van menselijke uitdagingen. Door te leren van de strategieën en ontwerpen van organismen, kunnen we duurzame oplossingen ontwikkelen.</p><p>Voorbeelden van biomimicry zijn het ontwerpen van gebouwen die energie-efficiënt zijn door te kijken naar termietenheuvels, of het ontwikkelen van waterafstotende materialen geïnspireerd door de bladeren van de lotusplant.</p><p>Biomimicry moedigt ons aan om niet alleen te kijken naar wat de natuur doet, maar ook hoe ecosystemen samenwerken en in balans blijven. Dit perspectief kan leiden tot innovatieve en duurzame technologieën.</p>"
+              "body": "<p>Biomimicry gebruikt de werking van de natuur als inspiratie voor menselijke oplossingen: gebouwen die zich koelen zoals een termietenheuvel, oppervlakken die vuil afstoten zoals een lotusblad.</p><p>Het gaat verder dan losse vondsten: ook hoe ecosystemen samenwerken en in balans blijven, kan richting geven aan ontwerp. Life’s Principles en regeneratief ontwerp vertalen dat naar de praktijk.</p>"
             },
             {
               "title": "Wicked Problems",
-              "body": "<p>Wicked problems zijn complexe problemen die moeilijk op te lossen zijn vanwege hun vele onderling verbonden factoren en tegenstrijdige belangen. Voorbeelden hiervan zijn klimaatverandering, armoede en wereldwijde ongelijkheid.</p><p>Het aanpakken van wicked problems vereist een multidisciplinaire aanpak en samenwerking tussen verschillende belanghebbenden. Er is geen eenvoudige of definitieve oplossing, en vaak moeten er compromissen worden gesloten.</p><p>Een belangrijk aspect van het omgaan met wicked problems is het erkennen van onzekerheid en het ontwikkelen van flexibele strategieën die kunnen worden aangepast naarmate nieuwe informatie beschikbaar komt.</p>"
+              "body": "<p>Wicked problems zijn hardnekkig door hun vele onderling verbonden factoren en tegenstrijdige belangen. Er is geen eenvoudige of definitieve oplossing, en elke ingreep verandert het probleem.</p><p>Ze vragen om een multidisciplinaire aanpak, samenwerking tussen belanghebbenden en flexibele strategieën die je bijstelt als je meer weet.</p>"
             },
             {
               "title": "CLD Analyse",
-              "body": "<p>De CLD (Causal Loop Diagram) analyse is een methode om complexe systemen te visualiseren en te begrijpen. Het helpt bij het identificeren van feedbackloops en causale relaties binnen een systeem.</p><p>Met een CLD analyse kun je inzicht krijgen in hoe verschillende elementen van een systeem elkaar beïnvloeden. Dit is essentieel voor het ontwikkelen van effectieve strategieën en het voorspellen van de gevolgen van interventies.</p><p>Een voorbeeld is het gebruik van CLD's om de dynamiek van klimaatverandering te analyseren, waarbij factoren zoals CO2-uitstoot, temperatuurstijging en smeltend ijs in kaart worden gebracht. Dit helpt bij het identificeren van kritieke punten voor actie.</p>"
+              "body": "<p>Met een causal loop diagram (CLD) breng je de oorzaak-gevolgrelaties en feedbackloops in een systeem in beeld. Zo zie je hoe elementen elkaar beïnvloeden, en kun je de gevolgen van een ingreep beter inschatten.</p><p>Je kunt een CLD gebruiken voor het klimaat, met CO₂-uitstoot, temperatuur en smeltend ijs, maar ook voor een markt, zoals die van gerecycled plastic. Zo vind je de punten waar ingrijpen het meeste oplevert.</p>"
             }
           ]
         },
@@ -3256,74 +3256,75 @@
         {
           "t": "text",
           "heading": "Kennistoets",
-          "body": "<p>Test je geïntegreerde kennis met deze afsluitende kennistoets. De vragen zijn bedoeld om je inzicht in de kernconcepten te toetsen en je voor te bereiden op het toepassen van deze kennis in de praktijk. Succes!</p>"
+          "body": "<p>Deze toets combineert de thema’s uit de hele cursus. De vragen vragen je om verbanden te leggen; de antwoorden lijken op elkaar, dus lees ze goed. Succes!</p>"
         },
         {
           "t": "quiz",
           "multi": false,
-          "question": "Hoe kan systeemdenken in combinatie met een levenscyclusanalyse (LCA) bijdragen aan het oplossen van complexe duurzaamheidsvraagstukken?",
+          "question": "<p>Wat voegt systeemdenken toe aan een levenscyclusanalyse (LCA)?</p>",
           "options": [
             {
-              "text": "Het helpt om de volledige impact van een product of proces te begrijpen, van grondstofwinning tot einde levensduur.",
+              "text": "Het berekent de totale kosten over de levenscyclus, zodat je de goedkoopste duurzame optie kiest.",
+              "correct": false,
+              "feedback": "Een LCA gaat over milieueffecten, niet over kosten. En systeemdenken voegt juist verbanden toe, geen extra rekensom."
+            },
+            {
+              "text": "Het richt de analyse op de productiefase, omdat daar bij de meeste producten verreweg de grootste impact zit.",
+              "correct": false,
+              "feedback": "Een LCA kijkt juist naar alle fasen. Bij veel producten zit de grootste impact in het gebruik of de afvalfase."
+            },
+            {
+              "text": "Het laat zien waar in de levenscyclus de grootste impact zit, en hoe een verbetering daar doorwerkt in andere fasen.",
               "correct": true,
-              "feedback": "Dit is correct. Door systeemdenken te combineren met LCA kunnen alle fasen van een product of proces worden geanalyseerd, wat helpt om de totale impact op duurzaamheid te begrijpen."
+              "feedback": "Juist. De LCA laat de impact per fase zien; systeemdenken laat zien hoe fasen samenhangen, bijvoorbeeld dat een lichter materiaal de productie zuiniger maakt maar recyclen lastiger."
             },
             {
-              "text": "Het richt zich alleen op de economische kosten van een product gedurende de levenscyclus.",
+              "text": "Het vervangt de afweging tussen belangen door één objectieve score, zodat de discussie over keuzes tussen partijen overbodig wordt.",
               "correct": false,
-              "feedback": "Dit is onjuist. Systeemdenken en LCA kijken naar bredere aspecten, zoals ecologische en sociale impact, niet alleen economische kosten."
-            },
-            {
-              "text": "Het vereenvoudigt de analyse door alleen de meest vervuilende fasen van de levenscyclus te onderzoeken.",
-              "correct": false,
-              "feedback": "Dit is onjuist. Systeemdenken en LCA richten zich op een holistische benadering en analyseren alle fasen van de levenscyclus, niet alleen de meest vervuilende."
-            },
-            {
-              "text": "Het sluit sociale aspecten uit om zich volledig te richten op ecologische duurzaamheid.",
-              "correct": false,
-              "feedback": "Dit is onjuist. Systeemdenken en LCA integreren sociale, ecologische en economische aspecten voor een complete analyse."
+              "feedback": "Een LCA levert informatie voor de afweging, maar vervangt haar niet. Keuzes tussen belangen blijven nodig."
             }
           ],
           "feedback": ""
         },
         {
           "t": "match",
-          "question": "Koppel elk begrip aan de juiste omschrijving, op basis van de systeem- en duurzaamheidskenmerken.",
+          "question": "<p>Koppel elk begrip aan de situatie waarin je het herkent.</p>",
           "pairs": [
             {
               "left": "Wicked Problems",
-              "right": "Probleemdefinities zijn niet eenduidig; verschillende actoren zien verschillende oorzaken; oplossingen veranderen het probleem."
+              "right": "Gemeente, boeren en natuurorganisaties zien elk een andere oorzaak van de stikstofcrisis, en elke maatregel roept nieuwe bezwaren op."
             },
             {
               "left": "Lock-ins & Padafhankelijkheid",
-              "right": "Structurele patronen houden een systeem vast in een inefficiënt of onduurzaam traject, zelfs wanneer er betere alternatieven bestaan."
+              "right": "Een land blijft gascentrales gebruiken, omdat het net, de contracten en de banen er al decennia op zijn ingericht."
             },
             {
-              "left": "Biomimicry (Level 3 – Ecosystemen)",
-              "right": "Werkt inspirerend vanuit principes zoals symbiose, kringlopen en veerkracht van ecosystemen om menselijk ontwerp te verbeteren."
+              "left": "Biomimicry",
+              "right": "Een architect laat een kantoor zichzelf koelen met luchtkanalen naar het voorbeeld van een termietenheuvel."
             },
             {
               "left": "Meervoudige Waardecreatie",
-              "right": "Beslissingen worden afgewogen op basis van ecologische, economische en sociale waarde, waarbij effecten in meerdere systemen worden beoordeeld."
+              "right": "Een bouwbedrijf beoordeelt een investering op uitstoot, werkgelegenheid in de regio én rendement."
             },
             {
               "left": "Causal Loop Diagram (CLD)",
-              "right": "Gericht op systeemgedrag over tijd door versterkende en dempende loops zichtbaar te maken en hefboompunten te identificeren."
+              "right": "Een team tekent pijlen tussen vraag, investeringen en kwaliteit, en ontdekt dat ze elkaar versterken."
             },
             {
               "left": "Planetaire Grenzen",
-              "right": "Een ontwerp- of beleidskeuze bewust positioneren binnen grenzen van klimaat, biodiversiteit, nutriënten en andere ecologische limieten."
+              "right": "Een provincie toetst een nieuw bedrijventerrein aan de veilige marges voor klimaat, biodiversiteit en stikstof."
             },
             {
               "left": "Circulaire Strategie (Hoog op de R-ladder)",
-              "right": "Kiezen voor niet-produceren, herontwerpen of radicaal consumptieverminderen om materiaalstromen structureel te verminderen."
+              "right": "Een kantoor schaft wegwerpbekers helemaal af, in plaats van ze apart in te zamelen voor recycling."
             },
             {
               "left": "Strategische Trade-off Analyse",
-              "right": "Methodisch afwegen van meerdere oplossingsrichtingen waarin elke keuze voor- en nadelen heeft, afhankelijk van waarden en systeemdynamiek."
+              "right": "Een fietsenmaker zet drie groeiscenario’s naast elkaar en weegt per scenario circulariteit, sociale missie en winst."
             }
           ],
-          "feedback": "Met deze koppelvraag verbind je complexe systeembegrippen met wat ze in de praktijk betekenen. Zo krijg je meer grip op de principes van duurzaamheid."
+          "feedback": "Goed gekoppeld. Je herkent de begrippen uit de hele cursus terug in concrete situaties.",
+          "feedbackWrong": "Nog niet alles klopt. Vraag je per situatie af wat er eigenlijk gebeurt: botsende belangen, een systeem dat vastzit, leren van de natuur, meerdere soorten waarde, een tekening van loops, ecologische grenzen, iets voorkomen in plaats van recyclen, of scenario’s afwegen."
         },
         {
           "t": "continue"
@@ -3331,27 +3332,27 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "Waarom versterken lock-in-effecten in de plasticrecyclingmarkt het risico op overschrijding van planetaire grenzen zoals biodiversiteitsverlies?",
+          "question": "<p>Waarom vergroten lock-ins in de plasticrecyclingmarkt het risico dat planetaire grenzen, zoals die voor biodiversiteit, verder worden overschreden?</p>",
           "options": [
             {
-              "text": "Omdat planetaire grenzen losstaan van materialenstromen.",
+              "text": "Omdat ze de recyclingpercentages zo hoog maken dat er in de markt geen ruimte meer is voor betere alternatieven.",
               "correct": false,
-              "feedback": "Dit is onjuist. Planetaire grenzen zijn nauw verbonden met materialenstromen, aangezien deze grenzen vaak worden beïnvloed door de manier waarop materialen worden geproduceerd, gebruikt en verwerkt."
+              "feedback": "De lock-in in de plasticmarkt houdt recycling juist klein, omdat virgin plastic goedkoper en beter blijft."
             },
             {
-              "text": "Omdat lock-ins altijd leiden tot minder consumptie.",
-              "correct": false,
-              "feedback": "Dit is onjuist. Lock-ins leiden niet noodzakelijk tot minder consumptie; ze kunnen juist bestaande consumptiepatronen versterken."
-            },
-            {
-              "text": "Omdat lock-ins vooral leiden tot hogere recyclingpercentages.",
-              "correct": false,
-              "feedback": "Dit is onjuist. Lock-ins leiden niet per se tot hogere recyclingpercentages, maar kunnen innovatie belemmeren en schadelijke praktijken in stand houden."
-            },
-            {
-              "text": "Omdat lock-ins innovatie vertragen en schadelijke materiaalstromen in stand houden.",
+              "text": "Omdat ze investeringen en gewoontes rond virgin plastic in stand houden, zodat schadelijke materiaalstromen blijven bestaan.",
               "correct": true,
-              "feedback": "Dit is correct. Lock-ins zorgen ervoor dat bestaande systemen en processen moeilijk te veranderen zijn, wat innovatie belemmert en schadelijke materiaalstromen blijft ondersteunen."
+              "feedback": "Juist. Een lock-in vertraagt de omslag: bestaande installaties, contracten en gewoontes houden de stroom virgin plastic, en het afval en de vervuiling die daarbij horen, overeind."
+            },
+            {
+              "text": "Omdat ze de consumptie van plastic tijdelijk verlagen, waardoor bedrijven minder geld investeren in innovatie, onderzoek en ontwikkeling.",
+              "correct": false,
+              "feedback": "Een lock-in verlaagt de consumptie niet; ze houdt bestaande patronen juist in stand."
+            },
+            {
+              "text": "Omdat ze alleen in Nederland spelen, terwijl het verlies van biodiversiteit een wereldwijd probleem is.",
+              "correct": false,
+              "feedback": "Lock-ins spelen overal, en lokale materiaalstromen dragen bij aan wereldwijde grenzen. Het verband zit in wat de lock-in in stand houdt."
             }
           ],
           "feedback": ""
@@ -3359,86 +3360,27 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "Welke combinatie verklaart het beste waarom lineaire ketens moeilijk omschakelen naar circulaire modellen?",
+          "question": "<p>Welke verklaring past het best bij wat je in deze cursus hebt geleerd over waarom lineaire ketens zo moeilijk circulair worden?</p>",
           "options": [
             {
-              "text": "Gebrek aan wetgeving en onvoldoende ontwerpvaardigheden.",
+              "text": "Het ontbreekt vooral aan technische kennis; met de juiste techniek gaat de omslag vanzelf.",
               "correct": false,
-              "feedback": "Hoewel wetgeving en ontwerpvaardigheden belangrijk zijn, vormen ze niet de kern van de moeilijkheden bij de overgang naar circulaire modellen."
+              "feedback": "Techniek helpt, maar veel circulaire technieken bestaan al. Dat ze niet worden toegepast, ligt aan prikkels en belangen in de keten."
             },
             {
-              "text": "Wicked-problem-dynamiek en tegenstrijdige belangen tussen ketenactoren.",
+              "text": "Grondstoffen zijn te goedkoop; een flink hogere grondstofprijs zou het probleem op zichzelf al oplossen.",
+              "correct": false,
+              "feedback": "De prijs is één knop. Ook met duurdere grondstoffen blijven belangen, gewoontes en investeringen de keten vasthouden."
+            },
+            {
+              "text": "Consumenten vragen er niet om; zodra de vraag er is, passen de ketens zich vanzelf aan.",
+              "correct": false,
+              "feedback": "Vraag speelt een rol, maar het aanbod stuurt de vraag ook. Wachten op de consument verandert de structuur van de keten niet."
+            },
+            {
+              "text": "Het is een wicked problem: ketenpartners hebben tegenstrijdige belangen, en elke stap wacht op de andere.",
               "correct": true,
-              "feedback": "De wicked-problem-dynamiek en tegenstrijdige belangen tussen ketenactoren maken het moeilijk om tot gezamenlijke oplossingen te komen, wat een belangrijke uitdaging vormt voor de overgang naar circulaire modellen."
-            },
-            {
-              "text": "Netcongestie in stedelijke gebieden.",
-              "correct": false,
-              "feedback": "Netcongestie in stedelijke gebieden is geen directe factor die de overgang van lineaire naar circulaire modellen verklaart."
-            },
-            {
-              "text": "Lage grondstofprijzen en gebrek aan technische kennis.",
-              "correct": false,
-              "feedback": "Hoewel lage grondstofprijzen en technische kennis een rol kunnen spelen, zijn ze niet de belangrijkste factoren die de overgang naar circulaire modellen bemoeilijken."
-            }
-          ],
-          "feedback": ""
-        },
-        {
-          "t": "continue"
-        },
-        {
-          "t": "quiz",
-          "multi": false,
-          "question": "Waarom kan toepassing van Life’s Principles (biomimicry) padafhankelijkheid in technische systemen verkleinen?",
-          "options": [
-            {
-              "text": "Omdat biomimicry vooral economische groei bevordert.",
-              "correct": false,
-              "feedback": "Dit is onjuist. Hoewel biomimicry economische voordelen kan hebben, is het primair gericht op duurzame en adaptieve oplossingen, niet op economische groei als hoofddoel."
-            },
-            {
-              "text": "Omdat biomimicry adaptieve, lokaal afgestemde oplossingen stimuleert.",
-              "correct": true,
-              "feedback": "Dit is correct. Biomimicry richt zich op het leren van de natuur, die oplossingen biedt die adaptief en afgestemd zijn op lokale omstandigheden. Dit kan helpen om vastgeroeste paden in technische systemen te doorbreken."
-            },
-            {
-              "text": "Omdat biomimicry uitsluitend gericht is op materiaalbesparing.",
-              "correct": false,
-              "feedback": "Dit is onjuist. Hoewel materiaalbesparing een voordeel kan zijn, is biomimicry breder gericht op het creëren van oplossingen die duurzaam en geïnspireerd zijn door de natuur."
-            },
-            {
-              "text": "Omdat biomimicry enkel leidt tot lage kosten.",
-              "correct": false,
-              "feedback": "Dit is onjuist. Biomimicry kan kostenbesparingen opleveren, maar het belangrijkste doel is het ontwikkelen van duurzame en innovatieve oplossingen, niet uitsluitend kostenreductie."
-            }
-          ],
-          "feedback": ""
-        },
-        {
-          "t": "quiz",
-          "multi": false,
-          "question": "Waarom verschilt het type feedback in causal loop diagrams van klimaatverandering ten opzichte van die in textielketens?",
-          "options": [
-            {
-              "text": "Beide domeinen hebben exact dezelfde terugkoppelingen.",
-              "correct": false,
-              "feedback": "Dit is onjuist, omdat de aard van de terugkoppelingen in klimaatsystemen en textielketens fundamenteel verschilt."
-            },
-            {
-              "text": "Klimaatverandering kent uitsluitend positieve feedbackloops.",
-              "correct": false,
-              "feedback": "Klimaatverandering omvat zowel positieve als negatieve feedbackloops, afhankelijk van de specifieke processen binnen het systeem."
-            },
-            {
-              "text": "Klimaatsystemen bevatten fysische feedbacks, terwijl textielketens socio-economische dynamieken bevatten.",
-              "correct": true,
-              "feedback": "Dit is correct omdat klimaatsystemen vaak fysische processen zoals temperatuur en CO2-uitstoot omvatten, terwijl textielketens meer afhankelijk zijn van menselijke en economische factoren."
-            },
-            {
-              "text": "Textielketens zijn minder complex dan klimaatsystemen.",
-              "correct": false,
-              "feedback": "Hoewel textielketens en klimaatsystemen verschillen in complexiteit, is dit niet de reden waarom hun feedbacktypes verschillen."
+              "feedback": "Juist. Ontwerpers, producenten, inzamelaars en recyclers hebben elk andere belangen en zijn van elkaar afhankelijk. Zonder samenwerking komt niemand als eerste in beweging."
             }
           ],
           "feedback": ""
@@ -3449,27 +3391,27 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "Hoe verandert dubbele materialiteit besluitvorming in een circulair bedrijfsmodel binnen overschreden planetaire grenzen?",
+          "question": "<p>Waarom kunnen Life’s Principles helpen om padafhankelijkheid in technische systemen te doorbreken?</p>",
           "options": [
             {
-              "text": "Het maakt duurzaamheidsrapportages optioneel.",
+              "text": "Omdat biomimicry vooral goedkopere materialen oplevert, waardoor overstappen financieel aantrekkelijk wordt.",
               "correct": false,
-              "feedback": "Dit is onjuist. Dubbele materialiteit benadrukt juist het belang van duurzaamheidsrapportages om inzicht te geven in zowel impact als risico's."
+              "feedback": "Biomimicry kan kosten besparen, maar dat is niet waarom het padafhankelijkheid doorbreekt."
             },
             {
-              "text": "Het richt beslissingen uitsluitend op aandeelhouderswaarde.",
-              "correct": false,
-              "feedback": "Dit is onjuist. Dubbele materialiteit vraagt om een bredere focus dan alleen aandeelhouderswaarde, inclusief maatschappelijke en milieueffecten."
-            },
-            {
-              "text": "Het dwingt bedrijven te kijken naar zowel impact op de wereld als impact van de wereld op het bedrijf.",
+              "text": "Omdat ze ontwerpen stimuleren die zich aanpassen aan veranderende en lokale omstandigheden, in plaats van één vaste standaard.",
               "correct": true,
-              "feedback": "Dit is correct. Dubbele materialiteit vereist dat bedrijven zowel hun impact op de wereld als de impact van externe factoren op hun bedrijfsvoering meenemen in besluitvorming."
+              "feedback": "Juist. Padafhankelijkheid ontstaat als één oplossing overal en voor lange tijd wordt vastgelegd. Principes als aanpassen aan verandering en lokaal afstemmen werken daar tegenin."
             },
             {
-              "text": "Het vermindert transparantie in ketenprocessen.",
+              "text": "Omdat natuurlijke oplossingen al miljarden jaren zijn getest, en daardoor na invoering eigenlijk nooit meer hoeven te worden aangepast.",
               "correct": false,
-              "feedback": "Dit is onjuist. Dubbele materialiteit bevordert juist transparantie in ketenprocessen door een bredere rapportageverplichting."
+              "feedback": "De natuur past zich juist voortdurend aan. Een oplossing die nooit meer verandert, zou een nieuwe vorm van padafhankelijkheid zijn."
+            },
+            {
+              "text": "Omdat biomimicry bestaande technische systemen vervangt door volledig natuurlijke materialen.",
+              "correct": false,
+              "feedback": "Biomimicry gaat om de werking van de natuur nabootsen, niet om natuurlijke materialen gebruiken."
             }
           ],
           "feedback": ""
@@ -3477,52 +3419,115 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "Welke spanning ontstaat bij de combinatie van Life-Friendly Chemistry en circulair ontwerp?",
+          "question": "<p>Waarin verschillen de feedbackloops in een CLD van het klimaat van die in een CLD van de textielketen?</p>",
           "options": [
             {
-              "text": "Life-Friendly Chemistry sluit circulaire strategieën volledig uit.",
-              "correct": false
+              "text": "Het klimaat kent alleen versterkende loops, zoals bij permafrost; de textielketen alleen dempende, zoals bij prijzen.",
+              "correct": false,
+              "feedback": "Beide systemen hebben versterkende én dempende loops, zoals je bij het klimaat zag met permafrost en CO₂-opname door oceanen."
             },
             {
-              "text": "Sommige veilige materialen zijn moeilijk te scheiden of terug te winnen.",
-              "correct": true
+              "text": "In het klimaat gaat het om fysische processen, zoals ijs en methaan; in de textielketen om gedrag, prijzen en bedrijfsmodellen.",
+              "correct": true,
+              "feedback": "Juist. Klimaatloops lopen via natuurkundige processen; in de textielketen lopen ze via mensen en markten, zoals fast fashion die goedkope kleding en snel weggooien in stand houdt."
             },
             {
-              "text": "Circulair ontwerp vereist altijd toxische materialen.",
-              "correct": false
+              "text": "In de textielketen zijn de loops veel sneller, omdat de mode elk seizoen verandert en het klimaat over eeuwen.",
+              "correct": false,
+              "feedback": "Snelheid kan verschillen, maar het wezenlijke verschil zit in het soort processen: fysisch tegenover sociaal en economisch."
             },
             {
-              "text": "Biobased materialen zijn altijd inferieur in recycling.",
-              "correct": false
+              "text": "In het klimaat zijn de loops onomkeerbaar, zoals bij het smelten van landijs; in de textielketen zijn ze dat nooit.",
+              "correct": false,
+              "feedback": "Niet elke klimaatloop is onomkeerbaar, en ook een markt kan vastlopen in een lock-in die moeilijk terug te draaien is."
             }
           ],
-          "feedback": "Correct! Sommige veilige materialen kunnen moeilijk te scheiden of terug te winnen zijn, wat een uitdaging vormt voor circulair ontwerp.",
+          "feedback": ""
+        },
+        {
+          "t": "continue"
+        },
+        {
+          "t": "quiz",
+          "multi": false,
+          "question": "<p>Een circulair bedrijf werkt in een sector die planetaire grenzen al overschrijdt. Wat verandert dubbele materialiteit aan zijn besluitvorming?</p>",
+          "options": [
+            {
+              "text": "Het bedrijf rapporteert uitgebreider over duurzaamheid, maar de besluiten zelf blijven hetzelfde.",
+              "correct": false,
+              "feedback": "Dubbele materialiteit is meer dan rapporteren: de analyse bepaalt welke thema’s prioriteit krijgen in de strategie."
+            },
+            {
+              "text": "Het bedrijf richt zich op de thema’s waar het zelf financieel risico loopt, omdat die het eerst urgent worden.",
+              "correct": false,
+              "feedback": "Dat is alleen outside-in. De impact van het bedrijf op de wereld telt net zo goed mee."
+            },
+            {
+              "text": "Het bedrijf weegt zijn eigen impact op de natuur én de risico’s van overschreden grenzen voor zijn eigen voortbestaan.",
+              "correct": true,
+              "feedback": "Juist. Beide kanten tellen: inside-out, de bijdrage van het bedrijf aan de overschrijding, en outside-in, wat de overschrijding betekent voor het bedrijf zelf."
+            },
+            {
+              "text": "Het bedrijf kiest de thema’s met de grootste impact op de wereld, en laat de financiële risico’s voor zichzelf buiten beschouwing.",
+              "correct": false,
+              "feedback": "Dat is alleen inside-out. Dubbele materialiteit vraagt juist om beide perspectieven."
+            }
+          ],
+          "feedback": ""
+        },
+        {
+          "t": "quiz",
+          "multi": false,
+          "question": "<p>Welke spanning kan er ontstaan tussen Use Life-Friendly Chemistry en circulair ontwerp?</p>",
+          "options": [
+            {
+              "text": "Veilige materialen zijn per definitie zwakker dan synthetische, waardoor producten minder lang meegaan en sneller worden vervangen.",
+              "correct": false,
+              "feedback": "Veilig en sterk gaan vaak goed samen. Denk aan spinnenzijde: veilig, sterk en flexibel."
+            },
+            {
+              "text": "Sommige veilige, biobased materialen zijn lastig te scheiden of terug te winnen, waardoor recyclen moeilijker wordt.",
+              "correct": true,
+              "feedback": "Juist. Een biobased composiet kan veilig zijn, maar als je de lagen niet meer uit elkaar krijgt, is het moeilijk hoogwaardig te hergebruiken."
+            },
+            {
+              "text": "Biobased materialen breken na verloop van tijd af, waardoor ze niet passen in een circulaire economie die materialen wil behouden.",
+              "correct": false,
+              "feedback": "Afbreekbare materialen passen juist in de biologische kringloop. Het probleem ontstaat pas als ze gemengd worden met materialen die niet afbreken."
+            },
+            {
+              "text": "Er is geen spanning: wat veilig is voor de natuur, is altijd ook goed te recyclen.",
+              "correct": false,
+              "feedback": "Veiligheid en recyclebaarheid zijn twee verschillende eisen. Ze vallen vaak samen, maar niet altijd."
+            }
+          ],
+          "feedback": "",
           "feedbackWrong": "Niet correct. De spanning ontstaat doordat sommige veilige materialen moeilijk te scheiden of terug te winnen zijn, wat uitdagingen oplevert voor circulair ontwerp."
         },
         {
           "t": "quiz",
           "multi": false,
-          "question": "Waarom zijn R-strategieën met hoog waardebehoud (Refuse/Reduce/Reuse) moeilijk schaalbaar in sectoren zoals fast fashion?",
+          "question": "<p>Waarom zijn strategieën hoog op de R-ladder, zoals Refuse, Reduce en Reuse, zo moeilijk op te schalen in de fast fashion?</p>",
           "options": [
             {
-              "text": "Omdat ze technisch onuitvoerbaar zijn.",
+              "text": "Omdat kleding technisch moeilijk te repareren of opnieuw te gebruiken is, zeker bij de goedkope, gemengde stoffen uit fast fashion.",
               "correct": false,
-              "feedback": "Dit is onjuist. Technische uitvoerbaarheid is niet de belangrijkste reden waarom deze strategieën moeilijk schaalbaar zijn in fast fashion."
+              "feedback": "Kleding is prima te repareren en door te verkopen. Het knelpunt is niet technisch."
             },
             {
-              "text": "Omdat wicked-problem-structuren consumptiegedrag en bedrijfsmodellen blijven versterken.",
+              "text": "Omdat verdienmodel en koopgedrag elkaar in stand houden: snelle collecties, lage prijzen en veel aankopen versterken elkaar.",
               "correct": true,
-              "feedback": "Dit is correct. Wicked-problem-structuren zorgen ervoor dat consumptiegedrag en bedrijfsmodellen in stand blijven, wat de schaalbaarheid van R-strategieën belemmert."
+              "feedback": "Juist. Het bedrijfsmodel verdient aan veel verkopen, en goedkope, snel wisselende collecties houden het koopgedrag in stand. Minder kopen past niet in die versterkende loop."
             },
             {
-              "text": "Omdat recycling duurder wordt.",
+              "text": "Omdat recyclen in de mode altijd duurder is dan nieuwe kleding maken, waardoor hoogwaardige strategieën niet uit kunnen.",
               "correct": false,
-              "feedback": "Dit is onjuist. Hoewel recycling kosten met zich mee kan brengen, is dit niet de reden waarom R-strategieën zoals Refuse, Reduce en Reuse moeilijk schaalbaar zijn."
+              "feedback": "De vraag gaat over Refuse, Reduce en Reuse, die hoger staan dan recyclen. De kosten van recycling verklaren het dus niet."
             },
             {
-              "text": "Omdat overheden deze strategieën verbieden.",
+              "text": "Omdat de overheid hergebruik van kleding beperkt met strenge hygiëne-eisen voor de verkoop van tweedehands kleding.",
               "correct": false,
-              "feedback": "Dit is onjuist. Overheden verbieden deze strategieën niet, maar er zijn andere factoren die de schaalbaarheid beïnvloeden."
+              "feedback": "Zulke regels zijn er voor tweedehands kleding nauwelijks. Het knelpunt zit in het verdienmodel en het gedrag."
             }
           ],
           "feedback": ""
@@ -3530,27 +3535,27 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "Waarom is een lease-model systemisch gunstiger dan traditionele verkoop binnen planetaire grenzen?",
+          "question": "<p>Waarom is een leasemodel systemisch gunstiger dan gewone verkoop?</p>",
           "options": [
             {
-              "text": "Het maakt gebruikers verantwoordelijk voor afval.",
+              "text": "De gebruiker wordt verantwoordelijk voor het afval, en gaat daardoor zuiniger om met het product.",
               "correct": false,
-              "feedback": "Dit is onjuist. In een lease-model blijft de producent verantwoordelijk voor afvalbeheer, niet de gebruiker."
+              "feedback": "Het is andersom: bij lease blijft de producent eigenaar en dus verantwoordelijk."
             },
             {
-              "text": "Het verhoogt materiaalgebruik.",
+              "text": "Er worden minder producten verkocht, waardoor de producent minder grondstoffen hoeft in te kopen en minder afval veroorzaakt.",
               "correct": false,
-              "feedback": "Dit is onjuist. Een lease-model richt zich juist op het verminderen van materiaalgebruik door hergebruik en reparatie te stimuleren."
+              "feedback": "Minder verkopen is niet het mechanisme. Het gaat om wat de producent verdient en waar die dus belang bij heeft."
             },
             {
-              "text": "Het heeft geen invloed op materiaalstromen.",
+              "text": "Lease is goedkoper voor de klant, waardoor meer mensen een duurzaam en kwalitatief goed product kunnen betalen.",
               "correct": false,
-              "feedback": "Dit is onjuist. Een lease-model beïnvloedt materiaalstromen door circulaire processen te bevorderen."
+              "feedback": "Lease is niet per se goedkoper. De systemische winst zit in de prikkel voor de producent."
             },
             {
-              "text": "Het creëert eigenaarschap bij producenten en stimuleert lange levensduur en reparatie.",
+              "text": "De producent blijft eigenaar en verdient aan lang gebruik, dus heeft belang bij producten die lang meegaan en te repareren zijn.",
               "correct": true,
-              "feedback": "Juist! Een lease-model moedigt producenten aan om producten duurzamer te maken en te onderhouden, wat bijdraagt aan het respecteren van planetaire grenzen."
+              "feedback": "Juist. De economische prikkel draait om: niet meer verkopen, maar langer laten werken. Dat beloont kwaliteit, onderhoud en hergebruik."
             }
           ],
           "feedback": ""
@@ -3561,52 +3566,56 @@
         {
           "t": "quiz",
           "multi": false,
-          "question": "Waarom moeten causal loop diagrams zowel reinforcing als balancing loops bevatten om circulaire kansen te analyseren?",
+          "question": "<p>Waarom heb je in een CLD zowel versterkende als dempende loops nodig om circulaire kansen te analyseren?</p>",
           "options": [
             {
-              "text": "Reinforcing loops hebben geen invloed op gedrag.",
-              "correct": false
+              "text": "Versterkende loops zijn altijd gunstig voor circulariteit, dempende altijd ongunstig.",
+              "correct": false,
+              "feedback": "Een versterkende loop kan ook onduurzaam gedrag versterken, zoals schaalvoordelen voor virgin plastic, en een dempende loop kan schade beperken."
             },
             {
-              "text": "Alleen balancing loops zijn relevant voor duurzaamheid.",
-              "correct": false
+              "text": "Een CLD is pas compleet als het evenveel versterkende als dempende loops bevat.",
+              "correct": false,
+              "feedback": "Het aantal loops zegt niets. Het gaat erom welke loops het gedrag van het systeem bepalen."
             },
             {
-              "text": "Reinforcing loops tonen escalaties; balancing loops tonen stabiliserende mechanismen.",
-              "correct": true
+              "text": "Versterkende loops laten zien waar iets kan groeien of escaleren; dempende loops laten zien wat die groei afremt.",
+              "correct": true,
+              "feedback": "Juist. Pas als je beide ziet, begrijp je waarom een circulaire oplossing doorbreekt of juist blijft steken."
             },
             {
-              "text": "Balancing loops bestaan niet in socio-technische systemen.",
-              "correct": false
+              "text": "Dempende loops komen alleen voor in natuurlijke systemen, zoals het klimaat; versterkende alleen in markten en bedrijven.",
+              "correct": false,
+              "feedback": "Beide komen in elk systeem voor. In de plasticmarkt zag je bijvoorbeeld een dempende loop via afvalverwerking."
             }
           ],
-          "feedback": "Correct! Reinforcing loops tonen hoe processen kunnen escaleren, terwijl balancing loops laten zien hoe systemen zichzelf stabiliseren. Beide zijn essentieel voor een volledig begrip van circulaire kansen.",
+          "feedback": "",
           "feedbackWrong": "Onjuist. Het is belangrijk om zowel reinforcing als balancing loops te analyseren. Reinforcing loops tonen escalaties en groei, terwijl balancing loops stabiliserende mechanismen laten zien."
         },
         {
           "t": "quiz",
           "multi": false,
-          "question": "Welke negatieve feedbackloop kan ontstaan in een systeemoplossing voor duurzame stedelijke mobiliteit?",
+          "question": "<p>Een stad stimuleert deelscooters om autoritten te vervangen. Na een jaar blijken vooral wandel- en fietsritten te zijn vervangen, en er zijn veel scooters nodig die snel slijten. Hoe noem je dit?</p>",
           "options": [
             {
-              "text": "Meer OV-gebruik → minder files → minder CO₂-uitstoot.",
+              "text": "Een dempende loop: de maatregel corrigeert zichzelf, zodat het verkeerssysteem na een tijd weer in balans komt.",
               "correct": false,
-              "feedback": "Dit is een positieve feedbackloop die bijdraagt aan duurzaamheid, niet een negatieve feedbackloop."
+              "feedback": "Er wordt niets gecorrigeerd en er sluit zich geen loop. De maatregel werkt alleen anders uit dan bedoeld."
             },
             {
-              "text": "Meer fietsen → minder luchtvervuiling.",
+              "text": "Een versterkende loop: meer scooters leiden tot nog meer duurzame ritten.",
               "correct": false,
-              "feedback": "Dit is een positieve uitkomst en geen voorbeeld van een negatieve feedbackloop."
+              "feedback": "De ritten die worden vervangen, waren al duurzaam. Van een versterking van duurzaamheid is geen sprake."
             },
             {
-              "text": "Meer deelmobiliteit → meer voertuigproductie → hogere emissies.",
+              "text": "Een lock-in: de stad zit vast aan de deelscooters, omdat er al langlopende contracten met aanbieders zijn afgesloten.",
+              "correct": false,
+              "feedback": "Dat kan later spelen, maar wat hier wordt beschreven, is een effect dat anders uitpakt dan de bedoeling was."
+            },
+            {
+              "text": "Een onbedoeld effect: het gedrag verschuift anders dan bedoeld, en de productie van extra voertuigen kost uitstoot.",
               "correct": true,
-              "feedback": "Dit is een negatieve feedbackloop, omdat de toename van deelmobiliteit kan leiden tot meer voertuigproductie en daarmee hogere emissies."
-            },
-            {
-              "text": "Meer ruimte voor actieve mobiliteit → hogere leefkwaliteit.",
-              "correct": false,
-              "feedback": "Dit is een positieve uitkomst en geen voorbeeld van een negatieve feedbackloop."
+              "feedback": "Juist. De maatregel raakt andere ritten dan bedoeld, en de scooters zelf vragen grondstoffen en energie. Systeemdenken helpt zulke effecten vooraf te zien."
             }
           ],
           "feedback": ""
@@ -3616,58 +3625,58 @@
         },
         {
           "t": "text",
-          "heading": "Mini-Dubbele Materialiteitsanalyse",
-          "body": "<p>Je gaat nu zelf aan de slag met een mini-dubbele materialiteitsanalyse. Hiermee breng je in kaart welke duurzaamheidsissues voor een organisatie of casus het meest materieel zijn, door zowel de impact op de wereld als de risico’s voor de organisatie te beoordelen. Zo leer je integraal denken en sturen op meervoudige waarde.</p>"
+          "heading": "Mini dubbele materialiteitsanalyse",
+          "body": "<p>Nu ga je zelf aan de slag. Met een mini dubbele materialiteitsanalyse breng je in kaart welke duurzaamheidsthema’s voor een organisatie of casus het meest materieel zijn. Je beoordeelt zowel de impact van de organisatie op de wereld als de risico’s van de wereld voor de organisatie.</p>"
         },
         {
           "t": "text",
-          "heading": "Stappenplan: Mini-Dubbele Materialiteitsanalyse",
-          "body": "<p>Dit stappenplan helpt je om gestructureerd een materialiteitsanalyse uit te voeren en de resultaten te koppelen aan duurzame strategie en besluitvorming.</p>"
+          "heading": "Stappenplan: mini dubbele materialiteitsanalyse",
+          "body": "<p>Volg deze stappen, en koppel de uitkomst aan strategie en besluitvorming.</p>"
         },
         {
           "t": "steps",
           "steps": [
             {
               "title": "Kies een organisatie of casus",
-              "body": "Selecteer een bedrijf, instelling of project dat je interessant vindt of waar je zelf bij betrokken bent."
+              "body": "Een bedrijf, instelling of project dat je interessant vindt, of waar je zelf bij betrokken bent."
             },
             {
-              "title": "Identificeer 3 relevante duurzaamheidsissues",
-              "body": "Bedenk welke thema’s belangrijk zijn, zoals CO₂-uitstoot, biodiversiteit, sociale impact of innovatie."
+              "title": "Kies drie relevante duurzaamheidsthema’s",
+              "body": "Bijvoorbeeld CO₂-uitstoot, biodiversiteit, arbeidsomstandigheden of grondstoffen."
             },
             {
               "title": "Beoordeel de inside-out impact",
-              "body": "Geef per issue aan hoe groot de impact is van de organisatie op mens, milieu en maatschappij op een schaal van 0 tot 5."
+              "body": "Hoe groot is per thema de impact van de organisatie op mens, milieu en maatschappij? Geef een score van 0 tot 5."
             },
             {
               "title": "Beoordeel het outside-in risico",
-              "body": "Geef per issue aan hoe groot het risico is dat externe ontwikkelingen het bedrijf beïnvloeden op een schaal van 0 tot 5."
+              "body": "Hoe groot is per thema het risico dat ontwikkelingen in de wereld de organisatie raken? Geef een score van 0 tot 5."
             },
             {
-              "title": "Plot de issues in een materialiteitsmatrix",
-              "body": "Plaats de issues in een matrix met de assen ‘impact’ en ‘risico’ om te zien welke het meest materieel zijn."
+              "title": "Zet de thema’s in een materialiteitsmatrix",
+              "body": "Plaats ze in een matrix met impact en risico op de assen, en kijk welke het meest materieel zijn."
             },
             {
-              "title": "Reflecteer op de uitkomsten",
-              "body": "Sta stil bij welke issues bovenaan komen en wat dit betekent voor strategie en besluitvorming."
+              "title": "Reflecteer op de uitkomst",
+              "body": "Welke thema’s komen bovenaan, en wat betekent dat voor de strategie en de besluiten van de organisatie?"
             },
             {
-              "title": "(Optioneel) Upload je analyse",
-              "body": "Lever je matrix en een korte toelichting in voor feedback van je docent of medestudenten."
+              "title": "(Optioneel) Lever je analyse in",
+              "body": "Deel je matrix en een korte toelichting met je docent of medestudenten voor feedback."
             }
           ],
           "intro": {
-            "title": "Introductie van de Mini-Dubbele Materialiteitsanalyse",
-            "body": "Een mini-dubbele materialiteitsanalyse helpt je om te bepalen welke duurzaamheidsissues het meest relevant zijn voor een organisatie. Je kijkt zowel naar de impact van de organisatie op de wereld (inside-out) als naar de invloed van externe ontwikkelingen op de organisatie (outside-in)."
+            "title": "Wat je gaat doen",
+            "body": "Je bepaalt welke duurzaamheidsthema’s het meest relevant zijn voor een organisatie, door te kijken naar haar impact op de wereld (inside-out) en naar de invloed van ontwikkelingen in de wereld op haar (outside-in)."
           },
           "summary": {
-            "title": "Samenvatting van de Mini-Dubbele Materialiteitsanalyse",
-            "body": "Door deze stappen te volgen, krijg je inzicht in welke duurzaamheidsissues het meest materieel zijn voor jouw gekozen organisatie. Dit vormt een waardevolle basis voor het ontwikkelen van een duurzame strategie en het nemen van onderbouwde beslissingen."
+            "title": "Wat je ermee hebt",
+            "body": "Je weet nu welke thema’s voor deze organisatie het meest materieel zijn. Dat is een stevige basis voor een duurzame strategie en voor onderbouwde besluiten."
           }
         },
         {
           "t": "text",
-          "body": "<p>Denk na over het belangrijkste inzicht dat je uit deze cursus hebt gehaald. Hoe kun je systeemdenken en duurzaamheid toepassen in jouw huidige of toekomstige werkpraktijk? Formuleer één concrete actie of voornemen waarmee jij het komende jaar het verschil wilt maken. Door bewust te reflecteren op je rol, vergroot je jouw impact als professional en als mens.</p>"
+          "body": "<p>Wat is het belangrijkste inzicht dat je uit deze cursus haalt? Hoe gebruik je systeemdenken en duurzaamheid in je huidige of toekomstige werk? Formuleer één concreet voornemen waarmee je het komende jaar het verschil wilt maken.</p>"
         },
         {
           "t": "quote",
@@ -3675,27 +3684,27 @@
         },
         {
           "t": "text",
-          "heading": "Samenvatting & Volgende Stappen",
-          "body": "<p>Gefeliciteerd met het afronden van deze cursus! Hieronder vind je een overzicht van de belangrijkste leerpunten, praktische tips en suggesties voor verdere groei.</p>"
+          "heading": "Samenvatting & volgende stappen",
+          "body": "<p>Gefeliciteerd, je hebt de cursus afgerond. Hieronder vind je de belangrijkste leerpunten en suggesties om verder te gaan.</p>"
         },
         {
           "t": "tabs",
           "items": [
             {
               "title": "Belangrijkste Leerpunten",
-              "body": "<p>Je hebt geleerd hoe systeemdenken, planetaire grenzen, circulaire strategieën en meervoudige waardecreatie samenkomen in duurzame ontwikkeling. Je kunt nu integraal analyseren, afwegen en handelen.</p>"
+              "body": "<p>Je hebt gezien hoe systeemdenken, planetaire grenzen, circulaire strategieën en meervoudige waardecreatie samenkomen in duurzame ontwikkeling. Je kunt nu analyseren, afwegen en handelen met het geheel voor ogen.</p>"
             },
             {
               "title": "Aan de Slag in de Praktijk",
-              "body": "<p>Pas je inzichten toe in stages, projecten of je werk. Werk samen, stel vragen en blijf kritisch reflecteren. Kleine stappen kunnen grote impact hebben.</p>"
+              "body": "<p>Gebruik wat je hebt geleerd in je stage, je projecten en je werk. Werk samen, stel vragen en blijf kritisch. Kleine stappen op de juiste plek kunnen veel veranderen.</p>"
             },
             {
               "title": "Verder Leren",
-              "body": "<p>Verbreed je kennis via platforms als de Ellen MacArthur Foundation, SDG Academy of Nederlandse duurzaamheidsnetwerken. Blijf op de hoogte van nieuwe ontwikkelingen en blijf jezelf uitdagen.</p>"
+              "body": "<p>Verdiep je verder via bijvoorbeeld de Ellen MacArthur Foundation, de SDG Academy of Nederlandse duurzaamheidsnetwerken, en blijf nieuwe ontwikkelingen volgen.</p>"
             },
             {
               "title": "Bronnen & Tools",
-              "body": "<p>In deze cursus zijn onder meer de CLD analyse, Context Mapping, LCA, Value Hill,&nbsp;DeepResearch, praktijkcasussen en internationale frameworks gebruikt. Gebruik deze bronnen als basis voor verdere verdieping.</p>"
+              "body": "<p>In deze cursus heb je gewerkt met onder meer CLD-analyse, context mapping, LCA, de Value Hill, DeepResearch, praktijkcasussen en internationale kaders. Gebruik ze als basis voor verdere verdieping.</p>"
             }
           ]
         }
