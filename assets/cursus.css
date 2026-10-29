@@ -642,6 +642,7 @@ figure.beeld figcaption a { color: var(--go-groen-donker); }
 .doorgaan .hint { font-size: 0.82rem; color: var(--go-tekst-2); }
 
 /* afronding */
+.afronding[hidden], .doorgaan[hidden] { display: none; }
 
 .afronding {
   margin-top: 3rem;

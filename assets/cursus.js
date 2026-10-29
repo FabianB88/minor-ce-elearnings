@@ -255,17 +255,20 @@
 
       case 'video': {
         var houder = el('div');
-        if (blok.url) {
+        /* Een los geopend bestand (file://) geeft geen herkomst mee, en dan
+           weigert YouTube af te spelen (fout 153). Dan een knop naar YouTube. */
+        var alsBestand = blok.youtube && location.protocol === 'file:';
+        if (blok.url || alsBestand) {
           /* Video op een site die niet in een iframe wil, zoals NOS of NASA. */
           var ext = el('a', 'video-extern');
-          ext.href = blok.url;
+          ext.href = alsBestand ? 'https://www.youtube.com/watch?v=' + blok.youtube : blok.url;
           ext.target = '_blank';
           ext.rel = 'noopener';
           ext.appendChild(el('span', 'speel', '▶'));
           var tekstje = el('span');
           tekstje.appendChild(el('strong', null, blok.title || 'Video'));
           var site = 'de site van de maker';
-          try { site = new URL(blok.url).hostname.replace(/^www\./, ''); } catch (e) { /* ongeldige url */ }
+          try { site = new URL(ext.href).hostname.replace(/^www\./, ''); } catch (e) { /* ongeldige url */ }
           tekstje.appendChild(el('span', 'bron', 'Bekijk de video op ' + site + ' ↗'));
           ext.appendChild(tekstje);
           houder.appendChild(ext);
@@ -281,6 +284,9 @@
           fr.src = 'https://www.youtube-nocookie.com/embed/' + blok.youtube + '?' + params;
         }
         fr.title = blok.title || 'Video';
+        /* YouTube wil weten op welke site hij staat; ook als de pagina zelf
+           strenger is ingesteld. */
+        fr.referrerPolicy = 'strict-origin-when-cross-origin';
         fr.loading = 'lazy';
         fr.allow = 'accelerometer; clipboard-write; encrypted-media; picture-in-picture; fullscreen';
         fr.allowFullscreen = true;
@@ -461,6 +467,9 @@
       var k = Math.floor(volgende() * (j + 1));
       var tmp = volgorde[j]; volgorde[j] = volgorde[k]; volgorde[k] = tmp;
     }
+    /* Toevallig de oorspronkelijke volgorde: dan één plek doorschuiven, zodat
+       de antwoorden nooit gewoon op volgorde staan. */
+    if (aantal > 1 && volgorde.every(function (v, i) { return v === i; })) volgorde.push(volgorde.shift());
     return volgorde;
   }
 
@@ -931,9 +940,18 @@
         o.addEventListener('click', toonStart);
         knoppen.appendChild(o);
         slot.appendChild(knoppen);
+        /* De afronding pas als de vragen erboven beantwoord zijn. */
+        var nogOpen = el('div', 'doorgaan');
+        var nogHint = el('div', 'hint', '');
+        nogOpen.appendChild(nogHint);
+        seg.appendChild(nogOpen);
         seg.appendChild(slot);
 
         herbeoordeel = function () {
+          var open = testmodus ? 0 : openVragen(index);
+          slot.hidden = open > 0;
+          nogOpen.hidden = !open;
+          nogHint.textContent = open === 1 ? 'Beantwoord de vraag hierboven om de module af te ronden.' : 'Beantwoord de ' + open + ' vragen hierboven om de module af te ronden.';
           if ((testmodus || openVragen(index) === 0) && !ms.af) {
             ms.af = true;
             bewaar();
